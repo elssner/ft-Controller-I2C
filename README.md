@@ -14,7 +14,7 @@ oled|[OLED Display 128x128 oder 128x64](https://wiki.seeedstudio.com/Grove-OLED-
 qwiiceeprom|[SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/18355)
 qwiicgpio|[SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 qwiicjoystick|[SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
-qwiickeypad
+qwiickeypad|[SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)
 qwiiclcd
 qwiicmotor
 qwiicrelay
