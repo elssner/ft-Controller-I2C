@@ -10,7 +10,7 @@ Beispiel||0|1|2|3|4|5|6|7|8|9
 dipswitch|[Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch)|0|x|||
 keyboard|[M5Stack Card Keyboard](https://docs.m5stack.com/en/unit/cardkb_1.1)|0|0|0|0|0
 lcd16x2|[Grove - 16x2 LCD](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
-oled|[https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
+oled|[Grove - OLED Display 128x128 128x64](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
 qwiiceeprom
 qwiicgpio
 qwiicjoystick
