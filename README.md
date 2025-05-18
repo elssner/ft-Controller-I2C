@@ -14,7 +14,7 @@ i2cCode||Python I²C für RX und TXT 4.0
 dipswitch|0x03|[6-DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch), [5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)|0|x|||
 keyboard|0x5F|[M5Stack Card Keyboard](https://docs.m5stack.com/en/unit/cardkb_1.1)|0|0|0|0|0
 lcd16x2|0x3E|[Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
-oled|<code>0x3C 0x3D</code>|[OLED Display 128x128 oder 128x64](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
+oled|<code>0x3C 0x3D</code>|OLED Displays [128x128](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0), [128x64](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0)
 oled_geometrie||Blöcke für Linien und Kreise
 qwiiceeprom|0x50|[SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/18355)
 qwiicgpio|0x27|[SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
