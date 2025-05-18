@@ -4,12 +4,12 @@ Robo Pro Coding Projekt von [fischertechnik GitLab](https://git.fischertechnik-c
 
 #### Quellcodedateien und I²C Devices werden von den angekreuzten Programmierbeispielen verwendet:
 
-Beispiel||0|1|2|3|4|5|6|7|8|9
----|---|---|---|---|---|---|---|---|---|---|--
----|**I²C Devices**| ||||
-advanced|Blöcke für fehlende Funktionen
-i2cCode|Python I²C für RX und TXT 4.0
-dipswitch|[6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch), [5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)|0|x|||
+Beispiel|||0|1|2|3|4|5|6|7|8|9
+---|---|---|---|---|---|---|---|---|---|---|---|---
+---|I²C Adr|I²C Devices| ||||
+advanced||Blöcke für fehlende Funktionen
+i2cCode||Python I²C für RX und TXT 4.0
+dipswitch|0x03|[6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch), [5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)|0|x|||
 keyboard|[M5Stack Card Keyboard](https://docs.m5stack.com/en/unit/cardkb_1.1)|0|0|0|0|0
 lcd16x2|[Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
 oled|[OLED Display 128x128 oder 128x64](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
