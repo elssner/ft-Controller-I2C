@@ -4,8 +4,7 @@
 
 Robo Pro Coding Projekt von [fischertechnik GitLab](https://git.fischertechnik-cloud.com/i2c) laden: im Suchfeld **i2c** eingeben
 
-#### Quellcodedateien und I²C Devices werden von den angekreuzten Programmierbeispielen verwendet:
-
+#### Quellcodedateien und I²C Devices in Programmierbeispielen verwendet:
 
 Quellcodedatei|I²C Adr|I²C Devices|Beispiel
 ---|---|---|---
@@ -24,6 +23,8 @@ qwiiclcd|<code>0x72</code>|Qwiic LCD Displays [20x4](https://www.sparkfun.com/pr
 qwiicmotor|<code>0x5D 0x5E</code>|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
 qwiicrelay|<code>0x1E</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 rtc|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
+
+#### Programmierbeispiel wird bei geschlossenem Input I5..I8 gestartet:
 
 n|I8|I7|I6|I5|Beispiel|Quellcodedateien
 ---|---|---|---|---|---|---
