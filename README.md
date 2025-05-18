@@ -1,4 +1,4 @@
-> Diese Seite bei [https://elssner.github.io/ft-Controller-I2C/](https://elssner.github.io/ft-Controller-I2C/) öffnen.
+> Diese Seite bei [elssner.github.io/ft-Controller-I2C](https://elssner.github.io/ft-Controller-I2C/) öffnen.
 > 
 # ft-Controller-I2C
 
