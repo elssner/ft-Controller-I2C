@@ -6,7 +6,6 @@ Robo Pro Coding Projekt von [fischertechnik GitLab](https://git.fischertechnik-c
 
 #### Quellcodedateien und I²C Devices werden von den angekreuzten Programmierbeispielen verwendet:
 
-Beispiel|||0|1|2|3|4|5|6|7|8|9
 
 Quellcodedatei|I²C Adr|I²C Devices|Beispiel
 ---|---|---|---
@@ -27,10 +26,10 @@ qwiicmotor|<code>0x5D 0x5E</code>|[SparkFun Qwiic Motor Driver](https://www.spar
 qwiicrelay|<code>0x1E</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 rtc|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 
-I8|I7|I6|I5|Beispiel|Quellcodedateien|Beschreibung
+n|I8|I7|I6|I5|Beispiel|Quellcodedateien
 ---|---|---|---|---|---|---
-0|0|0|0|joy_4motoren|qwiicjoystick, 2 * qwiicmotor
-0|0|0|1|joy_4motoren|qwiicjoystick, qwiicmotor|2 Motor Driver mit Joystick steuern
+0|0|0|0|0|joy_4motoren|qwiicjoystick, 2 * qwiicmotor
+1|0|0|0|1|joy_4motoren|qwiicjoystick, qwiicmotor
 
 
 #### Steuer Byte 0 <code>..xx....</code> (2 Bit) Betriebsart
