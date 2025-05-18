@@ -32,13 +32,4 @@ n|I8|I7|I6|I5|Beispiel|Quellcodedateien
 1|0|0|0|1|joy_4motoren|qwiicjoystick, qwiicmotor
 
 
-#### Steuer Byte 0 <code>..xx....</code> (2 Bit) Betriebsart
-
-hex|bit|Funktion|bei Ereignis von einem Sensor
----|---|---|---
-0x00|<code>..00....</code>|Fernsteuerung 6 Motoren|Stop bei Hindernis
-0x10|<code>..01....</code>|Fernsteuerung ein Motor M0|wechselt zum *Programm Sensoren*
-0x20|<code>..10....</code>|Programm 5 Strecken|Stop bei Hindernis
-0x30|<code>..11....</code>|Programm Sensoren|wechselt zum Ereignis-Block
-
 
