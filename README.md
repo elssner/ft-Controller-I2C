@@ -11,17 +11,17 @@ Beispiel|||0|1|2|3|4|5|6|7|8|9
 ---|I²C Adr|I²C Devices| ||||
 advanced||Blöcke für fehlende Funktionen
 i2cCode||Python I²C für RX und TXT 4.0
-dipswitch|0x03|[6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch), [5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)|0|x|||
+dipswitch|0x03|[6-DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch), [5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)|0|x|||
 keyboard|0x5F|[M5Stack Card Keyboard](https://docs.m5stack.com/en/unit/cardkb_1.1)|0|0|0|0|0
 lcd16x2|0x3E|[Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
-oled|0x3C 0x3D|[OLED Display 128x128 oder 128x64](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
+oled|<code>0x3C 0x3D</code>|[OLED Display 128x128 oder 128x64](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
 oled_geometrie||Blöcke für Linien und Kreise
 qwiiceeprom|0x50|[SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/18355)
 qwiicgpio|0x27|[SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 qwiicjoystick|0x20|[SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
 qwiickeypad|0x4B|[SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)
 qwiiclcd|0x72|Qwiic LCD Displays [20x4](https://www.sparkfun.com/products/16398) und [16x2](https://www.sparkfun.com/products/16396)
-qwiicmotor|0x5D 0x5E|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
+qwiicmotor|<code>0x5D 0x5E</code>|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
 qwiicrelay|0x1E|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 rtc|0x51|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 
