@@ -12,7 +12,7 @@ keyboard|[M5Stack Card Keyboard](https://docs.m5stack.com/en/unit/cardkb_1.1)|0|
 lcd16x2|[Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
 oled|[OLED Display 128x128 oder 128x64](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
 qwiiceeprom|[SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/18355)
-qwiicgpio
+qwiicgpio|[SparkFun Qwiic GPIO](https://www.sparkfun.com/sparkfun-qwiic-gpio.html)
 qwiicjoystick
 qwiickeypad
 qwiiclcd
