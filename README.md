@@ -18,7 +18,7 @@ qwiickeypad|[SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/
 qwiiclcd|Qwiic LCD Displays [20x4](https://www.sparkfun.com/products/16398) und [16x2](https://www.sparkfun.com/products/16396)
 qwiicmotor|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
 qwiicrelay|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
-rtc|[Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
+rtc|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 
 
 #### Steuer Byte 0 <code>..xx....</code> (2 Bit) Betriebsart
