@@ -16,8 +16,8 @@ qwiicgpio|[SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 qwiicjoystick|[SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
 qwiickeypad|[SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)
 qwiiclcd|Qwiic LCD Displays [20x4](https://www.sparkfun.com/products/16398) und [16x2](https://www.sparkfun.com/products/16396)
-qwiicmotor
-qwiicrelay
+qwiicmotor|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
+qwiicrelay|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 rtc
 
 
