@@ -9,6 +9,16 @@ Beispiel|0|1|2|3|4|5|6|7|8|9
 I²C Devices| ||||
 dipswitch|0|x|||
 keyboard|0|0|0|0|0
+lcd16x2
+oled
+qwiiceeprom
+qwiicgpio
+qwiicjoystick
+qwiickeypad
+qwiiclcd
+qwiicmotor
+qwiicrelay
+rtc
 
 
 #### Steuer Byte 0 <code>..xx....</code> (2 Bit) Betriebsart
