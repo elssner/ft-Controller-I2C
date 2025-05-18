@@ -11,7 +11,7 @@ Beispiel|||0|1|2|3|4|5|6|7|8|9
 ---|---|---|---|---|---|---|---|---|---|---|---|---
 Quellcodedatei|I²C Adr|I²C Devices| ||||
 advanced||Blöcke für fehlende Funktionen
-i2cCode||Python I²C für RX und TXT 4.0
+i2cCode||Python I²C für RX und TXT 4.0| 
 dipswitch|<code>0x03</code>|[6-DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch), [5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)|0|x|||
 keyboard|<code>0x5F</code>|[M5Stack Card Keyboard](https://docs.m5stack.com/en/unit/cardkb_1.1)|0|0|0|0|0
 lcd16x2|<code>0x3E</code>|[Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
