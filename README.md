@@ -20,7 +20,7 @@ qwiiceeprom|0x50|[SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/prod
 qwiicgpio|0x27|[SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 qwiicjoystick|0x20|[SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
 qwiickeypad|0x4B|[SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)
-qwiiclcd|0x72|Qwiic LCD Displays [20x4](https://www.sparkfun.com/products/16398) und [16x2](https://www.sparkfun.com/products/16396)
+qwiiclcd|0x72|Qwiic LCD Displays [20x4](https://www.sparkfun.com/products/16398), [16x2](https://www.sparkfun.com/products/16396)
 qwiicmotor|<code>0x5D 0x5E</code>|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
 qwiicrelay|0x1E|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 rtc|0x51|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
