@@ -13,7 +13,7 @@ lcd16x2|[Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16
 oled|[OLED Display 128x128 oder 128x64](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
 qwiiceeprom|[SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/18355)
 qwiicgpio|[SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
-qwiicjoystick
+qwiicjoystick|[SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
 qwiickeypad
 qwiiclcd
 qwiicmotor
