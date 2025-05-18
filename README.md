@@ -1,8 +1,8 @@
 # ft-Controller-I2C
 
+Robo Pro Coding Projekt von [fischertechnik GitLab](https://git.fischertechnik-cloud.com/i2c) laden: im Suchfeld **i2c** eingeben
 
-
-#### Programmierbeispiele verwenden die angekreuzten I²C Devices und Quellcodedateien:
+#### Quellcodedateien und I²C Devices werden von den angekreuzten Programmierbeispielen verwendet:
 
 Beispiel||0|1|2|3|4|5|6|7|8|9
 ---|---|---|---|---|---|---|---|---|---|---|--
