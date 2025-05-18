@@ -15,7 +15,7 @@ qwiiceeprom|[SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/
 qwiicgpio|[SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 qwiicjoystick|[SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
 qwiickeypad|[SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)
-qwiiclcd
+qwiiclcd|Qwiic LCD Displays [20x4](https://www.sparkfun.com/products/16398) und [16x2](https://www.sparkfun.com/products/16396)
 qwiicmotor
 qwiicrelay
 rtc
