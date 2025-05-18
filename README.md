@@ -4,9 +4,10 @@
 
 ### Beispiele
 
-lib| |I8|I7|I6|I5
+Beispiel|0|1|2|3|4
 ---|---|---|---|---|---
-dipswitch|0|0|0|0|0
+I²C Devices| ||||
+dipswitch|0|x|||
 keyboard|0|0|0|0|0
 
 
