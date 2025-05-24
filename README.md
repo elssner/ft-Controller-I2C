@@ -70,7 +70,7 @@ Block **i2cWriteBuffer** (i2cAdr, write_buffer)
 Block **i2cReadBuffer** (i2cAdr, length) : Liste der Bytes
 
 * empfängt Bytes von der *i2cAdr*, *length* ist die Anzahl der Bytes
-* aus der zurück gegebenen Liste können die Bytes mit 'in der Liste' Blöcken (aus Datenstrukturen) gelesen werden
+* aus der zurück gegebenen Liste können die Bytes mit *in der Liste* Blöcken (aus Datenstrukturen) gelesen werden
 
 
 
