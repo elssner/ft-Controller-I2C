@@ -58,7 +58,7 @@ I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I²C](https://de.wikip
 * die I²C Module müssen verschiedene 7-Bit I²C Adressen haben
 * die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt
 * <ins>I²C kennt nur 2 Funktionen:</ins>
-* *an eine I²C-Adresse Bytes senden* oder *von einer I²C-Adresse Bytes empfangen*.
+* *an eine I²C-Adresse Bytes senden* oder *von einer I²C-Adresse Bytes empfangen*
 * es gibt noch eine Kombination aus beiden und i2cScan soll alle Module am Bus finden
 
 > RX Controller nutzt CircuitPython, TXT 4.0 Controller nutzt Python3. Beide unterstützen I²C, aber völlig verschieden.
