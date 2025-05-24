@@ -72,6 +72,17 @@ Block **i2cReadBuffer** (i2cAdr, length) : Liste der Bytes
 * empfängt Bytes von der *i2cAdr*, *length* ist die Anzahl der Bytes
 * die zurück gegebene Liste kann mit *in der Liste* Blöcken (aus Datenstrukturen) gelesen werden
 
+Block **i2cWriteReadBuffer** (i2cAdr, write_buffer, length) : Liste der Bytes
+
+* sendet und empfängt Bytes, ohne dazwischen den I²C-Bus frei zu geben
+* erlaubt Register lesen mit nur einer Funktion
+
+Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
+
+* versucht alle möglichen I²C-Adressen in einer Schleife zu erreichen
+* bei Fehler ist kein Modul mit dieser Adresse angeschlossen
+* wenn read oder write erfolgreich ist, wird die gültige Adresse in einer Liste gesammelt
+* die zurück gegebene Liste kann mit Block *gibt aus* (aus Text) in der Konsole angezeigt werden
 
 
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
