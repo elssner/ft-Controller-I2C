@@ -36,10 +36,10 @@ n|I8|I7|I6|I5|Beispiel|Quellcodedateien, I²C Module
 5|0|1|0|1|qlcd_gpio_keypad|qwiiclcd, qwiicgpio, qwiickeypad
 6|0|1|1|0|oled_joystick|qwiiclcd, qwiicjoystick
 7|0|1|1|1||
-8|1|0|0|0|oled_zeichnen|
-9|1|0|0|1|oled_eeprom_copy|
-10|1|0|1|0|oled_eeprom_rtc|
-11|1|0|1|1|oled2_systemtime|
+8|1|0|0|0|oled_zeichnen|oled, oled_geometrie
+9|1|0|0|1|oled_eeprom_copy|oled, eeprom
+10|1|0|1|0|oled_eeprom_rtc|oled, oled_geometrie, eeprom, rtc
+11|1|0|1|1|oled2_systemtime|2*oled, oled_geometrie
 12|1|1|0|0||
 13|1|1|0|1||
 14|1|1|1|0|joy_2motoren|qwiicjoystick, qwiicmotor
