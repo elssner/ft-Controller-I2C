@@ -63,9 +63,6 @@ I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I²C](https://de.wikip
 
 > RX Controller nutzt CircuitPython, TXT 4.0 Controller nutzt Python3. Beide unterstützen I²C, aber völlig verschieden.
 > Die I²C Blöcke hier sind **plattformunabhängig** programmiert. Die Python Implementation wird erkannt und dann der entsprechende Code ausgeführt.\
-<ins>I²C kennt nur 2 Funktionen:</ins>\
-*an eine I²C-Adresse Bytes senden* oder *von einer I²C-Adresse Bytes empfangen*.\
-Es gibt noch eine Kombination aus beiden und i2cScan soll alle Module am Bus finden.
 
 #### i2cCode.py
 
