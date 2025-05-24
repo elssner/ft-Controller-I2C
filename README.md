@@ -52,11 +52,12 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 
 ### Beschreibung der I²C Funktionen
 
-#### i2cCode.py
-
 > RX Controller nutzt CircuitPython, TXT 4.0 Controller nutzt Python3. Beide unterstützen I²C, aber völlig verschieden.
-> Die I²C Blöcke hier sind plattformunabhängig programmiert. Die Python Implementation wird erkannt und dann der entsprechende Code ausgeführt. 
-> 
+> Die I²C Blöcke hier sind plattformunabhängig programmiert. Die Python Implementation wird erkannt und dann der entsprechende Code ausgeführt.\
+I²C kennt eigentlich nur 2 Funktionen: an eine I²C-Adresse Bytes senden oder von einer I²C-Adresse Bytes empfangen.
+> Es gibt
+
+#### i2cCode.py
 
 Block **i2sWriteBuffer** (i2cAdr, write_buffer)
 
