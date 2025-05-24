@@ -54,7 +54,7 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 
 I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I²C](https://de.wikipedia.org/wiki/I%C2%B2C)
 
-* an einen I²C-Bus mit 4 Leitungen `SDA, SCL, -, +` (hier 3,3V) können mehrere I²C Module parallel angeschlossen werden
+* an einen I²C-Bus mit 4 Leitungen `SDA, SCL, -, +` (hier 3,3V) können mehrere I²C Module gleichzeitig angeschlossen werden (hintereinander gesteckt oder mit I²C Hub)
 * die I²C Module müssen verschiedene 7-Bit I²C Adressen haben
 * die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt
 
