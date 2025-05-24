@@ -60,11 +60,11 @@ Es gibt noch eine Kombination aus senden und empfangen und i2cScan soll alle Mod
 
 #### i2cCode.py
 
-Block **i2sWriteBuffer** (i2cAdr, write_buffer)
+Block **i2cWriteBuffer** (i2cAdr, write_buffer)
 
 * sendet Bytes aus einer Liste an die i2cAdr
-* i2cAdr erlaubt 7 Bit (0x00..0x7F bzw. 0..127)
-* write_buffer darf nur 8-Bit Elemente (0x00..0xFF bzw. 0..255) enthalten
+* *i2cAdr*: 7 Bit (0x00..0x7F bzw. 0..127)
+* *write_buffer*: darf nur 8-Bit Elemente (0x00..0xFF bzw. 0..255) enthalten
 
 
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
