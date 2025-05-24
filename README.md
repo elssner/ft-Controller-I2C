@@ -50,11 +50,12 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 14|`1`|`1`|`1`|`0`|joy_2motoren|qwiicjoystick, qwiicmotor
 15|`1`|`1`|`1`|`1`|joy_4motoren|qwiicjoystick, 2*qwiicmotor
 
-#### Beschreibung der Quellcodedateien (alphabetisch geordnet)
+### Beschreibung der Quellcodedateien (alphabetisch geordnet)
 
-### advanced
+#### advanced
 
-> Blöcke, die Python-Funktionen bereit stellen
+> Blöcke, die Python-Funktionen bereit stellen\
+Kommentar, Chr, Int, list_hex, Ord, print_bin, string_decode, string_list, system_time
 
 Block **system_time** () : Liste
 
