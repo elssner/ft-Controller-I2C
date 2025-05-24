@@ -50,9 +50,13 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 14|`1`|`1`|`1`|`0`|joy_2motoren|qwiicjoystick, qwiicmotor
 15|`1`|`1`|`1`|`1`|joy_4motoren|qwiicjoystick, 2*qwiicmotor
 
-### Beschreibung der I²C Funktionen: i2cCode.py
+### Beschreibung der I²C Funktionen
 
-> Die I²C Funktionen sind plattformunabhängig programmiert.
+#### i2cCode.py
+
+> RX Controller nutzt CircuitPython, TXT 4.0 Controller nutzt Python3. Beide unterstützen I²C, aber völlig verschieden.
+> Die I²C Blöcke hier sind plattformunabhängig programmiert. Die Python Implementation wird erkannt und dann der entsprechende Code ausgeführt. 
+> 
 
 Block **i2sWriteBuffer** (i2cAdr, write_buffer)
 
@@ -62,7 +66,7 @@ Block **i2sWriteBuffer** (i2cAdr, write_buffer)
 
 #### advanced.py
 
-> Blöcke, die Python-Funktionen bereit stellen\
+> allgemeine Blöcke, die Python-Funktionen bereit stellen (ohne I²C Bezug)\
 Kommentar, Chr, Int, list_hex, Ord, print_bin, string_decode, string_list, system_time
 
 Block **system_time** () : Liste mit 9 Elementen
