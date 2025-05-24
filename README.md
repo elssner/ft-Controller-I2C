@@ -63,3 +63,9 @@ Block **system_time** () : Liste mit 9 Elementen
 Uhr wird bei Internetverbindung gestellt
 * RX: Zeitstempel umgerechnet in (0, 0, 0, hour, min, sec, 0, 0, 0)
 
+#### dipswitch.py
+
+Block **readSwitch** () : Byte(0..63)
+
+
+
