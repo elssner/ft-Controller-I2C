@@ -30,6 +30,14 @@ n|I8|I7|I6|I5|Beispiel|Quellcodedateien
 ---|---|---|---|---|---|---
 0|0|0|0|0|joy_4motoren|qwiicjoystick, 2 * qwiicmotor
 1|0|0|0|1|joy_4motoren|qwiicjoystick, qwiicmotor
+2|0|0|1|0||
+3|0|0|1|1||
+4|0|1|0|0||
+5|0|1|0|1||
+6|0|1|1|0||
+7|0|1|1|1||
+8|1|0|0|0||
+9|1|0|0|1||
 
 
 
