@@ -52,8 +52,11 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 
 ### Beschreibung der I²C Funktionen
 
-I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I%C2%B2C](https://de.wikipedia.org/wiki/I%C2%B2C)\
-an einen I²C-Bus mit 4 Leitungen `SDA, SCL, -, +` (hier 3,3V) können mehrere Module parallel angeschlossen werden
+I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I²C](https://de.wikipedia.org/wiki/I%C2%B2C)
+
+* an einen I²C-Bus mit 4 Leitungen `SDA, SCL, -, +` (hier 3,3V) können mehrere I²C Module parallel angeschlossen werden
+* die I²C Module müssen verschiedene 7-Bit I²C Adressen haben
+* die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt
 
 > RX Controller nutzt CircuitPython, TXT 4.0 Controller nutzt Python3. Beide unterstützen I²C, aber völlig verschieden.
 > Die I²C Blöcke hier sind plattformunabhängig programmiert. Die Python Implementation wird erkannt und dann der entsprechende Code ausgeführt.\
