@@ -59,7 +59,7 @@ I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I²C](https://de.wikip
 * die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt
 
 > RX Controller nutzt CircuitPython, TXT 4.0 Controller nutzt Python3. Beide unterstützen I²C, aber völlig verschieden.
-> Die I²C Blöcke hier sind plattformunabhängig programmiert. Die Python Implementation wird erkannt und dann der entsprechende Code ausgeführt.\
+> Die I²C Blöcke hier sind **plattformunabhängig** programmiert. Die Python Implementation wird erkannt und dann der entsprechende Code ausgeführt.\
 <ins>I²C kennt nur 2 Funktionen:</ins>\
 *an eine I²C-Adresse Bytes senden* oder *von einer I²C-Adresse Bytes empfangen*.\
 Es gibt noch eine Kombination aus beiden und i2cScan soll alle Module am Bus finden.
@@ -86,8 +86,7 @@ Block **i2cWriteReadBuffer** (i2cAdr, write_buffer, read_length) : Liste der Byt
 Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
 
 * versucht alle möglichen I²C-Adressen in einer Schleife zu erreichen
-* bei Fehler ist kein Modul mit dieser Adresse angeschlossen
-* wenn read oder write erfolgreich ist, wird die gültige Adresse in einer Liste gesammelt
+* wenn read oder write erfolgreich ist, wird die gültige I²C Adresse in einer Liste gesammelt
 * die zurück gegebene Liste kann mit Block *gib aus* (aus Text) in der Konsole angezeigt werden
 
 Block **isRX** () : boolean
