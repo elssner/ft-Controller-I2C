@@ -57,9 +57,9 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 > Blöcke, die Python-Funktionen bereit stellen\
 Kommentar, Chr, Int, list_hex, Ord, print_bin, string_decode, string_list, system_time
 
-Block **system_time** () : Liste(9)
+Block **system_time** () : Liste mit 9 Elementen
 
-* TXT 4.0: Liste mit 9 Elementen (year, mon, mday, hour, min, sec, wday, yday, isdst)\
+* TXT 4.0: RTC Systemuhr (year, mon, mday, hour, min, sec, wday, yday, isdst)\
 Uhr wird bei Internetverbindung gestellt
 * RX: Zeitstempel umgerechnet in (0, 0, 0, hour, min, sec, 0, 0, 0)
 
