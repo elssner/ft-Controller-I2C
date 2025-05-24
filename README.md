@@ -54,7 +54,7 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 
 > RX Controller nutzt CircuitPython, TXT 4.0 Controller nutzt Python3. Beide unterstützen I²C, aber völlig verschieden.
 > Die I²C Blöcke hier sind plattformunabhängig programmiert. Die Python Implementation wird erkannt und dann der entsprechende Code ausgeführt.\
-<ins>I²C braucht nur 2 Funktionen:</ins>\
+<ins>I²C kennt nur 2 Funktionen:</ins>\
 *an eine I²C-Adresse Bytes senden* oder *von einer I²C-Adresse Bytes empfangen*.\
 Es gibt noch eine Kombination aus beiden und i2cScan soll alle Module am Bus finden.
 
@@ -62,9 +62,16 @@ Es gibt noch eine Kombination aus beiden und i2cScan soll alle Module am Bus fin
 
 Block **i2cWriteBuffer** (i2cAdr, write_buffer)
 
-* sendet Bytes aus einer Liste an die i2cAdr
+* sendet Bytes aus der Liste *write_buffer* an die *i2cAdr*
 * *i2cAdr*: 7 Bit (0x00..0x7F bzw. 0..127)
-* *write_buffer*: darf nur 8-Bit Elemente (0x00..0xFF bzw. 0..255) enthalten
+* *write_buffer*: Liste darf nur 8-Bit Elemente (0x00..0xFF bzw. 0..255) enthalten
+* Parameter *write_buffer* kann z.B. mit Block *erzeuge Liste* übergeben werden
+
+Block **i2cReadBuffer** (i2cAdr, length) : Liste der Bytes
+
+* empfängt Bytes von der *i2cAdr*, *length* ist die Anzahl der Bytes
+* aus der zurück gegebenen Liste können die Bytes mit den 'Liste' Blöcken gelesen werden
+
 
 
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
