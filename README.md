@@ -6,6 +6,9 @@ Robo Pro Coding Projekt von [fischertechnik GitLab](https://git.fischertechnik-c
 
 #### Quellcodedateien und I²C Module in Programmierbeispielen verwendet:
 
+* für die angeschlossenen I²C Module nicht benötigte Quellcodedateien können gelöscht werden
+* Quellcodedatei i2cCode darf nicht gelöscht werden
+
 Quellcodedatei|I²C Adr|I²C Module|Beispiel n
 ---|---|---|---
 advanced||Blöcke für fehlende Funktionen|11
