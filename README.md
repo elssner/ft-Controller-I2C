@@ -26,6 +26,8 @@ rtc|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.c
 
 #### Programmierbeispiel wird bei geschlossenem Input I5..I8 gestartet:
 
+* Quellcodedatei i2cCode wird in allen Programmierbeispielen verwendet
+
 n|I8|I7|I6|I5|Beispiel|Quellcodedateien, I²C Module
 ---|---|---|---|---|---|---
 0|0|0|0|0|i2cScan
