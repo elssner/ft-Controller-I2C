@@ -1,12 +1,12 @@
 > Diese Seite bei [elssner.github.io/ft-Controller-I2C](https://elssner.github.io/ft-Controller-I2C/) öffnen.
 
-### Robo Pro Coding Blöcke für fischertechnik RX und TXT 4.0 Controller zur Programmierung beliebiger I²C Devices
+### Robo Pro Coding Blöcke für fischertechnik RX und TXT 4.0 Controller zur Programmierung beliebiger I²C Module
 
 Robo Pro Coding Projekt von [fischertechnik GitLab](https://git.fischertechnik-cloud.com/i2c) laden: im Suchfeld **i2c** eingeben
 
 #### Quellcodedateien und I²C Devices in Programmierbeispielen verwendet:
 
-Quellcodedatei|I²C Adr|I²C Devices|Beispiel
+Quellcodedatei|I²C Adr|I²C Module|Beispiel
 ---|---|---|---
 advanced||Blöcke für fehlende Funktionen
 i2cCode||Python I²C für RX und TXT 4.0|alle
