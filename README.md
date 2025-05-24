@@ -123,10 +123,10 @@ Block **writeText** (row, col, end, text, right)
 
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15; *end*: Spalte 0..15 (letztes Zeichen)
 * *text*: Text, alle Datentypen werden mit str() konvertiert
-* *right*: None oder false:linksbündig; true:rechtsbündig\
+* *right*: None oder False:linksbündig; True:rechtsbündig\
 Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt
 * Parameter außer *text* können weg gelassen werden (None)\
-default: row=0; col=0; end=15; right=false
+default: row=0; col=0; end=15; right=False
 
 
 Block **clearScreen** ()
