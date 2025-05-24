@@ -111,5 +111,21 @@ Uhr wird bei Internetverbindung gestellt
 
 Block **readSwitch** () : Byte(0..63)
 
+#### keyboard.py
 
+Block **readKeyboard** () : Byte(ASCII-Code der gedrückten Taste)
+
+#### lcd16x2.py
+
+Block **initLCD** ()
+
+Block **writeText** (row, col, end, text, right)
+
+* *row*: Zeile 0 oder 1
+* *col*: Spalte 0..15; *end*: Spalte 0..15 (letztes Zeichen)
+* *text*: Text, alle Datentypen werden mit str() konvertiert
+* *right*: None oder false=linksbündig; true=rechtsbündig
+
+
+Block **clearScreen** ()
 
