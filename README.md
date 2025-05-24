@@ -32,9 +32,9 @@ n|I8|I7|I6|I5|Beispiel|Quellcodedateien, I²C Module
 1|0|0|0|1|grovelcd_rtc
 2|0|0|1|0|grovcelcd_keyboard|
 3|0|0|1|1|grovelcd_sipswitch|
-4|0|1|0|0|qlcr_rtc_keypad|
-5|0|1|0|1|qlcd_gpio_keypad|
-6|0|1|1|0|oled_joystick|
+4|0|1|0|0|qlcr_rtc_keypad|qwiiclcd, rtc, qwiickeypad
+5|0|1|0|1|qlcd_gpio_keypad|qwiiclcd, qwiicgpio, qwiickeypad
+6|0|1|1|0|oled_joystick|qwiiclcd, qwiicjoystick
 7|0|1|1|1||
 8|1|0|0|0|oled_zeichnen|
 9|1|0|0|1|oled_eeprom_copy|
