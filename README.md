@@ -4,7 +4,7 @@
 
 Robo Pro Coding Projekt von [fischertechnik GitLab](https://git.fischertechnik-cloud.com/i2c) laden: im Suchfeld **i2c** eingeben
 
-#### Quellcodedateien und I²C Devices in Programmierbeispielen verwendet:
+#### Quellcodedateien und I²C Module in Programmierbeispielen verwendet:
 
 Quellcodedatei|I²C Adr|I²C Module|Beispiel
 ---|---|---|---
