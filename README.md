@@ -28,15 +28,15 @@ rtc|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.c
 
 n|I8|I7|I6|I5|Beispiel|Quellcodedateien, I²C Module
 ---|---|---|---|---|---|---
-0|0|0|0|0|joy_4motoren|qwiicjoystick, 2 * qwiicmotor
-1|0|0|0|1|joy_4motoren|qwiicjoystick, qwiicmotor
-2|0|0|1|0||
-3|0|0|1|1||
-4|0|1|0|0||
-5|0|1|0|1||
-6|0|1|1|0||
+0|0|0|0|0|i2cScan
+1|0|0|0|1|grovelcd_rtc
+2|0|0|1|0|grovcelcd_keyboard|
+3|0|0|1|1|grovelcd_sipswitch|
+4|0|1|0|0|qlcr_rtc_keypad|
+5|0|1|0|1|qlcd_gpio_keypad|
+6|0|1|1|0|oled_joystick|
 7|0|1|1|1||
-8|1|0|0|0||
+8|1|0|0|0|oled_zeichnen|
 9|1|0|0|1|oled_eeprom_copy|
 10|1|0|1|0|oled_eeprom_rtc|
 11|1|0|1|1|oled2_systemtime|
