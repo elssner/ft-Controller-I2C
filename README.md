@@ -26,7 +26,7 @@ rtc|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.c
 
 #### Programmierbeispiel wird bei geschlossenem Input I5..I8 gestartet:
 
-n|I8|I7|I6|I5|Beispiel|Quellcodedateien
+n|I8|I7|I6|I5|Beispiel|Quellcodedateien, I²C Module
 ---|---|---|---|---|---|---
 0|0|0|0|0|joy_4motoren|qwiicjoystick, 2 * qwiicmotor
 1|0|0|0|1|joy_4motoren|qwiicjoystick, qwiicmotor
@@ -37,13 +37,13 @@ n|I8|I7|I6|I5|Beispiel|Quellcodedateien
 6|0|1|1|0||
 7|0|1|1|1||
 8|1|0|0|0||
-9|1|0|0|1||
-10|1|0|1|0||
-11|1|0|1|1||
+9|1|0|0|1|oled_eeprom_copy|
+10|1|0|1|0|oled_eeprom_rtc|
+11|1|0|1|1|oled2_systemtime|
 12|1|1|0|0||
 13|1|1|0|1||
-14|1|1|1|0|joy_2motoren|qwiicjoystick, 2*qwiicmotor
-15|1|1|1|1|joy_4motoren|qwiicjoystick, qwiicmotor
+14|1|1|1|0|joy_2motoren|qwiicjoystick, qwiicmotor
+15|1|1|1|1|joy_4motoren|qwiicjoystick, 2*qwiicmotor
 
 
 
