@@ -24,7 +24,7 @@ qwiicmotor|<code>0x5D 0x5E</code>|[SparkFun Qwiic Motor Driver](https://www.spar
 qwiicrelay|<code>0x1E</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)|Hauptprogramm
 rtc|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)|1, 4, 10
 
-#### Programmierbeispiel wird bei geschlossenem Input I5..I8 gestartet:
+#### Programmierbeispiel wird bei geschlossenem `Input I5..I8` gestartet:
 
 * Quellcodedatei i2cCode wird in allen Programmierbeispielen verwendet
 
