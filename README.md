@@ -50,6 +50,14 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 14|`1`|`1`|`1`|`0`|joy_2motoren|qwiicjoystick, qwiicmotor
 15|`1`|`1`|`1`|`1`|joy_4motoren|qwiicjoystick, 2*qwiicmotor
 
+### Beschreibung der I²C Funktionen: i2cCode.py
+
+> Die I²C Funktionen sind plattformunabhängig programmiert.
+
+Block **i2sWriteBuffer** (i2cAdr, write_buffer)
+
+
+
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
 
 #### advanced.py
