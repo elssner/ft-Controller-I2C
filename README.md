@@ -42,8 +42,8 @@ n|I8|I7|I6|I5|Beispiel|Quellcodedateien
 11|1|0|1|1||
 12|1|1|0|0||
 13|1|1|0|1||
-14|1|1|1|0||
-15|1|1|1|1||
+14|1|1|1|0|joy_2motoren|qwiicjoystick, 2*qwiicmotor
+15|1|1|1|1|joy_4motoren|qwiicjoystick, qwiicmotor
 
 
 
