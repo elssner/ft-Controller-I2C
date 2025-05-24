@@ -41,7 +41,7 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 8|`1`|`0`|`0`|`0`|oled_zeichnen|oled, oled_geometrie
 9|`1`|`0`|`0`|`1`|oled_eeprom_copy|oled, eeprom
 10|`1`|`0`|`1`|`0`|oled_eeprom_rtc|oled, oled_geometrie, eeprom, rtc
-11|`1`|`0`|`1`|`1`|oled2_systemtime|2*oled, oled_geometrie
+11|`1`|`0`|`1`|`1`|oled2_systemtime|2*oled, oled_geometrie, advanced
 12|`1`|`1`|`0`|`0`||
 13|`1`|`1`|`0`|`1`||
 14|`1`|`1`|`1`|`0`|joy_2motoren|qwiicjoystick, qwiicmotor
