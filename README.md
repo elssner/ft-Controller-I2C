@@ -65,12 +65,12 @@ Block **i2cWriteBuffer** (i2cAdr, write_buffer)
 * sendet Bytes aus der Liste *write_buffer* an die *i2cAdr*
 * *i2cAdr*: 7 Bit (0x00..0x7F bzw. 0..127)
 * *write_buffer*: Liste darf nur 8-Bit Elemente (0x00..0xFF bzw. 0..255) enthalten
-* Parameter *write_buffer* kann z.B. mit Block *erzeuge Liste* (aus Datenstrukturen) übergeben werden
+* Parameter *write_buffer* kann mit Block *erzeuge Liste* (aus Datenstrukturen) übergeben werden
 
 Block **i2cReadBuffer** (i2cAdr, length) : Liste der Bytes
 
 * empfängt Bytes von der *i2cAdr*, *length* ist die Anzahl der Bytes
-* aus der zurück gegebenen Liste können die Bytes mit *in der Liste* Blöcken (aus Datenstrukturen) gelesen werden
+* die zurück gegebene Liste kann mit *in der Liste* Blöcken (aus Datenstrukturen) gelesen werden
 
 
 
