@@ -52,6 +52,9 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 
 ### Beschreibung der I²C Funktionen
 
+I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I%C2%B2C](https://de.wikipedia.org/wiki/I%C2%B2C)\
+an einen I²C-Bus mit 4 Leitungen `SDA, SCL, -, +` (hier 3,3V) können mehrere Module parallel angeschlossen werden
+
 > RX Controller nutzt CircuitPython, TXT 4.0 Controller nutzt Python3. Beide unterstützen I²C, aber völlig verschieden.
 > Die I²C Blöcke hier sind plattformunabhängig programmiert. Die Python Implementation wird erkannt und dann der entsprechende Code ausgeführt.\
 <ins>I²C kennt nur 2 Funktionen:</ins>\
@@ -72,17 +75,21 @@ Block **i2cReadBuffer** (i2cAdr, length) : Liste der Bytes
 * empfängt Bytes von der *i2cAdr*, *length* ist die Anzahl der Bytes
 * die zurück gegebene Liste kann mit *in der Liste* Blöcken (aus Datenstrukturen) gelesen werden
 
-Block **i2cWriteReadBuffer** (i2cAdr, write_buffer, length) : Liste der Bytes
+Block **i2cWriteReadBuffer** (i2cAdr, write_buffer, read_length) : Liste der Bytes
 
 * sendet und empfängt Bytes, ohne dazwischen den I²C-Bus frei zu geben
-* erlaubt Register lesen mit nur einer Funktion
+* erlaubt Register adressieren und lesen mit nur einer Funktion
 
 Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
 
 * versucht alle möglichen I²C-Adressen in einer Schleife zu erreichen
 * bei Fehler ist kein Modul mit dieser Adresse angeschlossen
 * wenn read oder write erfolgreich ist, wird die gültige Adresse in einer Liste gesammelt
-* die zurück gegebene Liste kann mit Block *gibt aus* (aus Text) in der Konsole angezeigt werden
+* die zurück gegebene Liste kann mit Block *gib aus* (aus Text) in der Konsole angezeigt werden
+
+Block **isRX** () : boolean
+
+* gibt true zurück, wenn `sys.implementation.name == 'circuitpython'`
 
 
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
