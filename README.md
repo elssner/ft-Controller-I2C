@@ -54,7 +54,7 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 
 > RX Controller nutzt CircuitPython, TXT 4.0 Controller nutzt Python3. Beide unterstützen I²C, aber völlig verschieden.
 > Die I²C Blöcke hier sind plattformunabhängig programmiert. Die Python Implementation wird erkannt und dann der entsprechende Code ausgeführt.\
-I²C braucht nur 2 Funktionen:\
+<ins>I²C braucht nur 2 Funktionen:</ins>\
 *an eine I²C-Adresse Bytes senden* oder *von einer I²C-Adresse Bytes empfangen*.\
 Es gibt noch eine Kombination aus senden und empfangen und i2cScan soll alle Module am Bus finden.
 
