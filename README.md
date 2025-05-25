@@ -62,8 +62,8 @@ Hardware
 
 Software
 
-* I²C kennt nur 2 Funktionen:
-* **an eine I²C-Adresse Bytes senden** oder **von einer I²C-Adresse Bytes empfangen**
+* I²C kennt nur 2 Funktionen:\
+**an eine I²C-Adresse Bytes senden** oder **von einer I²C-Adresse Bytes empfangen**
 * es gibt noch eine Kombination aus beiden und i2cScan soll alle Module am Bus finden
 * die Anzahl über den I²C-Bus übertragener Bytes ist **nicht** auf 32 Byte begrenzt
 
