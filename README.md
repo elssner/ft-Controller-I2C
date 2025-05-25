@@ -162,7 +162,7 @@ Block **displayMatrix** (fromPage, toPage, display) → alle Parameter optional
 * Mit den optionalen Parametern *fromPage*, *toPage* ist es möglich, nur einen Teil des Displays zu aktualisieren. Eine 'Page' ist eine Zeile 8 Pixel hoch, 128 Pixel breit, füllt also die gesamte Breite des Displays. Das 128x64 Display hat 8 Zeilen (0-7), das 128x128 Display hat 16 Zeilen (0-15).
 * Der Parameter *display* bestimmt, an welches OLED Display die Matrix gesendet wird.
 
-> die folgenden Blöcke ändern nur die Pixel in der Matrix, nicht das Display
+> Die folgenden Blöcke ändern nur die Pixel in der Matrix, nicht das Display.
 
 Block **clearMatrix** (fromPage, toPage) → alle Parameter optional
 * *fromPage*: 0..7; default: 0
@@ -175,9 +175,18 @@ Block **setPixel** (x, y, pixel)
 
 Block **writeMatrix** (row, col, text)
 
-> Um Text mit Pixeln anzuzeigen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein.
+> Um Text mit Pixeln anzuzeigen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein. Pro Zeichen werden 8 Byte vom EEPROM in die Matrix kopiert.
 
 * *row*: Zeile 0..7 bzw. 0..15; *col*: Spalte 0..15
 * *text*: Text, alle Datentypen werden mit str() konvertiert
 * Parameter optional, default: row=0; col=0
+
+Block **paintEEPROM** (eepromStartadresse, fromPage, toPage) → alle Parameter optional
+* Kopiert aus dem EEPROM pro Zeile 128 Byte in die Matrix. Eine Zeile ist immer 8 Pixel hoch und 128 Pixel breit.
+* Das 128x64 Pixel Display hat 8 Zeilen = 1024 Byte. Damit können 1KB Daten aus dem EEPROM komplett in die Matrix kopiert werden.
+* Auf das 128x128 Pixel Display passen 2KB, das ist z.B. der gesamte Zeichensatz mit den Zeichencodes 0..255.
+* Der EEPROM bietet viel Speicherplatz, um mehrere Bilder, die das ganze Display füllen können, abzuspeichern.
+
+
+
 
