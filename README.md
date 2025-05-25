@@ -185,9 +185,8 @@ Block **paintEEPROM** (eepromStartadresse, fromPage, toPage) → alle Parameter 
 * *eepromStartadresse*: 0x0000..0xFFFF; default 0xF800 (Anfang vom Zeichensatz)
 * *fromPage*: 0..7; default: 0; *toPage*: 0..7 bzw. 0..15; default 7 bzw. 15
 * Kopiert aus dem EEPROM pro 'Page' 128 Byte in die Matrix.
-* Auf das 128x64 Pixel Display können 1KB Daten aus dem EEPROM in die Matrix kopiert werden.
-* Auf das 128x128 Pixel Display passt der gesamte Zeichensatz mit den Zeichencodes 0..255.
-* Im EEPROM können mehrere Bilder, die das ganze Display füllen können, gespeichert werden.
+* Ohne Parameter wird der gesamte Zeichensatz vom EEPROM in die Matrix kopiert.
+* Im EEPROM können Bilder, die das ganze Display füllen, gespeichert werden.
 
 
 
