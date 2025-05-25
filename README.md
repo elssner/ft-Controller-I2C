@@ -77,23 +77,23 @@ Block **i2cWriteBuffer** (i2cAdr, write_buffer)
 * sendet Bytes aus der Liste *write_buffer* an die *i2cAdr*
 * *i2cAdr*: 7 Bit (0x00..0x7F bzw. 0..127)
 * *write_buffer*: Liste darf nur 8-Bit Elemente (0x00..0xFF bzw. 0..255) enthalten
-* Parameter *write_buffer* kann mit Block *erzeuge Liste* (aus Datenstrukturen) übergeben werden
+* Parameter *write_buffer* kann mit `Datenstrukturen`**erzeuge Liste** übergeben werden
 
 Block **i2cReadBuffer** (i2cAdr, length) : Liste der Bytes
 
 * empfängt Bytes von der *i2cAdr*, *length* ist die Anzahl der Bytes
-* die zurück gegebene Liste kann mit *in der Liste* Blöcken (aus Datenstrukturen) gelesen werden
+* die zurück gegebene Liste kann mit `Datenstrukturen`**in der Liste** gelesen werden
 
 Block **i2cWriteReadBuffer** (i2cAdr, write_buffer, read_length) : Liste der Bytes
 
 * sendet und empfängt Bytes, ohne dazwischen den I²C-Bus frei zu geben
-* erlaubt Register adressieren und lesen mit nur einer Funktion
+* erlaubt I²C Register adressieren und lesen mit nur einer Funktion
 
 Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
 
 * versucht alle möglichen I²C-Adressen in einer Schleife zu erreichen
 * wenn read oder write erfolgreich ist, wird die gültige I²C Adresse in einer Liste gesammelt
-* die zurück gegebene Liste kann mit Block *gib aus* (aus Text) in der Konsole angezeigt werden
+* die zurück gegebene Liste kann mit `Text` **gib aus** in der Konsole angezeigt werden
 
 Block **isRX** () : boolean
 
