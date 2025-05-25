@@ -165,8 +165,8 @@ Block **displayMatrix** (fromPage, toPage, display) → alle Parameter optional
 > Die folgenden Blöcke ändern nur die Pixel in der Matrix, nicht das Display.
 
 Block **clearMatrix** (fromPage, toPage) → alle Parameter optional
-* *fromPage*: 0..7; default: 0
-* *toPage*: 0..7 bzw. 0..15; default 7 bzw. 15
+* *fromPage*: 0..7, default: 0
+* *toPage*: 0..7 bzw. 0..15, default 7 bzw. 15
 
 Block **setPixel** (x, y, pixel)
 * *pixel*: schaltet ein Pixel (in der Matrix) True:EIN oder False:AUS. 
@@ -175,7 +175,7 @@ Block **setPixel** (x, y, pixel)
 
 Block **writeMatrix** (row, col, text)
 
-> Um Text mit Pixeln anzuzeigen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein. Pro Zeichen werden 8 Byte vom EEPROM in die Matrix kopiert.
+> Um Text mit Pixeln zu zeichnen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein. Pro Zeichen werden 8 Byte vom EEPROM in die Matrix kopiert.
 
 * *row*: Zeile 0..7 bzw. 0..15; *col*: Spalte 0..15
 * *text*: Text, alle Datentypen werden mit str() konvertiert
@@ -183,11 +183,20 @@ Block **writeMatrix** (row, col, text)
 
 Block **paintEEPROM** (eepromStartadresse, fromPage, toPage) → alle Parameter optional
 * *eepromStartadresse*: 0x0000..0xFFFF; default 0xF800 (Anfang vom Zeichensatz)
-* *fromPage*: 0..7; default: 0; *toPage*: 0..7 bzw. 0..15; default 7 bzw. 15
+* *fromPage*: 0..7, default: 0; *toPage*: 0..7 bzw. 0..15, default 7 bzw. 15
 * Kopiert aus dem EEPROM pro 'Page' 128 Byte in die Matrix.
 * Ohne Parameter wird der gesamte Zeichensatz vom EEPROM in die Matrix kopiert.
 * Im EEPROM können Bilder, die das ganze Display füllen, gespeichert werden.
 
+#### oled_geometrie.py
 
+Block **oled_line** (x0, y0, x1, y1, pixel)
+* Zeichnet eine Linie mit den angegebenen Koordinaten. Mit *pixel* False werden die Pixel gelöscht.
+
+Block **oled_rectangle** (x0, y0, x1, y1, pixel)
+* Zeichnet ein Rechteck mit den angegebenen Koordinaten. Mit *pixel* False werden die Pixel gelöscht.
+
+Block **oled_circle** (x0, y0, radius, pixel)
+* Zeichnet einen Kreis um den Mittelpunkt *x0*, *y0*. Mit *pixel* False werden die Pixel gelöscht.
 
 
