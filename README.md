@@ -108,7 +108,6 @@ Block **isRX** () : boolean
 Kommentar, Chr, Int, list_hex, Ord, print_bin, string_decode, string_list, system_time
 
 Block **system_time** () : Liste mit 9 Elementen
-
 * TXT 4.0: RTC Systemuhr (year, mon, mday, hour, min, sec, wday, yday, isdst)\
 Uhr wird bei Internetverbindung gestellt, Zeitzone am Controller einstellen
 * RX: Zeitstempel umgerechnet in (0, 0, 0, hour, min, sec, 0, 0, 0)
@@ -126,7 +125,6 @@ Block **readKeyboard** () : Byte → ASCII-Code der gedrückten Taste
 Block **initLCD** ()
 
 Block **writeText** (row, col, end, text, right)
-
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15; *end*: Spalte 0..15 (letztes Zeichen)
 * *text*: Text, alle Datentypen werden mit str() konvertiert
 * *right*: None oder False:linksbündig; True:rechtsbündig\
@@ -134,6 +132,14 @@ Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt
 * Parameter außer *text* können weg gelassen werden (None)\
 default: row=0; col=0; end=15; right=False
 
-
 Block **clearScreen** ()
+
+Block **setCursor** (row, col)
+* *row*: Zeile 0 oder 1; *col*: Spalte 0..15
+* Parameter optional, default: row=0; col=0
+
+Block **writeLCD** (text)
+* schreibt an aktuelle Cursorposition
+* *text*: Text, alle Datentypen werden mit str() konvertiert
+
 
