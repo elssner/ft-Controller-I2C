@@ -203,3 +203,9 @@ Block **oled_minute** (minute, x, y, l0, l1, pixel)
 * Der Parameter *minute* bestimmt die Richtung (den Winkel) der Linie vom Mittelpunkt *x*, *y* (auf dem Zifferblatt einer Uhr).
 * Der Zeiger muss nicht im Mittelpunkt beginnen. Die Parameter Linie *l1*, *l2* bestimmen Anfang und Ende des Zeigers (vom Mittelpunkt in Pixeln).
 * Mit *pixel* False kann der Zeiger auch wieder gelöscht werden.
+
+Block **oled_hour** (hour, x, y, l0, l1, pixel)
+* Funktioniert wie **oled_minute**, allerdings sind hier nicht 60, sondern 12 Positionen des Zeigers möglich.
+
+Block **oled_clock** (x, y, radius, hour, minute)
+* Zeichnet eine analoge Uhr. *hour* und *minute* geben die Stellung der Uhrzeiger an.
