@@ -110,7 +110,7 @@ Kommentar, Chr, Int, list_hex, Ord, print_bin, string_decode, string_list, syste
 Block **system_time** () : Liste mit 9 Elementen
 
 * TXT 4.0: RTC Systemuhr (year, mon, mday, hour, min, sec, wday, yday, isdst)\
-Uhr wird bei Internetverbindung gestellt
+Uhr wird bei Internetverbindung gestellt, Zeitzone am Controller einstellen
 * RX: Zeitstempel umgerechnet in (0, 0, 0, hour, min, sec, 0, 0, 0)
 
 #### dipswitch.py
