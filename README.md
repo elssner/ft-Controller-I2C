@@ -169,12 +169,14 @@ Block **clearMatrix** (fromPage, toPage) → alle Parameter optional
 * *toPage*: 0..7 bzw. 0..15; default 7 bzw. 15
 
 Block **setPixel** (x, y, pixel)
-* Schaltet ein Pixel (in der Matrix) EIN oder AUS. 
-* Für die Koordinate x sind Werte von 0 (links) bis 127 (rechts) möglich.
-* Für die Koordinate y sind Werte von 0 (oben) bis 63 oder 127 (unten) möglich.
+* *pixel*: schaltet ein Pixel (in der Matrix) True:EIN oder False:AUS. 
+* Für die Koordinate *x* sind Werte von 0 (links) bis 127 (rechts) möglich.
+* Für die Koordinate *y* sind Werte von 0 (oben) bis 63 bzw. 127 (unten) möglich.
 
 Block **writeMatrix** (row, col, text)
+
 > Um Text mit Pixeln anzuzeigen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein.
+
 * *row*: Zeile 0..7 bzw. 0..15; *col*: Spalte 0..15
 * *text*: Text, alle Datentypen werden mit str() konvertiert
 * Parameter optional, default: row=0; col=0
