@@ -182,6 +182,8 @@ Block **writeMatrix** (row, col, text)
 * Parameter optional, default: row=0; col=0
 
 Block **paintEEPROM** (eepromStartadresse, fromPage, toPage) → alle Parameter optional
+* *eepromStartadresse*: 0x0000..0xFFFF; default 0xF800 (Anfang vom Zeichensatz)
+* *fromPage*: 0..7; default: 0; *toPage*: 0..7 bzw. 0..15; default 7 bzw. 15
 * Kopiert aus dem EEPROM pro Zeile 128 Byte in die Matrix. Eine Zeile ist immer 8 Pixel hoch und 128 Pixel breit.
 * Das 128x64 Pixel Display hat 8 Zeilen = 1024 Byte. Damit können 1KB Daten aus dem EEPROM komplett in die Matrix kopiert werden.
 * Auf das 128x128 Pixel Display passen 2KB, das ist z.B. der gesamte Zeichensatz mit den Zeichencodes 0..255.
