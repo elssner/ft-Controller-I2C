@@ -146,7 +146,8 @@ Block **setDisplay** (displayOn:boolean, cursorOn:boolean, blinkOn:boolean)
 
 #### oled.py
 
-> OLED Displays zeigen 128x64 oder 128x128 Pixel an. Alle Pixel werden zuerst in Variablen gespeichert. Dieser Speicher wird 'Matrix' genannt. Die gespeicherten Pixel müssen mit dem Block **displayMatrix** über der I²C-Bus gesendet werden.
+> OLED Displays zeigen 128x64 oder 128x128 Pixel an. Alle Pixel werden zuerst in Variablen gespeichert. Dieser Speicher wird 'Matrix' genannt.
+> Um die 'Matrix' auf dem OLED Display anzuzeigen, muss immer der Block **displayMatrix** aufgerufen werden.
 
 Block **initOLED** (x3D:boolean)
 * Parameter *x3D*: Auswahl Display (I²C-Adresse)\
