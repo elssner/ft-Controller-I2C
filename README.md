@@ -199,4 +199,7 @@ Block **oled_rectangle** (x0, y0, x1, y1, pixel)
 Block **oled_circle** (x0, y0, radius, pixel)
 * Zeichnet einen Kreis um den Mittelpunkt *x0*, *y0*. Mit *pixel* False werden die Pixel gelöscht.
 
-
+Block **oled_minute** (minute, x, y, l0, l1, pixel)
+* Der Parameter *minute* bestimmt die Richtung (den Winkel) der Linie vom Mittelpunkt *x*, *y* (auf dem Zifferblatt einer Uhr).
+* Der Zeiger muss nicht im Mittelpunkt beginnen. Die Parameter Linie *l1*, *l2* bestimmen Anfang und Ende des Zeigers (vom Mittelpunkt in Pixeln).
+* Mit *pixel* False kann der Zeiger auch wieder gelöscht werden.
