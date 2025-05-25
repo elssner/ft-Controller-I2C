@@ -142,5 +142,15 @@ Block **writeLCD** (text)
 * schreibt an aktuelle Cursorposition
 * *text*: Text, alle Datentypen werden mit str() konvertiert
 
-Block **setDisplay** (displayOn, cursorOn, blinkOn)
+Block **setDisplay** (displayOn:boolean, cursorOn:boolean, blinkOn:boolean)
+
+#### oled.py
+
+Block **initOLED** (x3D:boolean)
+* Parameter *x3D*: Auswahl Display (I²C-Adresse)\
+None oder False: 0x3C (default); True: 0x3D (Lötbrücke)
+
+Block **displayMatrix** (fromPage, toPage)
+* 
+
 
