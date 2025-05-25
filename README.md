@@ -191,21 +191,23 @@ Block **paintEEPROM** (eepromStartadresse, fromPage, toPage) → alle Parameter 
 #### oled_geometrie.py
 
 Block **oled_line** (x0, y0, x1, y1, pixel)
-* Zeichnet eine Linie mit den angegebenen Koordinaten. Mit *pixel* False werden die Pixel gelöscht.
+* Zeichnet eine Linie mit den angegebenen Koordinaten in die Matrix.
+* Parameter wie oben **setPixel**.
 
 Block **oled_rectangle** (x0, y0, x1, y1, pixel)
-* Zeichnet ein Rechteck mit den angegebenen Koordinaten. Mit *pixel* False werden die Pixel gelöscht.
+* Zeichnet ein Rechteck mit den angegebenen Koordinaten.
 
 Block **oled_circle** (x0, y0, radius, pixel)
-* Zeichnet einen Kreis um den Mittelpunkt *x0*, *y0*. Mit *pixel* False werden die Pixel gelöscht.
+* Zeichnet einen Kreis um den Mittelpunkt *x0*, *y0*.
 
 Block **oled_minute** (minute, x, y, l0, l1, pixel)
-* Der Parameter *minute* bestimmt die Richtung (den Winkel) der Linie vom Mittelpunkt *x*, *y* (auf dem Zifferblatt einer Uhr).
-* Der Zeiger muss nicht im Mittelpunkt beginnen. Die Parameter Linie *l1*, *l2* bestimmen Anfang und Ende des Zeigers (vom Mittelpunkt in Pixeln).
-* Mit *pixel* False kann der Zeiger auch wieder gelöscht werden.
+* zeichnet Uhrzeiger in Matrix: 60 Positionen (Winkel vom Mittelpunkt)
+* *minute*: 0..59 Winkel der Linie vom Mittelpunkt *x*, *y*
+* *l0*, *l1* Länge des Zeigers (Anfang und Ende vom Mittelpunkt in Pixeln)
+* Parameter *x*, *y*, *pixel* wie oben **setPixel**
 
 Block **oled_hour** (hour, x, y, l0, l1, pixel)
-* Funktioniert wie **oled_minute**, allerdings sind hier nicht 60, sondern 12 Positionen des Zeigers möglich.
+* wie **oled_minute** mit 12 Positionen des Zeigers
 
 Block **oled_clock** (x, y, radius, hour, minute)
 * Zeichnet eine analoge Uhr. *hour* und *minute* geben die Stellung der Uhrzeiger an.
