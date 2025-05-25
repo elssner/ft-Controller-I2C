@@ -142,5 +142,5 @@ Block **writeLCD** (text)
 * schreibt an aktuelle Cursorposition
 * *text*: Text, alle Datentypen werden mit str() konvertiert
 
-Block **setDisplay** (text)
+Block **setDisplay** (displayOn, cursorOn, blinkOn)
 
