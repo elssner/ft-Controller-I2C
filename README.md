@@ -195,19 +195,19 @@ Block **oled_line** (x0, y0, x1, y1, pixel)
 * Parameter wie oben **setPixel**.
 
 Block **oled_rectangle** (x0, y0, x1, y1, pixel)
-* Zeichnet ein Rechteck mit den angegebenen Koordinaten.
+* Zeichnet ein Rechteck mit den angegebenen Koordinaten in die Matrix.
 
 Block **oled_circle** (x0, y0, radius, pixel)
-* Zeichnet einen Kreis um den Mittelpunkt *x0*, *y0*.
+* Zeichnet einen Kreis um den Mittelpunkt *x0*, *y0* in die Matrix.
 
 Block **oled_minute** (minute, x, y, l0, l1, pixel)
-* zeichnet Uhrzeiger in Matrix: 60 Positionen (Winkel vom Mittelpunkt)
+* zeichnet Uhrzeiger in die Matrix: 60 Positionen (Winkel vom Mittelpunkt)
 * *minute*: 0..59 Winkel der Linie vom Mittelpunkt *x*, *y*
 * *l0*, *l1* Länge des Zeigers (Anfang und Ende vom Mittelpunkt in Pixeln)
 * Parameter *x*, *y*, *pixel* wie oben **setPixel**
 
 Block **oled_hour** (hour, x, y, l0, l1, pixel)
-* wie **oled_minute** mit 12 Positionen des Zeigers
+* wie **oled_minute** mit *hour*: 0..23
 
 Block **oled_clock** (x, y, radius, hour, minute)
 * Zeichnet eine analoge Uhr. *hour* und *minute* geben die Stellung der Uhrzeiger an.
