@@ -115,7 +115,7 @@ Uhr wird bei Internetverbindung gestellt, Zeitzone am Controller einstellen
 
 #### dipswitch.py
 
-Block **readSwitch** () : Byte(0..63)
+Block **readSwitch** () : Byte(6 Bit, 0..63, 1 Bit pro DIP Schalter)
 
 #### keyboard.py
 
