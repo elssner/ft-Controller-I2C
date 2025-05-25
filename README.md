@@ -97,7 +97,7 @@ Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
 
 Block **isRX** () : boolean
 
-* gibt true zurück, wenn `sys.implementation.name == 'circuitpython'`
+* gibt True zurück, wenn `sys.implementation.name == 'circuitpython'`
 
 
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
@@ -115,11 +115,11 @@ Uhr wird bei Internetverbindung gestellt, Zeitzone am Controller einstellen
 
 #### dipswitch.py
 
-Block **readSwitch** () : Byte(6 Bit, 0..63, 1 Bit pro DIP Schalter)
+Block **readSwitch** () : Byte → 6 Bit (0..63), 1 Bit pro DIP Schalter
 
 #### keyboard.py
 
-Block **readKeyboard** () : Byte(ASCII-Code der gedrückten Taste)
+Block **readKeyboard** () : Byte → ASCII-Code der gedrückten Taste
 
 #### lcd16x2.py
 
