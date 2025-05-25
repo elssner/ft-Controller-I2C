@@ -158,7 +158,24 @@ Block **initOLED** (display:boolean optional)
 > Es gibt nur eine Matrix, die mit dem folgenden Block an ein bestimmtes Display gesendet werden kann.
 
 Block **displayMatrix** (fromPage, toPage, display) → alle Parameter optional
-* Ist immer aufzurufen, wenn das in die Matrix gezeichnete Bild auf dem Display angezeigt werden soll. Dabei wird normalerweise das komplette Display über den I²C-Bus neu geschrieben (1KB oder 2KB Pixel).
+* Ist immer aufzurufen, wenn das in die Matrix gezeichnete Bild auf dem Display angezeigt werden soll. Fehlen die Parameter, wird das komplette Display über den I²C-Bus neu geschrieben (1KB oder 2KB Pixel).
 * Mit den optionalen Parametern *fromPage*, *toPage* ist es möglich, nur einen Teil des Displays zu aktualisieren. Eine 'Page' ist eine Zeile 8 Pixel hoch, 128 Pixel breit, füllt also die gesamte Breite des Displays. Das 128x64 Display hat 8 Zeilen (0-7), das 128x128 Display hat 16 Zeilen (0-15).
 * Der Parameter *display* bestimmt, an welches OLED Display die Matrix gesendet wird.
+
+> die folgenden Blöcke ändern nur die Pixel in der Matrix, nicht das Display
+
+Block **clearMatrix** (fromPage, toPage) → alle Parameter optional
+* *fromPage*: 0..7; default: 0
+* *toPage*: 0..7 bzw. 0..15; default 7 bzw. 15
+
+Block **setPixel** (x, y, pixel)
+* Schaltet ein Pixel (in der Matrix) EIN oder AUS. 
+* Für die Koordinate x sind Werte von 0 (links) bis 127 (rechts) möglich.
+* Für die Koordinate y sind Werte von 0 (oben) bis 63 oder 127 (unten) möglich.
+
+Block **writeMatrix** (row, col, text)
+> Um Text mit Pixeln anzuzeigen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein.
+* *row*: Zeile 0..7 bzw. 0..15; *col*: Spalte 0..15
+* *text*: Text, alle Datentypen werden mit str() konvertiert
+* Parameter optional, default: row=0; col=0
 
