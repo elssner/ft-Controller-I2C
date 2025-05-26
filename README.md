@@ -221,8 +221,23 @@ Block **readEEPROM** (adr16Bit, read_length) : Liste der Bytes
 * *read_length*: Anzahl zu lesender Bytes (**nicht** auf 32 begrenzt)
 * die zurück gegebene Liste kann mit `Datenstrukturen`**in der Liste** gelesen werden
 
-Block **testEEPROM**
+Block **testEEPROM** ()
 * Testet, ob der ASCII Zeichensatz im EEPROM programmiert ist.
 * Schreibt Bytes in Konsole: ['0x3e', '0x51', '0x49', '0x45', '0x3e'].
 * F900-FBFF (Speicherbereich der ASCII Zeichen) kann im Code geändert werden.
+
+#### qwiicgpio.py
+
+Block **setGPIO** (IO, INV)
+* beide Parameter *IO*, *INV*: String mit 8 Binärziffern (0 oder 1)
+* *IO*: CONFIGURATION 0=output 1=input
+* *INV*: INVERSION 0=original polarity 1=inverted (nur bei *IO*=1)
+* *INV*=1: Pin an GND (0V) -> logische 1
+* Beispiel:\
+**setGPIO**('00000011', '00000000'): 6 output und 2 input\
+**setGPIO**('11111111', '11111111'): alle 8 Pins input inverted
+* für Taster als input Pull Up Widerstände (10 kOhm) erforderlich
+* ACHTUNG: GPIO INPUT und OUTPUT hat 3.3 Volt Pegel!
+
+
 
