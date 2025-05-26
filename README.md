@@ -247,3 +247,18 @@ Block **writeGPIO** (byte)
 * *byte*: schaltet GPIO Pins, die als 0=output konfiguriert sind
 * Bit=0: 0Volt; Bit=1: 3,3Volt
 
+#### qwiicjoystick.py
+
+Block **readJoystick** ()
+* Liest alle Joystick Register über den I²C-Bus in Variable JOYSTICK_BUFFER.
+* Muss am Anfang jeder Schleife aufgerufen werden.
+
+> Die folgenden Blöcke lesen nur die Variable JOYSTICK_BUFFER, nicht den I²C-Bus.
+
+Block **getJoystickX** () : Byte
+Block **getJoystickY** () : Byte
+* gibt 1 Byte zurück mit der Stellung des Joystick in X bzw. Y Richtung
+* Mittelstellung ist 128, geringe Abweichung durch Hardware Toleranz
+* Endstellung unten bzw. links = 0; oben bzw. rechts = 255
+
+
