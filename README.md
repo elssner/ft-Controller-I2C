@@ -231,13 +231,19 @@ Block **testEEPROM** ()
 Block **setGPIO** (IO, INV)
 * beide Parameter *IO*, *INV*: String mit 8 Binärziffern (0 oder 1)
 * *IO*: CONFIGURATION 0=output 1=input
-* *INV*: INVERSION 0=original polarity 1=inverted (nur bei *IO*=1)
+* *INV*: INVERSION 0=original polarity; 1=inverted (nur bei *IO*=1)
 * *INV*=1: Pin an GND (0V) -> logische 1
 * Beispiel:\
 **setGPIO**('00000011', '00000000'): 6 output und 2 input\
 **setGPIO**('11111111', '11111111'): alle 8 Pins input inverted
-* für Taster als input Pull Up Widerstände (10 kOhm) erforderlich
-* ACHTUNG: GPIO INPUT und OUTPUT hat 3.3 Volt Pegel!
+* für Taster als input Pull Up Widerstände (10 kOhm) an 3V3 erforderlich
+* ACHTUNG: GPIO INPUT und OUTPUT hat 3,3 Volt Pegel!
 
+Block **readGPIO** () : Byte
+* gibt 1 Byte zurück, 1 Bit pro GPIO Pin
+* an input Pins max. 3,3 Volt Spannung anschließen!
 
+Block **writeGPIO** (byte)
+* *byte*: schaltet GPIO Pins, die als 0=output konfiguriert sind
+* Bit=0: 0Volt; Bit=1: 3,3Volt
 
