@@ -213,3 +213,12 @@ Block **oled_hour** (hour, x, y, l0, l1, pixel)
 
 Block **oled_clock** (x, y, radius, hour, minute)
 * Zeichnet eine analoge Uhr. *hour* und *minute* geben die Stellung der Uhrzeiger an.
+
+#### qwiiceeprom.py
+
+Block **readEEPROM** (adr16Bit, read_length) : Liste der Bytes
+* *adr16Bit*: 0x0000..0xFFFF
+* *read_length*: Anzahl zu lesender Bytes (**nicht** auf 32 begrenzt)
+* die zurück gegebene Liste kann mit `Datenstrukturen`**in der Liste** gelesen werden
+
+
