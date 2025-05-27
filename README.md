@@ -338,12 +338,12 @@ Block **writeRelay** (on:Boolean)
 Block **readRTC** ()
 * <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
 * Liest 7 Byte in Variable RTC_BUFFER.
-* [0]=Seconds, [1]=Minutes, [2]=Hours, [3]=Days, [4]=Weekdays, [5]=Months, [6]=Years
-* BCD codiert: 4 Bit pro Ziffer, Bit 7..4 Zehner und 3..0 Einer
+* `0`Seconds, `1`Minutes, `2`Hours, `3`Days, `4`Weekdays, `5`Months, `6`Years
+* BCD codiert: 4 Bit pro Ziffer, Bit `7654` Zehner, Bit `3210` Einer, Jahr 2-stellig
 
 Block **writeRTC** (index. int8)
 * Stellt die Uhr. Ändert ein bestimmtes Register *index*.
-* *int8*: Byte wird in BCD konvertiert und im RTC-Modul gespeichert. 
+* *int8*: 0..59 Byte wird in BCD konvertiert und im RTC-Modul gespeichert. 
 
 Block **setRTC** (keyCode) : keyString
 * Stellt die Uhr mit 5 ASCII Zeichen von Keypad oder Keyboard.
