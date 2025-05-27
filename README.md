@@ -130,16 +130,16 @@ Block **initLCD** ()
 Block **writeText** (row, col, end, text, right)
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15; *end*: Spalte 0..15 (letztes Zeichen)
 * *text*: Text, alle Datentypen werden mit str() konvertiert
-* *right*: None oder False:linksbündig; True:rechtsbündig\
+* *right*: None oder False=linksbündig; True=rechtsbündig\
 Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt
 * Parameter außer *text* können weg gelassen werden (None)\
-default: row=0; col=0; end=15; right=False
+default: *row*=0; *col*=0; *end*=15; right=False
 
 Block **clearScreen** ()
 
 Block **setCursor** (row, col)
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15
-* Parameter optional, default: row=0; col=0
+* Parameter optional, default: *row*=0; *col*=0
 
 Block **writeLCD** (text)
 * schreibt an aktuelle Cursorposition
@@ -285,20 +285,20 @@ Block **initQLCD** ()
 Block **writeQText** (row, col, end, text, right)
 * *row*: Zeile 0..3; *col*: Spalte 0..19; *end*: Spalte 0..19 (letztes Zeichen)
 * *text*: Text, alle Datentypen werden mit str() konvertiert
-* *right*: None oder False:linksbündig; True:rechtsbündig\
+* *right*: None oder False=linksbündig; True=rechtsbündig\
 Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt.
 * Parameter außer *text* können weg gelassen werden (None)\
-default: row=0; col=0; end=COLS-1; right=False
+default: *row*=0; *col*=0; *end*=COLS-1; right=False
 
 Block **clearQScreen** ()
 
 Block **setQCursor** (row, col)
 * *row*: Zeile 0..3; *col*: Spalte 0..19
-* Parameter optional, default: row=0; col=0
+* Parameter optional, default: *row*=0; *col*=0
 
 Block **writeQLCD** (text)
 * Schreibt an aktuelle Cursorposition.
-* *text*: Text, alle Datentypen werden mit str() konvertiert
+* *text*: Text, alle Datentypen werden mit str() konvertiert.
 * Schreibt auf nächster Zeile weiter, max. Länge 32 Zeichen.
 
 Block **setQDisplay** (displayOn:boolean, cursorOn:boolean, blinkOn:boolean)
