@@ -257,8 +257,7 @@ Block **readJoystick** ()
 
 > <ins>Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.</ins>
 
-Block **getJoystickX** () : Byte
-
+Block **getJoystickX** () : Byte\
 Block **getJoystickY** () : Byte
 * gibt 1 Byte zurück mit der Stellung des Joystick in X bzw. Y Richtung
 * Mittelstellung ist 128, geringe Abweichung durch Hardware Toleranz
