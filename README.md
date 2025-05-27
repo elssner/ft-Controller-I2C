@@ -308,8 +308,11 @@ Block **setQDisplay** (displayOn:boolean, cursorOn:boolean, blinkOn:boolean)
 Block **initMotor** (i2cAdr)
 * Parameter *i2cAdr* kann weg gelassen werden, default: 0x5D
 * 10 I²C-Adressen mit Lötbrücken einstellbar: 0x58..0x61
-* Muss für jedes Motor-Modul mit entsprechender i2cAdr aufgerufen werden.
+* Muss für jedes Motor-Modul mit entsprechender i2cAdr einmal aufgerufen werden.
 
 Block **setMotorI2C** (i2cAdr)
-* 
+* Ändert die I²C-Adresse für die folgenden Funktionen auf ein bestimmtes Motor-Modul.
+* Wird nur bei mehreren angeschlossenen Qwiic Motor-Modulen benötigt.
 
+Block **enableMotor** (on:Boolean)
+* *on* schaltet Motor Power True=an False=aus 
