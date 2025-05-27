@@ -339,6 +339,7 @@ Block **writeRelay** (on:Boolean)
 
 Block **writeRTC** (index. int8)
 * Stellt die Uhr. Ändert ein bestimmtes Register *index*.
+* `0`Seconds, `1`Minutes, `2`Hours, `3`Days, `4`Weekdays, `5`Months, `6`Years
 * *int8*: 0..59 Byte wird in BCD konvertiert und im RTC-Modul gespeichert. 
 
 Block **setRTC** (keyCode) : keyString
@@ -354,13 +355,13 @@ Block **setRTC** (keyCode) : keyString
 Block **readRTC** ()
 * <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
 * Liest 7 Byte in Variable RTC_BUFFER.
-* `0`Seconds, `1`Minutes, `2`Hours, `3`Days, `4`Weekdays, `5`Months, `6`Years
 * BCD codiert: 4 Bit pro Ziffer, Bit `7654` Zehner, Bit `3210` Einer, Jahr 2-stellig
 
 > <ins>Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.</ins>
 
 Block **getRTC** (index) : Byte
 * Liest 1 Byte aus Variable RTC_BUFFER[*index*] zu dezimal konvertiert.
+* `0`Seconds, `1`Minutes, `2`Hours, `3`Days, `4`Weekdays, `5`Months, `6`Years
 
 Block **getTimeString** () : String
 * Liest Zeit aus Variable RTC_BUFFER: HH:mm:ss
