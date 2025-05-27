@@ -359,3 +359,14 @@ Block **readRTC** ()
 
 > <ins>Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.</ins>
 
+Block **getRTC** (index) : Byte
+* Liest 1 Byte aus Variable RTC_BUFFER[*index*] zu dezimal konvertiert.
+
+Block **getTimeString** () : String
+* Liest Zeit aus Variable RTC_BUFFER: HH:mm:ss
+
+Block **getDateString** () : String
+* Liest Datum aus Variable RTC_BUFFER: dd.MM.20YY
+
+Block **getWeekday** () : String
+* Liest Wochentag RTC_BUFFER: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa']
