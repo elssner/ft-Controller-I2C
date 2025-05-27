@@ -335,11 +335,7 @@ Block **writeRelay** (on:Boolean)
 
 > RTC = Real Time Clock ist eine Quarz Uhr mit Knopfzelle.
 
-Block **readRTC** ()
-* <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
-* Liest 7 Byte in Variable RTC_BUFFER.
-* `0`Seconds, `1`Minutes, `2`Hours, `3`Days, `4`Weekdays, `5`Months, `6`Years
-* BCD codiert: 4 Bit pro Ziffer, Bit `7654` Zehner, Bit `3210` Einer, Jahr 2-stellig
+Uhr stellen
 
 Block **writeRTC** (index. int8)
 * Stellt die Uhr. Ändert ein bestimmtes Register *index*.
@@ -353,6 +349,13 @@ Block **setRTC** (keyCode) : keyString
 * Wenn 5 Zeichen gültig sind, wird mit **writeRTC** das Register geändert.
 * Beispiel: `*120#`setzt Minute auf 20; `*401#` Montag; `*000#` Sekunde 0
 
+Uhr lesen
+
+Block **readRTC** ()
+* <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
+* Liest 7 Byte in Variable RTC_BUFFER.
+* `0`Seconds, `1`Minutes, `2`Hours, `3`Days, `4`Weekdays, `5`Months, `6`Years
+* BCD codiert: 4 Bit pro Ziffer, Bit `7654` Zehner, Bit `3210` Einer, Jahr 2-stellig
 
 > <ins>Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.</ins>
 
