@@ -253,8 +253,8 @@ Block **writeGPIO** (byte)
 #### qwiicjoystick.py
 
 Block **readJoystick** ()
+* <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
 * Liest alle Joystick Register über den I²C-Bus in Variable JOYSTICK_BUFFER.
-* Muss am Anfang jeder Schleife aufgerufen werden.
 
 > <ins>Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.</ins>
 
@@ -325,7 +325,27 @@ Block **driveMotorB** (speed:Byte)
 * *speed* 0..128..255 Motor Drehzahl, 128 ist Stillstand.
 * 255 ist max. vorwärts; <ins>0 ist max. rückwärts</ins>.
 
+#### qwiicrelay.py
+
+Block **writeRelay** (on:Boolean)
+* *on* schaltet Relais True=an; False=aus
+* ggfs. muss im Code die I2C_ADDRESS geändert werden
+
+#### rtc.py
+
+> RTC = Real Time Clock ist eine Quarz Uhr mit Knopfzelle.
+
+Block **readRTC** ()
+* <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
+* Liest 7 Byte in Variable RTC_BUFFER.
+* [0]=Seconds, [1]=Minutes, [2]=Hours, [3]=Days, [4]=Weekdays, [5]=Months, [6]=Years
+* BCD codiert: 4 Bit pro Ziffer, Bit 7..4 Zehner und 3..0 Einer
+
+Block **writeRTC** (index. int8)
+* Stellt die Uhr. Ändert ein bestimmtes Register *index*.
+* *int8*: Byte wird in BCD konvertiert und im RTC-Modul gespeichert. 
 
 
 
+> <ins>Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.</ins>
 
