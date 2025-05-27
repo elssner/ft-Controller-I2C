@@ -347,9 +347,8 @@ Block **writeRTC** (index. int8)
 
 Block **setRTC** (keyCode) : keyString
 * Stellt die Uhr mit 5 ASCII Zeichen von Keypad oder Keyboard.
-* Muss 5 mal mit ASCII Code aufgerufen werden, gibt den zusammengesetzten String zurück.
-* 1. Zeichen: `*`, 2. Zeichen: Register `0..6`\
-3. und 4. Zeichen: 2 Ziffern dezimal Zahl `00..59`, 5. Zeichen: `#` speichern
+* Muss 5 mal mit ASCII Code aufgerufen werden, gibt den zusammengesetzten String zurück.\
+1. Zeichen: `*`, 2. Zeichen: Register `0..6` 3. und 4. Zeichen: 2 Ziffern dezimal Zahl `00..59`, 5. Zeichen: `#` speichern
 * Wenn 5 Zeichen gültig sind, wird mit **writeRTC** das Register geändert.
 * Beispiel: `*120#`setzt Minute auf 20; `*401#` Montag; `*000#` Sekunde 0
 
