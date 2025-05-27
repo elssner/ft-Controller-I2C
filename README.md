@@ -68,7 +68,8 @@ Software
 * es gibt noch eine Kombination aus beiden und i2cScan soll alle Module am Bus finden
 * die Anzahl über den I²C-Bus übertragener Bytes ist **nicht** auf 32 Byte begrenzt
 
-> RX Controller nutzt CircuitPython, TXT 4.0 Controller nutzt Python3. Beide unterstützen I²C, aber völlig verschieden.
+  und 
+> [RX Controller nutzt CircuitPython](https://github.com/fischertechnik/RX-Controller-I2C), [TXT 4.0 Controller nutzt Python3](https://github.com/fischertechnik/TXT40-Controller-I2C). Beide unterstützen I²C, aber völlig verschieden.
 > Die I²C Blöcke hier sind **plattformunabhängig** programmiert. Die Python Implementation wird erkannt und dann der entsprechende Code ausgeführt.
 
 #### i2cCode.py
