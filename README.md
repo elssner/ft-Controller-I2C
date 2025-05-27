@@ -166,7 +166,7 @@ Block **displayMatrix** (fromPage, toPage, select_oled) → alle Parameter optio
 * Das 128x64 Display hat 8 Zeilen (0-7). Das 128x128 Display hat 16 Zeilen (0-15).
 * Der Parameter *select_oled* bestimmt, an welches OLED Display die Matrix gesendet wird.
 
-> Die folgenden Blöcke ändern nur die Pixel in der Matrix, nicht das Display.
+> <ins>Die folgenden Blöcke ändern nur die Pixel in der Matrix, nicht das Display.</ins>
 
 Block **clearMatrix** (fromPage, toPage) → alle Parameter optional
 * *fromPage*: 0..7, default: 0
@@ -225,8 +225,8 @@ Block **readEEPROM** (adr16Bit, read_length) : Liste der Bytes
 
 Block **testEEPROM** ()
 * Testet, ob der ASCII Zeichensatz im EEPROM programmiert ist.
+* Speicherbereich der ASCII Zeichen F900-FBFF kann im Code geändert werden.
 * Schreibt Bytes in Konsole: ['0x3e', '0x51', '0x49', '0x45', '0x3e'].
-* F900-FBFF (Speicherbereich der ASCII Zeichen) kann im Code geändert werden.
 
 #### qwiicgpio.py
 
