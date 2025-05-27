@@ -345,6 +345,13 @@ Block **writeRTC** (index. int8)
 * Stellt die Uhr. Ändert ein bestimmtes Register *index*.
 * *int8*: Byte wird in BCD konvertiert und im RTC-Modul gespeichert. 
 
+Block **setRTC** (keyCode) : keyString
+* Stellt die Uhr mit 5 ASCII Zeichen von Keypad oder Keyboard.
+* Muss 5 mal mit ASCII Code aufgerufen werden, gibt den zusammengesetzten String zurück.
+* 1. Zeichen: `*`, 2. Zeichen: Register `0..6`
+* 3. und 4.: 2 Ziffern dezimal Zahl `00..59`, 5. Zeichen: `#` speichern
+* Wenn 5 Zeichen gültig sind, wird mit **writeRTC** das Register geändert.
+* Beispiel: `*120#`setzt Minute auf 20; `*401#` Montag; `*000#` Sekunde 0
 
 
 > <ins>Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.</ins>
