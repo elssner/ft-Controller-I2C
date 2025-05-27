@@ -335,7 +335,7 @@ Block **writeRelay** (on:Boolean)
 
 > RTC = Real Time Clock ist eine Quarz Uhr mit Knopfzelle.
 
-Uhr stellen
+##### Uhr stellen
 
 Block **writeRTC** (index. int8)
 * Stellt die Uhr. Ändert ein bestimmtes Register *index*.
@@ -349,7 +349,7 @@ Block **setRTC** (keyCode) : keyString
 * Wenn 5 Zeichen gültig sind, wird mit **writeRTC** das Register geändert.
 * Beispiel: `*120#`setzt Minute auf 20; `*401#` Montag; `*000#` Sekunde 0
 
-Uhr lesen
+##### Uhr lesen
 
 Block **readRTC** ()
 * <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
@@ -369,4 +369,4 @@ Block **getDateString** () : String
 * Liest Datum aus Variable RTC_BUFFER: dd.MM.20YY
 
 Block **getWeekday** () : String
-* Liest Wochentag RTC_BUFFER: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa']
+* Liest Wochentag aus RTC_BUFFER: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa']
