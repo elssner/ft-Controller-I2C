@@ -255,7 +255,7 @@ Block **readJoystick** ()
 * Liest alle Joystick Register über den I²C-Bus in Variable JOYSTICK_BUFFER.
 * Muss am Anfang jeder Schleife aufgerufen werden.
 
-> Die folgenden Blöcke lesen nur die Variable JOYSTICK_BUFFER, nicht den I²C-Bus.
+> <ins>Die folgenden Blöcke lesen nur die Variable JOYSTICK_BUFFER, nicht den I²C-Bus.</ins>
 
 Block **getJoystickX** () : Byte
 
