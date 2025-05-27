@@ -306,9 +306,9 @@ Block **setQDisplay** (displayOn:boolean, cursorOn:boolean, blinkOn:boolean)
 #### qwiicmotor.py
 
 Block **initMotor** (i2cAdr)
-* Parameter *i2cAdr* kann weg gelassen werden, default: 0x5D
+* Parameter *i2cAdr* kann weg gelassen werden, default: 0x5D.
 * 1 Modul steuert 2 Motoren, mehrere können gleichzeitig angeschlossen werden.
-* 10 I²C-Adressen mit Lötbrücken einstellbar: 0x58..0x61
+* 10 I²C-Adressen mit Lötbrücken einstellbar: 0x58..0x61.
 * Muss für jedes Motor-Modul mit entsprechender i2cAdr einmal aufgerufen werden.
 
 Block **setMotorI2C** (i2cAdr)
@@ -316,13 +316,14 @@ Block **setMotorI2C** (i2cAdr)
 * Wird nur bei mehreren angeschlossenen Qwiic Motor-Modulen benötigt.
 
 Block **enableMotor** (on:Boolean)
-* *on* schaltet Motor Power True=an False=aus (für 1 Modul = 2 Motoren)
-* Power für H-Bridge ist normalerweise aus, um bei Stillstand Energie zu sparen.
+* *on* schaltet Motor Power: True=an; False=aus (für 1 Modul = 2 Motoren).
+* Power für H-Bridge soll bei längerem Stillstand aus geschaltet werden, um Energie zu sparen.
 
 Block **driveMotorA** (speed:Byte)\
 Block **driveMotorB** (speed:Byte)
-* *speed* 0..128..255 Motor Drehzahl, 128 ist Stillstand
-* 255 ist max. vorwärts; <ins>0 ist max. rückwärts</ins>
+* 2 Blöcke für Motor A und Motor B getrennt.
+* *speed* 0..128..255 Motor Drehzahl, 128 ist Stillstand.
+* 255 ist max. vorwärts; <ins>0 ist max. rückwärts</ins>.
 
 
 
