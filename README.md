@@ -106,7 +106,7 @@ Block **isRX** () : boolean
 #### advanced.py
 
 > allgemeine Blöcke, die Python-Funktionen bereit stellen (ohne I²C Bezug)\
-**Kommentar**, **Int**, **Ord**, **Chr**, **list_hex**, **print_bin**, **encode_string**, **decode_string**, **list_string**, **system_time**
+**Kommentar**, **Int**, **Ord**, **Chr**, **print_bin**, **encode_string**, **decode_string**, **list_string**, **list_hex**, **system_time**
 
 Block **system_time** () : Liste mit 9 Elementen
 * TXT 4.0: RTC Systemuhr (year, mon, mday, hour, min, sec, wday, yday, isdst)\
