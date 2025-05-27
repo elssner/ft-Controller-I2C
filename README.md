@@ -119,7 +119,7 @@ Block **readSwitch** () : Byte → 6 Bit (0..63), 1 Bit pro DIP Schalter
 #### keyboard.py
 
 Block **readKeyboard** () : Byte
-* gibt zurück: 0 wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste
+* gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste
 
 #### lcd16x2.py
 
@@ -272,5 +272,5 @@ Block **getJoystickButtonOnOff** () : Boolean
 #### qwiickeypad.py
 
 Block **readKeypad** () : Byte
-* gibt zurück: 0 wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste
+* gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste
 * Keypad hat 12 Tasten: '0'=48 ... '9'=57 .. '#'=35 .. '*'=42
