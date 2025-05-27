@@ -2,7 +2,8 @@
 
 ### Robo Pro Coding Blöcke für fischertechnik RX und TXT 4.0 Controller zur Programmierung beliebiger I²C Module
 
-Robo Pro Coding Projekt von [fischertechnik GitLab](https://git.fischertechnik-cloud.com/i2c) laden: im Suchfeld **i2c** eingeben
+Robo Pro Coding Projekt von [fischertechnik GitLab](https://git.fischertechnik-cloud.com/i2c) laden: im Suchfeld **i2c** eingeben.\
+Das Beispiel Projekt ist für TXT 4.0 Controller gespeichert, kann aber für RX Controller konvertiert und uneingeschränkt verwendet werden.
 
 #### Quellcodedateien für I²C Module und Programmierbeispiele
 
