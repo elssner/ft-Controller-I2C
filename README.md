@@ -117,14 +117,13 @@ Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstel
 
 ###### [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) | [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)
 
-Block **readSwitch** () : Byte → 6 Bit (0..63), 1 Bit pro DIP Schalter
+Block **readSwitch** () : Byte
+* Gibt 1 Byte zurück: 6 Bit (0..63), 1 Bit pro DIP Schalter.
 
 #### keyboard.py
-
 ###### [M5Stack Card Keyboard QWERTY 50-key](https://docs.m5stack.com/en/unit/cardkb_1.1)
-
 Block **readKeyboard** () : Byte
-* gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste
+* Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 
 #### lcd16x2.py
 
