@@ -115,6 +115,8 @@ Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstel
 
 #### dipswitch.py
 
+###### [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) | [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)
+
 Block **readSwitch** () : Byte → 6 Bit (0..63), 1 Bit pro DIP Schalter
 
 #### keyboard.py
