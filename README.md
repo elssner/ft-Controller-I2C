@@ -114,21 +114,17 @@ Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstel
 * RX: Zeitstempel umgerechnet in (0, 0, 0, hour, min, sec, 0, 0, 0)
 
 #### dipswitch.py
-
 ###### [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) | [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch) | Black on Yellow | Black on Red | White on Blue
-
 Block **readSwitch** () : Byte
 * Gibt 1 Byte zurück: 6 Bit (0..63), 1 Bit pro DIP Schalter.
 
 #### keyboard.py
 ###### [M5Stack Card Keyboard QWERTY 50-key](https://docs.m5stack.com/en/unit/cardkb_1.1)
-
 Block **readKeyboard** () : Byte
 * Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 
 #### lcd16x2.py
 ###### [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
-
 Block **initLCD** ()
 * Muss einmal beim Start aufgerufen werden.
 
@@ -189,7 +185,7 @@ Block **setPixel** (x, y, pixel)
 
 Block **writeMatrix** (row, col, text)
 
-> Um Text mit Pixeln zu zeichnen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein. Pro Zeichen werden 8 Byte vom EEPROM in die Matrix kopiert.
+> Um Text mit Pixeln zu zeichnen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein. Pro Zeichen werden 8 Byte vom EEPROM in die Matrix kopiert. Erforderliche Datei: qwiiceeprom.py.
 
 * *row*: Zeile 0..7 bzw. 0..15; *col*: Spalte 0..15
 * *text*: Text, alle Datentypen werden mit str() konvertiert
@@ -227,7 +223,7 @@ Block **oled_clock** (x, y, radius, hour, minute)
 * Zeichnet eine analoge Uhr. *hour* und *minute* geben die Stellung der Uhrzeiger an.
 
 #### qwiiceeprom.py
-
+###### [SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/18355)
 Block **readEEPROM** (adr16Bit, read_length) : Liste der Bytes
 * *adr16Bit*: 0x0000..0xFFFF
 * *read_length*: Anzahl zu lesender Bytes (**nicht** auf 32 begrenzt)
@@ -239,7 +235,7 @@ Block **testEEPROM** ()
 * Schreibt Bytes in Konsole: ['0x3e', '0x51', '0x49', '0x45', '0x3e'].
 
 #### qwiicgpio.py
-
+###### [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 Block **setGPIO** (IO, INV)
 * Beide Parameter *IO*, *INV*: String mit 8 Binärziffern (0 oder 1).
 * *IO*: CONFIGURATION 0=output 1=input
