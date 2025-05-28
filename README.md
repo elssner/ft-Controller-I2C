@@ -240,7 +240,8 @@ Block **setGPIO** (IO, INV)
 **setGPIO**('00000011', '00000000'): 6 output und 2 input\
 **setGPIO**('11111111', '11111111'): alle 8 Pins input inverted
 * für Taster als input Pull Up Widerstände (10 kOhm) an 3V3 erforderlich
-* ACHTUNG: GPIO INPUT und OUTPUT hat 3,3 Volt Pegel!
+> [!WARNING]
+> GPIO INPUT und OUTPUT hat 3,3 Volt Pegel!
 
 Block **readGPIO** () : Byte
 * gibt 1 Byte zurück, 1 Bit pro GPIO Pin
