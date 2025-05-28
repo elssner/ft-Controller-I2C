@@ -161,12 +161,13 @@ Block **setDisplay** (displayOn:boolean, cursorOn:boolean, blinkOn:boolean)
 > Um die 'Matrix' auf dem OLED Display anzuzeigen, muss immer der Block **displayMatrix** aufgerufen werden.
 
 Block **initOLED** (select_oled:boolean optional)
+* Muss einmal beim Start aufgerufen werden.
 * Parameter *select_oled*: Auswahl Display (I²C-Adresse) None oder False: 0x3C; True: 0x3D
-* initialisiert die Matrix: Variablen zum Speichern der Pixel (1024 oder 2048 Byte)
-* initialisiert das Display mit der angegebenen I²C-Adresse 0x3C oder 0x3D (Lötbrücke)
+* Initialisiert die Matrix: Variablen zum Speichern der Pixel (1024 oder 2048 Byte).
+* Initialisiert das Display mit der angegebenen I²C-Adresse 0x3C oder 0x3D (Lötbrücke).
 
 > Wenn zwei Displays angeschlossen sind, muss der Block **initOLED** zweimal aufgerufen werden, mit False und True.
-> Es gibt nur eine Matrix, die mit dem folgenden Block an ein bestimmtes Display gesendet werden kann.
+> Es gibt nur eine Matrix, die mit dem folgenden Block auf einem bestimmten Display angezeigt werden kann.
 
 Block **displayMatrix** (fromPage, toPage, select_oled) → alle Parameter optional
 * Immer aufrufen, um das in die Matrix gezeichnete Bild auf dem Display anzuzeigen.
@@ -202,7 +203,7 @@ Block **paintEEPROM** (eepromStartadresse, fromPage, toPage) → alle Parameter 
 * Im EEPROM können Bilder, die das ganze Display füllen, gespeichert werden.
 
 #### oled_geometrie.py
-
+###### erforderlich: oled.py
 Block **oled_line** (x0, y0, x1, y1, pixel)
 * Zeichnet eine Linie mit den angegebenen Koordinaten in die Matrix.
 * Parameter wie oben **setPixel**.
