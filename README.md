@@ -156,7 +156,7 @@ Block **setDisplay** (displayOn:boolean, cursorOn:boolean, blinkOn:boolean)
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
 #### oled.py
-###### 
+###### OLED Displays [Grove - OLED Display 1.12 (SH1107) 128x128](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0) | [Grove - OLED Yellow&Blue Display 0.96(SSD1315) 128x64](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0)
 > OLED Displays zeigen 128x64 oder 128x128 Pixel an. Alle Pixel werden zuerst in Variablen gespeichert. Dieser Speicher wird 'Matrix' genannt.
 > Um die 'Matrix' auf dem OLED Display anzuzeigen, muss immer der Block **displayMatrix** aufgerufen werden.
 
