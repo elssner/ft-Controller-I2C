@@ -282,7 +282,7 @@ Block **readKeypad** () : Byte
 * Keypad hat 12 Tasten: '0'=48 ... '9'=57 .. '#'=35 .. '*'=42
 
 #### qwiiclcd.py
-###### [SparkFun 20x4 SerLCD - RGB Backlight (Qwiic)](https://www.sparkfun.com/products/16398) | [SparkFun 16x2 SerLCD - RGB Backlight (Qwiic)](https://www.sparkfun.com/products/16396)
+###### [SparkFun Qwiic 20x4 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16398) | [SparkFun Qwiic 16x2 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16396)
 Block **initQLCD** ()
 * Muss einmal beim Start aufgerufen werden.
 * Im Code kann die Größe des Display 16x2 oder 20x4 (COLS x ROWS) konfiguriert werden.
