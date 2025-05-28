@@ -338,7 +338,6 @@ Block **writeRelay** (on:Boolean)
 
 #### rtc.py
 ###### [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
-> RTC = Real Time Clock ist eine Quarz Uhr mit Knopfzelle.
 
 ##### Uhr stellen
 
