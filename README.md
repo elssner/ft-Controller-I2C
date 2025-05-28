@@ -121,7 +121,7 @@ Block **readSwitch** () : Byte → 6 Bit (0..63), 1 Bit pro DIP Schalter
 
 #### keyboard.py
 
-###### [M5Stack Card Keyboard](https://docs.m5stack.com/en/unit/cardkb_1.1)
+###### [M5Stack Card Keyboard QWERTY 50-key](https://docs.m5stack.com/en/unit/cardkb_1.1)
 
 Block **readKeyboard** () : Byte
 * gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste
