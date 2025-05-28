@@ -223,7 +223,7 @@ Block **oled_clock** (x, y, radius, hour, minute)
 * Zeichnet eine analoge Uhr. *hour* und *minute* geben die Stellung der Uhrzeiger an.
 
 #### qwiiceeprom.py
-###### [SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/18355)
+###### [SparkFun Qwiic EEPROM Breakout - 512Kbit](https://www.sparkfun.com/products/18355)
 Block **readEEPROM** (adr16Bit, read_length) : Liste der Bytes
 * *adr16Bit*: 0x0000..0xFFFF
 * *read_length*: Anzahl zu lesender Bytes (**nicht** auf 32 begrenzt)
@@ -256,7 +256,7 @@ Block **writeGPIO** (byte)
 * Bit=0: 0Volt; Bit=1: 3,3Volt
 
 #### qwiicjoystick.py
-
+###### [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
 Block **readJoystick** ()
 * <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
 * Liest alle Joystick Register über den I²C-Bus in Variable JOYSTICK_BUFFER.
@@ -276,7 +276,7 @@ Block **getJoystickButtonOnOff** () : Boolean
 * Wechselt False / True bei jedem Drücken des Joystick.
 
 #### qwiickeypad.py
-
+###### [SparkFun Qwiic Keypad - 12 Tasten](https://www.sparkfun.com/products/15290)
 Block **readKeypad** () : Byte
 * Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 * Keypad hat 12 Tasten: '0'=48 ... '9'=57 .. '#'=35 .. '*'=42
