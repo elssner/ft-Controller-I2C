@@ -309,7 +309,7 @@ Block **writeQLCD** (text)
 Block **setQDisplay** (displayOn:boolean, cursorOn:boolean, blinkOn:boolean)
 
 #### qwiicmotor.py
-
+###### [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
 Block **initMotor** (i2cAdr)
 * Parameter *i2cAdr* kann weg gelassen werden, default: 0x5D.
 * 1 Modul steuert 2 Motoren, mehrere können gleichzeitig angeschlossen werden.
@@ -331,13 +331,13 @@ Block **driveMotorB** (speed:Byte)
 * 255 ist max. vorwärts; <ins>0 ist max. rückwärts</ins>.
 
 #### qwiicrelay.py
-
+###### [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 Block **writeRelay** (on:Boolean)
 * *on* schaltet Relais True=an; False=aus
 * ggfs. muss im Code die I2C_ADDRESS geändert werden
 
 #### rtc.py
-
+###### [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 > RTC = Real Time Clock ist eine Quarz Uhr mit Knopfzelle.
 
 ##### Uhr stellen
