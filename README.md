@@ -235,7 +235,7 @@ Block **setGPIO** (IO, INV)
 * beide Parameter *IO*, *INV*: String mit 8 Binärziffern (0 oder 1)
 * *IO*: CONFIGURATION 0=output 1=input
 * *INV*: INVERSION 0=original polarity; 1=inverted (nur bei *IO*=1)
-* *INV*=1: Pin an GND (0V) -> logische 1
+* *INV*=1: Pin an GND (0V) → logische 1
 * Beispiel:\
 **setGPIO**('00000011', '00000000'): 6 output und 2 input\
 **setGPIO**('11111111', '11111111'): alle 8 Pins input inverted
