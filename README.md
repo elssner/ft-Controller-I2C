@@ -142,19 +142,21 @@ Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt
 default: *row*=0; *col*=0; *end*=15; right=False
 
 Block **clearScreen** ()
+* Löscht das LCD Display.
 
 Block **setCursor** (row, col)
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15
 * Parameter optional, default: *row*=0; *col*=0
 
 Block **writeLCD** (text)
-* schreibt an aktuelle Cursorposition
-* *text*: Text, alle Datentypen werden mit str() konvertiert
+* Schreibt an aktuelle Cursorposition.
+* *text*: Text, alle Datentypen werden mit str() konvertiert.
 
 Block **setDisplay** (displayOn:boolean, cursorOn:boolean, blinkOn:boolean)
+* Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
 #### oled.py
-
+###### 
 > OLED Displays zeigen 128x64 oder 128x128 Pixel an. Alle Pixel werden zuerst in Variablen gespeichert. Dieser Speicher wird 'Matrix' genannt.
 > Um die 'Matrix' auf dem OLED Display anzuzeigen, muss immer der Block **displayMatrix** aufgerufen werden.
 
