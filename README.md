@@ -122,15 +122,18 @@ Block **readSwitch** () : Byte
 
 #### keyboard.py
 ###### [M5Stack Card Keyboard QWERTY 50-key](https://docs.m5stack.com/en/unit/cardkb_1.1)
+
 Block **readKeyboard** () : Byte
 * Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 
 #### lcd16x2.py
+###### [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
 
 Block **initLCD** ()
 * Muss einmal beim Start aufgerufen werden.
 
 Block **writeText** (row, col, end, text, right)
+* Schreibt an eine bestimmte Position Text mit fester Länge.
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15; *end*: Spalte 0..15 (letztes Zeichen)
 * *text*: Text, alle Datentypen werden mit str() konvertiert
 * *right*: None oder False=linksbündig; True=rechtsbündig\
