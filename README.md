@@ -247,7 +247,7 @@ Block **readGPIO** () : Byte
 * Für Taster als input Pull Up Widerstände (10 kOhm) an 3V3 erforderlich.
 
 Block **writeGPIO** (byte)
-* *byte*: schaltet GPIO Pins, die als 0=output konfiguriert sind
+* *byte*: schaltet GPIO Pins, die als 0=output konfiguriert sind.
 * Bit=0: 0Volt; Bit=1: 3,3Volt
 
 #### qwiicjoystick.py
@@ -260,20 +260,20 @@ Block **readJoystick** ()
 
 Block **getJoystickX** () : Byte\
 Block **getJoystickY** () : Byte
-* gibt 1 Byte zurück mit der Stellung des Joystick in X bzw. Y Richtung
-* Mittelstellung ist 128, geringe Abweichung durch Hardware Toleranz
-* Endstellung unten bzw. links = 0; oben bzw. rechts = 255
+* Gibt 1 Byte zurück mit der Stellung des Joystick in X bzw. Y Richtung.
+* Mittelstellung ist 128, geringe Abweichung durch Hardware Toleranz.
+* Endstellung unten bzw. links = 0; oben bzw. rechts = 255.
 
 Block **getJoystickButtonPosition** () : Boolean
-* gibt True zurück, wenn der Joystick jetzt gerade gedrückt ist
+* Gibt True zurück, wenn der Joystick jetzt gerade gedrückt ist.
 
 Block **getJoystickButtonOnOff** () : Boolean
-* wechselt False / True bei jedem Drücken des Joystick
+* Wechselt False / True bei jedem Drücken des Joystick.
 
 #### qwiickeypad.py
 
 Block **readKeypad** () : Byte
-* gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste
+* Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 * Keypad hat 12 Tasten: '0'=48 ... '9'=57 .. '#'=35 .. '*'=42
 
 #### qwiiclcd.py
