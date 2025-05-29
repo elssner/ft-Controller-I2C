@@ -5,12 +5,13 @@
 Robo Pro Coding Projekt von [fischertechnik GitLab](https://git.fischertechnik-cloud.com/i2c) laden: im Suchfeld **i2c** eingeben.\
 Das Beispiel Projekt ist für TXT 4.0 Controller gespeichert, kann aber für RX Controller konvertiert und für alle angegebenen I²C-Module auch mit RX Controller uneingeschränkt verwendet werden.
 
-#### Quellcodedateien für I²C Module und Programmierbeispiele
+#### Quellcodedateien (Blöcke) und getestete I²C Module
+* Die Quellcodedatei i2cCode darf nicht gelöscht werden.
+* Für die angeschlossenen I²C Module nicht benötigte Quellcodedateien können gelöscht werden.
+* Tabelle 1: Alle Quellcodedateien im Projekt mit Link zu Beschreibung der Blöcke.\
+I²C-Adresse und getestete I²C Module mit Link zum Hersteller. Programmierbeispiele Tabelle 2.
 
-* für die angeschlossenen I²C Module nicht benötigte Quellcodedateien können gelöscht werden
-* Quellcodedatei i2cCode wird immer benötigt und darf nicht gelöscht werden
-
-Quellcodedatei|I²C Adr|I²C Module|Beispiel n
+Quellcodedatei|I²C-Adresse|I²C Module|Beispiel n
 ---|---|---|---
 [i2cCode](#i2ccodepy)||Python I²C für [RX](https://github.com/fischertechnik/RX-Controller-I2C) und [TXT 4.0](https://github.com/fischertechnik/TXT40-Controller-I2C)|alle
 [advanced](#advancedpy)||Blöcke für fehlende Funktionen|11
@@ -98,8 +99,8 @@ Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
 
 Block **isRX** () : boolean
 
-* gibt True zurück, wenn `sys.implementation.name == 'circuitpython'`
-* True: circuitpython import board, busio, I2CDevice
+* Gibt True zurück, wenn `sys.implementation.name == 'circuitpython'`.
+* True: circuitpython import board, busio, (adafruit) I2CDevice
 * False: Python3 from smbus2 import SMBus, i2c_msg
 
 
