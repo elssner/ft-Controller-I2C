@@ -30,14 +30,10 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 [rtc](#rtcpy)|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)|1, 4, 10
 
 #### Hauptprogramm
-Mit Drahtbrücken an den Eingängen `I5 I6 I7 I8` kann der Start eines bestimmten Programmierbeispiels codiert werden. Tabelle 2 zeigt die Codierung und die aufgerufenen Quellcodedateien bzw. I²C Module.
-Die Beispiele (Blöcke) befinden sich in der Datei **Beispiele**. 
+* Mit Drahtbrücken an den Eingängen `I5 I6 I7 I8` kann der Start eines bestimmten Programmierbeispiels codiert werden. Tabelle 2 zeigt die Codierung und die aufgerufenen Quellcodedateien bzw. I²C Module.
 
-#### Beispiel.py
-* Tabelle 2: Programmierbeispiele (Blöcke) für verschiedene Kombinationen der I²C Module.
-* wird bei geschlossenem `Input I5..I8` gestartet:
-
-* Quellcodedatei i2cCode wird in allen Programmierbeispielen verwendet
+#### Beispiele.py
+* Tabelle 2: Funktionen (Blöcke) für die Programmierbeispiele werden vom Hauptprogramm aufgerufen.
 
 n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 ---|---|---|---|---|---|---
