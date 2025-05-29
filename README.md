@@ -163,6 +163,7 @@ Block **clearScreen** ()
 * Löscht das LCD Display.
 
 Block **setCursor** (row, col)
+* Für writeLCD oder wenn Cursor sichtbar ist oder blinkt.
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15
 * Parameter optional, default: *row*=0; *col*=0
 
@@ -321,6 +322,7 @@ default: *row*=0; *col*=0; *end*=COLS-1; right=False
 Block **clearQScreen** ()
 
 Block **setQCursor** (row, col)
+* Für writeQLCD oder wenn Cursor sichtbar ist oder blinkt.
 * *row*: Zeile 0..3; *col*: Spalte 0..19
 * Parameter optional, default: *row*=0; *col*=0
 
@@ -330,6 +332,7 @@ Block **writeQLCD** (text)
 * Schreibt auf nächster Zeile weiter, max. Länge 32 Zeichen.
 
 Block **setQDisplay** (displayOn:boolean, cursorOn:boolean, blinkOn:boolean)
+* Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
 #### qwiicmotor.py
 ###### [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
