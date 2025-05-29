@@ -75,7 +75,7 @@ Hardware
 * Die I²C Module müssen verschiedene 7-Bit I²C Adressen haben.
 * Die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt.
 * Qwiic Module haben immer 3,3V Logik und sind hervorragend geeignet.
-* Grove Module haben 3,3V/5V und verabschieden sich zuerst, wenn mehrere am I²C-Bus sind.
+* Grove Module mit 3,3V/5V verabschieden sich zuerst, wenn mehrere am I²C-Bus sind.
 * M5Stack und andere Module mit 5V und müssen getestet werden.
 * TXT 4.0 Controller verträgt mehr Module gleichzeitig als der RX Controller.
 
