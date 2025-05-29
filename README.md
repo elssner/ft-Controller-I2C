@@ -5,9 +5,9 @@
 Das Beispiel Projekt mit Blöcken für TXT 4.0 Controller ist im [fischertechnik GitLab](https://git.fischertechnik-cloud.com/i2c) veröffentlicht. <ins>Es kann für RX Controller konvertiert werden.</ins>
 Alle I²C-Module und Programmierbeispiele auf dieser Seite wurden mit dem TXT 4.0 Controller und auch mit dem RX Controller getestet.
 
-Mit der [App Robo Pro Coding](https://www.fischertechnik.de/de-de/apps-und-software#apps) kann das Projekt ohne Anmeldung von fischertechnik GitLab geladen werden. Dazu bleibt das Zugriffstoken leer und auf der nächsten Seite im Suchfeld kann `i2c` eingegeben werden. Der richtige Name enthält `ft_Controller_I2C`und kann noch Versionsinformationen enthalten. Das Projekt kann dann lokal als .ft Datei gesoeichert werden.
+Mit der [App Robo Pro Coding](https://www.fischertechnik.de/de-de/apps-und-software#apps) kann das Projekt ohne Anmeldung von fischertechnik GitLab geladen werden. Dazu bleibt das Zugriffstoken leer und auf der nächsten Seite im Suchfeld kann `i2c` eingegeben werden. Der richtige Name enthält `ft_Controller_I2C`und kann noch Versionsinformationen enthalten. Das Projekt kann dann lokal als .ft Datei gespeichert werden.
 
-#### Quellcodedateien (Blöcke) und getestete I²C Module
+#### im Projekt enthaltene Quellcodedateien (Blöcke) für I²C Module
 * Die Quellcodedatei **i2cCode** darf nicht gelöscht werden.
 * **Beispiele** zeigt Programmierbeispiele, um die I²C Module direkt zu verwenden.
 * Andere Dateien können gelöscht werden, wenn das I²C Modul nicht angeschlossen ist.
