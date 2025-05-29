@@ -39,8 +39,8 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 ---|---|---|---|---|---|---
 0|`0`|`0`|`0`|`0`|**i2cScan**
 1|`0`|`0`|`0`|`1`|**grovelcd_rtc**|[lcd16x2](#lcd16x2py), [rtc](#rtcpy)
-2|`0`|`0`|`1`|`0`|**glcd_keyboard**|[lcd16x2](#lcd16x2py), [keyboard](#keyboardpy)
-3|`0`|`0`|`1`|`1`|**grovelcd_dipswitch**|[lcd16x2](#lcd16x2py), [dipswitch](#dipswitchpy)
+2|`0`|`0`|`1`|`0`|**grovelcd_keyboard**|[lcd16x2](#lcd16x2py), [keyboard](#keyboardpy)
+3|`0`|`0`|`1`|`1`|**glcd_dipswitch**|[lcd16x2](#lcd16x2py), [dipswitch](#dipswitchpy)
 4|`0`|`1`|`0`|`0`|**qlcr_rtc_keypad**|[qwiiclcd](#qwiiclcdpy), [rtc](#rtcpy), [qwiickeypad](#qwiickeypadpy)
 5|`0`|`1`|`0`|`1`|**qlcd_gpio_keypad**|[qwiiclcd](#qwiiclcdpy), [qwiicgpio](#qwiicgpiopy), [qwiickeypad](#qwiickeypadpy)
 6|`0`|`1`|`1`|`0`|**qlcd_joystick**|[qwiiclcd](#qwiiclcdpy), [qwiicjoystick](#qwiicjoystickpy)
