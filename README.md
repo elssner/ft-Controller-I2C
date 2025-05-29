@@ -69,7 +69,7 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 
 I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I²C](https://de.wikipedia.org/wiki/I%C2%B2C)
 
-Hardware
+###### I²C Hardware
 
 * An einen I²C-Bus mit 4 Leitungen `SDA, SCL, -, +` (hier 3,3V) können mehrere I²C Module gleichzeitig angeschlossen werden (hintereinander gesteckt oder mit I²C Hub).
 * Die I²C Module müssen verschiedene 7-Bit I²C Adressen haben.
@@ -79,7 +79,7 @@ Hardware
 * M5Stack und andere Module mit 5V und müssen getestet werden.
 * TXT 4.0 Controller verträgt am I²C-Bus mehr Module gleichzeitig als der RX Controller.
 
-Software
+###### I²C Software
 
 * I²C kennt nur 2 Funktionen:\
 **an eine I²C-Adresse Bytes senden** oder **von einer I²C-Adresse Bytes empfangen**
