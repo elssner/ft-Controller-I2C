@@ -9,12 +9,12 @@ Mit der [App Robo Pro Coding](https://www.fischertechnik.de/de-de/apps-und-softw
 
 #### Im Projekt enthaltene Quellcodedateien (Blöcke) für I²C Module.
 
-Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die Quellcodedateien für die angeschlossenen I²C Module importiert werden. Die Datei [i2cCode](#i2ccodepy) muss immer mit importiert werden. Die Datei [advanced](#advancedpy) enthält keine I²C spezifischen Blöcke, ist aber zu empfehlen. Aus der Datei [Beispiele](#beispielepy) könnte nur ein einzelner Block (Tabelle 2) übernommen werden. Alle anderen Quellcodedateien (Tabelle 1) sind bestimmten I²C Modulen zugeordnet.
+Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die Quellcodedateien für die angeschlossenen I²C Module importiert werden. Die Datei [i2cCode](#i2ccodepy) muss immer mit importiert werden. Die Datei [advanced](#advancedpy) enthält keine I²C spezifischen Blöcke, ist aber zu empfehlen. Aus der Datei [Beispiele](#beispielepy) könnte nur ein einzelner Block ([Tabelle 2](#tabelle-2)) übernommen werden. Alle anderen Quellcodedateien [Tabelle 1](#tabelle-1) sind bestimmten I²C Modulen zugeordnet.
 
 ###### Tabelle 1:
 * Quellcodedateien mit Link zur Beschreibung der Blöcke (auf dieser Seite unten).
 * I²C Module mit Link zur Hersteller Webseite mit Bild und Dokumentation.
-* Nummern der Programmierbeispiele in Tabelle 2, welche diese Module verwenden.
+* Nummern der Programmierbeispiele in [Tabelle 2](#tabelle-2), welche diese Module verwenden.
 
 Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 ---|---|---|---
@@ -35,10 +35,10 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 [rtc](#rtcpy)|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)|1, 4, 10
 
 #### Hauptprogramm
-* Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. Tabelle 2 zeigt die Codierung der Eingänge.
+* Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. [Tabelle 2](#tabelle-2) zeigt die Codierung der Eingänge.
 
 #### Beispiele.py
-* Programmierbeispiele für die Nutzung mehrer I²C Module gleichzeitig.
+* Programmierbeispiele für die Nutzung mehrerer I²C Module gleichzeitig.
 
 ###### Tabelle 2:
 * Nummer und Codierung der Eingänge, um ein Beispiel von Hauptprogramm zu starten.
