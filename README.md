@@ -8,7 +8,7 @@ Das Beispiel Projekt ist für TXT 4.0 Controller gespeichert, kann aber für RX 
 #### Quellcodedateien (Blöcke) und getestete I²C Module
 * Die Quellcodedatei **i2cCode** darf nicht gelöscht werden.
 * **Beispiele** zeigt Programmierbeispiele, um die I²C Module direkt zu verwenden.
-* Andere Dateien können gelöscht werden, wenn das entsprechende I²C Module nicht angeschlossen ist.
+* Andere Dateien können gelöscht werden, wenn das I²C Modul nicht angeschlossen ist.
 * Tabelle 1: Alle Quellcodedateien im Projekt mit Link zu Beschreibung der Blöcke, getestete I²C Module mit Link zum Hersteller. Nummern der Programmierbeispiele in Tabelle 2.
 
 Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
