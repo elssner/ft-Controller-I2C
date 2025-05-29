@@ -99,6 +99,8 @@ Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
 Block **isRX** () : boolean
 
 * gibt True zurück, wenn `sys.implementation.name == 'circuitpython'`
+* True: circuitpython import board, busio, I2CDevice
+* False: Python3 from smbus2 import SMBus, i2c_msg
 
 
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
