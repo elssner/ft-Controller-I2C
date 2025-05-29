@@ -33,14 +33,14 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 * Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. Tabelle 2 zeigt die Codierung der Eingänge am Controller.
 
 #### Beispiele.py
-* Tabelle 2: Funktionen in der Datei Beispiele und aufgerufene I²C Quellcodedateien aus Tabelle 1.
+* Tabelle 2: Blöcke in der Datei Beispiele und aufgerufene I²C Quellcodedateien aus Tabelle 1.
 
 n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 ---|---|---|---|---|---|---
 0|`0`|`0`|`0`|`0`|**i2cScan**
-1|`0`|`0`|`0`|`1`|**grovelcd_rtc**|lcd16x2, rtc
-2|`0`|`0`|`1`|`0`|**grovcelcd_keyboard**|lcd16x2, keyboard
-3|`0`|`0`|`1`|`1`|grovelcd_dipswitch|lcd16x2, dipswitch
+1|`0`|`0`|`0`|`1`|**grovelcd_rtc**|[lcd16x2](#lcd16x2py), rtc
+2|`0`|`0`|`1`|`0`|**grovcelcd_keyboard**|[lcd16x2](#lcd16x2py), keyboard
+3|`0`|`0`|`1`|`1`|grovelcd_dipswitch|[lcd16x2](#lcd16x2py), dipswitch
 4|`0`|`1`|`0`|`0`|qlcr_rtc_keypad|qwiiclcd, rtc, qwiickeypad
 5|`0`|`1`|`0`|`1`|qlcd_gpio_keypad|qwiiclcd, qwiicgpio, qwiickeypad
 6|`0`|`1`|`1`|`0`|qlcd_joystick|qwiiclcd, qwiicjoystick
