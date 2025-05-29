@@ -33,7 +33,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 * Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. Tabelle 2 zeigt die Codierung der Eingänge an Controller.
 
 #### Beispiele.py
-* Tabelle 2: Funktionen (Blöcke) für die Programmierbeispiele werden vom Hauptprogramm aufgerufen.
+* Tabelle 2: Funktionen (Blöcke) in der Datei Beispiele und aufgerufene I²C Quellcodedateien aus Tabelle 1.
 
 n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
 ---|---|---|---|---|---|---
