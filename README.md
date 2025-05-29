@@ -45,10 +45,10 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 5|`0`|`1`|`0`|`1`|qlcd_gpio_keypad|[qwiiclcd](#qwiiclcdpy), [qwiicgpio](#qwiicgpiopy), [qwiickeypad](#qwiickeypadpy)
 6|`0`|`1`|`1`|`0`|qlcd_joystick|[qwiiclcd](#qwiiclcdpy), [qwiicjoystick](#qwiicjoystickpy)
 7|`0`|`1`|`1`|`1`||
-8|`1`|`0`|`0`|`0`|oled_zeichnen|[oled](#oledpy), oled_geometrie
-9|`1`|`0`|`0`|`1`|oled_eeprom_copy|[oled](#oledpy), eeprom
-10|`1`|`0`|`1`|`0`|oled_eeprom_rtc|[oled](#oledpy), oled_geometrie, eeprom, [rtc](#rtcpy)
-11|`1`|`0`|`1`|`1`|oled2_systemtime|[oled](#oledpy), oled_geometrie, advanced
+8|`1`|`0`|`0`|`0`|oled_zeichnen|[oled](#oledpy), [oled_geometrie](#oled_geometriepy)
+9|`1`|`0`|`0`|`1`|oled_eeprom_copy|[oled](#oledpy), [qwiiceeprom](#qwiiceeprompy)
+10|`1`|`0`|`1`|`0`|oled_eeprom_rtc|[oled](#oledpy), [oled_geometrie](#oled_geometriepy), [qwiiceeprom](#qwiiceeprompy), [rtc](#rtcpy)
+11|`1`|`0`|`1`|`1`|oled2_systemtime|[oled](#oledpy), [oled_geometrie](#oled_geometriepy), [advanced](#advancedpy)
 12|`1`|`1`|`0`|`0`||
 13|`1`|`1`|`0`|`1`||
 14|`1`|`1`|`1`|`0`|joy_2motoren|[qwiicjoystick](#qwiicjoystickpy), [qwiicmotor](#qwiicmotorpy)
