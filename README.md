@@ -9,7 +9,7 @@ Mit der [App Robo Pro Coding](https://www.fischertechnik.de/de-de/apps-und-softw
 
 #### Im Projekt enthaltene Quellcodedateien (Blöcke) für I²C Module.
 
-Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die zu den angeschlossenen I²C Modulen passenden Quellcodedateien importiert werden. Die Datei [i2cCode](#i2ccodepy) muss immer mit importiert werden. Die Datei [advanced](#advancedpy) enthält keine I²C spezifischen Blöcke, ist aber zu empfehlen. Aus der Datei [Beispiele](#beispielepy) könnte nur ein einzelner Block (Tabelle 2) übernommen werden. Alle anderen Quellcodedateien (Tabelle 1) sind bestimmten I²C Modulen zugeordnet.
+Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die Quellcodedateien für die angeschlossenen I²C Module importiert werden. Die Datei [i2cCode](#i2ccodepy) muss immer mit importiert werden. Die Datei [advanced](#advancedpy) enthält keine I²C spezifischen Blöcke, ist aber zu empfehlen. Aus der Datei [Beispiele](#beispielepy) könnte nur ein einzelner Block (Tabelle 2) übernommen werden. Alle anderen Quellcodedateien (Tabelle 1) sind bestimmten I²C Modulen zugeordnet.
 
 ###### Tabelle 1:
 * Quellcodedateien mit Link zur Beschreibung der Blöcke (auf dieser Seite unten).
@@ -38,7 +38,11 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 * Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. Tabelle 2 zeigt die Codierung der Eingänge.
 
 #### Beispiele.py
-* Tabelle 2: Blöcke in der Datei Beispiele und aufgerufene I²C Quellcodedateien aus Tabelle 1.
+* Programmierbeispiele für die Nutzung mehrer I²C Module gleichzeitig.
+
+###### Tabelle 2:
+* Nummer und Codierung der Eingänge, um ein Beispiel von Hauptprogramm zu starten.
+* Name des Beispiel-Blocks und aufgerufende I²C Quellcodedateien aus [Tabelle 1](#tabelle-1).
 
 n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 ---|---|---|---|---|---|---
