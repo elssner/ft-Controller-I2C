@@ -8,10 +8,10 @@ Alle I²C-Module und Programmierbeispiele auf dieser Seite wurden mit dem TXT 4.
 Mit der [App Robo Pro Coding](https://www.fischertechnik.de/de-de/apps-und-software#apps) kann das Projekt ohne Anmeldung von fischertechnik GitLab geladen werden. Dazu bleibt das Zugriffstoken leer und auf der nächsten Seite im Suchfeld kann `i2c` eingegeben werden. Der richtige Name enthält `ft_Controller_I2C`und kann noch Versionsinformationen enthalten. Das Projekt kann dann lokal als .ft Datei gespeichert werden.
 
 #### Im Projekt enthaltene Quellcodedateien (Blöcke) für I²C Module.
-* Die Quellcodedatei **i2cCode** darf nicht gelöscht werden.
-* **Beispiele** zeigt Programmierbeispiele, um die I²C Module direkt zu verwenden.
-* Andere Dateien können gelöscht werden, wenn das I²C Modul nicht angeschlossen ist.
-* Tabelle 1: Alle Quellcodedateien im Projekt mit Link zur Beschreibung der Blöcke. Getestete I²C Module mit Link zum Hersteller. Nummern der Programmierbeispiele in Tabelle 2.
+
+Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die zu den angeschlossenen I²C Modulen passenden Quellcodedateien importiert werden. Die Datei **i2cCode** muss immer mit importiert werden. Die Datei **advanced** enthält keine I²C spezifischen Blöcke, ist aber zu empfehlen. Aus der Datei **Beispiele** könnte nur ein einzelner Block (Tabelle 2) übernommen werden. Alle anderen Quellcodedateien (Tabelle 1) sind bestimmten I²C Modulen zugeordnet.
+
+* Tabelle 1: Quellcodedateien mit Link zur Beschreibung der Blöcke. I²C Module mit Link zum Hersteller. Nummern der Programmierbeispiele in Tabelle 2, welche diese Module gemeinsam verwenden.
 
 Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 ---|---|---|---
