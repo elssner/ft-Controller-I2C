@@ -77,7 +77,7 @@ Hardware
 * Qwiic Module haben immer 3,3V Logik und sind hervorragend geeignet.
 * Grove Module mit 3,3V/5V verabschieden sich zuerst, wenn mehrere am I²C-Bus sind.
 * M5Stack und andere Module mit 5V und müssen getestet werden.
-* TXT 4.0 Controller verträgt mehr Module gleichzeitig als der RX Controller.
+* TXT 4.0 Controller verträgt am I²C-Bus mehr Module gleichzeitig als der RX Controller.
 
 Software
 
