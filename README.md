@@ -41,6 +41,8 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 
 #### Beispiele.py
 * Programmierbeispiele für die Nutzung mehrerer I²C Module gleichzeitig.
+* Die Funktion kann aus dem Name und verwendeten I²C Modulen abgeleitet werden.
+* Es wird immmer etwas auf einem Display angezeigt oder Motoren drehen sich.
 
 ###### Tabelle 2:
 * Nummer und Codierung der Eingänge, um ein Beispiel von Hauptprogramm zu starten.
