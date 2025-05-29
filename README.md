@@ -74,6 +74,10 @@ Hardware
 * An einen I²C-Bus mit 4 Leitungen `SDA, SCL, -, +` (hier 3,3V) können mehrere I²C Module gleichzeitig angeschlossen werden (hintereinander gesteckt oder mit I²C Hub).
 * Die I²C Module müssen verschiedene 7-Bit I²C Adressen haben.
 * Die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt.
+* Qwiic Module haben immer 3,3V Logik und sind hervorragend geeignet.
+* Grove Module haben oft 3,3V/5V und verabschieden sich zuerst, wenn mehrere angesteckt sind.
+* M5Stack und andere Module mit 5V und müssen getestet werden.
+* TXT 4.0 Controller verträgt mehr Module gleichzeitig als der RX Controller.
 
 Software
 
