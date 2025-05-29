@@ -93,7 +93,7 @@ I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I²C](https://de.wikip
 
 Block **i2cWriteBuffer** (i2cAdr, write_buffer)
 
-* Sendet Bytes aus der Liste *write_buffer* an die *i2cAdr*.
+* Sendet alle Bytes aus der Liste *write_buffer* an die *i2cAdr*.
 * *i2cAdr*: 7 Bit (0x00..0x7F bzw. 0..127)
 * *write_buffer*: Liste darf nur 8-Bit Elemente (0x00..0xFF bzw. 0..255) enthalten.
 * Parameter *write_buffer* kann mit `Datenstrukturen`**erzeuge Liste** übergeben werden.
@@ -123,10 +123,11 @@ Block **isRX** () : boolean
 
 
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
+Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 
 #### advanced.py
 
-> Allgemeine Blöcke, die Python-Funktionen bereit stellen (ohne I²C Bezug)\
+> Allgemeine Blöcke, die Python-Funktionen bereit stellen (ohne I²C Bezug).\
 **Kommentar**, **Int**, **Ord**, **Chr**, **print_bin**, **encode_string**, **decode_string**, **list_string**, **list_hex**, **system_time**
 
 Block **system_time** () : Liste mit 9 Elementen
