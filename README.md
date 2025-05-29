@@ -60,16 +60,16 @@ I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I²C](https://de.wikip
 
 Hardware
 
-* an einen I²C-Bus mit 4 Leitungen `SDA, SCL, -, +` (hier 3,3V) können mehrere I²C Module gleichzeitig angeschlossen werden (hintereinander gesteckt oder mit I²C Hub)
-* die I²C Module müssen verschiedene 7-Bit I²C Adressen haben
-* die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt
+* An einen I²C-Bus mit 4 Leitungen `SDA, SCL, -, +` (hier 3,3V) können mehrere I²C Module gleichzeitig angeschlossen werden (hintereinander gesteckt oder mit I²C Hub).
+* Die I²C Module müssen verschiedene 7-Bit I²C Adressen haben.
+* Die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt.
 
 Software
 
 * I²C kennt nur 2 Funktionen:\
 **an eine I²C-Adresse Bytes senden** oder **von einer I²C-Adresse Bytes empfangen**
-* es gibt noch eine Kombination aus beiden und i2cScan soll alle Module am Bus finden
-* die Anzahl über den I²C-Bus übertragener Bytes ist **nicht** auf 32 Byte begrenzt
+* Es gibt noch eine Kombination aus beiden und i2cScan soll alle Module am Bus finden.
+* Die Anzahl über den I²C-Bus übertragener Bytes ist **nicht** auf 32 Byte begrenzt.
 
 > [RX Controller nutzt CircuitPython](https://github.com/fischertechnik/RX-Controller-I2C), [TXT 4.0 Controller nutzt Python3](https://github.com/fischertechnik/TXT40-Controller-I2C). Beide unterstützen I²C, aber völlig verschieden.
 > Die I²C Blöcke hier sind **plattformunabhängig** programmiert. Die Python Implementation wird erkannt und dann der entsprechende Code ausgeführt.
@@ -78,26 +78,26 @@ Software
 
 Block **i2cWriteBuffer** (i2cAdr, write_buffer)
 
-* sendet Bytes aus der Liste *write_buffer* an die *i2cAdr*
+* Sendet Bytes aus der Liste *write_buffer* an die *i2cAdr*.
 * *i2cAdr*: 7 Bit (0x00..0x7F bzw. 0..127)
-* *write_buffer*: Liste darf nur 8-Bit Elemente (0x00..0xFF bzw. 0..255) enthalten
-* Parameter *write_buffer* kann mit `Datenstrukturen`**erzeuge Liste** übergeben werden
+* *write_buffer*: Liste darf nur 8-Bit Elemente (0x00..0xFF bzw. 0..255) enthalten.
+* Parameter *write_buffer* kann mit `Datenstrukturen`**erzeuge Liste** übergeben werden.
 
 Block **i2cReadBuffer** (i2cAdr, length) : Liste der Bytes
 
-* empfängt Bytes von der *i2cAdr*, *length* ist die Anzahl der Bytes
-* die zurück gegebene Liste kann mit `Datenstrukturen`**in der Liste** gelesen werden
+* Empfängt Bytes von der *i2cAdr*, *length* ist die Anzahl der Bytes.
+* Die zurück gegebene Liste kann mit `Datenstrukturen`**in der Liste** gelesen werden.
 
 Block **i2cWriteReadBuffer** (i2cAdr, write_buffer, read_length) : Liste der Bytes
 
-* sendet und empfängt Bytes, ohne dazwischen den I²C-Bus frei zu geben
-* erlaubt I²C Register adressieren und lesen mit nur einer Funktion
+* Sendet und empfängt Bytes, ohne dazwischen den I²C-Bus frei zu geben.
+* Erlaubt I²C Register adressieren und lesen mit nur einer Funktion.
 
 Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
 
-* versucht alle möglichen I²C-Adressen in einer Schleife zu erreichen
-* wenn read oder write erfolgreich ist, wird die gültige I²C Adresse in einer Liste gesammelt
-* die zurück gegebene Liste kann mit `Text` **gib aus** in der Konsole angezeigt werden
+* Versucht alle möglichen I²C-Adressen in einer Schleife zu erreichen.
+* Wenn read oder write erfolgreich ist, wird die gültige I²C Adresse in einer Liste gesammelt.
+* Die zurück gegebene Liste kann mit `Text` **gib aus** in der Konsole angezeigt werden.
 
 Block **isRX** () : boolean
 
@@ -110,12 +110,12 @@ Block **isRX** () : boolean
 
 #### advanced.py
 
-> allgemeine Blöcke, die Python-Funktionen bereit stellen (ohne I²C Bezug)\
+> Allgemeine Blöcke, die Python-Funktionen bereit stellen (ohne I²C Bezug)\
 **Kommentar**, **Int**, **Ord**, **Chr**, **print_bin**, **encode_string**, **decode_string**, **list_string**, **list_hex**, **system_time**
 
 Block **system_time** () : Liste mit 9 Elementen
 * TXT 4.0: RTC Systemuhr (year, mon, mday, hour, min, sec, wday, yday, isdst)\
-Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstellen
+Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstellen.
 * RX: Zeitstempel umgerechnet in (0, 0, 0, hour, min, sec, 0, 0, 0)
 
 #### dipswitch.py
