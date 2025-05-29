@@ -113,6 +113,7 @@ Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
 * Versucht alle möglichen I²C-Adressen in einer Schleife zu erreichen.
 * Wenn read oder write erfolgreich ist, wird die gültige I²C Adresse in einer Liste gesammelt.
 * Die zurück gegebene Liste kann mit `Text` **gib aus** in der Konsole angezeigt werden.
+* Es können Fehler auftreten, die Aus- und Einschalten des Controllers erfordern.
 
 Block **isRX** () : boolean
 
