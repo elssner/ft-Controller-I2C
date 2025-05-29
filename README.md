@@ -114,7 +114,7 @@ Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstel
 * RX: Zeitstempel umgerechnet in (0, 0, 0, hour, min, sec, 0, 0, 0)
 
 #### dipswitch.py
-###### [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) | [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch) | Black on Yellow | Black on Red | White on Blue
+###### [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) | [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)
 Block **readSwitch** () : Byte
 * Gibt 1 Byte zurück: 6 Bit (0..63), 1 Bit pro DIP Schalter.
 
@@ -124,7 +124,7 @@ Block **readKeyboard** () : Byte
 * Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 
 #### lcd16x2.py
-###### [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
+###### [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series) | Black on Yellow | Black on Red | White on Blue
 Block **initLCD** ()
 * Muss einmal beim Start aufgerufen werden.
 
