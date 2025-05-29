@@ -4,7 +4,7 @@
 
 Das Beispiel Projekt ist im [fischertechnik GitLab](https://git.fischertechnik-cloud.com/i2c) für TXT 4.0 Controller gespeichert, kann aber für RX Controller konvertiert und für alle angegebenen I²C-Module auch mit RX Controller uneingeschränkt verwendet werden.
 
-Mit der App Robo Pro Coding kann das Projekt ohne Anmeldung von fischertechnik GitLab geladen werden. Dazu bleibt das Zugriffstoken leer und auf der nächsten Seite im Suchfeld kann `i2c` eingegeben werden. Der richtige Name enthält `ft_Controller_I2C`und kann noch Versionsinformationen enthalten.
+Mit der [App Robo Pro Coding](https://www.fischertechnik.de/de-de/apps-und-software#apps) kann das Projekt ohne Anmeldung von fischertechnik GitLab geladen werden. Dazu bleibt das Zugriffstoken leer und auf der nächsten Seite im Suchfeld kann `i2c` eingegeben werden. Der richtige Name enthält `ft_Controller_I2C`und kann noch Versionsinformationen enthalten.
 
 #### Quellcodedateien (Blöcke) und getestete I²C Module
 * Die Quellcodedatei **i2cCode** darf nicht gelöscht werden.
