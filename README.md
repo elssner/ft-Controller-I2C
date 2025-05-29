@@ -13,7 +13,7 @@ Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die zu den an
 
 ###### Tabelle 1:
 * Quellcodedateien mit Link zur Beschreibung der Blöcke.
-* I²C Module mit Link zur Hersteller Webseite.
+* I²C Module mit Link zur Hersteller Webseite mit Bild und Dokumentation.
 * Nummern der Programmierbeispiele in Tabelle 2, welche diese Module verwenden.
 
 Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
