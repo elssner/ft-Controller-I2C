@@ -153,9 +153,9 @@ Block **initLCD** ()
 Block **writeText** (row, col, end, text, right)
 * Schreibt an eine bestimmte Position Text mit fester Länge.
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15; *end*: Spalte 0..15 (letztes Zeichen)
-* *text*: Text, alle Datentypen werden mit str() konvertiert
+* *text*: Text, alle Datentypen werden mit str() konvertiert.
 * *right*: None oder False=linksbündig; True=rechtsbündig\
-Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt
+Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt.
 * Parameter außer *text* können weg gelassen werden (None)\
 default: *row*=0; *col*=0; *end*=15; right=False
 
@@ -310,8 +310,9 @@ Block **initQLCD** ()
 * Im Code kann die Größe des Display 16x2 oder 20x4 (COLS x ROWS) konfiguriert werden.
 
 Block **writeQText** (row, col, end, text, right)
+* Schreibt an eine bestimmte Position Text mit fester Länge.
 * *row*: Zeile 0..3; *col*: Spalte 0..19; *end*: Spalte 0..19 (letztes Zeichen)
-* *text*: Text, alle Datentypen werden mit str() konvertiert
+* *text*: Text, alle Datentypen werden mit str() konvertiert.
 * *right*: None oder False=linksbündig; True=rechtsbündig\
 Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt.
 * Parameter außer *text* können weg gelassen werden (None)\
