@@ -29,7 +29,13 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 [qwiicrelay](#qwiicrelaypy)|<code>0x1E</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)|Hauptprogramm
 [rtc](#rtcpy)|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)|1, 4, 10
 
-#### Programmierbeispiel wird bei geschlossenem `Input I5..I8` gestartet:
+#### Hauptprogramm
+Mit Drahtbrücken an den Eingängen `I5 I6 I7 I8` kann der Start eines bestimmten Programmierbeispiels codiert werden. Tabelle 2 zeigt die Codierung und die aufgerufenen Quellcodedateien bzw. I²C Module.
+Die Beispiele (Blöcke) befinden sich in der Datei **Beispiele**. 
+
+#### Beispiel.py
+* Tabelle 2: Programmierbeispiele (Blöcke) für verschiedene Kombinationen der I²C Module.
+* wird bei geschlossenem `Input I5..I8` gestartet:
 
 * Quellcodedatei i2cCode wird in allen Programmierbeispielen verwendet
 
