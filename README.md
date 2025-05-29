@@ -9,7 +9,7 @@ Das Beispiel Projekt ist für TXT 4.0 Controller gespeichert, kann aber für RX 
 * Die Quellcodedatei **i2cCode** darf nicht gelöscht werden.
 * **Beispiele** zeigt Programmierbeispiele, um die I²C Module direkt zu verwenden.
 * Andere Dateien können gelöscht werden, wenn das I²C Modul nicht angeschlossen ist.
-* Tabelle 1: Alle Quellcodedateien im Projekt mit Link zu Beschreibung der Blöcke, getestete I²C Module mit Link zum Hersteller. Nummern der Programmierbeispiele in Tabelle 2.
+* Tabelle 1: Alle Quellcodedateien im Projekt mit Link zur Beschreibung der Blöcke. Getestete I²C Module mit Link zum Hersteller. Nummern der Programmierbeispiele in Tabelle 2.
 
 Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 ---|---|---|---
@@ -30,12 +30,12 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 [rtc](#rtcpy)|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)|1, 4, 10
 
 #### Hauptprogramm
-* Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. Tabelle 2 zeigt die Codierung der Eingänge an Controller.
+* Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. Tabelle 2 zeigt die Codierung der Eingänge am Controller.
 
 #### Beispiele.py
-* Tabelle 2: Funktionen (Blöcke) in der Datei Beispiele und aufgerufene I²C Quellcodedateien aus Tabelle 1.
+* Tabelle 2: Funktionen in der Datei Beispiele und aufgerufene I²C Quellcodedateien aus Tabelle 1.
 
-n|`I8`|`I7`|`I6`|`I5`|Beispiel|Quellcodedateien, I²C Module
+n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 ---|---|---|---|---|---|---
 0|`0`|`0`|`0`|`0`|i2cScan
 1|`0`|`0`|`0`|`1`|grovelcd_rtc|lcd16x2, rtc
