@@ -37,7 +37,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 
 n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 ---|---|---|---|---|---|---
-0|`0`|`0`|`0`|`0`|i2cScan
+0|`0`|`0`|`0`|`0`|**i2cScan**
 1|`0`|`0`|`0`|`1`|grovelcd_rtc|lcd16x2, rtc
 2|`0`|`0`|`1`|`0`|grovcelcd_keyboard|lcd16x2, keyboard
 3|`0`|`0`|`1`|`1`|grovelcd_dipswitch|lcd16x2, dipswitch
