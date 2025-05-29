@@ -8,10 +8,9 @@ Das Beispiel Projekt ist für TXT 4.0 Controller gespeichert, kann aber für RX 
 #### Quellcodedateien (Blöcke) und getestete I²C Module
 * Die Quellcodedatei i2cCode darf nicht gelöscht werden.
 * Für die angeschlossenen I²C Module nicht benötigte Quellcodedateien können gelöscht werden.
-* Tabelle 1: Alle Quellcodedateien im Projekt mit Link zu Beschreibung der Blöcke.\
-I²C-Adresse und getestete I²C Module mit Link zum Hersteller. Programmierbeispiele Tabelle 2.
+* Tabelle 1: Alle Quellcodedateien im Projekt mit Link zu Beschreibung der Blöcke, getestete I²C Module mit Link zum Hersteller. Nummern der Programmierbeispiele Tabelle 2.
 
-Quellcodedatei|I²C-Adresse|I²C Module|Beispiel n
+Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 ---|---|---|---
 [i2cCode](#i2ccodepy)||Python I²C für [RX](https://github.com/fischertechnik/RX-Controller-I2C) und [TXT 4.0](https://github.com/fischertechnik/TXT40-Controller-I2C)|alle
 [advanced](#advancedpy)||Blöcke für fehlende Funktionen|11
