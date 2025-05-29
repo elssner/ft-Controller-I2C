@@ -41,9 +41,9 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 1|`0`|`0`|`0`|`1`|**grovelcd_rtc**|[lcd16x2](#lcd16x2py), [rtc](#rtcpy)
 2|`0`|`0`|`1`|`0`|**grovcelcd_keyboard**|[lcd16x2](#lcd16x2py), [keyboard](#keyboardpy)
 3|`0`|`0`|`1`|`1`|grovelcd_dipswitch|[lcd16x2](#lcd16x2py), [dipswitch](#dipswitchpy)
-4|`0`|`1`|`0`|`0`|qlcr_rtc_keypad|qwiiclcd, [rtc](#rtcpy), [qwiickeypad](#qwiickeypadpy)
-5|`0`|`1`|`0`|`1`|qlcd_gpio_keypad|qwiiclcd, qwiicgpio, [qwiickeypad](#qwiickeypadpy)
-6|`0`|`1`|`1`|`0`|qlcd_joystick|qwiiclcd, qwiicjoystick
+4|`0`|`1`|`0`|`0`|qlcr_rtc_keypad|[qwiiclcd](#qwiiclcdpy), [rtc](#rtcpy), [qwiickeypad](#qwiickeypadpy)
+5|`0`|`1`|`0`|`1`|qlcd_gpio_keypad|[qwiiclcd](#qwiiclcdpy), [qwiicgpio](#qwiicgpiopy), [qwiickeypad](#qwiickeypadpy)
+6|`0`|`1`|`1`|`0`|qlcd_joystick|[qwiiclcd](#qwiiclcdpy), [qwiicjoystick](#qwiicjoystickpy)
 7|`0`|`1`|`1`|`1`||
 8|`1`|`0`|`0`|`0`|oled_zeichnen|oled, oled_geometrie
 9|`1`|`0`|`0`|`1`|oled_eeprom_copy|oled, eeprom
@@ -51,8 +51,8 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 11|`1`|`0`|`1`|`1`|oled2_systemtime|2*oled, oled_geometrie, advanced
 12|`1`|`1`|`0`|`0`||
 13|`1`|`1`|`0`|`1`||
-14|`1`|`1`|`1`|`0`|joy_2motoren|qwiicjoystick, qwiicmotor
-15|`1`|`1`|`1`|`1`|joy_4motoren|qwiicjoystick, 2*qwiicmotor
+14|`1`|`1`|`1`|`0`|joy_2motoren|[qwiicjoystick](#qwiicjoystickpy), qwiicmotor
+15|`1`|`1`|`1`|`1`|joy_4motoren|[qwiicjoystick](#qwiicjoystickpy), 2*qwiicmotor
 
 ### Beschreibung der I²C Funktionen
 
