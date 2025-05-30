@@ -239,6 +239,7 @@ Block **writeMatrix** (row, col, text)
 ###### erforderlich: [qwiiceeprom](#qwiiceprompy)
 > Um Text mit Pixeln zu zeichnen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein. Pro Zeichen werden 8 Byte vom EEPROM in die Matrix kopiert.
 
+* Schreibt Text an eine bestimmte Position in die Matrix.
 * *row*: Zeile 0..7 bzw. 0..15; *col*: Spalte 0..15.
 * *text*: Text, alle Datentypen werden mit str() konvertiert.
 * Parameter optional, default: row=0; col=0.
