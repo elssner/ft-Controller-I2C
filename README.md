@@ -49,7 +49,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 
 `I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 ---|---|---|---|---|---
-`0`|`0`|`0`|`0`|**i2cScan**
+`0`|`0`|`0`|`0`|**i2cScan**|[i2cCode](#i2ccodepy) (immer erforderlich)
 `0`|`0`|`0`|`1`|**grovelcd_rtc**|[lcd16x2](#lcd16x2py), [rtc](#rtcpy)
 `0`|`0`|`1`|`0`|**grovelcd_keyboard**|[lcd16x2](#lcd16x2py), [keyboard](#keyboardpy)
 `0`|`0`|`1`|`1`|**grovelcd_dipswitch**|[lcd16x2](#lcd16x2py), [dipswitch](#dipswitchpy)
