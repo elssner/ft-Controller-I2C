@@ -262,6 +262,7 @@ Block **testEEPROM** ()
 #### qwiicgpio.py
 ###### [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 Block **setGPIO** (IO, INV)
+* Muss einmal beim Start aufgerufen werden.
 * Beide Parameter *IO*, *INV*: String mit 8 Binärziffern (0 oder 1).
 * Jede Binärziffer (Bit) ist einem von 8 Pins zugeordnet.
 * *IO* CONFIGURATION Bit: 0=output Pin; 1=input Pin
