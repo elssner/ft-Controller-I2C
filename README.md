@@ -1,6 +1,6 @@
 
 [I²C Module](https://elssner.github.io/ft-Controller-I2C/#tabelle-1) |
-[Programmierbeispiele](https://elssner.github.io/ft-Controller-I2C/#tabelle-3) |
+[Programmierbeispiele](https://elssner.github.io/ft-Controller-I2C/#beispielepy) |
 [I²C Hardware, Software](https://elssner.github.io/ft-Controller-I2C/#ic) |
 [I²C Programmierung, Blöcke](https://elssner.github.io/ft-Controller-I2C/#beschreibung-der-quellcodedateien-alphabetisch-geordnet)
 
@@ -53,7 +53,7 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 1|`0`|`0`|`0`|`1`|**grovelcd_rtc**|[lcd16x2](#lcd16x2py), [rtc](#rtcpy)
 2|`0`|`0`|`1`|`0`|**grovelcd_keyboard**|[lcd16x2](#lcd16x2py), [keyboard](#keyboardpy)
 3|`0`|`0`|`1`|`1`|**grovelcd_dipswitch**|[lcd16x2](#lcd16x2py), [dipswitch](#dipswitchpy)
-4|`0`|`1`|`0`|`0`|**qlcr_rtc_keypad**|[qwiiclcd](#qwiiclcdpy), [rtc](#rtcpy), [qwiickeypad](#qwiickeypadpy)
+4|`0`|`1`|`0`|`0`|**qlcd_rtc_keypad**|[qwiiclcd](#qwiiclcdpy), [rtc](#rtcpy), [qwiickeypad](#qwiickeypadpy)
 5|`0`|`1`|`0`|`1`|**qlcd_gpio_keypad**|[qwiiclcd](#qwiiclcdpy), [qwiicgpio](#qwiicgpiopy), [qwiickeypad](#qwiickeypadpy)
 6|`0`|`1`|`1`|`0`|**qlcd_joystick**|[qwiiclcd](#qwiiclcdpy), [qwiicjoystick](#qwiicjoystickpy)
 7|`0`|`1`|`1`|`1`||
@@ -71,29 +71,28 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 * Die Funktion kann aus dem Name und verwendeten I²C Modulen abgeleitet werden.
 * Es wird immmer etwas auf einem Display angezeigt oder Motoren drehen sich.
 
-
 ###### Tabelle 3:
 * Nummer und Codierung der Eingänge, um ein Beispiel von Hauptprogramm zu starten.
 * Name des Beispiel-Blocks und aufgerufende I²C Quellcodedateien aus [Tabelle 1](#tabelle-1).
 
-n|Beispiel (Block)|Quellcodedateien, I²C Module
+n|Beispiel (Block)|Beschreibung
 ---|---|---
 0|**i2cScan**
-1|**grovelcd_rtc**|[lcd16x2](#lcd16x2py), [rtc](#rtcpy)
-2|**grovelcd_keyboard**|[lcd16x2](#lcd16x2py), [keyboard](#keyboardpy)
-3|**grovelcd_dipswitch**|[lcd16x2](#lcd16x2py), [dipswitch](#dipswitchpy)
-4|**qlcr_rtc_keypad**|[qwiiclcd](#qwiiclcdpy), [rtc](#rtcpy), [qwiickeypad](#qwiickeypadpy)
-5|**qlcd_gpio_keypad**|[qwiiclcd](#qwiiclcdpy), [qwiicgpio](#qwiicgpiopy), [qwiickeypad](#qwiickeypadpy)
-6|**qlcd_joystick**|[qwiiclcd](#qwiiclcdpy), [qwiicjoystick](#qwiicjoystickpy)
+1|**grovelcd_rtc**|Grove LCD 16x2 zeigt Uhrzeit und Datum an.
+2|**grovelcd_keyboard**|Grove LCD 16x2 mit Card Keyboard (50 Tasten)
+3|**grovelcd_dipswitch**|Grove LCD 16x2 mit 6 DIP Schaltern
+4|**qlcd_rtc_keypad**|Qwiic LCD 16x2 oder 20x4 Uhr stellen und anzeigen.
+5|**qlcd_gpio_keypad**|Qwiic LCD 16x2 oder 20x4 8 Bit Zeichencode Eingabe mit GPIO.
+6|**qlcd_joystick**|Qwiic LCD 16x2 oder 20x4 zeigt Joystick Position an.
 7||
-8|**oled_zeichnen**|[oled](#oledpy), [oled_geometrie](#oled_geometriepy)
-9|**oled_eeprom_copy**|[oled](#oledpy), [qwiiceeprom](#qwiiceeprompy)
-10|**oled_eeprom_rtc**|[oled](#oledpy), [oled_geometrie](#oled_geometriepy), [qwiiceeprom](#qwiiceeprompy), [rtc](#rtcpy)
-11|**oled2_systemtime**|[oled](#oledpy), [oled_geometrie](#oled_geometriepy), [advanced](#advancedpy)
+8|**oled_zeichnen**|OLED 128x64 oder 128x128 Linien und Kreise.
+9|**oled_eeprom_copy**|OLED 128x64 oder 128x128 Bytes aus EEPROM kopieren und anzeigen.
+10|**oled_eeprom_rtc**|
+11|**oled2_systemtime**|
 12||
 13||
-14|**joy_2motoren**|[qwiicjoystick](#qwiicjoystickpy), [qwiicmotor](#qwiicmotorpy)
-15|**joy_4motoren**|[qwiicjoystick](#qwiicjoystickpy), [qwiicmotor](#qwiicmotorpy)
+14|**joy_2motoren**|
+15|**joy_4motoren**|
 
 
 ### I²C
