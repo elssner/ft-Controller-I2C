@@ -227,6 +227,7 @@ Block **displayMatrix** (fromPage, toPage, select_oled) → alle Parameter optio
 > <ins>Die folgenden Blöcke ändern nur die Pixel in der Matrix, nicht das Display.</ins>
 
 Block **clearMatrix** (fromPage, toPage) → alle Parameter optional
+* Löscht die gesamte Matrix (ohne Parameter) oder einzelne Zeilen.
 * *fromPage*: 0..7, default: 0
 * *toPage*: 0..7 bzw. 0..15, default 7 bzw. 15
 
