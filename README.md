@@ -99,7 +99,6 @@ n|Beispiel (Block)|Beschreibung
 
 * An einen I²C-Bus mit 4 Leitungen können mehrere I²C Module gleichzeitig angeschlossen werden: [Qwiic daisy chain](https://www.sparkfun.com/qwiic) oder [Grove - I2C Hub](https://wiki.seeedstudio.com/Grove-I2C_Hub/).
 * [Anschlussbelegung](https://github.com/fischertechnik/TXT40-Controller-I2C) 6-pin: `1:+3,3V` `2:GND` `5:SCL` `6:SDA` (3 und 4 nichts anschließen).
-* Die I²C Module müssen verschiedene 7-Bit I²C Adressen haben.
 * Die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt.
 * Qwiic Module haben immer 3,3V Logik und sind hervorragend geeignet.
 * Grove Module mit 3,3V/5V verabschieden sich zuerst, wenn mehrere am I²C-Bus sind.
@@ -110,6 +109,7 @@ n|Beispiel (Block)|Beschreibung
 
 ###### I²C Software
 
+* Die I²C Module müssen verschiedene 7-Bit I²C Adressen haben.
 * I²C kennt nur 2 Funktionen:\
 **an eine I²C-Adresse Bytes senden** oder **von einer I²C-Adresse Bytes empfangen**
 * Es gibt noch eine Kombination aus beiden und i2cScan soll alle Module am Bus finden.
