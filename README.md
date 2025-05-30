@@ -263,9 +263,10 @@ Block **testEEPROM** ()
 ###### [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 Block **setGPIO** (IO, INV)
 * Beide Parameter *IO*, *INV*: String mit 8 Binärziffern (0 oder 1).
-* *IO*: CONFIGURATION 0=output 1=input
-* *INV*: INVERSION 0=original polarity; 1=inverted (nur bei *IO*=1)
-* *INV*=1: inverted → Pin an GND (0V) → logische 1
+* Jede Binärziffer (Bit) ist einem von 8 Pins zugeordnet.
+* *IO* CONFIGURATION Bit: 0=output Pin; 1=input Pin
+* *INV* INVERSION Bit: 0=original polarity; 1=inverted
+* INVERSION wirkt nur auf input Pins → Pin an GND → logische 1
 * Beispiel:\
 **setGPIO**('00000011', '00000000'): 6 output und 2 input\
 **setGPIO**('11111111', '11111111'): alle 8 Pins input inverted
@@ -274,10 +275,10 @@ Block **setGPIO** (IO, INV)
 Block **readGPIO** () : Byte
 * Gibt 1 Byte zurück, 1 Bit pro GPIO Pin.
 * An input Pins max. 3,3 Volt Spannung anschließen!
-* Für Taster als input Pull Up Widerstände (10 kOhm) an 3V3 erforderlich.
+* Taster schalten Pin an GND; Pull Up Widerstände (10 kOhm) an 3V3 erforderlich.
 
 Block **writeGPIO** (byte)
-* *byte*: schaltet GPIO Pins, die als 0=output konfiguriert sind.
+* *byte*: Schaltet 8 GPIO Pins, die als 0=output konfiguriert sind.
 * Bit=0: 0Volt; Bit=1: 3,3Volt
 
 #### qwiicjoystick.py
