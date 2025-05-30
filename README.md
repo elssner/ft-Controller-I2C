@@ -76,6 +76,7 @@ I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I²C](https://de.wikip
 * An einen I²C-Bus mit 4 Leitungen `SDA, SCL, -, +` (hier 3,3V) können mehrere I²C Module gleichzeitig angeschlossen werden (hintereinander gesteckt oder mit I²C Hub).
 * Die I²C Module müssen verschiedene 7-Bit I²C Adressen haben.
 * Die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt.
+* [SparkFun Qwiic Adapter](https://www.sparkfun.com/sparkfun-qwiic-adapter.html) | [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/qwiic-cable-grove-adapter-100mm.html)
 * Qwiic Module haben immer 3,3V Logik und sind hervorragend geeignet.
 * Grove Module mit 3,3V/5V verabschieden sich zuerst, wenn mehrere am I²C-Bus sind.
 * M5Stack und andere Module mit 5V und müssen getestet werden.
