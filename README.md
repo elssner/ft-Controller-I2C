@@ -347,7 +347,7 @@ Block **writeQText** (row, col, end, text, right)
 * *text*: Text, alle Datentypen werden mit str() konvertiert.
 * *right*: None oder False=linksbündig; True=rechtsbündig\
 Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt.
-* Parameter außer *text* können weg gelassen werden (None)\
+* Parameter außer *text* können weg gelassen werden (None).\
 default: *row*=0; *col*=0; *end*=COLS-1; right=False
 
 Block **clearQScreen** ()
@@ -364,16 +364,16 @@ Block **writeQLCD** (text)
 * Schreibt auf nächster Zeile weiter, max. Länge 32 Zeichen.
 
 Block **setQDisplay** (displayOn, cursorOn, blinkOn)
-* Alle Parameter boolean: False oder True
+* Alle Parameter boolean: False oder True.
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
 #### qwiicmotor.py
 ###### [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
 Block **initMotor** (i2cAdr)
+* Für jedes Motor-Modul einmal beim Start aufrufen (mit entsprechender *i2cAdr*).
 * Parameter *i2cAdr* kann weg gelassen werden, default: 0x5D.
-* 1 Modul steuert 2 Motoren, mehrere können gleichzeitig angeschlossen werden.
+* 1 Modul steuert 2 Motoren, mehrere Module können gleichzeitig angeschlossen werden.
 * 10 I²C-Adressen mit Lötbrücken einstellbar: 0x58..0x61.
-* Muss für jedes Motor-Modul mit entsprechender i2cAdr einmal aufgerufen werden.
 
 Block **setMotorI2C** (i2cAdr)
 * Ändert die I²C-Adresse für die folgenden Funktionen auf ein bestimmtes Motor-Modul.
@@ -408,7 +408,7 @@ Block **writeRTC** (index. int8)
 Block **setRTC** (keyCode) : keyString
 * Stellt die Uhr mit 5 ASCII Zeichen-Codes von Keypad oder Keyboard.
 * Muss 5 mal mit ASCII Code aufgerufen werden, gibt den zusammengesetzten String zurück.\
-  *1. Zeichen:* `*`, *2. Zeichen:* Register `0..6`,\
+  *1. Zeichen:* `*` neu, *2. Zeichen:* Register `0..6`,\
   *3. und 4. Zeichen:* 2 Ziffern dezimal `00..59`, *5. Zeichen:* `#` speichern
 * Wenn 5 Zeichen gültig sind, wird mit **writeRTC** das Register geändert.
 * Beispiel: `*120#`setzt Minute auf 20; `*401#` Montag; `*000#` Sekunde 0
@@ -426,11 +426,11 @@ Block **getRTC** (index) : Byte
 * Liest 1 Byte aus Variable RTC_BUFFER[*index*] zu dezimal konvertiert.
 * `0`Seconds, `1`Minutes, `2`Hours, `3`Days, `4`Weekdays, `5`Months, `6`Years
 
-Block **getTimeString** () : String
-* Liest Zeit aus Variable RTC_BUFFER: HH:mm:ss
+Block **getTimeString** () : String 8 Zeichen
+* Liest Zeit aus Variable RTC_BUFFER: `HH:mm:ss`.
 
-Block **getDateString** () : String
-* Liest Datum aus Variable RTC_BUFFER: dd.MM.20YY
+Block **getDateString** () : String 10 Zeichen
+* Liest Datum aus Variable RTC_BUFFER: `dd.MM.20yy`.
 
-Block **getWeekday** () : String
-* Liest Wochentag aus RTC_BUFFER: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa']
+Block **getWeekday** () : String 2 Zeichen
+* Liest Wochentag aus RTC_BUFFER: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'].
