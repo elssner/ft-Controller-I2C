@@ -71,7 +71,8 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 `1`|`1`|`1`|`1`|**joy_4motoren**|[qwiicjoystick](#qwiicjoystickpy), [qwiicmotor](#qwiicmotorpy)
 
 #### Beispiele.py
-* Programmierbeispiele für die Nutzung mehrerer I²C Module gleichzeitig.
+* Programmierbeispiele zeigen die Nutzung mehrerer I²C Module gleichzeitig.
+* Alle Programme sind auf TXT 4.0 Controller und (nach Projekt konvertieren) RX Controller lauffähig.
 
 ###### Tabelle 3:
 
