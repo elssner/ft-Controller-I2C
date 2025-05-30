@@ -48,7 +48,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 * Alle anderen Beispiele können nach Übertragung des Programms auf dem Controller (ohne Verbindung zur App) gestartet werden. Nur Module und Drahtbrücken umstecken.
 
 ###### Tabelle 2:
-* Codierung der Eingänge, um ein Beispiel von Hauptprogramm zu starten.
+* Codierung der Eingänge, um ein Beispiel vom Hauptprogramm zu starten.
 * Name des Beispiel-Blocks und aufgerufende I²C Quellcodedateien aus [Tabelle 1](#tabelle-1).
 
 `I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
