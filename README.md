@@ -148,7 +148,8 @@ Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
 * Wenn read oder write erfolgreich ist, wird die gültige I²C Adresse in einer Liste gesammelt.
 * Die zurück gegebene Liste kann mit `Text` **gib aus** in der Konsole angezeigt werden.
 * Es können Fehler auftreten, die Aus- und Einschalten des Controllers erfordern.
-* Ergebnis TXT 4.0 Controller: ['0x3', '0x20', '0x27', '0x3c', '0x4b', '0x50', '0x51', '0x5d', '0x5e', '0x72']
+* Ergebnis TXT 4.0 Controller mit echter Hardware getestet:\
+['0x3', '0x20', '0x27', '0x3c', '0x4b', '0x50', '0x51', '0x5d', '0x5e', '0x72']
 
 Block **isRX** () : Boolean
 
