@@ -1,6 +1,4 @@
-> Diese Seite bei [elssner.github.io/ft-Controller-I2C](https://elssner.github.io/ft-Controller-I2C/) öffnen.
 
-Auf dieser Seite:
 * [I²C Module](https://elssner.github.io/ft-Controller-I2C/#tabelle-1)
 * [Programmierbeispiele](https://elssner.github.io/ft-Controller-I2C/#tabelle-3)
 * [I²C Hardware, Software](https://elssner.github.io/ft-Controller-I2C/#ic)
