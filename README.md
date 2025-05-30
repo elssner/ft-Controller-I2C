@@ -165,15 +165,16 @@ Block **clearScreen** ()
 * Löscht das LCD Display.
 
 Block **setCursor** (row, col)
-* Für writeLCD oder wenn Cursor sichtbar ist oder blinkt.
+* Set Cursor für writeLCD oder wenn Cursor sichtbar ist oder blinkt.
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15
 * Parameter optional, default: *row*=0; *col*=0
 
 Block **writeLCD** (text)
-* Schreibt an aktuelle Cursorposition.
-* *text*: Text, alle Datentypen werden mit str() konvertiert.
+* Schreibt *text* an aktuelle Cursorposition.
+* Alle Datentypen werden mit str() konvertiert.
 
-Block **setDisplay** (displayOn:boolean, cursorOn:boolean, blinkOn:boolean)
+Block **setDisplay** (displayOn, cursorOn, blinkOn)
+* Alle Parameter boolean: False oder True
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
 #### oled.py
@@ -324,18 +325,20 @@ Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt.
 default: *row*=0; *col*=0; *end*=COLS-1; right=False
 
 Block **clearQScreen** ()
+* Löscht das LCD Display.
 
 Block **setQCursor** (row, col)
-* Für writeQLCD oder wenn Cursor sichtbar ist oder blinkt.
+* Set Cursor für writeQLCD oder wenn Cursor sichtbar ist oder blinkt.
 * *row*: Zeile 0..3; *col*: Spalte 0..19
 * Parameter optional, default: *row*=0; *col*=0
 
 Block **writeQLCD** (text)
-* Schreibt an aktuelle Cursorposition.
-* *text*: Text, alle Datentypen werden mit str() konvertiert.
+* Schreibt *text* an aktuelle Cursorposition.
+* Alle Datentypen werden mit str() konvertiert.
 * Schreibt auf nächster Zeile weiter, max. Länge 32 Zeichen.
 
-Block **setQDisplay** (displayOn:boolean, cursorOn:boolean, blinkOn:boolean)
+Block **setQDisplay** (displayOn, cursorOn, blinkOn)
+* Alle Parameter boolean: False oder True
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
 #### qwiicmotor.py
@@ -363,8 +366,8 @@ Block **driveMotorB** (speed:Byte)
 #### qwiicrelay.py
 ###### [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 Block **writeRelay** (on:Boolean)
-* *on* schaltet Relais True=an; False=aus
-* ggfs. muss im Code die I2C_ADDRESS geändert werden
+* *on* schaltet Relais: True=an; False=aus
+* I2C_ADDRESS kann im Code geändert werden.
 
 #### rtc.py
 ###### [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
