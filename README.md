@@ -1,5 +1,12 @@
 > Diese Seite bei [elssner.github.io/ft-Controller-I2C](https://elssner.github.io/ft-Controller-I2C/) öffnen.
 
+Auf dieser Seite:
+* [Tabelle 1: Quellcodedateien für I²C Module](https://elssner.github.io/ft-Controller-I2C/#tabelle-1)
+* [Tabelle 2: Programmierbeispiele vom Hauptprogramm starten](https://elssner.github.io/ft-Controller-I2C/#tabelle-2)
+* [Tabelle 3: Programmierbeispiele Bschreibung](https://elssner.github.io/ft-Controller-I2C/#tabelle-3)
+* [I²C](https://elssner.github.io/ft-Controller-I2C/https://elssner.github.io/ft-Controller-I2C/#ic)
+* [Beschreibung der Quellcodedateien, Blöcke Parameter](https://elssner.github.io/ft-Controller-I2C/#)
+
 ### Robo Pro Coding Blöcke für fischertechnik RX und TXT 4.0 Controller zur Programmierung eigener I²C Module.
 
 Das Beispiel Projekt mit Blöcken für TXT 4.0 Controller ist im [fischertechnik GitLab](https://git.fischertechnik-cloud.com/i2c) veröffentlicht. <ins>Es kann für RX Controller konvertiert werden.</ins>
@@ -67,7 +74,7 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 14|`1`|`1`|`1`|`0`|**joy_2motoren**|[qwiicjoystick](#qwiicjoystickpy), [qwiicmotor](#qwiicmotorpy)
 15|`1`|`1`|`1`|`1`|**joy_4motoren**|[qwiicjoystick](#qwiicjoystickpy), [qwiicmotor](#qwiicmotorpy)
 
-### Beschreibung der I²C Funktionen
+### I²C
 
 I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I²C](https://de.wikipedia.org/wiki/I%C2%B2C)
 
