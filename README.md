@@ -3,8 +3,8 @@
 Auf dieser Seite:
 * [I²C Module](https://elssner.github.io/ft-Controller-I2C/#tabelle-1)
 * [Programmierbeispiele](https://elssner.github.io/ft-Controller-I2C/#tabelle-3)
-* [I²C Hardware, Software, Blöcke i2cCode](https://elssner.github.io/ft-Controller-I2C/#ic)
-* [Beschreibung der Quellcodedateien, Blöcke Parameter](https://elssner.github.io/ft-Controller-I2C/#beschreibung-der-quellcodedateien-alphabetisch-geordnet)
+* [I²C Hardware, Software](https://elssner.github.io/ft-Controller-I2C/#ic)
+* [I²C Programmierung, Blöcke, Parameter](https://elssner.github.io/ft-Controller-I2C/#beschreibung-der-quellcodedateien-alphabetisch-geordnet)
 
 ### Robo Pro Coding Blöcke für fischertechnik RX und TXT 4.0 Controller zur Programmierung eigener I²C Module.
 
