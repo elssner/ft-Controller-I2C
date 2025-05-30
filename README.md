@@ -220,7 +220,7 @@ Block **initOLED** (select_oled:boolean) → Parameter optional
 Block **displayMatrix** (fromPage, toPage, select_oled) → alle Parameter optional
 * Immer aufrufen, um das in die Matrix gezeichnete Bild auf dem Display anzuzeigen.
 * Ohne Parameter wird das komplette Display über den I²C-Bus neu geschrieben.
-* Mit den optionalen Parametern *fromPage*, *toPage* ist es möglich, nur einen Teil des Displays zu aktualisieren. Eine 'Page' ist eine Zeile 8 Pixel hoch und 128 Pixel breit (gesamte Breite des Displays).
+* Mit den optionalen Parametern *fromPage*, *toPage* ist es möglich, nur einen Teil des Displays zu aktualisieren. Eine 'Page' ist eine Zeile 8 Pixel hoch und 128 Pixel breit (Breite des Displays).
 * Das 128x64 Display hat 8 Zeilen (0-7). Das 128x128 Display hat 16 Zeilen (0-15).
 * Der Parameter *select_oled* bestimmt, an welches OLED Display die Matrix gesendet wird.
 
