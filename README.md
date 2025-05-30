@@ -16,7 +16,7 @@ Mit der [App Robo Pro Coding](https://www.fischertechnik.de/de-de/apps-und-softw
 Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die Quellcodedateien für die angeschlossenen I²C Module importiert werden.\
 Die Datei [i2cCode](#i2ccodepy) muss immer mit importiert werden.\
 Die Datei [advanced](#advancedpy) enthält keine I²C spezifischen Blöcke, ist aber zu empfehlen.\
-Aus der Datei [Beispiele](#beispielepy) könnte nur ein einzelner Block [Tabelle 3](#tabelle-3) übernommen werden.\
+Aus der Datei [Beispiele](#beispielepy) könnte nur ein einzelner Block übernommen werden.\
 Alle anderen Quellcodedateien in [Tabelle 1](#tabelle-1) sind bestimmten I²C Modulen zugeordnet.
 
 ###### Tabelle 1:
