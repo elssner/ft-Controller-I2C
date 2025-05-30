@@ -386,13 +386,15 @@ Block **enableMotor** (on:Boolean)
 Block **driveMotorA** (speed:Byte)\
 Block **driveMotorB** (speed:Byte)
 * 2 Blöcke für Motor A und Motor B getrennt.
-* *speed* 0..128..255 Motor Drehzahl, 128 ist Stillstand.
+* *speed* 0..128..255 Motor Drehzahl,
+* *speed* ist optional, default=128 (Stillstand).
 * 255 ist max. vorwärts; <ins>0 ist max. rückwärts</ins>.
+* 0 max. rückwärts | 128 Stop | 255 max. vorwärts
 
 #### qwiicrelay.py
 ###### [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 Block **writeRelay** (on:Boolean)
-* *on* schaltet Relais: True=an; False=aus
+* *on* schaltet Relais: True=an; False=aus.
 * I2C_ADDRESS kann im Code geändert werden.
 
 #### rtc.py
@@ -400,7 +402,7 @@ Block **writeRelay** (on:Boolean)
 
 ##### Uhr stellen
 
-Block **writeRTC** (index. int8)
+Block **writeRTC** (index, int8)
 * Stellt die Uhr. Ändert ein bestimmtes Register *index*.
 * `0`Seconds, `1`Minutes, `2`Hours, `3`Days, `4`Weekdays, `5`Months, `6`Years
 * *int8*: 0..59 Byte wird in BCD konvertiert und im RTC-Modul gespeichert. 
@@ -411,7 +413,7 @@ Block **setRTC** (keyCode) : keyString
   *1. Zeichen:* `*` neu, *2. Zeichen:* Register `0..6`,\
   *3. und 4. Zeichen:* 2 Ziffern dezimal `00..59`, *5. Zeichen:* `#` speichern
 * Wenn 5 Zeichen gültig sind, wird mit **writeRTC** das Register geändert.
-* Beispiel: `*120#`setzt Minute auf 20; `*401#` Montag; `*000#` Sekunde 0
+* Beispiel: `*120#`setzt Minute auf 20; `*401#` Montag; `*000#` Sekunde 0.
 
 ##### Uhr lesen
 
