@@ -208,9 +208,9 @@ Block **setDisplay** (displayOn, cursorOn, blinkOn)
 > OLED Displays zeigen 128x64 oder 128x128 Pixel an. Alle Pixel werden zuerst in Variablen gespeichert. Dieser Speicher wird 'Matrix' genannt.
 > Um die 'Matrix' auf dem OLED Display anzuzeigen, muss immer der Block **displayMatrix** aufgerufen werden.
 
-Block **initOLED** (select_oled:boolean optional)
-* Muss einmal beim Start aufgerufen werden.
-* Parameter *select_oled*: Auswahl Display (I²C-Adresse) None oder False: 0x3C; True: 0x3D
+Block **initOLED** (select_oled:Boolean)
+* Muss einmal beim Start aufgerufen werden. Parameter *select_oled* optional.
+* *select_oled*: Auswahl Display (I²C-Adresse) None oder False: 0x3C; True: 0x3D.
 * Initialisiert die Matrix: Variablen zum Speichern der Pixel (1024 oder 2048 Byte).
 * Initialisiert das Display mit der angegebenen I²C-Adresse 0x3C oder 0x3D (Lötbrücke).
 
