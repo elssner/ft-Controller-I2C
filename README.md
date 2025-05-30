@@ -97,7 +97,7 @@ n|Beispiel (Block)|Beschreibung
 
 ###### I²C Hardware
 
-* An einen I²C-Bus mit 4 Leitungen können mehrere I²C Module gleichzeitig angeschlossen werden ([Qwiic hintereinander gesteckt](https://www.sparkfun.com/qwiic) oder [Grove - I2C Hub](https://wiki.seeedstudio.com/Grove-I2C_Hub/)).
+* An einen I²C-Bus mit 4 Leitungen können mehrere I²C Module gleichzeitig angeschlossen werden ([Qwiic daisy chain](https://www.sparkfun.com/qwiic) oder [Grove - I2C Hub](https://wiki.seeedstudio.com/Grove-I2C_Hub/)).
 * [Anschlussbelegung](https://github.com/fischertechnik/TXT40-Controller-I2C) 6-pin: `1:+3,3V` `2:GND` `5:SCL` `6:SDA` (3 und 4 nichts anschließen).
 * Die I²C Module müssen verschiedene 7-Bit I²C Adressen haben.
 * Die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt.
