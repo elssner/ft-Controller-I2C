@@ -72,7 +72,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 
 #### Beispiele.py
 * Programmierbeispiele zeigen die Nutzung mehrerer I²C Module gleichzeitig.
-* Alle Programme sind auf TXT 4.0 Controller und (nach Projekt konvertieren) RX Controller lauffähig.
+* Alle Programme sind für TXT 4.0 Controller und (nach Projekt konvertieren) RX Controller geeignet.
 
 ###### Tabelle 3:
 
