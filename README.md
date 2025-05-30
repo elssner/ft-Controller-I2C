@@ -236,7 +236,7 @@ Block **setPixel** (x, y, pixel)
 * Für die Koordinate *y* sind Werte von 0 (oben) bis 63 bzw. 127 (unten) möglich.
 
 Block **writeMatrix** (row, col, text)
-###### erforderlich: qwiiceeprom.py
+###### erforderlich: [qwiiceeprom](#qwiiceprompy)
 > Um Text mit Pixeln zu zeichnen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein. Pro Zeichen werden 8 Byte vom EEPROM in die Matrix kopiert.
 
 * *row*: Zeile 0..7 bzw. 0..15; *col*: Spalte 0..15
@@ -251,7 +251,7 @@ Block **paintEEPROM** (eepromStartadresse, fromPage, toPage) → alle Parameter 
 * Im EEPROM können Bilder, die das ganze Display füllen, gespeichert werden.
 
 #### oled_geometrie.py
-###### erforderlich: oled.py
+###### erforderlich: [oled](#oledpy)
 Block **oled_line** (x0, y0, x1, y1, pixel)
 * Zeichnet eine Linie mit den angegebenen Koordinaten in die Matrix.
 * Parameter wie oben **setPixel**.
