@@ -93,7 +93,7 @@ n|Beispiel (Block)|Beschreibung
 
 ### I²C
 
-I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I²C](https://de.wikipedia.org/wiki/I%C2%B2C)
+> I²C: Inter-Integrated Circuit → [de.wikipedia.org/wiki/I²C](https://de.wikipedia.org/wiki/I%C2%B2C)
 
 ###### I²C Hardware
 
