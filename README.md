@@ -387,7 +387,7 @@ Block **driveMotorA** (speed:Byte)\
 Block **driveMotorB** (speed:Byte)
 * *speed* 0..128..255 Motor Drehzahl und Richtung,
 * *speed* ist optional, default=128 (Stillstand).
-* 0 max. rückwärts ← | 128 Stop | → 255 max. vorwärts
+* 0 max. rückwärts | ← 128 Stop → | 255 max. vorwärts
 
 #### qwiicrelay.py
 ###### [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
