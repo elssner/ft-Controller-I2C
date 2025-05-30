@@ -109,7 +109,7 @@ n|Beispiel (Block)|Beschreibung
 
 ###### I²C Software
 
-* Die I²C Module müssen verschiedene 7-Bit I²C Adressen haben.
+* Die I²C Module müssen verschiedene 7-Bit I²C-Adressen haben.
 * I²C kennt nur 2 Funktionen:\
 **an eine I²C-Adresse Bytes senden** oder **von einer I²C-Adresse Bytes empfangen**
 * Es gibt noch eine Kombination aus beiden und i2cScan soll alle Module am Bus finden.
