@@ -281,7 +281,7 @@ Block **readGPIO** () : Byte
 
 Block **writeGPIO** (byte)
 * *byte*: Schaltet 8 GPIO Pins, die als 0=output konfiguriert sind.
-* Bit=0: 0Volt; Bit=1: 3,3Volt
+* Bit=0: aus (0 Volt); Bit=1: an (3,3 Volt)
 
 #### qwiicjoystick.py
 ###### [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
