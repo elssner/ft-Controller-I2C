@@ -18,7 +18,7 @@ Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die Quellcode
 ###### Tabelle 1:
 * Quellcodedateien mit Link zur Beschreibung der Blöcke (auf dieser Seite unten).
 * I²C Module mit Link zur Hersteller Webseite mit Bild und Dokumentation.
-* Nummern der Programmierbeispiele in [Tabelle 2](#tabelle-2), welche diese Module verwenden.
+* Nummern der Programmierbeispiele in [Tabelle 3](#tabelle-3), welche diese Module verwenden.
 
 Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 ---|---|---|---
@@ -68,12 +68,8 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 
 #### Beispiele.py
 * Programmierbeispiele für die Nutzung mehrerer I²C Module gleichzeitig.
-* Die Funktion kann aus dem Name und verwendeten I²C Modulen abgeleitet werden.
-* Es wird immmer etwas auf einem Display angezeigt oder Motoren drehen sich.
 
 ###### Tabelle 3:
-* Nummer und Codierung der Eingänge, um ein Beispiel von Hauptprogramm zu starten.
-* Name des Beispiel-Blocks und aufgerufende I²C Quellcodedateien aus [Tabelle 1](#tabelle-1).
 
 n|Beispiel (Block)|Beschreibung
 ---|---|---
