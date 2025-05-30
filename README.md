@@ -43,11 +43,6 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 2
 * Beispiel 0 ruft **i2cScan** auf und zeigt die gefundenen I²C-Adressen in der Konsole an.
 * Alle anderen Beispiele können nach Übertragung des Programms auf dem Controller (ohne Verbindung zur App) gestartet werden. Nur Module und Drahtbrücken umstecken.
 
-#### Beispiele.py
-* Programmierbeispiele für die Nutzung mehrerer I²C Module gleichzeitig.
-* Die Funktion kann aus dem Name und verwendeten I²C Modulen abgeleitet werden.
-* Es wird immmer etwas auf einem Display angezeigt oder Motoren drehen sich.
-
 ###### Tabelle 2:
 * Nummer und Codierung der Eingänge, um ein Beispiel von Hauptprogramm zu starten.
 * Name des Beispiel-Blocks und aufgerufende I²C Quellcodedateien aus [Tabelle 1](#tabelle-1).
@@ -70,6 +65,36 @@ n|`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Quellcodedateien, I²C Module
 13|`1`|`1`|`0`|`1`||
 14|`1`|`1`|`1`|`0`|**joy_2motoren**|[qwiicjoystick](#qwiicjoystickpy), [qwiicmotor](#qwiicmotorpy)
 15|`1`|`1`|`1`|`1`|**joy_4motoren**|[qwiicjoystick](#qwiicjoystickpy), [qwiicmotor](#qwiicmotorpy)
+
+#### Beispiele.py
+* Programmierbeispiele für die Nutzung mehrerer I²C Module gleichzeitig.
+* Die Funktion kann aus dem Name und verwendeten I²C Modulen abgeleitet werden.
+* Es wird immmer etwas auf einem Display angezeigt oder Motoren drehen sich.
+
+
+###### Tabelle 3:
+* Nummer und Codierung der Eingänge, um ein Beispiel von Hauptprogramm zu starten.
+* Name des Beispiel-Blocks und aufgerufende I²C Quellcodedateien aus [Tabelle 1](#tabelle-1).
+
+n|Beispiel (Block)|Quellcodedateien, I²C Module
+---|---|---
+0|**i2cScan**
+1|**grovelcd_rtc**|[lcd16x2](#lcd16x2py), [rtc](#rtcpy)
+2|**grovelcd_keyboard**|[lcd16x2](#lcd16x2py), [keyboard](#keyboardpy)
+3|**grovelcd_dipswitch**|[lcd16x2](#lcd16x2py), [dipswitch](#dipswitchpy)
+4|**qlcr_rtc_keypad**|[qwiiclcd](#qwiiclcdpy), [rtc](#rtcpy), [qwiickeypad](#qwiickeypadpy)
+5|**qlcd_gpio_keypad**|[qwiiclcd](#qwiiclcdpy), [qwiicgpio](#qwiicgpiopy), [qwiickeypad](#qwiickeypadpy)
+6|**qlcd_joystick**|[qwiiclcd](#qwiiclcdpy), [qwiicjoystick](#qwiicjoystickpy)
+7||
+8|**oled_zeichnen**|[oled](#oledpy), [oled_geometrie](#oled_geometriepy)
+9|**oled_eeprom_copy**|[oled](#oledpy), [qwiiceeprom](#qwiiceeprompy)
+10|**oled_eeprom_rtc**|[oled](#oledpy), [oled_geometrie](#oled_geometriepy), [qwiiceeprom](#qwiiceeprompy), [rtc](#rtcpy)
+11|**oled2_systemtime**|[oled](#oledpy), [oled_geometrie](#oled_geometriepy), [advanced](#advancedpy)
+12||
+13||
+14|**joy_2motoren**|[qwiicjoystick](#qwiicjoystickpy), [qwiicmotor](#qwiicmotorpy)
+15|**joy_4motoren**|[qwiicjoystick](#qwiicjoystickpy), [qwiicmotor](#qwiicmotorpy)
+
 
 ### I²C
 
