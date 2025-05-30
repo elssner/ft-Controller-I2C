@@ -143,7 +143,7 @@ Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
 * Die zurück gegebene Liste kann mit `Text` **gib aus** in der Konsole angezeigt werden.
 * Es können Fehler auftreten, die Aus- und Einschalten des Controllers erfordern.
 
-Block **isRX** () : boolean
+Block **isRX** () : Boolean
 
 * Gibt True zurück, wenn `sys.implementation.name == 'circuitpython'`.
 * True: circuitpython import board, busio, (adafruit) I2CDevice
@@ -200,7 +200,7 @@ Block **writeLCD** (text)
 * Alle Datentypen werden mit str() konvertiert.
 
 Block **setDisplay** (displayOn, cursorOn, blinkOn)
-* Alle Parameter boolean: False oder True
+* Alle Parameter Boolean: False oder True
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
 #### oled.py
@@ -208,7 +208,7 @@ Block **setDisplay** (displayOn, cursorOn, blinkOn)
 > OLED Displays zeigen 128x64 oder 128x128 Pixel an. Alle Pixel werden zuerst in Variablen gespeichert. Dieser Speicher wird 'Matrix' genannt.
 > Um die 'Matrix' auf dem OLED Display anzuzeigen, muss immer der Block **displayMatrix** aufgerufen werden.
 
-Block **initOLED** (select_oled:boolean) → Parameter optional
+Block **initOLED** (select_oled:Boolean) → Parameter optional
 * Muss einmal beim Start aufgerufen werden.
 * *select_oled*: Auswahl Display (I²C-Adresse) None oder False: 0x3C; True: 0x3D.
 * Initialisiert die Matrix: Variablen zum Speichern der Pixel (1024 oder 2048 Byte).
@@ -366,7 +366,7 @@ Block **writeQLCD** (text)
 * Schreibt auf nächster Zeile weiter, max. Länge 32 Zeichen.
 
 Block **setQDisplay** (displayOn, cursorOn, blinkOn)
-* Alle Parameter boolean: False oder True.
+* Alle Parameter Boolean: False oder True.
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
 #### qwiicmotor.py
