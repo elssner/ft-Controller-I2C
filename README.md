@@ -473,6 +473,7 @@ Block **getWeekday** () : String 2 Zeichen
 * SparkFun Qwiic MultiPort
 * SparkFun Qwiic Adapter
 * SparkFun Qwiic Cable Kit
+* Qwiic Cable - Grove Adapter (100mm)
 * Pfosten-Steckverbinder Rastermaß: 2.54 mm Polzahl Gesamt: 6
 * [Modellbahn Tastenpult](https://www.tillig.com/Produkte/produktinfo-08211.html) 2 Stück\
 2 Tasten GND an I1, I2; 8 Tasten GND an GPIO (Pull Up 10 KOhm)
