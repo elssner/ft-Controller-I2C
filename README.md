@@ -42,7 +42,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 [qwiicrelay](#qwiicrelaypy)|<code>0x1E</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)|Hauptprogramm
 [rtc](#rtcpy)|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)|1, 4, 10
 
-#### Hauptprogramm
+#### Hauptprogramm in der App ROBO Pro Coding
 * Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. [Tabelle 2](#tabelle-2) zeigt die Codierung der Eingänge.
 * Beispiel 0 ruft **i2cScan** auf und zeigt die gefundenen I²C-Adressen in der Konsole an.
 * Alle anderen Beispiele können nach Übertragung des Programms auf dem Controller (ohne Verbindung zur App) gestartet werden. Nur Drahtbrücken umstecken und Programm starten.
