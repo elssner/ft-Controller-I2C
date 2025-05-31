@@ -454,3 +454,5 @@ Block **getDateString** () : String 10 Zeichen
 
 Block **getWeekday** () : String 2 Zeichen
 * Liest Wochentag aus RTC_BUFFER: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'].
+
+![](DSC00388.JPG)
