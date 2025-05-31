@@ -45,7 +45,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 #### Hauptprogramm
 * Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. [Tabelle 2](#tabelle-2) zeigt die Codierung der Eingänge.
 * Beispiel 0 ruft **i2cScan** auf und zeigt die gefundenen I²C-Adressen in der Konsole an.
-* Alle anderen Beispiele können nach Übertragung des Programms auf dem Controller (ohne Verbindung zur App) gestartet werden. Nur Module und Drahtbrücken umstecken.
+* Alle anderen Beispiele können nach Übertragung des Programms auf dem Controller (ohne Verbindung zur App) gestartet werden. Nur Drahtbrücken umstecken und Programm starten..
 
 ###### Tabelle 2:
 * Codierung der Eingänge, um ein Beispiel vom Hauptprogramm zu starten.
