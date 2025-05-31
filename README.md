@@ -164,8 +164,7 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 
 #### advanced.py
 
-> Allgemeine Blöcke, die Python-Funktionen bereit stellen (ohne I²C Bezug).\
-**Kommentar**, **Int**, **Ord**, **Chr**, **print_bin**, **encode_string**, **decode_string**, **list_string**, **list_hex**, **system_time**
+> Allgemeine Blöcke, die Python-Funktionen bereit stellen (ohne I²C Bezug).
 
 Block **Kommentar** (text)\
 Block **Int** (x) : Integer *int(x)*\
