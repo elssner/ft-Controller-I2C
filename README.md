@@ -168,10 +168,10 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 **Kommentar**, **Int**, **Ord**, **Chr**, **print_bin**, **encode_string**, **decode_string**, **list_string**, **list_hex**, **system_time**
 
 Block **Kommentar** (text)\
-Block **Int** (x) Integer\
+Block **Int** (x) : Integer\
 Block **Ord** (char) : Integer Zeichencode\
 Block **Chr** (asc) : String 1 Zeichen\
-Block **print_bin** (zahl, stellen) : String aus '0' '1' Länge *stellen*\
+Block **print_bin** (zahl, length) : BIN String z.B. '00001010'; Binärzahl mit fester Länge\
 Block **list_string** (string_data) : Liste der Zeichencodes *ord()*\
 Block **encode_string** (string_data) : Liste der Zeichencodes *encode('utf-8')*\
 Block **decode_string** (data_bytes) : String *decode('utf-8')*\
