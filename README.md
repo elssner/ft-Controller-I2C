@@ -392,7 +392,7 @@ Block **setQDisplay** (displayOn, cursorOn, blinkOn)
 Block **initMotor** (i2cAdr)
 * Für jedes Motor-Modul einmal beim Start aufrufen (mit entsprechender *i2cAdr*).
 * Parameter *i2cAdr* kann weg gelassen werden, default: 0x5D.
-* 1 Modul steuert 2 Motoren, mehrere Module können gleichzeitig angeschlossen werden.
+* 1 Modul steuert 2 Motoren 9V, mehrere Module können gleichzeitig angeschlossen werden.
 * 10 I²C-Adressen mit Lötbrücken einstellbar: 0x58..0x61.
 
 Block **setMotorI2C** (i2cAdr)
