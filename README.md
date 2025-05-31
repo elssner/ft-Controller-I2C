@@ -167,6 +167,7 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 > Allgemeine Blöcke, die Python-Funktionen bereit stellen (ohne I²C Bezug).\
 **Kommentar**, **Int**, **Ord**, **Chr**, **print_bin**, **encode_string**, **decode_string**, **list_string**, **list_hex**, **system_time**
 
+Block **Kommentar** (text)
 Block **system_time** () : Liste mit 9 Elementen
 * TXT 4.0: RTC Systemuhr (year, mon, mday, hour, min, sec, wday, yday, isdst)\
 Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstellen.
@@ -193,7 +194,7 @@ Block **writeText** (row, col, end, text, right)
 * *text*: Text, alle Datentypen werden mit str() konvertiert.
 * *right*: None oder False=linksbündig; True=rechtsbündig\
 Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt.
-* Parameter außer *text* können weg gelassen werden (None)\
+* Parameter außer *text* können weg gelassen werden (None).\
 default: *row*=0; *col*=0; *end*=15; right=False
 
 Block **clearScreen** ()
