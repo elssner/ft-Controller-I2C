@@ -466,8 +466,8 @@ Block **getWeekday** () : String 2 Zeichen
 * 0x4b SparkFun Qwiic Keypad - 12 Tasten
 * 0x50 SparkFun Qwiic EEPROM Breakout - 512Kbit
 * 0x51 Grove - High Precision RTC (Real Time Clock)
-* 0x5d SparkFun Qwiic Motor Driver, 2 Motoren XS
-* 0x5e SparkFun Qwiic Motor Driver, 1 Motor XS, 1 Elektromagnet
+* 0x5d SparkFun Qwiic Motor Driver, 2 Motoren XS 9V
+* 0x5e SparkFun Qwiic Motor Driver, 1 Motor XS 9V, 1 Elektromagnet
 * 0x72 SparkFun Qwiic 20x4 SerLCD - RGB Backlight
 * Grove - I2C Hub(6 Port)
 * SparkFun Qwiic MultiPort
