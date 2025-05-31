@@ -103,6 +103,7 @@ n|Beispiel (Block)|Beschreibung
 ###### I²C Hardware
 
 * An einen I²C-Bus mit 4 Leitungen können mehrere I²C Module gleichzeitig angeschlossen werden: [Qwiic daisy chain](https://www.sparkfun.com/qwiic) oder [Grove - I2C Hub](https://wiki.seeedstudio.com/Grove-I2C_Hub/).
+* <ins>Der I²C-Bus hat **3,3 Volt**. Höhere Spannungen zerstören den Controller sofort!</ins>
 * [Anschlussbelegung](https://github.com/fischertechnik/TXT40-Controller-I2C) 6-pin: `1:+3,3V` `2:GND` `5:SCL` `6:SDA` (3 und 4 nichts anschließen).
 * Die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt.
 * Qwiic Module haben immer 3,3V Logik und sind hervorragend geeignet.
