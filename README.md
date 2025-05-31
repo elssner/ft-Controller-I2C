@@ -462,7 +462,7 @@ Block **getWeekday** () : String 2 Zeichen
 * 0x03 Grove - 6-Position DIP Switch
 * 0x20 SparkFun Qwiic Joystick
 * 0x27 SparkFun Qwiic GPIO
-* 0x3c Grove - OLED Yellow&Blue Display 0.96(SSD1315) (128x64)
+* 0x3c Grove - OLED Yellow&Blue Display 0.96(SSD1315) (128x64 Pixel)
 * 0x4b SparkFun Qwiic Keypad - 12 Tasten
 * 0x50 SparkFun Qwiic EEPROM Breakout - 512Kbit
 * 0x51 Grove - High Precision RTC (Real Time Clock)
