@@ -469,5 +469,6 @@ Block **getWeekday** () : String 2 Zeichen
 * 0x5d SparkFun Qwiic Motor Driver
 * 0x5e SparkFun Qwiic Motor Driver
 * 0x72 SparkFun Qwiic 20x4 SerLCD - RGB Backlight
+* [Modellbahn Tastenpult](https://www.tillig.com/Produkte/produktinfo-08211.html)
 
 ![](DSC00388.JPG)
