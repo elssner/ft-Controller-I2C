@@ -168,14 +168,14 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 **Kommentar**, **Int**, **Ord**, **Chr**, **print_bin**, **encode_string**, **decode_string**, **list_string**, **list_hex**, **system_time**
 
 Block **Kommentar** (text)\
-Block **Int** (x) : Integer\
-Block **Ord** (char) : Integer Zeichencode\
-Block **Chr** (asc) : String 1 Zeichen\
+Block **Int** (x) : Integer *int(x)*\
+Block **Ord** (char) : Integer Zeichencode *ord(char)*\
+Block **Chr** (asc) : String 1 Zeichen *chr(asc)*\
 Block **print_bin** (zahl, length) : BIN String z.B. '00001010'; Binärzahl mit fester Länge\
-Block **list_string** (string_data) : Liste der Zeichencodes *ord()*\
-Block **encode_string** (string_data) : Liste der Zeichencodes *encode('utf-8')*\
-Block **decode_string** (data_bytes) : String *decode('utf-8')*\
-Block **list_hex** (data_bytes) : HEX String\
+Block **list_string** (string_data) : Liste der Zeichencodes *[ord(c) for c in string_data]*\
+Block **encode_string** (string_data) : Liste der Zeichencodes *string_data.encode('utf-8')*\
+Block **decode_string** (data_bytes) : String *data_bytes.decode('utf-8')*\
+Block **list_hex** (data_bytes) : HEX String *[hex(b) for b in data_bytes]*\
 Block **system_time** () : Liste mit 9 Elementen
 * TXT 4.0: RTC Systemuhr (year, mon, mday, hour, min, sec, wday, yday, isdst)\
 Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstellen.
