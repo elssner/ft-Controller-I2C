@@ -116,9 +116,10 @@ n|Beispiel (Block)|Beschreibung
 
 ###### I²C Module mit Hardware Interrupt
 
-I²C Module, die eine Eingabe machen, müssen normalerweise in einer dauerhaft Schleife ständig abgefragt werden, ob sich der Zustand geändert hat. 
+I²C Module, die eine Eingabe machen, müssen normalerweise in einer dauerhaft Schleife ständig über den I²C-Bus abgefragt werden, ob sich der Zustand geändert hat. 
 Keypad, GPIO und RTC haben einen zusätzlichen (Löt-) Interrupt-Pin, der mit einem Controller Input verbunden werden kann. In einem `Eingang`**Starte jedes mal** Ereignis kann die Zustandsänderung erkannt werden.
-Mit der Ereignis-Funktion kann die ständige Kommunikation über den I²C-Bus vermieden werden.
+Mit der Ereignis-Funktion kann die ständige Kommunikation über den I²C-Bus vermieden werden.\
+Die /INT Pins aller I²C Module können miteinander verbunden an nur einen Controller Input angeschlossen werden. Ein Interrupt an einem I²C Modul schaltet den /INT Pegel auf LOW (GND).
 
 ###### I²C Software
 
