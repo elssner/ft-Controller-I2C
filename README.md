@@ -470,13 +470,13 @@ Block **getWeekday** () : String 2 Zeichen
 * 0x5e SparkFun Qwiic Motor Driver, 1 Motor XS 9V, 1 Elektromagnet
 * 0x72 SparkFun Qwiic 20x4 SerLCD - RGB Backlight
 * Grove - I2C Hub(6 Port)
-* SparkFun Qwiic MultiPort
-* SparkFun Qwiic Adapter
-* SparkFun Qwiic Cable Kit
 * Qwiic Cable - Grove Adapter (100mm)
+* SparkFun Qwiic MultiPort
+* SparkFun Qwiic Cable Kit
+* SparkFun Qwiic Adapter
 * Pfosten-Steckverbinder Rastermaß: 2.54 mm Polzahl Gesamt: 6
 * Beim Adapter löten gut isolieren, Spannung >3,3V am I²C-Bus zerstört den Controller!
 * [Modellbahn Tastenpult](https://www.tillig.com/Produkte/produktinfo-08211.html) 2 Stück\
-2 Tasten GND an I1, I2; 8 Tasten GND an GPIO (Pull Up 10 KOhm)
+2 Tasten GND an I1, I2; 8 Tasten GND an GPIO (Pull Up 10 KOhm an 3V3)
 
 ![](DSC00388.JPG)
