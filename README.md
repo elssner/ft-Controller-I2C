@@ -303,7 +303,7 @@ Block **readEEPROM** (adr16Bit, read_length) : Liste der Bytes
 
 Block **testEEPROM** ()
 * Testet, ob der ASCII Zeichensatz im EEPROM programmiert ist.
-* Speicherbereich der ASCII Zeichen F900-FBFF kann im Code geändert werden.
+* Speicherbereich der 96 ASCII Zeichen F900-FBFF kann im Code geändert werden.
 * Schreibt 6*128 Byte aus Speicherbereich in Konsole: ['0x3e', '0x51', '0x49', '0x45'].
 
 #### qwiicgpio.py
