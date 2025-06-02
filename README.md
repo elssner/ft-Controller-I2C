@@ -480,6 +480,7 @@ Block **getWeekday** () : String 2 Zeichen
 * SparkFun Qwiic Adapter
 * Pfosten-Steckverbinder Rastermaß: 2.54 mm Polzahl Gesamt: 6
 * Beim Adapter löten gut isolieren, Spannung >3,3V am I²C-Bus zerstört den Controller!
+* [Schrumpfschlauch](https://www.conrad.de/de/p/tru-components-t1904ca026-schrumpfschlauch-ohne-kleber-schwarz-1-50-mm-0-80-mm-schrumpfrate-2-1-1-m-2108776.html)
 * [Modellbahn Tastenpult](https://www.tillig.com/Produkte/produktinfo-08211.html) 2 Stück\
 2 Tasten GND an I1, I2; 8 Tasten GND an GPIO (Pull Up 10 KOhm an 3V3)
 
