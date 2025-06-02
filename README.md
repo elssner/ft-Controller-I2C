@@ -316,7 +316,7 @@ Block **testEEPROM** ()
 #### qwiicgpio.py
 ###### [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 > 3,3 Volt Logik; 16 Klemmen: 8 GPIO-Pins, 4 GND, 3 3V3, 1 /INT\
-Mit /INT kann bei Zustandsänderung ein Hardware Interrupt ausgelöst werden.
+Mit /INT kann bei Zustandsänderung ein (Hardware Interrupt)[#ic-module-mit-hardware-interrupt] ausgelöst werden.
 
 Block **setGPIO** (IO, INV)
 * Muss einmal beim Start aufgerufen werden.
@@ -361,6 +361,8 @@ Block **getJoystickButtonOnOff** () : Boolean
 
 #### qwiickeypad.py
 ###### [SparkFun Qwiic Keypad - 12 Tasten](https://www.sparkfun.com/products/15290)
+> Mit /INT kann bei gedrückter Taste ein (Hardware Interrupt)[#ic-module-mit-hardware-interrupt] ausgelöst werden.
+
 Block **readKeypad** () : Byte
 * Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 * Keypad hat 12 Tasten: '0'=48 ... '9'=57 .. '#'=35 .. '*'=42
