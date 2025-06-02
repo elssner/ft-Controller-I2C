@@ -114,6 +114,12 @@ n|Beispiel (Block)|Beschreibung
 
 [6-pin Pfosten Stecker](https://www.conrad.de/de/p/fci-75867-131lf-pfosten-steckverbinder-rastermass-2-54-mm-polzahl-gesamt-6-anzahl-reihen-2-1-st-1401777.html) | [Qwiic Adapter](https://www.sparkfun.com/sparkfun-qwiic-adapter.html) | [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/qwiic-cable-grove-adapter-100mm.html) | [Qwiic Cable Kit](https://www.sparkfun.com/sparkfun-qwiic-cable-kit.html)
 
+###### I²C Module mit Hardware Interrupt
+
+I²C Module, die eine Eingabe machen, müssen normalerweise in einer dauerhaft Schleife ständig abgefragt werden, ob sich der Zustand geändert hat. 
+Keypad, GPIO und RTC haben einen zusätzlichen (Löt-) Interrupt-Pin, der mit einem Controller Input verbunden werden kann. In einem `Eingang`**Starte jedes mal** Ereignis kann die Zustandsänderung erkannt werden.
+Mit der Ereignis-Funktion kann die ständige Kommunikation über den I²C-Bus vermieden werden.
+
 ###### I²C Software
 
 * Die I²C Module müssen verschiedene 7-Bit I²C-Adressen haben.
