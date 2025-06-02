@@ -308,6 +308,8 @@ Block **testEEPROM** ()
 
 #### qwiicgpio.py
 ###### [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
+> 3,3 Volt Logik; 16 Klemmen: 8 GPIO Pins, 4 GND, 3 3V3, 1 INT
+
 Block **setGPIO** (IO, INV)
 * Muss einmal beim Start aufgerufen werden.
 * Beide Parameter *IO*, *INV*: String mit 8 Binärziffern (0 oder 1).
