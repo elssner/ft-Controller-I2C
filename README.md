@@ -298,13 +298,13 @@ Block **oled_clock** (x, y, radius, hour, minute)
 ###### [SparkFun Qwiic EEPROM Breakout - 512Kbit](https://www.sparkfun.com/products/18355)
 Block **readEEPROM** (adr16Bit, read_length) : Liste der Bytes
 * *adr16Bit*: 0x0000..0xFFFF
-* *read_length*: Anzahl zu lesender Bytes (**nicht** auf 32 begrenzt)
-* die zurück gegebene Liste kann mit `Datenstrukturen`**in der Liste** gelesen werden
+* *read_length*: Anzahl zu lesender Bytes (**nicht** auf 32 begrenzt).
+* Die zurück gegebene Liste kann mit `Datenstrukturen`**in der Liste** gelesen werden.
 
 Block **testEEPROM** ()
 * Testet, ob der ASCII Zeichensatz im EEPROM programmiert ist.
 * Speicherbereich der ASCII Zeichen F900-FBFF kann im Code geändert werden.
-* Schreibt Bytes in Konsole: ['0x3e', '0x51', '0x49', '0x45', '0x3e'].
+* Schreibt 768 Byte aus Speicherbereich in Konsole: ['0x3e', '0x51', '0x49', '0x45', '0x3e'].
 
 #### qwiicgpio.py
 ###### [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
