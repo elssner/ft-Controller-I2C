@@ -413,6 +413,8 @@ Block **driveMotorB** (speed:Byte)
 
 #### qwiicrelay.py
 ###### [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
+> Strom für Relais kommt aus dem 3,3 Volt I²C Bus!
+
 Block **writeRelay** (on:Boolean)
 * *on* schaltet Relais: True=an; False=aus.
 * I2C_ADDRESS kann im Code geändert werden.
