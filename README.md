@@ -484,7 +484,7 @@ Block **get_weekday** () : String 2 Zeichen
 
 
 #### s_qwiicinfrared.py
-###### [SparkFun Proximity Sensor Breakout - 20cm, VCNL4040 (Qwiic)](https://www.sparkfun.com/products/15177)
+###### [SparkFun Qwiic Proximity Sensor - 20cm, VCNL4040](https://www.sparkfun.com/products/15177)
 Block
 
 
