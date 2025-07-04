@@ -241,7 +241,7 @@ Block **set_display** (display_on, cursor_on, blink_on)
 > OLED Displays zeigen 128x64 oder 128x128 Pixel an. Alle Pixel werden zuerst in Variablen gespeichert. Dieser Speicher wird 'Matrix' genannt.
 > Um die 'Matrix' auf dem OLED Display anzuzeigen, muss immer der Block **displayMatrix** aufgerufen werden.
 
-Block **initOLED** (select_oled:Boolean) → Parameter optional
+Block **init_oled** (select_oled:Boolean) → Parameter optional
 * Muss einmal beim Start aufgerufen werden.
 * *select_oled*: Auswahl Display (I²C-Adresse) None oder False: 0x3C; True: 0x3D.
 * Initialisiert die Matrix: Variablen zum Speichern der Pixel (1024 oder 2048 Byte).
@@ -250,26 +250,26 @@ Block **initOLED** (select_oled:Boolean) → Parameter optional
 > Wenn zwei Displays angeschlossen sind, muss der Block **initOLED** zweimal aufgerufen werden, mit False und True.
 > Es gibt nur eine Matrix, die mit dem folgenden Block auf einem bestimmten Display angezeigt werden kann.
 
-Block **displayMatrix** (fromPage, toPage, select_oled) → alle Parameter optional
+Block **display_matrix** (from_page, to_page, select_oled) → alle Parameter optional
 * Immer aufrufen, um das in die Matrix gezeichnete Bild auf dem Display anzuzeigen.
 * Ohne Parameter wird das komplette Display über den I²C-Bus neu geschrieben.
-* Mit den optionalen Parametern *fromPage*, *toPage* ist es möglich, nur einen Teil des Displays zu aktualisieren. Eine 'Page' ist eine Zeile 8 Pixel hoch und 128 Pixel breit (Breite des Displays).
+* Mit den optionalen Parametern *from_page*, *to_page* ist es möglich, nur einen Teil des Displays zu aktualisieren. Eine 'Page' ist eine Zeile 8 Pixel hoch und 128 Pixel breit (Breite des Displays).
 * Das 128x64 Display hat 8 Zeilen (0-7). Das 128x128 Display hat 16 Zeilen (0-15).
 * Der Parameter *select_oled* bestimmt, an welches OLED Display die Matrix gesendet wird.
 
 > <ins>Die folgenden Blöcke ändern nur die Pixel in der Matrix, nicht das Display.</ins>
 
-Block **clearMatrix** (fromPage, toPage) → alle Parameter optional
+Block **clear_matrix** (from_page, to_page) → alle Parameter optional
 * Löscht die gesamte Matrix (ohne Parameter) oder einzelne Zeilen.
-* *fromPage*: 0..7, default: 0
-* *toPage*: 0..7 bzw. 0..15, default 7 bzw. 15
+* *from_page*: 0..7, default: 0
+* *to_page*: 0..7 bzw. 0..15, default 7 bzw. 15
 
-Block **setPixel** (x, y, pixel)
+Block **set_pixel** (x, y, pixel)
 * *pixel*: schaltet ein Pixel (in der Matrix) True:EIN oder False:AUS. 
 * Für die Koordinate *x* sind Werte von 0 (links) bis 127 (rechts) möglich.
 * Für die Koordinate *y* sind Werte von 0 (oben) bis 63 bzw. 127 (unten) möglich.
 
-Block **writeMatrix** (row, col, text)
+Block **write_matrix** (row, col, text)
 ###### erforderlich: [qwiiceeprom](#qwiiceprompy)
 > Um Text mit Pixeln zu zeichnen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein. Pro Zeichen werden 8 Byte vom EEPROM in die Matrix kopiert.
 
@@ -278,9 +278,9 @@ Block **writeMatrix** (row, col, text)
 * *text*: Text, alle Datentypen werden mit str() konvertiert.
 * Parameter optional, default: row=0; col=0.
 
-Block **paintEEPROM** (eepromStartadresse, fromPage, toPage) → alle Parameter optional
-* *eepromStartadresse*: 0x0000..0xFFFF; default 0xF800 (Anfang vom Zeichensatz)
-* *fromPage*: 0..7, default: 0; *toPage*: 0..7 bzw. 0..15, default 7 bzw. 15
+Block **paint_eeprom** (eeprom_startadresse, from_page, to_page) → alle Parameter optional
+* *eeprom_startadresse*: 0x0000..0xFFFF; default 0xF800 (Anfang vom Zeichensatz)
+* *from_page*: 0..7, default: 0; *to_page*: 0..7 bzw. 0..15, default 7 bzw. 15
 * Kopiert aus dem EEPROM pro 'Page' 128 Byte in die Matrix.
 * Ohne Parameter wird der gesamte Zeichensatz vom EEPROM in die Matrix kopiert.
 * Im EEPROM können Bilder, die das ganze Display füllen, gespeichert werden.
@@ -308,6 +308,11 @@ Block **oled_hour** (hour, x, y, l0, l1, pixel)
 
 Block **oled_clock** (x, y, radius, hour, minute)
 * Zeichnet eine analoge Uhr. *hour* und *minute* geben die Stellung der Uhrzeiger an.
+
+#### qwiicbuttonpy
+###### [SparkFun Qwiic Button](https://www.sparkfun.com/products/16842)
+Block 
+
 
 #### qwiiceeprom.py
 ###### [SparkFun Qwiic EEPROM Breakout - 512Kbit](https://www.sparkfun.com/products/18355)
