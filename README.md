@@ -10,12 +10,12 @@ Das Beispiel Projekt mit Blöcken für TXT 4.0 Controller ist im [fischertechnik
 Alle I²C-Module und Programmierbeispiele auf dieser Seite wurden mit dem TXT 4.0 Controller und auch mit dem RX Controller getestet.
 
 Mit der [App ROBO Pro Coding](https://www.fischertechnik.de/de-de/apps-und-software#apps) kann das Projekt ohne Anmeldung von fischertechnik GitLab geladen werden. 
-Dazu bleibt das Zugriffstoken leer und auf der nächsten Seite im Suchfeld kann `i2c` eingegeben werden. Der Name ist `ft_Controller_I2C`. Das Projekt kann dann lokal als .ft-Datei gespeichert werden.
+Dazu bleibt das Zugriffstoken leer und auf der nächsten Seite im Suchfeld kann `i2c` eingegeben werden. Der Name ist `i2c / ft_Controller_I2C`. Das Projekt kann dann lokal als .ft-Datei gespeichert werden.
 
 #### Im Projekt enthaltene Quellcodedateien (Blöcke) für I²C Module.
 
-Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die Quellcodedateien für die angeschlossenen I²C Module importiert werden.
-Der Import muss zweimal erfolgen: zuerst [i2cCode](#i2ccodepy) und optional [advanced](#advancedpy). Beim zweiten Import die Datei für die I²C Module.\
+Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die Quellcodedateien importiert werden.
+Der Import muss zweimal erfolgen: zuerst [i2cCode](#i2ccodepy) und optional [advanced](#advancedpy), beim zweiten Import die Dateien für die angeschlossenen I²C Module.\
 Die Datei [i2cCode](#i2ccodepy) muss immer mit importiert werden.\
 Die Datei [advanced](#advancedpy) enthält keine I²C spezifischen Blöcke, ist aber zu empfehlen.\
 Aus der Datei [Beispiele](#beispielepy) könnte nur ein einzelner Block übernommen werden.\
