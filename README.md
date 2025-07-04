@@ -484,17 +484,17 @@ Block **get_weekday** () : String 2 Zeichen
 
 
 #### s_qwiicinfrared.py
-###### [Proximity Sensor VCNL4040](https://www.sparkfun.com/products/15177)
+###### [SparkFun Proximity Sensor Breakout - 20cm, VCNL4040 (Qwiic)](https://www.sparkfun.com/products/15177)
 Block
 
 
 #### s_qwiiclaser.py
-###### Laser Sensor [VL53L1X](https://www.sparkfun.com/products/14722), [VL53L4CD](https://www.sparkfun.com/products/18993)
+###### Laser Sensor [SparkFun Distance Sensor Breakout - 4 Meter, VL53L1X (Qwiic)](https://www.sparkfun.com/products/14722), [SparkFun Distance Sensor - 1.3 Meter, VL53L4CD (Qwiic)](https://www.sparkfun.com/products/18993)
 Block
 
 
 #### s_qwiicultrasonic.py
-###### [Ultrasonic Sensor HC-SR04](https://www.sparkfun.com/products/17777)
+###### [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777)
 Block
 
 
