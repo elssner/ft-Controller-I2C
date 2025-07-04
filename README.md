@@ -149,17 +149,17 @@ Block **i2c_write_buffer** (i2c_addr, write_buffer)
 * *write_buffer*: Liste darf nur 8-Bit Elemente (0x00..0xFF bzw. 0..255) enthalten.
 * Parameter *write_buffer* kann mit `Datenstrukturen`**erzeuge Liste** übergeben werden.
 
-Block **i2cReadBuffer** (i2c_addr, length) : Liste der Bytes
+Block **i2c_read_buffer** (i2c_addr, length) : Liste der Bytes
 
 * Empfängt Bytes von der *i2c_addr*, *length* ist die Anzahl der Bytes.
 * Die zurück gegebene Liste kann mit `Datenstrukturen`**in der Liste** gelesen werden.
 
-Block **i2cWriteReadBuffer** (i2c_addr, write_buffer, read_length) : Liste der Bytes
+Block **i2c_write_read_buffer** (i2c_addr, write_buffer, read_length) : Liste der Bytes
 
 * Sendet und empfängt Bytes, ohne dazwischen den I²C-Bus frei zu geben.
 * Erlaubt I²C Register adressieren und lesen mit nur einer Funktion.
 
-Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
+Block **i2c_scan** () : Liste der 7-Bit I²C-Adressen
 
 * Versucht alle möglichen I²C-Adressen in einer Schleife zu erreichen.
 * Wenn read oder write erfolgreich ist, wird die gültige I²C Adresse in einer Liste gesammelt.
@@ -168,7 +168,7 @@ Block **i2cScan** () : Liste der 7-Bit I²C-Adressen
 * Test i2cScan TXT 4.0 Controller mit echter Hardware (10 I²C Module gleichzeitig):\
 ['0x3', '0x20', '0x27', '0x3c', '0x4b', '0x50', '0x51', '0x5d', '0x5e', '0x72']
 
-Block **isRX** () : Boolean
+Block **is_rx** () : Boolean
 
 * Gibt True zurück, wenn `sys.implementation.name == 'circuitpython'`.
 * True: circuitpython import board, busio, (adafruit) I2CDevice
