@@ -309,19 +309,19 @@ Block **oled_hour** (hour, x, y, l0, l1, pixel)
 Block **oled_clock** (x, y, radius, hour, minute)
 * Zeichnet eine analoge Uhr. *hour* und *minute* geben die Stellung der Uhrzeiger an.
 
-#### qwiicbuttonpy
+#### qwiicbutton.py
 ###### [SparkFun Qwiic Button](https://www.sparkfun.com/products/16842)
 Block 
 
 
 #### qwiiceeprom.py
 ###### [SparkFun Qwiic EEPROM Breakout - 512Kbit](https://www.sparkfun.com/products/18355)
-Block **readEEPROM** (adr16Bit, read_length) : Liste der Bytes
+Block **read_eeprom** (adr16Bit, read_length) : Liste der Bytes
 * *adr16Bit*: 0x0000..0xFFFF
 * *read_length*: Anzahl zu lesender Bytes (**nicht** auf 32 begrenzt).
 * Die zurück gegebene Liste kann mit `Datenstrukturen`**in der Liste** gelesen werden.
 
-Block **testEEPROM** ()
+Block **test_eeprom** ()
 * Testet, ob der ASCII Zeichensatz im EEPROM programmiert ist.
 * Speicherbereich der 96 ASCII Zeichen F900-FBFF kann im Code geändert werden.
 * Schreibt 6*128 Byte aus Speicherbereich in Konsole: ['0x3e', '0x51', '0x49', '0x45'].
@@ -331,24 +331,24 @@ Block **testEEPROM** ()
 > 3,3 Volt Logik; 16 Klemmen: 8 GPIO-Pins, 4 GND, 3 3V3, 1 /INT\
 Mit /INT kann bei Zustandsänderung ein [Hardware Interrupt](#ic-module-mit-hardware-interrupt) ausgelöst werden.
 
-Block **setGPIO** (IO, INV)
+Block **set_gpio** (io, inv)
 * Muss einmal beim Start aufgerufen werden.
-* Beide Parameter *IO*, *INV*: String mit 8 Binärziffern (0 oder 1).
+* Beide Parameter *io*, *inv*: String mit 8 Binärziffern (0 oder 1).
 * Jede Binärziffer (Bit) ist einem von 8 GPIO-Pins zugeordnet.
-* *IO* CONFIGURATION Bit: 0=output Pin; 1=input Pin
-* *INV* INVERSION Bit: 0=original polarity; 1=inverted
+* *io* CONFIGURATION Bit: 0=output Pin; 1=input Pin
+* *inv* INVERSION Bit: 0=original polarity; 1=inverted
 * INVERSION wirkt nur auf input Pins → Pin an GND → logische 1
 * Beispiel:\
-**setGPIO**('00000011', '00000000'): 6 output und 2 input\
-**setGPIO**('11111111', '11111111'): alle 8 Pins input inverted
+**set_gpio**('00000011', '00000000'): 6 output und 2 input\
+**set_gpio**('11111111', '11111111'): alle 8 Pins input inverted
 * ACHTUNG! GPIO INPUT und OUTPUT hat 3,3 Volt Pegel!
 
-Block **readGPIO** () : Byte
+Block **read_gpio** () : Byte
 * Gibt 1 Byte zurück, 1 Bit pro GPIO Pin.
 * An input Pins max. 3,3 Volt Spannung anschließen!
 * Taster schalten Pin an GND; Pull Up Widerstände (10 kOhm) an 3V3 erforderlich.
 
-Block **writeGPIO** (byte)
+Block **write_gpio** (byte)
 * *byte*: Schaltet 8 GPIO Pins, die als 0=output konfiguriert sind.
 * Bit=0: aus (0 Volt); Bit=1: an (3,3 Volt)
 
