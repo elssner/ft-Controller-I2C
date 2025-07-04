@@ -93,13 +93,13 @@ n|Beispiel (Block)|Beschreibung
 4|**qlcd_rtc_keypad**|Qwiic LCD 16x2 oder 20x4 Uhr stellen und anzeigen.
 5|**qlcd_gpio_keypad**|Qwiic LCD 16x2 oder 20x4 8 Bit Zeichencode Eingabe mit GPIO.
 6|**qlcd_joystick**|Qwiic LCD 16x2 oder 20x4 zeigt Joystick Positionen an.
-7|**qbutton2_queue**|2 Qwiic Buttons mit LED und FIFO in Konsole.
+7|**qbutton2_queue**|2 Qwiic Buttons mit LED, FIFO in Konsole anzeigen.
 8|**oled_zeichnen**|OLED 128x64 oder 128x128 Linien und Kreise anzeigen.
 9|**oled_eeprom_copy**|OLED 128x64 oder 128x128 Zeichensatz aus EEPROM anzeigen.
 10|**oled_eeprom_rtc**|OLED 128x64 oder 128x128 Datum, Uhrzeit digital und analog.
 11|**oled2_systemtime**|2 OLED Displays, verschiedener Inhalt, Analoguhr System-Zeit.
-12||
-13||
+12|**qlcd_qultrasonic_qinfrared**|Qwiic LCD zeigt 2 Sensoren (Abstand und Nähe) an.
+13|**qlaser_konsole**|Laser Distance Sensor in Konsole anzeigen.
 14|**joy_2motoren**|2 Motoren (1 Modul) mit Joystick steuern.
 15|**joy_4motoren**|4 Motoren (2 Module) mit Joystick umschalten und steuern.
 
