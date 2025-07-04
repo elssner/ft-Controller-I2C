@@ -414,22 +414,22 @@ Block **set_qdisplay** (display_on, cursor_on, blink_on)
 
 #### qwiicmotor.py
 ###### [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
-Block **initMotor** (i2c_addr)
+Block **init_motor** (i2c_addr)
 * Für jedes Motor-Modul einmal beim Start aufrufen (mit entsprechender *i2c_addr*).
 * Parameter *i2c_addr* kann weg gelassen werden, default: 0x5D.
 * 1 Modul steuert 2 Motoren 9V, mehrere Module können gleichzeitig angeschlossen werden.
 * 10 I²C-Adressen mit Lötbrücken einstellbar: 0x58..0x61.
 
-Block **setMotorI2C** (i2c_addr)
+Block **set_motor_i2c** (i2c_addr)
 * Ändert die I²C-Adresse für die folgenden Funktionen auf ein bestimmtes Motor-Modul.
 * Wird nur bei mehreren angeschlossenen Qwiic Motor-Modulen benötigt.
 
-Block **enableMotor** (on:Boolean)
+Block **enable_motor** (on:Boolean)
 * *on* schaltet Motor Power: True=an; False=aus (für 1 Modul = 2 Motoren).
 * Power für H-Bridge soll bei längerem Stillstand aus geschaltet werden, um Energie zu sparen.
 
-Block **driveMotorA** (speed:Byte)\
-Block **driveMotorB** (speed:Byte)
+Block **drive_motor_a** (speed:Byte)\
+Block **drive_motor_b** (speed:Byte)
 * *speed* 0..128..255 Motor Drehzahl und Richtung.
 * *speed* ist optional, default=128 (Stillstand).
 * 0 max. rückwärts | ← 128 Stop → | 255 max. vorwärts
@@ -438,49 +438,64 @@ Block **driveMotorB** (speed:Byte)
 ###### [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 > Strom für Relais kommt aus dem 3,3 Volt I²C-Bus!
 
-Block **writeRelay** (on:Boolean)
+Block **write_relay** (on:Boolean)
 * *on* schaltet Relais: True=an; False=aus.
-* I2C_ADDRESS kann im Code geändert werden.
+* I2C_ADDRESS kann im Code geändert werden, default 0x18.
 
 #### rtc.py
 ###### [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 
 ##### Uhr stellen
 
-Block **writeRTC** (index, int8)
+Block **write_rtc** (index, int8)
 * Stellt die Uhr. Ändert ein bestimmtes Register *index*.
 * `0`Seconds, `1`Minutes, `2`Hours, `3`Days, `4`Weekdays, `5`Months, `6`Years
 * *int8*: 0..59 Byte wird in BCD konvertiert und im RTC-Modul gespeichert. 
 
-Block **setRTC** (keyCode) : keyString
+Block **set_rtc** (key_code) : keyString
 * Stellt die Uhr mit 5 ASCII Zeichen-Codes von Keypad oder Keyboard.
 * Muss 5 mal mit ASCII Code aufgerufen werden, gibt den zusammengesetzten String zurück.\
   *1. Zeichen:* `*` neu, *2. Zeichen:* Register `0..6`,\
   *3. und 4. Zeichen:* 2 Ziffern dezimal `00..59`, *5. Zeichen:* `#` speichern
-* Wenn 5 Zeichen gültig sind, wird mit **writeRTC** das Register geändert.
+* Wenn 5 Zeichen gültig sind, wird mit **write_rtc** das Register geändert.
 * Beispiel: `*120#`setzt Minute auf 20; `*401#` Montag; `*000#` Sekunde 0.
 
 ##### Uhr lesen
 
-Block **readRTC** ()
+Block **read_rtc** ()
 * <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
 * Liest 7 Byte in Variable RTC_BUFFER.
 * BCD codiert: 4 Bit pro Ziffer, Bit `7654` Zehner, Bit `3210` Einer, Jahr 2-stellig
 
 > <ins>Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.</ins>
 
-Block **getRTC** (index) : Byte
+Block **get_rtc** (index) : Byte
 * Liest 1 Byte aus Variable RTC_BUFFER[*index*] zu dezimal konvertiert.
 * `0`Seconds, `1`Minutes, `2`Hours, `3`Days, `4`Weekdays, `5`Months, `6`Years
 
-Block **getTimeString** () : String 8 Zeichen
+Block **get_time_string** () : String 8 Zeichen
 * Liest Zeit aus Variable RTC_BUFFER: `HH:mm:ss`.
 
-Block **getDateString** () : String 10 Zeichen
+Block **get_date_string** () : String 10 Zeichen
 * Liest Datum aus Variable RTC_BUFFER: `dd.MM.20yy`.
 
-Block **getWeekday** () : String 2 Zeichen
+Block **get_weekday** () : String 2 Zeichen
 * Liest Wochentag aus RTC_BUFFER: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'].
+
+
+#### s_qwiicinfrared.py
+###### [Proximity Sensor VCNL4040](https://www.sparkfun.com/products/15177)
+Block
+
+
+#### s_qwiiclaser.py
+###### Laser Sensor [VL53L1X](https://www.sparkfun.com/products/14722), [VL53L4CD](https://www.sparkfun.com/products/18993)
+Block
+
+
+#### s_qwiicultrasonic.py
+###### [Ultrasonic Sensor HC-SR04](https://www.sparkfun.com/products/17777)
+Block
 
 
 ### Foto
