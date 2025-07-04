@@ -144,17 +144,17 @@ Weil der RX Controller keine Ereignisse unterstützt, kann der Controller Input 
 
 Block **i2c_write_buffer** (i2c_addr, write_buffer)
 
-* Sendet alle Bytes aus der Liste *write_buffer* an die *i2cAdr*.
-* *i2cAdr*: 7 Bit (0x00..0x7F bzw. 0..127)
+* Sendet alle Bytes aus der Liste *write_buffer* an die *i2c_addr*.
+* *i2c_addr*: 7 Bit (0x00..0x7F bzw. 0..127)
 * *write_buffer*: Liste darf nur 8-Bit Elemente (0x00..0xFF bzw. 0..255) enthalten.
 * Parameter *write_buffer* kann mit `Datenstrukturen`**erzeuge Liste** übergeben werden.
 
-Block **i2cReadBuffer** (i2cAdr, length) : Liste der Bytes
+Block **i2cReadBuffer** (i2c_addr, length) : Liste der Bytes
 
-* Empfängt Bytes von der *i2cAdr*, *length* ist die Anzahl der Bytes.
+* Empfängt Bytes von der *i2c_addr*, *length* ist die Anzahl der Bytes.
 * Die zurück gegebene Liste kann mit `Datenstrukturen`**in der Liste** gelesen werden.
 
-Block **i2cWriteReadBuffer** (i2cAdr, write_buffer, read_length) : Liste der Bytes
+Block **i2cWriteReadBuffer** (i2c_addr, write_buffer, read_length) : Liste der Bytes
 
 * Sendet und empfängt Bytes, ohne dazwischen den I²C-Bus frei zu geben.
 * Erlaubt I²C Register adressieren und lesen mit nur einer Funktion.
@@ -409,13 +409,13 @@ Block **setQDisplay** (displayOn, cursorOn, blinkOn)
 
 #### qwiicmotor.py
 ###### [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
-Block **initMotor** (i2cAdr)
-* Für jedes Motor-Modul einmal beim Start aufrufen (mit entsprechender *i2cAdr*).
-* Parameter *i2cAdr* kann weg gelassen werden, default: 0x5D.
+Block **initMotor** (i2c_addr)
+* Für jedes Motor-Modul einmal beim Start aufrufen (mit entsprechender *i2c_addr*).
+* Parameter *i2c_addr* kann weg gelassen werden, default: 0x5D.
 * 1 Modul steuert 2 Motoren 9V, mehrere Module können gleichzeitig angeschlossen werden.
 * 10 I²C-Adressen mit Lötbrücken einstellbar: 0x58..0x61.
 
-Block **setMotorI2C** (i2cAdr)
+Block **setMotorI2C** (i2c_addr)
 * Ändert die I²C-Adresse für die folgenden Funktionen auf ein bestimmtes Motor-Modul.
 * Wird nur bei mehreren angeschlossenen Qwiic Motor-Modulen benötigt.
 
