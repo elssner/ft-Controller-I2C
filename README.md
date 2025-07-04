@@ -354,39 +354,39 @@ Block **write_gpio** (byte)
 
 #### qwiicjoystick.py
 ###### [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
-Block **readJoystick** ()
+Block **read_joystick** ()
 * <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
 * Liest alle Joystick Register über den I²C-Bus in Variable JOYSTICK_BUFFER.
 
 > <ins>Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.</ins>
 
-Block **getJoystickX** () : Byte\
-Block **getJoystickY** () : Byte
+Block **get_joystick_x** () : Byte\
+Block **get_joystick_y** () : Byte
 * Gibt 1 Byte zurück mit der Stellung des Joystick in X bzw. Y Richtung.
 * Mittelstellung ist 128, geringe Abweichung durch Hardware Toleranz.
 * Endstellung unten bzw. links = 0; oben bzw. rechts = 255.
 
-Block **getJoystickButtonPosition** () : Boolean
+Block **get_joystick_button_position** () : Boolean
 * Gibt True zurück, wenn der Joystick jetzt gerade gedrückt ist.
 
-Block **getJoystickButtonOnOff** () : Boolean
+Block **get_joystick_button_onoff** () : Boolean
 * Wechselt False / True bei jedem Drücken des Joystick.
 
 #### qwiickeypad.py
 ###### [SparkFun Qwiic Keypad - 12 Tasten](https://www.sparkfun.com/products/15290)
 > Mit /INT kann bei gedrückter Taste ein [Hardware Interrupt](#ic-module-mit-hardware-interrupt) ausgelöst werden.
 
-Block **readKeypad** () : Byte
+Block **read_keypad** () : Byte
 * Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 * Keypad hat 12 Tasten: '0'=48 ... '9'=57 .. '#'=35 .. '*'=42
 
 #### qwiiclcd.py
 ###### [SparkFun Qwiic 20x4 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16398) | [SparkFun Qwiic 16x2 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16396)
-Block **initQLCD** ()
+Block **init_qlcd** ()
 * Muss einmal beim Start aufgerufen werden.
 * Im Code kann die Größe des Display 16x2 oder 20x4 (COLS x ROWS) konfiguriert werden.
 
-Block **writeQText** (row, col, end, text, right)
+Block **write_qtext** (row, col, end, text, right)
 * Schreibt an eine bestimmte Position Text mit fester Länge.
 * *row*: Zeile 0..3; *col*: Spalte 0..19; *end*: Spalte 0..19 (letztes Zeichen)
 * *text*: Text, alle Datentypen werden mit str() konvertiert.
@@ -395,20 +395,20 @@ Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt.
 * Parameter außer *text* können weg gelassen werden (None).\
 default: *row*=0; *col*=0; *end*=COLS-1; right=False
 
-Block **clearQScreen** ()
+Block **clear_qscreen** ()
 * Löscht das LCD Display.
 
-Block **setQCursor** (row, col)
+Block **set_qcursor** (row, col)
 * Set Cursor für writeQLCD oder wenn Cursor sichtbar ist oder blinkt.
 * *row*: Zeile 0..3; *col*: Spalte 0..19
 * Parameter optional, default: *row*=0; *col*=0
 
-Block **writeQLCD** (text)
+Block **write_qlcd** (text)
 * Schreibt *text* an aktuelle Cursorposition.
 * Alle Datentypen werden mit str() konvertiert.
 * Schreibt auf nächster Zeile weiter, max. Länge 32 Zeichen.
 
-Block **setQDisplay** (displayOn, cursorOn, blinkOn)
+Block **set_qdisplay** (display_on, cursor_on, blink_on)
 * Alle Parameter Boolean: False oder True.
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
