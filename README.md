@@ -86,14 +86,14 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 
 n|Beispiel (Block)|Beschreibung
 ---|---|---
-0|**i2cScan**
+0|**i2c_scan**|I²C-Adressen der angeschlossenen Module in Konsole
 1|**grovelcd_rtc**|Grove LCD 16x2 zeigt Uhrzeit und Datum an.
 2|**grovelcd_keyboard**|Grove LCD 16x2 schreiben mit Card Keyboard (50 Tasten).
 3|**grovelcd_dipswitch**|Grove LCD 16x2 mit 6 DIP Schaltern oder 5-Way Switch.
 4|**qlcd_rtc_keypad**|Qwiic LCD 16x2 oder 20x4 Uhr stellen und anzeigen.
 5|**qlcd_gpio_keypad**|Qwiic LCD 16x2 oder 20x4 8 Bit Zeichencode Eingabe mit GPIO.
 6|**qlcd_joystick**|Qwiic LCD 16x2 oder 20x4 zeigt Joystick Positionen an.
-7||
+7|**qbutton2_queue**|2 Qwiic Buttons mit LED und FIFO in Konsole.
 8|**oled_zeichnen**|OLED 128x64 oder 128x128 Linien und Kreise anzeigen.
 9|**oled_eeprom_copy**|OLED 128x64 oder 128x128 Zeichensatz aus EEPROM anzeigen.
 10|**oled_eeprom_rtc**|OLED 128x64 oder 128x128 Datum, Uhrzeit digital und analog.
