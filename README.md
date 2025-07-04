@@ -110,21 +110,21 @@ n|Beispiel (Block)|Beschreibung
 
 ###### I²C Hardware
 
-* <ins>Der I²C-Bus hat **3,3 Volt**. Höhere Spannungen zerstören den Controller sofort!</ins>
+* <ins>Der I²C-Bus hat **3,3 Volt** Logik. Höhere Spannungen zerstören den **Controller** sofort!</ins>
 * An einen I²C-Bus mit 4 Leitungen können mehrere I²C Module gleichzeitig angeschlossen werden: [Qwiic daisy chain](https://www.sparkfun.com/qwiic) oder [Grove - I2C Hub](https://wiki.seeedstudio.com/Grove-I2C_Hub/).
 * [Anschlussbelegung](https://github.com/fischertechnik/TXT40-Controller-I2C) 6-pin: `1:+3,3V` `2:GND` `5:SCL` `6:SDA` (3 und 4 nichts anschließen).
 * Die Anzahl gleichzeitig angeschlossener Module ist aus elektrischen Gründen begrenzt.
 * Qwiic Module haben immer 3,3V Logik und sind hervorragend geeignet.
 * Grove Module mit 3,3V/5V verabschieden sich zuerst, wenn mehrere am I²C-Bus sind.
 * M5Stack und andere Module mit 5V und müssen getestet werden.
-* TXT 4.0 Controller verträgt am I²C-Bus mehr Module gleichzeitig als der RX Controller.
+* RX Controller verträgt am I²C-Bus nur 2-3 Module gleichzeitig, TXT 4.0 viel mehr.
 
 [6-pin Pfosten Stecker](https://www.conrad.de/de/p/fci-75867-131lf-pfosten-steckverbinder-rastermass-2-54-mm-polzahl-gesamt-6-anzahl-reihen-2-1-st-1401777.html) | [Qwiic Adapter](https://www.sparkfun.com/sparkfun-qwiic-adapter.html) | [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/qwiic-cable-grove-adapter-100mm.html) | [Qwiic Cable Kit](https://www.sparkfun.com/sparkfun-qwiic-cable-kit.html)
 
 ###### I²C Module mit Hardware Interrupt
 
 I²C Module, die eine Eingabe machen, müssen normalerweise in einer dauerhaft Schleife ständig über den I²C-Bus abgefragt werden, ob sich der Zustand geändert hat. 
-Keypad, GPIO und RTC haben einen zusätzlichen (Löt-) Interrupt-Pin, der mit einem Controller Input verbunden werden kann. Ein `Eingang`**Starte jedes mal** Block kann bei Zustandsänderung ein Ereignis auslösen.
+Sensoren, Button, Keypad, GPIO und RTC haben einen zusätzlichen (Löt-) Interrupt-Pin, der mit einem Controller Input verbunden werden kann. Ein `Eingang`**Starte jedes mal** Block kann bei Zustandsänderung ein Ereignis auslösen.
 Mit dem Ereignis-Block kann die ständige Kommunikation über den I²C-Bus vermieden werden.\
 Die /INT Pins aller I²C Module können miteinander verbunden an nur einen Controller Input angeschlossen werden. Ein Interrupt an einem I²C Modul schaltet den /INT Pegel auf LOW (GND).\
 Weil der RX Controller keine Ereignisse unterstützt, kann der Controller Input in einer Schleife abgefragt werden, was den I²C-Bus ebenfalls entlastet.
@@ -142,7 +142,7 @@ Weil der RX Controller keine Ereignisse unterstützt, kann der Controller Input 
 
 #### i2cCode.py
 
-Block **i2cWriteBuffer** (i2cAdr, write_buffer)
+Block **i2c_write_buffer** (i2c_addr, write_buffer)
 
 * Sendet alle Bytes aus der Liste *write_buffer* an die *i2cAdr*.
 * *i2cAdr*: 7 Bit (0x00..0x7F bzw. 0..127)
