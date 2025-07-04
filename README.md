@@ -171,7 +171,7 @@ Block **i2c_scan** () : Liste der 7-Bit I²C-Adressen
 Block **is_rx** () : Boolean
 
 * Gibt True zurück, wenn `sys.implementation.name == 'circuitpython'`.
-* True: circuitpython import board, busio, (adafruit) I2CDevice
+* True: circuitpython import (adafruit) I2CDevice
 * False: Python3 from smbus2 import SMBus, i2c_msg
 
 
@@ -198,20 +198,20 @@ Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstel
 
 #### dipswitch.py
 ###### [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) | [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)
-Block **readSwitch** () : Byte
+Block **read_switch** () : Byte
 * Gibt 1 Byte zurück: 6 Bit (0..63), 1 Bit pro DIP Schalter.
 
 #### keyboard.py
 ###### [M5Stack Card Keyboard QWERTY 50-key](https://docs.m5stack.com/en/unit/cardkb_1.1)
-Block **readKeyboard** () : Byte
+Block **read_keyboard** () : Byte
 * Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 
 #### lcd16x2.py
 ###### [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series) | Black on Yellow | Black on Red | White on Blue
-Block **initLCD** ()
+Block **init_lcd** ()
 * Muss einmal beim Start aufgerufen werden.
 
-Block **writeText** (row, col, end, text, right)
+Block **write_text** (row, col, end, text, right)
 * Schreibt an eine bestimmte Position Text mit fester Länge.
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15; *end*: Spalte 0..15 (letztes Zeichen)
 * *text*: Text, alle Datentypen werden mit str() konvertiert.
@@ -220,19 +220,19 @@ Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt.
 * Parameter außer *text* können weg gelassen werden (None).\
 default: *row*=0; *col*=0; *end*=15; right=False
 
-Block **clearScreen** ()
+Block **clear_screen** ()
 * Löscht das LCD Display.
 
-Block **setCursor** (row, col)
+Block **set_cursor** (row, col)
 * Set Cursor für writeLCD oder wenn Cursor sichtbar ist oder blinkt.
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15
 * Parameter optional, default: *row*=0; *col*=0
 
-Block **writeLCD** (text)
+Block **write_lcd** (text)
 * Schreibt *text* an aktuelle Cursorposition.
 * Alle Datentypen werden mit str() konvertiert.
 
-Block **setDisplay** (displayOn, cursorOn, blinkOn)
+Block **set_display** (display_on, cursor_on, blink_on)
 * Alle Parameter Boolean: False oder True
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
