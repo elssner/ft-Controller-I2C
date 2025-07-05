@@ -555,7 +555,7 @@ Block **stop_ranging**
 * Beendet die Messungen.
 
 Block **get_distance**
-* Gibt Distance in mm zurück (16 Bit integer). Ranging muss vorher gestartet werden.
+* Gibt Distance in mm zurück (16 Bit int). Ranging muss vorher gestartet werden.
 
 
 #### s_qwiicultrasonic.py
