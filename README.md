@@ -319,14 +319,24 @@ Block **oled_clock** (x, y, radius, hour, minute)
 Block **button_set_i2c_addr** (new_i2c_addr, i2c_addr)
 > Default i2c_addr ist 0x6F. Diese kann durch Lötbrücken von 0x60 bis 0x6E ODER mit diesem Block auf jede 7-Bit I²C-Adresse geändert werden.
 > Wird bei den folgenden Blöcken der Parameter *i2c_addr* weg gelassen (None), gilt Default 0x6F.
+
 * *i2c_addr* ist die aktuell gültige, *new_i2c_addr* die neue I²C-Adresse.
-* Änderung bleibt beim ausschalten erhalten.
+* Änderung bleibt beim Ausschalten erhalten.
 
 Block **button_is_pressed** (i2c_addr)
 * Gibt True zurück, wenn der Button jetzt gerade gedrückt ist.
 
-Block **button_on_off** (i2c_addr)
+Block **button_onoff** (i2c_addr)
 * Wechselt True/False bei jedem Klick (hasBeenClicked).
+
+Block **button_led** (brightness, i2c_addr)
+* *brightness* Helligkeit 0..255, 0 ist aus.
+
+Block **button_led_config** (brightness, cycle_time, off_time, granularity, i2c_addr)
+* Zum Zurücksetzen der LED einfach ohne Parameter aufrufen.
+* *brightness*, *granularity* : 8 Bit Register.
+* *cycle_time*, *off_time* : 16 Bit Register.
+* Ausprobieren was die LED macht oder Register_Map lesen.
 
 
 
