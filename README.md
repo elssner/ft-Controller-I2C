@@ -560,7 +560,20 @@ Block **get_distance**
 
 #### s_qwiicultrasonic.py
 ###### [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777)
-Block
+> Der Ultraschallsensor wird auch von Controllern an einem Pin betrieben. Die Genauigkeit hängt vom Prozessor ab, es kommen oft ungültige Werte.
+> Der I²C Sensor hat einen eigenen Prozessor, es wird nur der letzte Wert in mm ausgelesen.
+> Dieses Modul erfasst außerdem einen großen Winkel. So erkennen Modelle auch Hindernisse schräg, oben und unten und fahren nicht dagegen. 
+
+Block **change_ultrasonic_i2c** (old_i2c, new_i2c)
+> Default I²C-Adresse ist 0x00. Damit funktioniert der Sensor. 0x00 gilt aber als reserviert und sollte geändert werden.
+
+* Wenn *old_i2c* weg gelassen wird, gilt 0x00. Wenn *new_i2c* weg gelassen wird, gilt 0x09.
+* Gültige Werte für *new_i2c*: 0x02 .. 0x7F. Empfohlen: 0x08 .. 0x77.
+* Änderung bleibt beim Ausschalten erhalten.
+
+Block **read_ultrasonic_mm**
+* Gibt Distance in mm zurück (16 Bit int).
+* I²C-Adresse ist 0x09. Kann im Code geändert werden (z.B. auf 0x00 um den Sensor mit der Original Adresse zu benutzen).
 
 
 ### Foto
