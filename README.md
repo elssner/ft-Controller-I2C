@@ -527,7 +527,8 @@ Block **get_weekday** () : String 2 Zeichen
 > [VCNL4040_Datasheet](https://cdn.sparkfun.com/assets/2/3/8/f/c/VCNL4040_Datasheet.pdf#page=9)
 
 Block **init_qinfrared**
-* Initialisiert die Konstanten (Register Nummern) und schaltet **power_on_proximity**.
+* Muss einmal beim Start aufgerufen werden.
+* Initialisiert die Konstanten (Register Nummern) und schaltet Sensor an **power_on_proximity**.
 
 Block **power_on_proximity** (on)
 * *on*: True schaltet Sensor an, False schaltet aus.
