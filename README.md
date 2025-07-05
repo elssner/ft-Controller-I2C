@@ -336,15 +336,17 @@ Block **button_led_config** (brightness, cycle_time, off_time, granularity, i2c_
 * Zum Zurücksetzen der (blinkenden) LED einfach ohne Parameter aufrufen.
 * *brightness*, *granularity* : 8 Bit Register.
 * *cycle_time*, *off_time* : 16 Bit Register.
-* Ausprobieren was die LED macht oder Register_Map lesen.
+* Ausprobieren was die LED macht oder [Register_Map](https://cdn.sparkfun.com/assets/learn_tutorials/1/1/0/8/Qwiic_Button_I2C_Register_Map.pdf) lesen.
 
 Block **button_clicked_queue_empty** (i2c_addr)
 * Gibt True zurück, wenn der Button noch nie geklickt wurde oder alle Zeitstempel aus der CLICKED_QUEUE abgeholt wurden.
 
-
-
 Block **button_print_queue** (i2c_addr)
-* Zeigt neuesten und ältesten Zeitstempel aus der PRESSED_QUEUE und CLICKED_QUEUE in der Konsole an.
+* Zeigt Status, neuesten und ältesten Zeitstempel aus der PRESSED_QUEUE und CLICKED_QUEUE in der Konsole an.
+
+Block **button_pop_clicked_queue** (i2c_addr)
+Block **button_pop_pressed_queue** (i2c_addr)
+* Gibt den ältesten Zeitstempel (32 Bit Millisekunden) zurück und löscht diesen aus der QUEUE.
 
 
 #### qwiiceeprom.py
