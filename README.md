@@ -573,8 +573,8 @@ Block **change_ultrasonic_i2c** (old_i2c, new_i2c)
 
 Block **read_ultrasonic_mm**
 * Gibt Distance in mm zurück (16 Bit int).
-* I²C-Adresse ist 0x09. Kann im Code geändert werden\
-(z.B. auf 0x00, um den Sensor mit der Original Adresse zu benutzen).
+* I²C-Adresse ist 0x09. Kann im Code geändert werden.\
+(Z.B. auf 0x00, um den Sensor mit der Original Adresse zu benutzen.)
 
 
 ### Foto
