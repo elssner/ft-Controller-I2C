@@ -540,7 +540,22 @@ Block **get_proximity**
 
 #### s_qwiiclaser.py
 ###### [SparkFun Qwiic Distance Sensor - 4 Meter, VL53L1X](https://www.sparkfun.com/products/14722) | [SparkFun Qwiic Distance Sensor - 1.3 Meter, VL53L4CD](https://www.sparkfun.com/products/18993)
-Block
+Block **init_qlaser**
+* Muss einmal beim Start aufgerufen werden.
+* Initialisiert den Sensor und wartet bis bereit (check_for_data_ready).
+
+Block **read_distance_cm**
+* Gibt Distance in cm (mit 1 Stelle hinter dem Komma) zurück. Genauigkeit ist mm.
+* Ruft *start_ranging*, *get_distance*, *stop_ranging* nacheinander auf.
+
+Block **start_ranging**
+* Startet die Messungen mit Default Parametern. Kann konfiguriert werden. 
+
+Block **stop_ranging**
+* Beendet die Messungen.
+
+Block **get_distance**
+* Gibt Distance in mm zurück (16 Bit integer). Ranging muss vorher gestartet werden.
 
 
 #### s_qwiicultrasonic.py
