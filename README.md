@@ -535,7 +535,7 @@ Block **power_on_proximity** (on)
 * Infrarot LED nimmt Strom vom 3,3V I²C-Bus (50..200mA). Aus schalten wenn nicht benutzt.
 
 Block **get_proximity**
-* Gibt Nähe-Wert zurück, 16 Bit. 0..1 wenn nichts in der Nähe bis 20 cm. Größer je näher.
+* Gibt Nähe-Wert zurück (16 Bit). 0..1 wenn nichts in der Nähe (20 cm). Wert größer je näher.
 
 
 #### s_qwiiclaser.py
