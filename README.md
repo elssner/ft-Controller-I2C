@@ -171,6 +171,7 @@ Block **i2c_scan** () : Liste der 7-Bit I²C-Adressen
 Block **is_rx** () : Boolean
 
 * Gibt True zurück, wenn `sys.implementation.name == 'circuitpython'`.
+* Davon abhängig werden für I²C verschiedene Importe gemacht:
 * True: circuitpython `from adafruit_bus_device.i2c_device import I2CDevice`
 * False: Python3 `from smbus2 import SMBus, i2c_msg`
 
