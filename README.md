@@ -330,13 +330,16 @@ Block **button_onoff** (i2c_addr)
 * Wechselt True/False bei jedem Klick (hasBeenClicked).
 
 Block **button_led** (brightness, i2c_addr)
-* *brightness*: Helligkeit 0..255, 0 ist aus.
+* *brightness*: LED Helligkeit 0..255, 0 ist aus.
 
 Block **button_led_config** (brightness, cycle_time, off_time, granularity, i2c_addr)
 * Zum Zurücksetzen der (blinkenden) LED einfach ohne Parameter aufrufen.
 * *brightness*, *granularity* : 8 Bit Register.
 * *cycle_time*, *off_time* : 16 Bit Register.
 * Ausprobieren was die LED macht oder [Register_Map](https://cdn.sparkfun.com/assets/learn_tutorials/1/1/0/8/Qwiic_Button_I2C_Register_Map.pdf) lesen.
+
+Block **button_led_read_register** (i2c_addr)
+* Zeigt Register 25..31 in Konsole an: 6 LED Register und I2C Address.
 
 Block **button_clicked_queue_empty** (i2c_addr)
 * Gibt True zurück, wenn der Button noch nie geklickt wurde oder alle Zeitstempel aus der CLICKED_QUEUE abgeholt wurden.
