@@ -342,7 +342,7 @@ Block **button_led_read_register** (i2c_addr)
 * Zeigt Register 25..31 in Konsole an: 6 LED Register und I2C Address.
 
 Block **button_clicked_queue_empty** (i2c_addr)
-* Gibt True zurück, wenn der Button noch nie geklickt wurde oder alle Zeitstempel aus der CLICKED_QUEUE abgeholt wurden.
+* Gibt True zurück, wenn der Button noch nie geklickt wurde oder alle Zeitstempel aus der CLICKED_QUEUE mit pop abgeholt wurden.
 
 Block **button_print_queue** (i2c_addr)
 * Zeigt Status, neuesten und ältesten Zeitstempel aus der PRESSED_QUEUE und CLICKED_QUEUE in der Konsole an.
@@ -523,7 +523,18 @@ Block **get_weekday** () : String 2 Zeichen
 
 #### s_qwiicinfrared.py
 ###### [SparkFun Qwiic Proximity Sensor - 20cm, VCNL4040](https://www.sparkfun.com/products/15177)
-Block
+> Nähe Sensor misst keinen genauen Abstand, nur ob ein Objekt näher als 20cm kommt (Seifenspender). Kann Interrupt auslösen.
+> [VCNL4040_Datasheet](https://cdn.sparkfun.com/assets/2/3/8/f/c/VCNL4040_Datasheet.pdf#page=9)
+
+Block **init_qinfrared**
+* Initialisiert die Konstanten (Register Nummern) und schaltet **power_on_proximity**.
+
+Block **power_on_proximity** (on)
+* *on*: True schaltet Sensor an, False schaltet aus.
+* Infrarot LED nimmt Strom vom 3,3V I²C-Bus (50..200mA). Aus schalten wenn nicht benutzt.
+
+Block **get_proximity**
+* Gibt Nähe-Wert zurück, 16 Bit. 0..1 wenn nichts in der Nähe bis 20 cm. Größer je näher.
 
 
 #### s_qwiiclaser.py
