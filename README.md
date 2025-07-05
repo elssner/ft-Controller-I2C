@@ -344,7 +344,7 @@ Block **button_clicked_queue_empty** (i2c_addr)
 Block **button_print_queue** (i2c_addr)
 * Zeigt Status, neuesten und ältesten Zeitstempel aus der PRESSED_QUEUE und CLICKED_QUEUE in der Konsole an.
 
-Block **button_pop_clicked_queue** (i2c_addr)
+Block **button_pop_clicked_queue** (i2c_addr)\
 Block **button_pop_pressed_queue** (i2c_addr)
 * Gibt den ältesten Zeitstempel (32 Bit Millisekunden) zurück und löscht diesen aus der QUEUE.
 
