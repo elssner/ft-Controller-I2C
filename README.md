@@ -676,6 +676,7 @@ Block **read_ultrasonic_mm**
 Block **init_wattmeter**
 * Muss einmal beim Start aufgerufen werden.
 * Im Code kann calibration_value für genauere Strom Messung angepasst werden.
+* Spannung kann nicht kalibriert werden.
 
 Block **wattmeter_volt**
 * Gibt Spannung in V zurück, mit 2 Dezimalstellen.
