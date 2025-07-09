@@ -584,6 +584,7 @@ Block **get_weekday** () : String 2 Zeichen
 > Blockiert oft den I²C-Bus, dann Strom aus und einschalten. [Data Sheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf#page=8)
 
 Block **init_co2** (factory_reset)
+* Muss einmal beim Start aufgerufen werden.
 * *factory_reset*: True Reset aller Register.
 * Ruft **start_continuous_measurement** auf.
 
