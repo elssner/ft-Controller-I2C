@@ -581,7 +581,7 @@ Block **get_weekday** () : String 2 Zeichen
 #### s_co2.py
 ###### [Calliope mini CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
 > Sensor hat keine Pull Up Widerstände, deshalb immer mit anderen Modulen anschließen, die welche haben.
-> Blockiert oft den I²C-Bus, dann Strom aus und einschalten. [Register](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf#page=8)
+> Blockiert oft den I²C-Bus, dann Strom aus und einschalten. [Data Sheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf#page=8)
 
 Block **init_co2** (factory_reset)
 * *factory_reset*: True Reset aller Register.
@@ -593,6 +593,20 @@ Block **start_continuous_measurement**
 Block **stop_continuous_measurement**
 * Beendet die Messungen. Immer abschalten wenn nicht benötigt, um Strom zu sparen.
 
+Block **get_data_ready_status**
+* Gibt True zurück, wenn ein neuer Messwert bereit ist. Etwa aller 5 Sekunden.
+
+Block **read_measurement**
+* Testet **get_data_ready_status** und nur wenn True werden die Messwerte in interne Variablen gelesen.
+* Sonst bleiben die internen Variablen unverändert.
+* Muss einmal in jeder Schleife (aller 5s) aufgerufen werden, um die Variablen zu aktualisieren.
+
+> Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.
+
+Block **get_co2**\
+Block **get_temperature**\
+Block **get_relative_hunidity**
+* Gibt CO² (Kohlendioxid), Temperatur oder relative Luftfeuchtigkeit zurück.
 
 
 
