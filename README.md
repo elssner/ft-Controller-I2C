@@ -193,7 +193,7 @@ Block **Chr** (asc) : String 1 Zeichen *chr(asc)*\
 Block **print_bin** (zahl, length) : BIN String z.B. '00001010'; Binärzahl mit fester Länge\
 Block **list_string** (string_data) : Liste der Zeichencodes *[ord(c) for c in string_data]*\
 Block **encode_string** (string_data) : Liste der Zeichencodes *string_data.encode('utf-8')*\
-Block **decode_string** (data_bytes) : String *data_bytes.decode('utf-8')*\
+Block **decode_string** (data_bytes) : String *data_bytes.decode('utf-8', 'replace')*\
 Block **decode_latin** (data_bytes) : String *''.join(chr(b) for b in data_bytes)*\
 Block **list_hex** (data_bytes) : HEX String *[hex(b) for b in data_bytes]*\
 Block **sign** (i, exp) : Wandelt uint in int um. *exp*: Anzahl der Bits z.B. 16.\
