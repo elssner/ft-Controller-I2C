@@ -355,7 +355,7 @@ Block **button_clicked_queue_empty** (i2c_addr)\
 Block **button_clicked_queue_full** (i2c_addr)\
 Block **button_pressed_queue_empty** (i2c_addr)\
 Block **button_pressed_queue_full** (i2c_addr)
-* Gibt True zurück, wenn das Status Bit gesetzt ist.
+* Gibt True zurück, wenn das entsprechende Status Bit gesetzt ist.
 
 Block **button_print_queue** (i2c_addr)
 * Zeigt Status, neuesten und ältesten Zeitstempel aus der PRESSED_QUEUE und CLICKED_QUEUE in der Konsole an.
