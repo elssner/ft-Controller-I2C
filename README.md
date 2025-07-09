@@ -528,6 +528,24 @@ Block **get_date_string** () : String 10 Zeichen
 Block **get_weekday** () : String 2 Zeichen
 * Liest Wochentag aus RTC_BUFFER: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'].
 
+#### s_co2.py
+###### [Calliope mini CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
+> Sensor hat keine Pull Up Widerstände, deshalb immer mit anderen Modulen anschließen, die welche haben.
+> Blockiert oft den I²C-Bus, dann Strom aus und einschalten.
+
+Block **init_co2** (factory_reset)
+* *factory_reset*: True Reset aller Register.
+* Ruft **start_continuous_measurement** auf.
+
+Block **start_continuous_measurement**
+* Startet die Messungen (etwa aller 5 Sekunden).
+
+Block **stop_continuous_measurement**
+* Beendet die Messungen. Immer abschalten wenn nicht benötigt, um Strom zu sparen.
+
+
+
+
 
 #### s_qwiicinfrared.py
 ###### [SparkFun Qwiic Proximity Sensor - 20cm, VCNL4040](https://www.sparkfun.com/products/15177)
