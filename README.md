@@ -598,7 +598,7 @@ Block **get_data_ready_status**
 * Gibt True zurück, wenn ein neuer Messwert bereit ist. Etwa aller 5 Sekunden.
 
 Block **read_measurement**
-* Testet **get_data_ready_status** und nur wenn True werden die Messwerte in interne Variablen gelesen.
+* Testet **get_data_ready_status**, wenn True werden die Messwerte in interne Variablen gelesen.
 * Sonst bleiben die internen Variablen unverändert.
 * Muss einmal in jeder Schleife (aller 5s) aufgerufen werden, um die Variablen zu aktualisieren.
 
