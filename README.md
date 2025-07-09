@@ -499,7 +499,7 @@ Block **log_status**
 
 Block **log_dir** (filename, count)
 * Gibt eine Liste mit Dateinamen zurück. *count* ist die maximale Anzahl.
-* *filename* kann Platzhalter wie z.B. *.* oder *.TXT enthalten.
+* *filename* kann Platzhalter wie z.B. \*.\* oder \*.TXT enthalten.
 
 Block **log_size** (filename)
 * Gibt die Größe der Datei zurück.
