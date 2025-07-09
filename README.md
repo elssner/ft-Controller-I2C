@@ -196,7 +196,7 @@ Block **encode_string** (string_data) : Liste der Zeichencodes *string_data.enco
 Block **decode_string** (data_bytes) : String *data_bytes.decode('utf-8', 'replace')*\
 Block **decode_latin** (data_bytes) : String *''.join(chr(b) for b in data_bytes)*\
 Block **list_hex** (data_bytes) : HEX String *[hex(b) for b in data_bytes]*\
-Block **sign** (i, exp) : Wandelt uint in int um. *exp*: Anzahl der Bits z.B. 16.\
+Block **sign** (i, exp) : Wandelt uint in int mit Vorzeichen um. *exp*: Anzahl der Bits z.B. 16.\
 Block **system_time** () : Liste mit 9 Elementen
 * TXT 4.0: RTC Systemuhr (year, mon, mday, hour, min, sec, wday, yday, isdst)\
 Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstellen.
