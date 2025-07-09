@@ -652,7 +652,7 @@ Block **get_distance**
 #### s_qwiicultrasonic.py
 ###### [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777)
 > Der Ultraschallsensor wird auch von Controllern an einem Pin betrieben. Die Genauigkeit hängt vom Prozessor ab, es kommen oft ungültige Werte.
-> Der I²C Sensor hat einen eigenen Prozessor, es wird nur der letzte Wert in mm ausgelesen.
+> Der I²C Sensor hat einen eigenen Prozessor für die Ultraschall Messung, es wird nur der aktuelle Wert in mm ausgelesen.
 > Dieses Modul erfasst außerdem einen großen Winkel. So erkennen Modelle auch Hindernisse schräg, oben und unten und fahren nicht dagegen. 
 
 Block **change_ultrasonic_i2c** (old_i2c, new_i2c)
