@@ -581,7 +581,7 @@ Block **get_weekday** () : String 2 Zeichen
 #### s_co2.py
 ###### [Calliope mini CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
 > Sensor hat keine Pull Up Widerstände, deshalb immer mit anderen Modulen anschließen, die welche haben.
-> Blockiert oft den I²C-Bus, dann Strom aus und einschalten.
+> Blockiert oft den I²C-Bus, dann Strom aus und einschalten. [Register](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf#page=8)
 
 Block **init_co2** (factory_reset)
 * *factory_reset*: True Reset aller Register.
