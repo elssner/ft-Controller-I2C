@@ -326,8 +326,12 @@ Block **button_set_i2c_addr** (new_i2c_addr, i2c_addr)
 Block **button_is_pressed** (i2c_addr)
 * Gibt True zurück, wenn der Button jetzt gerade gedrückt ist.
 
+Block **button_has_been_clicked** (clear, i2c_addr)
+* Gibt True zurück, wenn der Button geklickt (gedrückt und losgelassen) war.
+* *clear*: True löscht den Status hasBeenClicked.
+
 Block **button_onoff** (i2c_addr)
-* Wechselt True/False bei jedem Klick (hasBeenClicked).
+* Wechselt True/False bei jedem Klick (und löscht den Status hasBeenClicked).
 
 Block **button_led** (brightness, i2c_addr)
 * *brightness*: LED Helligkeit 0..255, 0 ist aus.
@@ -341,8 +345,11 @@ Block **button_led_config** (brightness, cycle_time, off_time, granularity, i2c_
 Block **button_led_read_register** (i2c_addr)
 * Zeigt Register 25..31 in Konsole an: 6 LED Register und I2C Address.
 
-Block **button_clicked_queue_empty** (i2c_addr)
-* Gibt True zurück, wenn der Button noch nie geklickt wurde oder alle Zeitstempel aus der CLICKED_QUEUE mit pop abgeholt wurden.
+Block **button_clicked_queue_empty** (i2c_addr)\
+Block **button_clicked_queue_full** (i2c_addr)\
+Block **button_pressed_queue_empty** (i2c_addr)\
+Block **button_pressed_queue_full** (i2c_addr)
+* Gibt True zurück, wenn das Status Bit gesetzt ist.
 
 Block **button_print_queue** (i2c_addr)
 * Zeigt Status, neuesten und ältesten Zeitstempel aus der PRESSED_QUEUE und CLICKED_QUEUE in der Konsole an.
