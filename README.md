@@ -677,9 +677,14 @@ Block **init_wattmeter**
 * Muss einmal beim Start aufgerufen werden.
 * Im Code kann calibration_value für genauere Strom Messung angepasst werden.
 
+Block **wattmeter_volt**
+* Gibt Spannung in V zurück, mit 2 Dezimalstellen.
 
+Block **wattmeter_milliampere**
+* Gibt Strom in mA zurück, kann auch negativ sein.
 
-
+Block **wattmeter_milliwatt**
+* Gibt Leistumg in mW zurück. Ist ungenau und eigentlich überflüssig, Datenblatt lesen.
 
 
 ### Foto
