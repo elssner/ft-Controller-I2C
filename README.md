@@ -42,7 +42,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 [qwiickeypad](#qwiickeypadpy)|<code>0x4B</code>|[SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)|4, 5
 [qwiiclcd](#qwiiclcdpy)|<code>0x72</code>|Qwiic LCD Displays [20x4](https://www.sparkfun.com/products/16398), [16x2](https://www.sparkfun.com/products/16396)|4, 5, 6
 [qwiicmotor](#qwiicmotorpy)|<code>0x5D 0x5E</code>|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)|14, 15
-[qwiicopenlog](#qwiicopenlogpy)|<code>0x2A 0x5E</code>|[SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)|
+[qwiicopenlog](#qwiicopenlogpy)|<code>0x2A</code>|[SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)|
 [qwiicrelay](#qwiicrelaypy)|<code>0x18</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)|Hauptprogramm
 [rtc](#rtcpy)|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)|1, 4, 10
 [s_co2](#s_co2py)|<code>0x62</code>|[Calliope mini CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)|
@@ -482,6 +482,12 @@ Block **drive_motor_b** (speed:Byte)
 * *speed* 0..128..255 Motor Drehzahl und Richtung.
 * *speed* ist optional, default=128 (Stillstand).
 * 0 max. rückwärts | ← 128 Stop → | 255 max. vorwärts
+
+
+
+#### qwiicopenlog.py
+###### [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
+> Lesen und Schreiben von Dateien auf Speicherkarte
 
 #### qwiicrelay.py
 ###### [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
