@@ -313,7 +313,8 @@ Block **oled_clock** (x, y, radius, hour, minute)
 #### qwiicbutton.py
 ###### [SparkFun Qwiic Button - Green LED](https://www.sparkfun.com/products/16842) | [SparkFun Qwiic Button - Red LED](https://www.sparkfun.com/products/15932) | [SparkFun Qwiic Button Breakout](https://www.sparkfun.com/products/15931)
 > Button mit farbiger LED, Bordcomputer, FIFO, /INT-Pin, mehrere gleichzeitig am I²C-Bus, billiger als ein fischertechnik Taster.
-> Unterscheidet PRESSED und CLICKED, speichert bei PRESSED 8 und bei CLICKED 16 Zeitstempel (32 Bit Millisekunden) in QUEUE. LED Helligkeit und Blink-Takt.
+> Unterscheidet PRESSED und CLICKED, speichert bei PRESSED 8 und bei CLICKED 16 Zeitstempel (32 Bit Millisekunden) in QUEUE / FIFO.\
+> LED Helligkeit und Blink-Takt.
 > [Qwiic_Button_I2C_Register_Map](https://cdn.sparkfun.com/assets/learn_tutorials/1/1/0/8/Qwiic_Button_I2C_Register_Map.pdf)
 
 Block **button_set_i2c_addr** (new_i2c_addr, i2c_addr)
