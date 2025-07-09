@@ -487,7 +487,15 @@ Block **drive_motor_b** (speed:Byte)
 
 #### qwiicopenlog.py
 ###### [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
-> Lesen und Schreiben von Dateien auf Speicherkarte
+> Lesen und Schreiben von Dateien auf Speicherkarte 64MB .. 32GB FAT16 oder FAT32.
+
+Block **log_init**
+* Muss nicht beim Start aufgerufen werden.
+* Zeigt den Status binär und bei Fehler eine Meldung in der Konsole an.
+
+Block **log_status**
+* Gibt das Status Byte zurück.
+
 
 #### qwiicrelay.py
 ###### [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
