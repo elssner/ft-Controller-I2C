@@ -488,7 +488,7 @@ Block **drive_motor_b** (speed:Byte)
 #### qwiicopenlog.py
 ###### [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
 > Lesen und Schreiben von Dateien auf microSD card 64MB .. 32GB, FAT16 oder FAT32.
-> <ins>Dateinamen sollen im Format 8.3, nur ASCCI Zeichen und Großbuchstaben enthalten.</ins>
+> <ins>Dateinamen sollen im Format 8.3, nur ASCII Zeichen und Großbuchstaben enthalten.</ins>
 
 Block **log_init**
 * Muss <ins>nicht</ins> beim Start aufgerufen werden.
@@ -501,6 +501,29 @@ Block **log_dir** (filename, count)
 * Gibt eine Liste mit Dateinamen zurück. *count* ist die maximale Anzahl.
 * *filename* kann Platzhalter wie z.B. *.* oder *.TXT enthalten.
 
+Block **log_size** (filename)
+* Gibt die Größe der Datei zurück.
+
+Block **log_read** (filename, size)
+* Gibt ein bytearray mit dem Inhalt der Datei zurück. (Keine Textdatei.)
+* *filename* im Format 8.3 und Großbuchstaben.
+* *size* ist die maximale Länge. bytearray ist kürzer, wenn die Datei kleiner ist.
+
+Block **log_write** (filename, bu)
+* Schreibt die Bytes aus *bu* in die Datei. Anhängen wenn Datei existiert.
+* *filename* im Format 8.3 und Großbuchstaben.
+* *bu* kann auch eine Liste sein, darf aber nur Bytes (0..255) enthalten.
+
+Block **log_test**
+* Schreibt die Zeichencodes 32 bis 127 in die Datei ASCII.TXT.
+* Aller 16 Byte wird CR (=13) und LF (=10) eingefügt.
+
+Block **log_remove** (filename)
+* Löscht eine oder mehrere Dateien.
+* Gibt Anzahl der gelöschten Dateien zurück.
+
+Block **log_sync**
+* Kann vor dem Entfernen der Speicherkarte aufgerufen werden, muss aber nicht.
 
 
 #### qwiicrelay.py
