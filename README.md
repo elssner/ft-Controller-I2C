@@ -186,7 +186,7 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 
 > Allgemeine Blöcke, die Python-Funktionen bereit stellen (ohne I²C Bezug).
 
-Block **Kommentar** (text)\
+Block **comment** (text) : Kommentar Block ohne Funktion.\
 Block **Int** (x) : Integer *int(x)*\
 Block **Ord** (char) : Integer Zeichencode *ord(char)*\
 Block **Chr** (asc) : String 1 Zeichen *chr(asc)*\
@@ -194,7 +194,9 @@ Block **print_bin** (zahl, length) : BIN String z.B. '00001010'; Binärzahl mit 
 Block **list_string** (string_data) : Liste der Zeichencodes *[ord(c) for c in string_data]*\
 Block **encode_string** (string_data) : Liste der Zeichencodes *string_data.encode('utf-8')*\
 Block **decode_string** (data_bytes) : String *data_bytes.decode('utf-8')*\
+Block **decode_latin** (data_bytes) : String *''.join(chr(b) for b in data_bytes)*\
 Block **list_hex** (data_bytes) : HEX String *[hex(b) for b in data_bytes]*\
+Block **sign** (i, exp) : Wandelt uint in int um. *exp*: Anzahl der Bits z.B. 16.
 Block **system_time** () : Liste mit 9 Elementen
 * TXT 4.0: RTC Systemuhr (year, mon, mday, hour, min, sec, wday, yday, isdst)\
 Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstellen.
@@ -508,11 +510,13 @@ Block **log_read** (filename, size)
 * Gibt ein bytearray mit dem Inhalt der Datei zurück.
 * *filename* im Format 8.3 und Großbuchstaben.
 * *size* ist die maximale Länge. bytearray ist kürzer, wenn die Datei kleiner ist.
+* Blöcke zum Umwandeln Bytes in Text sind in [advanced](#advancedpy).
 
 Block **log_write** (filename, bu)
 * Schreibt die Bytes aus *bu* in die Datei. Anhängen wenn Datei existiert.
 * *filename* im Format 8.3 und Großbuchstaben.
 * *bu* kann auch eine Liste sein, darf aber nur Bytes (0..255) enthalten.
+* Blöcke zum Umwandeln Text in Bytes sind in [advanced](#advancedpy).
 
 Block **log_test**
 * Schreibt die Zeichencodes 32 bis 127 in die Datei ASCII.TXT.
