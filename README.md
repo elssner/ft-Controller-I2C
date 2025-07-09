@@ -494,7 +494,7 @@ Block **log_init**
 * Zeigt den Status binär und bei Fehler eine Meldung in der Konsole an.
 
 Block **log_status**
-* Gibt das Status Byte zurück.
+* Gibt das Status Byte zurück. siehe → [Register Map](https://cdn.sparkfun.com/assets/learn_tutorials/8/6/5/newthing.JPG)
 
 
 #### qwiicrelay.py
