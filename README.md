@@ -487,14 +487,20 @@ Block **drive_motor_b** (speed:Byte)
 
 #### qwiicopenlog.py
 ###### [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
-> Lesen und Schreiben von Dateien auf Speicherkarte 64MB .. 32GB FAT16 oder FAT32.
+> Lesen und Schreiben von Dateien auf microSD card 64MB .. 32GB, FAT16 oder FAT32.
+> <ins>Dateinamen sollen im Format 8.3, nur ASCCI Zeichen und Großbuchstaben enthalten.</ins>
 
 Block **log_init**
-* Muss nicht beim Start aufgerufen werden.
+* Muss <ins>nicht</ins> beim Start aufgerufen werden.
 * Zeigt den Status binär und bei Fehler eine Meldung in der Konsole an.
 
 Block **log_status**
 * Gibt das Status Byte zurück. siehe → [Register Map](https://cdn.sparkfun.com/assets/learn_tutorials/8/6/5/newthing.JPG)
+
+Block **log_dir** (filename, count)
+* Gibt eine Liste mit Dateinamen zurück. *count* ist die maximale Anzahl.
+* *filename* kann Platzhalter wie z.B. *.* oder *.TXT enthalten.
+
 
 
 #### qwiicrelay.py
