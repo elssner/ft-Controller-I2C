@@ -48,6 +48,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 [s_qwiicinfrared](#s_qwiicinfraredpy)|<code>0x60</code>|[Proximity Sensor VCNL4040](https://www.sparkfun.com/products/15177)|12
 [s_qwiiclaser](#s_qwiiclaserpy)|<code>0x29</code>|Laser Sensor [VL53L1X](https://www.sparkfun.com/products/14722), [VL53L4CD](https://www.sparkfun.com/products/18993)|13
 [s_qwiicultrasonic](#s_qwiicultrasonicpy)|<code>0x09</code>|[Ultrasonic Sensor HC-SR04](https://www.sparkfun.com/products/17777)|12
+[wattmeter](#wattmeterpy)|<code>0x45</code>|[DFRobot Gravity: I2C Digital Wattmeter](https://www.dfrobot.com/product-1827.html)|12
 
 
 #### Hauptprogramm in der App ROBO Pro Coding
@@ -602,6 +603,13 @@ Block **read_ultrasonic_mm**
 * Gibt Distance in mm zurück (16 Bit int).
 * I²C-Adresse ist 0x09. Kann im Code geändert werden.\
 (Z.B. auf 0x00, um den Sensor mit der Original Adresse zu benutzen.)
+
+
+
+#### wattmeter.py
+###### [DFRobot Gravity: I2C Digital Wattmeter SKU: SEN0291](https://www.dfrobot.com/product-1827.html)
+Block **init_wattmeter**
+
 
 
 ### Foto
