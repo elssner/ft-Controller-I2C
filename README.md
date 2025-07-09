@@ -607,7 +607,7 @@ Block **read_measurement**
 Block **get_co2**\
 Block **get_temperature**\
 Block **get_relative_hunidity**
-* Gibt CO² (Kohlendioxid), Temperatur oder relative Luftfeuchtigkeit zurück.
+* Gibt CO² (Kohlendioxid), Temperatur °C oder relative Luftfeuchtigkeit zurück.
 
 
 
