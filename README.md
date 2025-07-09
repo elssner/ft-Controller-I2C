@@ -505,7 +505,7 @@ Block **log_size** (filename)
 * Gibt die Größe der Datei zurück.
 
 Block **log_read** (filename, size)
-* Gibt ein bytearray mit dem Inhalt der Datei zurück. (Keine Textdatei.)
+* Gibt ein bytearray mit dem Inhalt der Datei zurück.
 * *filename* im Format 8.3 und Großbuchstaben.
 * *size* ist die maximale Länge. bytearray ist kürzer, wenn die Datei kleiner ist.
 
