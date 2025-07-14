@@ -44,7 +44,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 [qwiickeypad](#qwiickeypadpy)|<code>0x4B</code>|[SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)|4, 5
 [qwiiclcd](#qwiiclcdpy)|<code>0x72</code>|Qwiic LCD Displays [20x4](https://www.sparkfun.com/products/16398), [16x2](https://www.sparkfun.com/products/16396)|4, 5, 6
 [qwiicmotor](#qwiicmotorpy)|<code>0x5D 0x5E</code>|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)|14, 15
-[qwiicmux](#qwiicmuxpy)|<code>0x70</code>|[SparkFun Qwiic Mux Breakout - 8 Channel](https://www.sparkfun.com/products/16784)|
+[qwiicmux](#qwiicmuxpy)|<code>0x70</code>|[SparkFun Qwiic Mux 8 Channel](https://www.sparkfun.com/products/16784)|
 [qwiicmux_rx](#qwiicmuxrxpy)||Beispiel I²C Multiplexer|
 [qwiicopenlog](#qwiicopenlogpy)|<code>0x2A</code>|[SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)|
 [qwiicrelay](#qwiicrelaypy)|<code>0x18</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)|Hauptprogramm
