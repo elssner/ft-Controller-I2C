@@ -533,6 +533,15 @@ Block **mux_read**
 * Gibt ein Byte mit den gesetzen Bits der eingeschalteten Kanäle zurück.
 
 
+#### qwiicmux_rx.py
+> Beispiel 10 I²C-Module gleichzeitig mit Multiplexer. Funktioniert am RX Controller, der nur 2 bis 3 I2C Adressen gleichzeitig erkennt.
+> [Beispiel Projekt](https://git.fischertechnik-cloud.com/i2c/I2C_Multiplexer) | [Foto](https://git.fischertechnik-cloud.com/i2c/I2C_Multiplexer/-/blob/master/fotos/DSC00409.JPG)
+
+Block **qmux_rx1**
+* Beispiel kann beim Programmstart aufgerufen werden.
+* 3 Displays, EEPROM, Keypad, GPIO, RTC, Speicherkarte, Ultraschallsensor und Multiplexer.
+
+
 #### qwiicopenlog.py
 ###### [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
 > Lesen und Schreiben von Dateien auf microSD card 64MB .. 32GB, FAT16 oder FAT32.
