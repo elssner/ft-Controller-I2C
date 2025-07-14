@@ -534,7 +534,7 @@ Block **mux_read**
 
 
 #### qwiicmux_rx.py
-> Beispiel 10 I²C-Module gleichzeitig mit Multiplexer. Funktioniert am RX Controller, der nur 2 bis 3 I2C Adressen gleichzeitig erkennt.
+> Beispiel 10 I²C Module gleichzeitig mit Multiplexer. Funktioniert am RX Controller, der nur 2 bis 3 I²C-Adressen gleichzeitig erkennt.
 > [Beispiel Projekt](https://git.fischertechnik-cloud.com/i2c/I2C_Multiplexer) | [Foto](https://git.fischertechnik-cloud.com/i2c/I2C_Multiplexer/-/blob/master/fotos/DSC00409.JPG)
 
 Block **qmux_rx1**
