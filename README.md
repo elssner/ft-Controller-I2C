@@ -36,8 +36,8 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 [oled](#oledpy)|<code>0x3C 0x3D</code>|OLED Displays [128x128](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0), [128x64](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0)|8, 9, 10, 11
 [oled_geometrie](#oled_geometriepy)||Blöcke für Linien und Kreise|8, 10, 11
 [qwiicbutton](#qwiicbuttonpy)|<code>0x6F 0x6E</code>|[SparkFun Qwiic Button](https://www.sparkfun.com/products/16842)|7
-[qwiicbutton_int](#qwiicbuttonintpy)||Beispiel Button /INT Ereignis|
-[qwiicbutton_q](#qwiicbuttonqueuepy)||Blöcke für Button Zeitstempel|
+[qwiicbutton_int](#qwiicbuttonintpy)||Beispiel 2 Buttons /INT Ereignis|
+[qwiicbutton_q](#qwiicbuttonqueuepy)||Blöcke für Button Queue|
 [qwiiceeprom](#qwiiceeprompy)|<code>0x50</code>|[SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/18355)|9, 10
 [qwiicgpio](#qwiicgpiopy)|<code>0x27</code>|[SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)|5
 [qwiicjoystick](#qwiicjoystickpy)|<code>0x20</code>|[SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)|6, 14, 15
@@ -45,7 +45,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 [qwiiclcd](#qwiiclcdpy)|<code>0x72</code>|Qwiic LCD Displays [20x4](https://www.sparkfun.com/products/16398), [16x2](https://www.sparkfun.com/products/16396)|4, 5, 6
 [qwiicmotor](#qwiicmotorpy)|<code>0x5D 0x5E</code>|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)|14, 15
 [qwiicmux](#qwiicmuxpy)|<code>0x70</code>|[SparkFun Qwiic Mux 8 Channel](https://www.sparkfun.com/products/16784)|
-[qwiicmux_rx](#qwiicmuxrxpy)||Beispiel I²C Multiplexer|
+[qwiicmux_rx](#qwiicmuxrxpy)||Beispiel RX mit I²C Multiplexer|
 [qwiicopenlog](#qwiicopenlogpy)|<code>0x2A</code>|[SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)|
 [qwiicrelay](#qwiicrelaypy)|<code>0x18</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)|Hauptprogramm
 [rtc](#rtcpy)|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)|1, 4, 10
