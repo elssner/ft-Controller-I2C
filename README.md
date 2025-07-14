@@ -37,7 +37,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 [oled_geometrie](#oled_geometriepy)||Blöcke für Linien und Kreise|8, 10, 11
 [qwiicbutton](#qwiicbuttonpy)|<code>0x6F 0x6E</code>|[SparkFun Qwiic Button](https://www.sparkfun.com/products/16842)|7
 [qwiicbutton_int](#qwiicbuttonintpy)||Beispiel Button /INT Ereignis|
-[qwiicbutton_queue](#qwiicbuttonqueuepy)||Blöcke für Button Zeitstempel|
+[qwiicbutton_q](#qwiicbuttonqueuepy)||Blöcke für Button Zeitstempel|
 [qwiiceeprom](#qwiiceeprompy)|<code>0x50</code>|[SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/18355)|9, 10
 [qwiicgpio](#qwiicgpiopy)|<code>0x27</code>|[SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)|5
 [qwiicjoystick](#qwiicjoystickpy)|<code>0x20</code>|[SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)|6, 14, 15
