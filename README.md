@@ -322,7 +322,7 @@ Block **oled_clock** (x, y, radius, hour, minute)
 #### qwiicbutton.py
 ###### [SparkFun Qwiic Button - Green LED](https://www.sparkfun.com/products/16842) | [SparkFun Qwiic Button - Red LED](https://www.sparkfun.com/products/15932) | [SparkFun Qwiic Button Breakout](https://www.sparkfun.com/products/15931)
 > Button mit farbiger LED, Bordcomputer, FIFO, /INT-Pin, mehrere gleichzeitig am I²C-Bus, billiger als ein fischertechnik Taster.
-> Unterscheidet PRESSED und CLICKED, speichert bei PRESSED 8 und bei CLICKED 16 Zeitstempel (32 Bit Millisekunden) in QUEUE / FIFO.\
+> Unterscheidet PRESSED (drücken) und CLICKED (drücken und loslassen).\
 > LED Helligkeit und Blink-Takt.
 > [Qwiic_Button_I2C_Register_Map](https://cdn.sparkfun.com/assets/learn_tutorials/1/1/0/8/Qwiic_Button_I2C_Register_Map.pdf)
 
@@ -349,7 +349,6 @@ Block **button_interrupt_config** (when_clicked, when_pressed, i2c_addr)
 * *when_pressed*: /INT wird nur solange LOW wie der Button gedrückt ist.
 
 
-
 Block **button_led** (brightness, i2c_addr)
 * *brightness*: LED Helligkeit 0..255, 0 ist aus.
 
@@ -362,9 +361,26 @@ Block **button_led_config** (brightness, cycle_time, off_time, granularity, i2c_
 Block **button_led_read_register** (i2c_addr)
 * Zeigt Register 25..31 in Konsole an: 6 LED Register und I2C Address.
 
+#### qwiicbutton_int.py
+> Programmierbeispiel für Interrupt von 2 Buttons über Optokoppler (3,3V -> 9V Logik) und Ereignis `Starte jedes mal ist Fototransistor hell`.
+
+Block **buttons_polling**
+* Beispiel ohne Interrupt kann beim Programmstart aufgerufen werden.
+* Buttons werden in dauerhaft Schleife abgefragt (polling).
+
+Block **buttons_interrupt**
+* Beispiel mit Interrupt kann beim Programmstart aufgerufen werden.
+* Konfiguriert Interrupt *when_clicked*.
+* Buttons werden nur bei aktiver /INT Leitung abgefragt, im folgenden Block.
+
+Block **buttons_event**
+* Dieser Block muss in Ereignis `Starte jedes mal ist Fototransistor hell` eingefügt werden.
+* Sucht den geklickten Button und setzt dessen /INT zurück.
 
 
-#### qwiicbutton.py
+#### qwiicbutton_queue.py
+> Button speichert bei PRESSED 8 und bei CLICKED 16 Zeitstempel (32 Bit Millisekunden) in QUEUE / FIFO.
+> Diese Quellcodedatei wird nur benötigt, wenn die Zeitstempel ausgewertet werden sollen.
 
 Block **button_clicked_queue_empty** (i2c_addr)\
 Block **button_clicked_queue_full** (i2c_addr)\
