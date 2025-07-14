@@ -208,7 +208,7 @@ Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstel
 
 #### dipswitch.py
 ###### [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) | [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)
-Block **read_switch** () : Byte
+Block **switch_read** () : Byte
 * Gibt 1 Byte zurück: 6 Bit (0..63), 1 Bit pro DIP Schalter.
 
 #### keyboard.py
@@ -589,7 +589,7 @@ Block **log_sync**
 ###### [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 > Strom für Relais kommt aus dem 3,3 Volt I²C-Bus!
 
-Block **write_relay** (on:Boolean)
+Block **relay** (on:Boolean)
 * *on* schaltet Relais: True=an; False=aus.
 * I2C_ADDRESS kann im Code geändert werden, default 0x18.
 
@@ -598,12 +598,12 @@ Block **write_relay** (on:Boolean)
 
 ##### Uhr stellen
 
-Block **write_rtc** (index, int8)
+Block **rtc_write** (index, int8)
 * Stellt die Uhr. Ändert ein bestimmtes Register *index*.
 * `0`Seconds, `1`Minutes, `2`Hours, `3`Days, `4`Weekdays, `5`Months, `6`Years
 * *int8*: 0..59 Byte wird in BCD konvertiert und im RTC-Modul gespeichert. 
 
-Block **set_rtc** (key_code) : keyString
+Block **rtc_set** (key_code) : keyString
 * Stellt die Uhr mit 5 ASCII Zeichen-Codes von Keypad oder Keyboard.
 * Muss 5 mal mit ASCII Code aufgerufen werden, gibt den zusammengesetzten String zurück.\
   *1. Zeichen:* `*` neu, *2. Zeichen:* Register `0..6`,\
@@ -613,7 +613,7 @@ Block **set_rtc** (key_code) : keyString
 
 ##### Uhr lesen
 
-Block **read_rtc** ()
+Block **rtc_read** ()
 * <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
 * Liest 7 Byte in Variable RTC_BUFFER.
 * BCD codiert: 4 Bit pro Ziffer, Bit `7654` Zehner, Bit `3210` Einer, Jahr 2-stellig
