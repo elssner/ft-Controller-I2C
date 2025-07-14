@@ -344,9 +344,9 @@ Block **button_onoff** (i2c_addr)
 * Wechselt True/False bei jedem Klick (und löscht den Status hasBeenClicked).
 
 Block **button_interrupt_config** (when_clicked, when_pressed, i2c_addr)
-* *when_clicked*: /INT Pin wird LOW wenn clicked (drücken und loslassen).
+* *when_clicked* = True: /INT Pin wird LOW wenn clicked (drücken und loslassen).
 * /INT bleibt aktiv bis Status-Bit hasBeenClicked zurück gesetzt wird.
-* *when_pressed*: /INT wird nur solange LOW wie der Button gedrückt ist.
+* *when_pressed* = True: /INT wird nur solange LOW wie der Button gedrückt ist.
 
 
 Block **button_led** (brightness, i2c_addr)
