@@ -519,6 +519,20 @@ Block **drive_motor_b** (speed:Byte)
 
 
 
+#### qwiicmux.py
+###### [SparkFun Qwiic Mux Breakout - 8 Channel (TCA9548A)](https://www.sparkfun.com/products/16784)
+> I²C Multiplexer
+
+Block **mux** (channel)
+* *channel*: 0..7 schaltet genau einen Kanal ein. Jeder andere Wert schaltet alle aus.
+
+Block **mux_write** (byte)
+* *byte*: 0..255 für jedes Bit wird der entsprechende Kanal ein geschaltet.
+
+Block **mux_read**
+* Gibt ein Byte mit den gesetzen Bits der eingeschalteten Kanäle zurück.
+
+
 #### qwiicopenlog.py
 ###### [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
 > Lesen und Schreiben von Dateien auf microSD card 64MB .. 32GB, FAT16 oder FAT32.
