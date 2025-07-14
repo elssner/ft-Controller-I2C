@@ -355,6 +355,10 @@ Block **button_led_config** (brightness, cycle_time, off_time, granularity, i2c_
 Block **button_led_read_register** (i2c_addr)
 * Zeigt Register 25..31 in Konsole an: 6 LED Register und I2C Address.
 
+
+
+#### qwiicbutton.py
+
 Block **button_clicked_queue_empty** (i2c_addr)\
 Block **button_clicked_queue_full** (i2c_addr)\
 Block **button_pressed_queue_empty** (i2c_addr)\
