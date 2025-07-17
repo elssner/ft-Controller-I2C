@@ -1,3 +1,4 @@
+examples/README.md
 
 [I²C Module](https://elssner.github.io/ft-Controller-I2C/#tabelle-1) |
 [Programmierbeispiele](https://elssner.github.io/ft-Controller-I2C/#beispielepy) |
