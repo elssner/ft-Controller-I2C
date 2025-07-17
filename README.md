@@ -87,12 +87,11 @@ I²C Module, die eine Eingabe machen, müssen normalerweise in einer dauerhaft S
 Sensoren, Buttons, Keypad, GPIO und RTC haben einen zusätzlichen (Löt-) Interrupt-Pin /INT, der außerhalb vom I²C-Bus extra verdrahtet werden kann.\
 Die I²C Module haben 3,3V Logik, die fischertechnik Controller aber 9V Logik. Um die /INT Leitungen an einen Controller Input anzuschließen, wird ein Optokoppler empfohlen.\
 Der Optokoppler hat am Ausgang einen Fototransistor. Die Controller können am Input einen Fototransistor digital hell/dunkel abfragen.\
-Somit kann beim TXT 4.0 Controller ein Ereignis ![](ereignis_fototransistor.png) ausgelöst werden. Im Ereignis-Code wird über den I²C-Bus das auslösende Modul gesucht und dessen /INT zurück gesetzt.\
-Weil der RX Controller keine Ereignisse unterstützt, kann der Controller Input in einer Schleife abgefragt werden, was den I²C-Bus ebenfalls entlastet.
+Somit kann beim **TXT 4.0 Controller** ein Ereignis ![](ereignis_fototransistor.png) ausgelöst werden. Im Ereignis-Code wird über den I²C-Bus das auslösende Modul gesucht und dessen /INT zurück gesetzt.\
+Weil der **RX Controller** keine Ereignisse unterstützt, kann der Fototransistor hell/dunkel in einer Schleife abgefragt werden, was den I²C-Bus ebenfalls entlastet.
 
-, der mit einem Controller Input verbunden werden kann. Ein `Eingang`**Starte jedes mal** Block kann bei Zustandsänderung ein Ereignis auslösen.
-Mit dem Ereignis-Block kann die ständige Kommunikation über den I²C-Bus vermieden werden.\
-Die /INT Pins aller I²C Module können miteinander verbunden an nur einen Controller Input angeschlossen werden. Ein Interrupt an einem I²C Modul schaltet den /INT Pegel auf LOW (GND).\
+Die /INT Pins aller I²C Module können miteinander verbunden und als Minus an die LED im Optokoppler angeschlossen werden. Der + vom Optokoppler ist über einen Widerstand 220 Ohm mit +3,3V zu verbinden.
+Ein 3V3 Löt-Pin ist an vielen I²C Modulen neben dem /INT vorhanden.
 
 
 ###### I²C Software
