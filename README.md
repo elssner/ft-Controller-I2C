@@ -84,10 +84,16 @@ qwiicmux_rx|[Beispiel](examples#qwiicmux_rxpy)|RX mit I²C Multiplexer, 10 I²C 
 ###### I²C Module mit Hardware Interrupt
 
 I²C Module, die eine Eingabe machen, müssen normalerweise in einer dauerhaft Schleife ständig über den I²C-Bus abgefragt werden, ob sich der Zustand geändert hat. 
-Sensoren, Button, Keypad, GPIO und RTC haben einen zusätzlichen (Löt-) Interrupt-Pin, der mit einem Controller Input verbunden werden kann. Ein `Eingang`**Starte jedes mal** Block kann bei Zustandsänderung ein Ereignis auslösen.
+Sensoren, Buttons, Keypad, GPIO und RTC haben einen zusätzlichen (Löt-) Interrupt-Pin /INT, der außerhalb vom I²C-Bus extra verdrahtet werden kann.
+Die I²C Module haben 3,3V Logik, die fischertechnik Controller aber 9V Logik. Um die /INT Leitungen an einen Controller Input anzuschließen, wird ein Optokoppler empfohlen.
+Der Optokoppler hat am Ausgang einen Fototransistor. Die Controller können am Input einen Fototransistor digital hell/dunkel abfragen.\
+Somit kann beim TXT 4.0 Controller ein Ereignis `Starte jedes mal ist Fototransistor hell` ausgelöst werden. Im Ereignis-Code wird über den I²C-Bus das auslösende Modul gesucht und dessen /INT zurück gesetzt.\
+Weil der RX Controller keine Ereignisse unterstützt, kann der Controller Input in einer Schleife abgefragt werden, was den I²C-Bus ebenfalls entlastet.
+
+, der mit einem Controller Input verbunden werden kann. Ein `Eingang`**Starte jedes mal** Block kann bei Zustandsänderung ein Ereignis auslösen.
 Mit dem Ereignis-Block kann die ständige Kommunikation über den I²C-Bus vermieden werden.\
 Die /INT Pins aller I²C Module können miteinander verbunden an nur einen Controller Input angeschlossen werden. Ein Interrupt an einem I²C Modul schaltet den /INT Pegel auf LOW (GND).\
-Weil der RX Controller keine Ereignisse unterstützt, kann der Controller Input in einer Schleife abgefragt werden, was den I²C-Bus ebenfalls entlastet.
+
 
 ###### I²C Software
 
