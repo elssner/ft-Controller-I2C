@@ -77,7 +77,7 @@ qwiicmux_rx|[Beispiel](examples#qwiicmux_rxpy)|RX mit I²C Multiplexer, 10 I²C 
 * Grove Module mit 3,3V/5V verabschieden sich zuerst, wenn mehrere am I²C-Bus sind.
 * M5Stack und andere Module mit 5V und müssen getestet werden.
 * RX Controller verträgt am I²C-Bus nur 2-3 I²C-Adressen gleichzeitig, TXT 4.0 viel mehr.
-* Mit I²C Multiplexer können auch am RX 10 I²C Module betrieben werden. → [Beispiel](examples#qwiicmux_rxpy)
+* Mit [I²C Multiplexer](#qwiicmuxpy) können auch am RX mindestens 10 I²C Module betrieben werden. → [Beispiel](examples#qwiicmux_rxpy)
 
 [6-pin Pfosten Stecker](https://www.conrad.de/de/p/fci-75867-131lf-pfosten-steckverbinder-rastermass-2-54-mm-polzahl-gesamt-6-anzahl-reihen-2-1-st-1401777.html) | [Qwiic Adapter](https://www.sparkfun.com/sparkfun-qwiic-adapter.html) | [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/qwiic-cable-grove-adapter-100mm.html) | [Qwiic Cable Kit](https://www.sparkfun.com/sparkfun-qwiic-cable-kit.html)
 
