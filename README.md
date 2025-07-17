@@ -26,7 +26,7 @@ Die Quellcodedateien mit I²C-Adresse in [Tabelle 1](#tabelle-1) sind bestimmten
 * I²C Module mit Link zur Hersteller Webseite mit Bild und Dokumentation.
 * Nummern der Programmierbeispiele in [Tabelle 3](#tabelle-3), welche diese Module verwenden.
 
-Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
+Quellcodedatei|I²C-Adresse|I²C Module|Beispiel
 ---|---|---|---
 [i2cCode](#i2ccodepy)||Python I²C für [RX](https://github.com/fischertechnik/RX-Controller-I2C) und [TXT 4.0](https://github.com/fischertechnik/TXT40-Controller-I2C)|alle
 [advanced](#advancedpy)||Blöcke für fehlende Funktionen|11
@@ -47,11 +47,13 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel Tabelle 3
 [qwiicmux](#qwiicmuxpy)|<code>0x70</code>|[SparkFun Qwiic Mux 8 Channel](https://www.sparkfun.com/products/16784)|
 [qwiicmux_rx](#qwiicmux_rxpy)||Beispiel RX mit I²C Multiplexer|
 [qwiicopenlog](#qwiicopenlogpy)|<code>0x2A</code>|[SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)|
-[qwiicrelay](#qwiicrelaypy)|<code>0x18</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)|Hauptprogramm
+[qwiicrelay](#qwiicrelaypy)|<code>0x18</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)|
 [rtc](#rtcpy)|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)|1, 4, 10
 [s_co2](#s_co2py)|<code>0x62</code>|[Calliope mini CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)|
 [s_qwiicinfrared](#s_qwiicinfraredpy)|<code>0x60</code>|[Proximity Sensor VCNL4040](https://www.sparkfun.com/products/15177)|12
 [s_qwiiclaser](#s_qwiiclaserpy)|<code>0x29</code>|Laser Sensor [VL53L1X](https://www.sparkfun.com/products/14722), [VL53L4CD](https://www.sparkfun.com/products/18993)|13
+[s_qwiictemperature](#s_qwiictemperaturepy)
+[s_qwiictmp102](#s_qwiictmp102py)
 [s_qwiicultrasonic](#s_qwiicultrasonicpy)|<code>0x09</code>|[Ultrasonic Sensor HC-SR04](https://www.sparkfun.com/products/17777)|12
 [wattmeter](#wattmeterpy)|<code>0x45</code>|[Gravity Digital Wattmeter](https://www.dfrobot.com/product-1827.html)|
 
