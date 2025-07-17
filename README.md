@@ -52,8 +52,8 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel
 [s_co2](#s_co2py)|<code>0x62</code>|[Calliope mini CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)|
 [s_qwiicinfrared](#s_qwiicinfraredpy)|<code>0x60</code>|[Proximity Sensor VCNL4040](https://www.sparkfun.com/products/15177)|12
 [s_qwiiclaser](#s_qwiiclaserpy)|<code>0x29</code>|Laser Sensor [VL53L1X](https://www.sparkfun.com/products/14722), [VL53L4CD](https://www.sparkfun.com/products/18993)|13
-[s_qwiictemperature](#s_qwiictemperaturepy)
-[s_qwiictmp102](#s_qwiictmp102py)
+[s_qwiictemperature](#s_qwiictemperaturepy)|<code>0x3C</code>||
+[s_qwiictmp102](#s_qwiictmp102py)|<code>0x48</code>||
 [s_qwiicultrasonic](#s_qwiicultrasonicpy)|<code>0x09</code>|[Ultrasonic Sensor HC-SR04](https://www.sparkfun.com/products/17777)|12
 [wattmeter](#wattmeterpy)|<code>0x45</code>|[Gravity Digital Wattmeter](https://www.dfrobot.com/product-1827.html)|
 
