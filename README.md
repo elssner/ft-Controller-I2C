@@ -102,7 +102,7 @@ Ein 3V3 Löt-Pin ist an vielen I²C Modulen neben dem /INT vorhanden.\
 * Die I²C Module müssen verschiedene 7-Bit I²C-Adressen haben.
 * I²C kennt nur 2 Funktionen:\
 **an eine I²C-Adresse Bytes senden** oder **von einer I²C-Adresse Bytes empfangen**
-* Es gibt noch eine Kombination aus beiden und i2cScan soll alle Module am Bus finden.
+* Es gibt noch eine Kombination aus beiden und i2c_scan soll alle Module am Bus finden.
 * Die Anzahl über den I²C-Bus übertragener Bytes ist **nicht** auf 32 Byte begrenzt.
 
 > [RX Controller nutzt CircuitPython](https://github.com/fischertechnik/RX-Controller-I2C), [TXT 4.0 Controller nutzt Python3](https://github.com/fischertechnik/TXT40-Controller-I2C). Beide unterstützen I²C, aber völlig verschieden.
