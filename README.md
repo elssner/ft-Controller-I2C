@@ -84,7 +84,8 @@ qwiicmux_rx|[Beispiel](examples#qwiicmux_rxpy)|RX mit I²C Multiplexer, 10 I²C 
 ###### I²C Module mit Hardware Interrupt
 
 I²C Module, die eine Eingabe machen, müssen normalerweise in einer dauerhaft Schleife ständig über den I²C-Bus abgefragt werden, ob sich der Zustand geändert hat. 
-Sensoren, Buttons, Keypad, GPIO und RTC haben einen zusätzlichen (Löt-) Interrupt-Pin /INT, der außerhalb vom I²C-Bus extra verdrahtet werden kann.\
+Sensoren, Buttons, Keypad, GPIO und RTC haben einen zusätzlichen (Löt-) Interrupt-Pin /INT, der außerhalb vom I²C-Bus extra verdrahtet werden kann.
+
 Die I²C Module haben 3,3V Logik, die fischertechnik Controller aber 9V Logik. Um die /INT Leitungen an einen Controller Input anzuschließen, wird ein Optokoppler empfohlen.\
 Der Optokoppler hat am Ausgang einen Fototransistor. Die Controller können am Input einen Fototransistor digital hell/dunkel abfragen.
 
