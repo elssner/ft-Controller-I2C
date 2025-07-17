@@ -47,7 +47,7 @@ qwiicbutton_int|[Beispiel](examples#qwiicbutton_intpy)|zwei I²C Qwiic Buttons /
 [qwiiclcd](#qwiiclcdpy)|<code>0x72</code>|Qwiic LCD Displays [20x4](https://www.sparkfun.com/products/16398), [16x2](https://www.sparkfun.com/products/16396)
 [qwiicmotor](#qwiicmotorpy)|<code>0x5D 0x5E</code>|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
 [qwiicmux](#qwiicmuxpy)|<code>0x70</code>|[SparkFun Qwiic Mux 8 Channel](https://www.sparkfun.com/products/16784)
-[qwiicmux_rx](#qwiicmux_rxpy)|Beispiel|RX mit I²C Multiplexer, 10 I²C Module
+qwiicmux_rx|[Beispiel](examples#qwiicmux_rxpy)|RX mit I²C Multiplexer, 10 I²C Module
 [qwiicopenlog](#qwiicopenlogpy)|<code>0x2A</code>|[SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
 [qwiicrelay](#qwiicrelaypy)|<code>0x18</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 [rtc](#rtcpy)|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
@@ -483,7 +483,7 @@ Block **mux_write** (byte)
 Block **mux_read**
 * Gibt ein Byte mit den gesetzen Bits der eingeschalteten Kanäle zurück.
 
-
+<!-- 
 #### qwiicmux_rx.py
 > Beispiel 10 I²C Module gleichzeitig mit Multiplexer. Funktioniert am RX Controller, der nur 2 bis 3 I²C-Adressen gleichzeitig erkennt.
 > [Beispiel Projekt](https://git.fischertechnik-cloud.com/i2c/I2C_Multiplexer) | [Foto](https://git.fischertechnik-cloud.com/i2c/I2C_Multiplexer/-/blob/master/fotos/DSC00409.JPG)
@@ -491,7 +491,7 @@ Block **mux_read**
 Block **qmux_rx1**
 * Beispiel kann beim Programmstart aufgerufen werden.
 * 3 Displays, EEPROM, Keypad, GPIO, RTC, Speicherkarte, Ultraschallsensor und Multiplexer.
-
+-->
 
 #### qwiicopenlog.py
 ###### [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
