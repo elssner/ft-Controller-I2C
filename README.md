@@ -21,13 +21,17 @@ Aus der Datei [Beispiele](#beispielepy) könnte nur ein einzelner Block übernom
 Die Quellcodedateien mit I²C-Adresse in [Tabelle 1](#tabelle-1) sind bestimmten I²C Modulen zugeordnet.
 
 ###### Tabelle 1:
-* Quellcodedateien mit Link zur Beschreibung der Blöcke (auf dieser Seite unten).
+* Quellcodedatei mit Link zur Beschreibung der Blöcke (auf dieser Seite unten).
 * I²C Module mit Link zur Hersteller Webseite mit Bild und Dokumentation.
+* Quellcodedateien
+  * mit <code>I²C-Adresse</code> sind bestimmten I²C Modulen zugeordnet.
+  * **Erweiterung** Blöcke zum entsprechenden I²C Modul
+  * **Beispiel** Programmierbeispiel zum entsprechenden I²C Modul
 
 Quellcodedatei|I²C-Adresse|I²C Module
 ---|---|---
 [i2cCode](#i2ccodepy)||Python I²C für [RX](https://github.com/fischertechnik/RX-Controller-I2C) und [TXT 4.0](https://github.com/fischertechnik/TXT40-Controller-I2C)
-[advanced](#advancedpy)|Erweiterung|Blöcke für fehlende Funktionen
+[advanced](#advancedpy)|**Erweiterung**|Blöcke für fehlende Funktionen
 [dipswitch](#dipswitchpy)|<code>0x03</code>|[6-DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch), [5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)
 [keyboard](#keyboardpy)|<code>0x5F</code>|[M5Stack Card Keyboard](https://docs.m5stack.com/en/unit/cardkb_1.1)
 [lcd16x2](#lcd16x2py)|<code>0x3E</code>|[Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
