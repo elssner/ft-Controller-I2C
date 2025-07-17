@@ -93,7 +93,7 @@ Weil der **RX Controller** keine Ereignisse unterstützt, kann der Fototransisto
 
 Die /INT Pins aller I²C Module können miteinander verbunden und als Minus an die LED im Optokoppler angeschlossen werden. Der + vom Optokoppler ist über einen Widerstand 220 Ohm mit +3,3V zu verbinden.
 Ein 3V3 Löt-Pin ist an vielen I²C Modulen neben dem /INT vorhanden.\
-**Die LED vom Optokoppler <sup>nicht</sup> an 9V anschließen!**
+**Die LED vom Optokoppler <ins>nicht</ins> an 9V anschließen!**
 
 
 ###### I²C Software
