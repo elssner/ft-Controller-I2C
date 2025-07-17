@@ -53,7 +53,7 @@ Quellcodedatei|I²C-Adresse|I²C Module|Beispiel
 [s_qwiicinfrared](#s_qwiicinfraredpy)|<code>0x60</code>|[Proximity Sensor VCNL4040](https://www.sparkfun.com/products/15177)|12
 [s_qwiiclaser](#s_qwiiclaserpy)|<code>0x29</code>|Laser Sensor [VL53L1X](https://www.sparkfun.com/products/14722), [VL53L4CD](https://www.sparkfun.com/products/18993)|13
 [s_qwiictemp](#s_qwiictemppy)|<code>0x3C</code>|[Temperature Sensor - STTS22H](https://www.sparkfun.com/products/21273)|
-[s_qwiictmp102](#s_qwiictmp102py)|<code>0x48</code>|[Temperature Sensor - TMP102](https://www.sparkfun.com/products/13314)|
+[s_qwiictmp102](#s_qwiictmp102py)|<code>0x48</code>|[Temperature Sensor - TMP102](https://www.sparkfun.com/products/16304)|
 [s_qwiicultrasonic](#s_qwiicultrasonicpy)|<code>0x09</code>|[Ultrasonic Sensor HC-SR04](https://www.sparkfun.com/products/17777)|12
 [wattmeter](#wattmeterpy)|<code>0x45</code>|[Gravity Digital Wattmeter](https://www.dfrobot.com/product-1827.html)|
 
