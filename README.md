@@ -57,7 +57,7 @@ qwiicmux_rx|[Beispiel](examples#qwiicmux_rxpy)|RX mit I²C Multiplexer, 10 I²C 
 [s_qwiictemp](#s_qwiictemppy)|<code>0x3C</code>|[Temperature Sensor - STTS22H](https://www.sparkfun.com/products/21273)
 [s_qwiictmp102](#s_qwiictmp102py)|<code>0x48</code>|[Temperature Sensor - TMP102](https://www.sparkfun.com/products/16304)
 [s_qwiicultrasonic](#s_qwiicultrasonicpy)|<code>0x09</code>|[Ultrasonic Sensor HC-SR04](https://www.sparkfun.com/products/17777)
-[wattmeter](#wattmeterpy)|<code>0x45</code>|[Gravity Digital Wattmeter](https://www.dfrobot.com/product-1827.html)
+[wattmeter](#wattmeterpy)|<code>0x45</code>|[DFRobot Gravity Digital Wattmeter](https://www.dfrobot.com/product-1827.html)
 
 
 
