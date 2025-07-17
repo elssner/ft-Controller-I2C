@@ -87,7 +87,7 @@ I²C Module, die eine Eingabe machen, müssen normalerweise in einer dauerhaft S
 Sensoren, Buttons, Keypad, GPIO und RTC haben einen zusätzlichen (Löt-) Interrupt-Pin /INT, der außerhalb vom I²C-Bus extra verdrahtet werden kann.
 Die I²C Module haben 3,3V Logik, die fischertechnik Controller aber 9V Logik. Um die /INT Leitungen an einen Controller Input anzuschließen, wird ein Optokoppler empfohlen.
 Der Optokoppler hat am Ausgang einen Fototransistor. Die Controller können am Input einen Fototransistor digital hell/dunkel abfragen.\
-Somit kann beim TXT 4.0 Controller ein Ereignis ![](ereignis_fototransistor.jpg) ausgelöst werden. Im Ereignis-Code wird über den I²C-Bus das auslösende Modul gesucht und dessen /INT zurück gesetzt.\
+Somit kann beim TXT 4.0 Controller ein Ereignis ![](ereignis_fototransistor.png) ausgelöst werden. Im Ereignis-Code wird über den I²C-Bus das auslösende Modul gesucht und dessen /INT zurück gesetzt.\
 Weil der RX Controller keine Ereignisse unterstützt, kann der Controller Input in einer Schleife abgefragt werden, was den I²C-Bus ebenfalls entlastet.
 
 , der mit einem Controller Input verbunden werden kann. Ein `Eingang`**Starte jedes mal** Block kann bei Zustandsänderung ein Ereignis auslösen.
