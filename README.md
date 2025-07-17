@@ -14,11 +14,13 @@ Dazu bleibt das Zugriffstoken leer und auf der nächsten Seite im Suchfeld kann 
 #### Im Projekt enthaltene Quellcodedateien (Blöcke) für I²C Module.
 
 Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die Quellcodedateien importiert werden.
-Der Import muss mehrmals erfolgen: zuerst [i2cCode](#i2ccodepy) und optional [advanced](#advancedpy), beim zweiten Import die Dateien für die angeschlossenen I²C Module, beim dritten zusätzliche Blöcke.\
+Der Import muss mehrmals erfolgen: 
+1. [i2cCode](#i2ccodepy) und optional [advanced](#advancedpy)
+2. Quellcodedateien mit <code>I²C-Adresse</code>
+3. Erweiterungen
+
 Die Datei [i2cCode](#i2ccodepy) muss immer mit importiert werden.\
-Die Datei [advanced](#advancedpy) enthält keine I²C spezifischen Blöcke, ist aber zu empfehlen.\
-Aus der Datei [Beispiele](#beispielepy) könnte nur ein einzelner Block übernommen werden.\
-Die Quellcodedateien mit I²C-Adresse in [Tabelle 1](#tabelle-1) sind bestimmten I²C Modulen zugeordnet.
+Die Datei [advanced](#advancedpy) enthält keine I²C spezifischen Blöcke, ist aber zu empfehlen.
 
 ###### Tabelle 1:
 * Quellcodedatei mit Link zur Beschreibung der Blöcke (auf dieser Seite unten).
