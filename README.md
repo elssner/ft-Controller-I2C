@@ -26,7 +26,7 @@ Die Quellcodedateien mit I²C-Adresse in [Tabelle 1](#tabelle-1) sind bestimmten
 * Quellcodedateien
   * mit <code>I²C-Adresse</code> sind bestimmten I²C Modulen zugeordnet.
   * **Erweiterung** zusätzliche Blöcke zum entsprechenden I²C Modul.
-  * **Beispiel** Programmierbeispiel zum entsprechenden I²C Modul.
+  * [Beispiel](examples) Programmierbeispiel zum entsprechenden I²C Modul.
 
 Quellcodedatei|I²C-Adresse|I²C Module
 ---|---|---
@@ -311,6 +311,7 @@ Block **button_led_config** (brightness, cycle_time, off_time, granularity, i2c_
 Block **button_led_read_register** (i2c_addr)
 * Zeigt Register 25..31 in Konsole an: 6 LED Register und I2C Address.
 
+<!-- 
 #### qwiicbutton_int.py
 > Programmierbeispiel für Interrupt von 2 Buttons über Optokoppler (3,3V -> 9V Logik) und Ereignis `Starte jedes mal ist Fototransistor hell`.
 > [Beispiel Projekt](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay) | [Foto](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay/-/blob/master/fotos/DSC00417.JPG)
@@ -327,7 +328,7 @@ Block **buttons_interrupt**
 Block **buttons_event**
 * Block muss in Ereignis `Starte jedes mal ist Fototransistor hell` eingefügt werden.
 * Sucht den geklickten Button und setzt dessen /INT zurück.
-
+-->
 
 #### qwiicbutton_queue.py
 > Button speichert bei PRESSED 8 und bei CLICKED 16 Zeitstempel (32 Bit Millisekunden) in QUEUE / FIFO.
