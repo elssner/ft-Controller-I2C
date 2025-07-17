@@ -25,8 +25,8 @@ Die Quellcodedateien mit I²C-Adresse in [Tabelle 1](#tabelle-1) sind bestimmten
 * I²C Module mit Link zur Hersteller Webseite mit Bild und Dokumentation.
 * Quellcodedateien
   * mit <code>I²C-Adresse</code> sind bestimmten I²C Modulen zugeordnet.
-  * **Erweiterung** Blöcke zum entsprechenden I²C Modul
-  * **Beispiel** Programmierbeispiel zum entsprechenden I²C Modul
+  * **Erweiterung** zusätzliche Blöcke zum entsprechenden I²C Modul.
+  * **Beispiel** Programmierbeispiel zum entsprechenden I²C Modul.
 
 Quellcodedatei|I²C-Adresse|I²C Module
 ---|---|---
@@ -36,7 +36,7 @@ Quellcodedatei|I²C-Adresse|I²C Module
 [keyboard](#keyboardpy)|<code>0x5F</code>|[M5Stack Card Keyboard](https://docs.m5stack.com/en/unit/cardkb_1.1)
 [lcd16x2](#lcd16x2py)|<code>0x3E</code>|[Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
 [oled](#oledpy)|<code>0x3C 0x3D</code>|OLED Displays [128x128](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0), [128x64](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0)
-[oled_geometrie](#oled_geometriepy)|Erweiterung|Blöcke für Linien und Kreise
+[oled_geometrie](#oled_geometriepy)|**Erweiterung**|Blöcke für Linien und Kreise
 [qwiicbutton](#qwiicbuttonpy)|<code>0x6F 0x6E</code>|[SparkFun Qwiic Button](https://www.sparkfun.com/products/16842)
 [qwiicbutton_int](#qwiicbutton_intpy)|Beispiel|zwei I²C Qwiic Buttons /INT Ereignis
 [qwiicbutton_queue](#qwiicbutton_queuepy)|Erweiterung|Blöcke für Button Queue
