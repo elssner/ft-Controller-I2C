@@ -210,8 +210,9 @@ Block **set_display** (display_on, cursor_on, blink_on)
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
 #### oled.py
+> OLED: organic light-emitting diode → [de.wikipedia.org/wiki/OLED](https://de.wikipedia.org/wiki/Organische_Leuchtdiode)
+
 ###### [Grove - OLED Display 1.12 (128x128)](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0) | [OLED Yellow&Blue Display 0.96 (128x64)](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0) | [OLED Display 0.96](https://wiki.seeedstudio.com/Grove-OLED_Display_0.96inch)
-> OLED: organic light-emitting diode → [de.wikipedia.org/wiki/OLED](https://de.wikipedia.org/wiki/Organische_Leuchtdiode)\
 > OLED Displays zeigen 128x64 oder 128x128 Pixel an. Alle Pixel werden zuerst in Variablen gespeichert. Dieser Speicher wird 'Matrix' genannt.
 > Um die 'Matrix' auf dem OLED Display anzuzeigen, muss immer der Block **displayMatrix** aufgerufen werden.
 
@@ -284,6 +285,8 @@ Block **oled_clock** (x, y, radius, hour, minute)
 * Zeichnet eine analoge Uhr. *hour* und *minute* geben die Stellung der Uhrzeiger an.
 
 #### qwiicbutton.py
+> Qwiic Connect System: I²C · 3,3V Logik · ohne Löten → [www.sparkfun.com/qwiic](https://www.sparkfun.com/qwiic)
+
 ###### [SparkFun Qwiic Button - Green LED](https://www.sparkfun.com/products/16842) | [SparkFun Qwiic Button - Red LED](https://www.sparkfun.com/products/15932) | [SparkFun Qwiic Button Breakout](https://www.sparkfun.com/products/15931)
 > Button mit farbiger LED, Bordcomputer, FIFO, /INT-Pin, mehrere gleichzeitig am I²C-Bus.
 > Unterscheidet PRESSED (drücken) und CLICKED (drücken und loslassen).\
