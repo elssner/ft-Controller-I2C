@@ -232,7 +232,7 @@ Block **init_oled** (select_oled:Boolean) → Parameter optional
 * Initialisiert die Matrix: Variablen zum Speichern der Pixel (1024 oder 2048 Byte).
 * Initialisiert das Display mit der angegebenen I²C-Adresse 0x3C oder 0x3D (Lötbrücke).
 
-> Wenn zwei Displays angeschlossen sind, muss der Block **initOLED** zweimal aufgerufen werden, mit False und True.
+> Wenn zwei Displays angeschlossen sind, muss der Block **init_oled** zweimal aufgerufen werden, mit False und True.
 > Es gibt nur eine Matrix, die mit dem folgenden Block auf einem bestimmten Display angezeigt werden kann.
 
 Block **display_matrix** (from_page, to_page, select_oled) → alle Parameter optional
@@ -270,8 +270,9 @@ Block **paint_eeprom** (eeprom_startadresse, from_page, to_page) → alle Parame
 * Ohne Parameter wird der gesamte Zeichensatz vom EEPROM in die Matrix kopiert.
 * Im EEPROM können Bilder, die das ganze Display füllen, gespeichert werden.
 
+
 #### oled_geometrie.py
-###### erforderlich: [oled](#oledpy)
+###### Erweiterung zu: [oled](#oledpy)
 Block **oled_line** (x0, y0, x1, y1, pixel)
 * Zeichnet eine Linie mit den angegebenen Koordinaten in die Matrix.
 * Parameter wie oben **setPixel**.
@@ -358,6 +359,7 @@ Block **buttons_event**
 -->
 
 #### qwiicbutton_queue.py
+###### Erweiterung zu: [qwiicbutton](#qwiicbuttonpy)
 > Button speichert bei PRESSED 8 und bei CLICKED 16 Zeitstempel (32 Bit Millisekunden) in QUEUE / FIFO.
 > Diese Quellcodedatei wird nur benötigt, wenn die Zeitstempel ausgewertet werden sollen.
 
