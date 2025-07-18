@@ -474,6 +474,7 @@ Block **set_qdisplay** (display_on, cursor_on, blink_on)
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
 #### qwiicmotor.py
+→ Gleichstrommotor → [de.wikipedia.org/wiki/Gleichstrommotor](https://de.wikipedia.org/wiki/Gleichstrommaschine)
 ###### [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
 Block **init_motor** (i2c_addr)
 * Für jedes Motor-Modul einmal beim Start aufrufen (mit entsprechender *i2c_addr*).
