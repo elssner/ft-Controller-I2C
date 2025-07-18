@@ -48,6 +48,7 @@ qwiicbutton_int|[Beispiel](examples#qwiicbutton_intpy)|2 I²C Buttons, /INT Erei
 [qwiickeypad](#qwiickeypadpy)|<code>0x4B</code>|[SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)
 [qwiiclcd](#qwiiclcdpy)|<code>0x72</code>|Qwiic LCD Displays [20x4](https://www.sparkfun.com/products/16398), [16x2](https://www.sparkfun.com/products/16396)
 [qwiicmotor](#qwiicmotorpy)|<code>0x5D 0x5E</code>|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
+qwiicmotor_joystick|[Beispiel](examples#qwiicmotor_joystickpy)|2 oder 4 Motoren mit Joystick steuern
 [qwiicmux](#qwiicmuxpy)|<code>0x70</code>|[SparkFun Qwiic Mux 8 Channel](https://www.sparkfun.com/products/16784)
 qwiicmux_rx|[Beispiel](examples#qwiicmux_rxpy)|RX mit I²C Multiplexer, 10 I²C Module
 [qwiicopenlog](#qwiicopenlogpy)|<code>0x2A</code>|[SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
