@@ -434,6 +434,10 @@ Block **read_keypad** () : Byte
 * Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 * Keypad hat 12 Tasten: '0'=48 ... '9'=57 .. '#'=35 .. '*'=42
 
+0|1|2|3|4|5|6|7|8|9|*|#
+---|---|---|---|---|---|---|---|---|---|---|---
+48|49|50|51|52|53|54|55|56|57|42|35
+
 #### qwiiclcd.py
 → LCD: liquid-crystal display → [de.wikipedia.org/wiki/Flüssigkristallanzeige](https://de.wikipedia.org/wiki/Fl%C3%BCssigkristallanzeige)
 ###### [SparkFun Qwiic 20x4 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16398) | [SparkFun Qwiic 16x2 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16396)
