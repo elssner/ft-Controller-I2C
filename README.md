@@ -169,6 +169,7 @@ Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstel
 
 #### dipswitch.py
 > DIP: dual in-line package · DIP switch → [en.wikipedia.org/wiki/DIP_switch](https://en.wikipedia.org/wiki/DIP_switch)
+
 ###### [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) | [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)
 Block **switch_read** () : Byte
 * Gibt 1 Byte zurück: 6 Bit (0..63), 1 Bit pro DIP Schalter.
@@ -180,6 +181,7 @@ Block **read_keyboard** () : Byte
 
 #### lcd16x2.py
 > LCD: liquid-crystal display → [de.wikipedia.org/wiki/Flüssigkristallanzeige](https://de.wikipedia.org/wiki/Fl%C3%BCssigkristallanzeige)
+
 ###### [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series) | Black on Yellow | Black on Red | White on Blue
 
 Block **init_lcd** ()
@@ -496,6 +498,8 @@ Block **drive_motor_b** (speed:Byte)
 
 
 #### qwiicmux.py
+> MUX: Multiplexer → [de.wikipedia.org/wiki/Multiplexer](https://de.wikipedia.org/wiki/Multiplexer)
+
 ###### [SparkFun Qwiic Mux Breakout - 8 Channel (TCA9548A)](https://www.sparkfun.com/products/16784)
 > I²C Multiplexer
 
