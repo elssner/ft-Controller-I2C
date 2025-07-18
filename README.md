@@ -339,27 +339,13 @@ Block **button_led_config** (brightness, cycle_time, off_time, granularity, i2c_
 Block **button_led_read_register** (i2c_addr)
 * Zeigt Register 25..31 in Konsole an: 6 LED Register und I2C Address.
 
-<!-- 
-#### qwiicbutton_int.py
-> Programmierbeispiel für Interrupt von 2 Buttons über Optokoppler (3,3V -> 9V Logik) und Ereignis `Starte jedes mal ist Fototransistor hell`.
-> [Beispiel Projekt](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay) | [Foto](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay/-/blob/master/fotos/DSC00417.JPG)
 
-Block **buttons_polling**
-* Beispiel ohne Interrupt kann beim Programmstart aufgerufen werden.
-* Buttons werden in dauerhaft Schleife abgefragt (polling).
-
-Block **buttons_interrupt**
-* Beispiel mit Interrupt kann beim Programmstart aufgerufen werden.
-* Konfiguriert Interrupt *when_clicked*.
-* Buttons werden nur bei aktiver /INT Leitung abgefragt, im folgenden Block.
-
-Block **buttons_event**
-* Block muss in Ereignis `Starte jedes mal ist Fototransistor hell` eingefügt werden.
-* Sucht den geklickten Button und setzt dessen /INT zurück.
--->
 
 #### qwiicbutton_queue.py
 ###### Erweiterung zu: [qwiicbutton](#qwiicbuttonpy)
+→ Queue: Warteschlange → [de.wikipedia.org/wiki/Warteschlange_(Datenstruktur)](https://de.wikipedia.org/wiki/Warteschlange_(Datenstruktur))\
+→ FIFO: First In – First Out → [de.wikipedia.org/wiki/FIFO](https://de.wikipedia.org/wiki/First_In_%E2%80%93_First_Out)
+
 > Button speichert bei PRESSED 8 und bei CLICKED 16 Zeitstempel (32 Bit Millisekunden) in QUEUE / FIFO.
 > Diese Quellcodedatei wird nur benötigt, wenn die Zeitstempel ausgewertet werden sollen.
 
