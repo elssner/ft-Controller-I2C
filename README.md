@@ -165,14 +165,14 @@ Block **sign** (i, exp) : Wandelt uint in int mit Vorzeichen um. *exp*: Anzahl d
 Block **system_time** () : Liste mit 9 Elementen
 * TXT 4.0: RTC Systemuhr (year, mon, mday, hour, min, sec, wday, yday, isdst)\
 Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstellen.
-* RX: Zeitstempel umgerechnet in (0, 0, 0, hour, min, sec, 0, 0, 0)
+* RX: Zeitstempel umgerechnet in (0, 0, 0, hour, min, sec, 0, 0, 0) seit dem Einschalten.
 
 Block **voltmeter** (input_pin, extended_range)
 > TXT 4.0 Controller kann an den Input-Pins I1 bis I8 Spannung messen.
 * *input_pin*: 1..8 Input Pin Nummer.
-* *extended_range*: False=0..6,3V; True=0..10V.
-* gibt Spannung in Volt zurück mit 3 Kommastellen.
-* RX Controller gibt None zurück.
+* *extended_range* Messbereich: False=0..6,3V; True=0..10V.
+* TXT 4.0: gibt Spannung in Volt zurück mit 3 Kommastellen.
+* RX: gibt None zurück.
 
 
 #### dipswitch.py
