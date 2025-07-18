@@ -286,7 +286,7 @@ Block **oled_clock** (x, y, radius, hour, minute)
 * Zeichnet eine analoge Uhr. *hour* und *minute* geben die Stellung der Uhrzeiger an.
 
 #### qwiicbutton.py
-→ Qwiic Connect System: I²C · 3,3V Logik · ohne Löten → [www.sparkfun.com/qwiic](https://www.sparkfun.com/qwiic)
+→ Qwiic Connect System: I²C · 3,3V Logik · ohne Löten → [www.sparkfun.com/qwiic](https://www.sparkfun.com/qwiic)\
 → Button: Taste → [de.wikipedia.org/wiki/Taste](https://de.wikipedia.org/wiki/Taste)
 ###### [SparkFun Qwiic Button - Green LED](https://www.sparkfun.com/products/16842) | [SparkFun Qwiic Button - Red LED](https://www.sparkfun.com/products/15932) | [SparkFun Qwiic Button Breakout](https://www.sparkfun.com/products/15931)
 > Button mit farbiger LED, Bordcomputer, FIFO, /INT-Pin, mehrere gleichzeitig am I²C-Bus.
