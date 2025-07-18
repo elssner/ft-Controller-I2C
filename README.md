@@ -523,6 +523,8 @@ Block **qmux_rx1**
 -->
 
 #### qwiicopenlog.py
+> Logdatei → [de.wikipedia.org/wiki/Logdatei](https://de.wikipedia.org/wiki/Logdatei)
+
 ###### [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
 > Lesen und Schreiben von Dateien auf microSD card 64MB .. 32GB, FAT16 oder FAT32.
 > <ins>Dateinamen sollen im Format 8.3, nur ASCII Zeichen und Großbuchstaben enthalten.</ins>
