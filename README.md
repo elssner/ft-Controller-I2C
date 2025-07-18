@@ -346,8 +346,8 @@ Block **button_led_read_register** (i2c_addr)
 → Queue: Warteschlange → [de.wikipedia.org/wiki/Warteschlange_(Datenstruktur)](https://de.wikipedia.org/wiki/Warteschlange_(Datenstruktur))\
 → FIFO: First In – First Out → [de.wikipedia.org/wiki/FIFO](https://de.wikipedia.org/wiki/First_In_%E2%80%93_First_Out)
 
+> Diese Quellcodedatei wird nur benötigt, wenn die vergangene Zeit seit dem Drücken des Buttons ausgewertet werden soll.
 > Button speichert bei PRESSED 8 und bei CLICKED 16 Zeitstempel (32 Bit Millisekunden) in QUEUE / FIFO.
-> Diese Quellcodedatei wird nur benötigt, wenn die Zeitstempel ausgewertet werden sollen.
 
 Block **button_clicked_queue_empty** (i2c_addr)\
 Block **button_clicked_queue_full** (i2c_addr)\
