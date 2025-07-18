@@ -716,7 +716,7 @@ Block **temp_read_status**
 
 ###### [SparkFun Digital Temperature Sensor Breakout - TMP102 (Qwiic)](https://www.sparkfun.com/products/16304)
 
-Block **tmp102-read**
+Block **tmp102_read**
 * Gibt Temperatur in °C zurück. Messung erfolgt dauerhaft mit 4 Hz.
 
 Weitere Funktionen können noch programmiert werden z.B. Interrupt.
