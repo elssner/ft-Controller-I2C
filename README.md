@@ -375,9 +375,8 @@ Block **test_eeprom** ()
 * Schreibt 6*128 Byte aus Speicherbereich in Konsole: ['0x3e', '0x51', '0x49', '0x45'].
 
 #### qwiicgpio.py
-###### [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 > GPIO: General Purpose Input/Output → [de.wikipedia.org/wiki/GPIO](https://de.wikipedia.org/wiki/GPIO)
-
+###### [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 > 3,3 Volt Logik; 16 Klemmen: 8 GPIO-Pins, 4 GND, 3 3V3, 1 /INT\
 Mit /INT kann bei Zustandsänderung ein [Hardware Interrupt](#ic-module-mit-hardware-interrupt) ausgelöst werden.
 
