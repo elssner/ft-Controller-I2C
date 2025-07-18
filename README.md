@@ -366,6 +366,8 @@ Block **button_pop_pressed_queue** (i2c_addr)
 
 
 #### qwiiceeprom.py
+> EEPROM: electrically erasable programmable read-only memory → [de.wikipedia.org/wiki/EEPROM](https://de.wikipedia.org/wiki/Electrically_Erasable_Programmable_Read-Only_Memory)
+
 ###### [SparkFun Qwiic EEPROM Breakout - 512Kbit](https://www.sparkfun.com/products/18355)
 Block **read_eeprom** (adr16Bit, read_length) : Liste der Bytes
 * *adr16Bit*: 0x0000..0xFFFF
@@ -557,6 +559,8 @@ Block **log_sync**
 
 
 #### qwiicrelay.py
+> Relais: (englisch Relay) → [de.wikipedia.org/wiki/Relais](https://de.wikipedia.org/wiki/Relais)
+
 ###### [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 > Strom für Relais kommt aus dem 3,3 Volt I²C-Bus!
 
@@ -565,6 +569,8 @@ Block **relay** (on:Boolean)
 * I2C_ADDRESS kann im Code geändert werden, default 0x18.
 
 #### rtc.py
+> RTC: real-time clock → [de.wikipedia.org/wiki/Echtzeituhr](https://de.wikipedia.org/wiki/Echtzeituhr)
+
 ###### [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 
 ##### Uhr stellen
@@ -605,6 +611,8 @@ Block **get_weekday** () : String 2 Zeichen
 * Liest Wochentag aus RTC_BUFFER: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'].
 
 #### s_co2.py
+> CO2: Kohlenstoffdioxid → [de.wikipedia.org/wiki/CO2](https://de.wikipedia.org/wiki/Kohlenstoffdioxid)
+
 ###### [Calliope mini CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
 > Sensor hat keine Pull Up Widerstände, deshalb immer mit anderen Modulen anschließen, die welche haben.
 > Blockiert oft den I²C-Bus, dann Strom aus und einschalten. [Data Sheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf#page=8)
