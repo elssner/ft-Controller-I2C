@@ -28,7 +28,7 @@ Der Import muss mehrmals erfolgen:
 * Quellcodedateien
   * mit <code>I²C-Adresse</code> sind bestimmten I²C Modulen zugeordnet.
   * **Erweiterung**: zusätzliche Blöcke zum entsprechenden I²C Modul.
-  * [Beispiel](examples): Programmierbeispiel zum entsprechenden I²C Modul.
+  * [Beispiel](examples): Programmierbeispiel kann mehrere I²C Module betreffen.
 
 Quellcodedatei|I²C-Adresse|I²C Module
 ---|---|---
@@ -40,7 +40,7 @@ Quellcodedatei|I²C-Adresse|I²C Module
 [oled](#oledpy)|<code>0x3C 0x3D</code>|OLED Displays [128x128](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0), [128x64](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0)
 [oled_geometrie](#oled_geometriepy)|**Erweiterung**|Blöcke für Linien und Kreise
 [qwiicbutton](#qwiicbuttonpy)|<code>0x6F 0x6E</code>|[SparkFun Qwiic Button](https://www.sparkfun.com/products/16842)
-qwiicbutton_int|[Beispiel](examples#qwiicbutton_intpy)|zwei I²C Qwiic Buttons /INT Ereignis
+qwiicbutton_int|[Beispiel](examples#qwiicbutton_intpy)|2 I²C Buttons, /INT Ereignis, Optokoppler
 [qwiicbutton_queue](#qwiicbutton_queuepy)|**Erweiterung**|Blöcke für Button Queue
 [qwiiceeprom](#qwiiceeprompy)|<code>0x50</code>|[SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/18355)
 [qwiicgpio](#qwiicgpiopy)|<code>0x27</code>|[SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
