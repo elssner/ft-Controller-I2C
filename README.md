@@ -185,7 +185,7 @@ Block **switch_read** () : Byte
 #### keyboard.py
 → Keyboard: Tastatur →  [de.wikipedia.org/wiki/Tastatur](https://de.wikipedia.org/wiki/Tastatur)
 ###### [M5Stack Card Keyboard QWERTY 50-key](https://docs.m5stack.com/en/unit/cardkb_1.1)
-Block **read_keyboard** () : Byte
+Block **keyboard_read** () : Byte
 * Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 
 #### lcd16x2.py
