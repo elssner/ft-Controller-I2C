@@ -481,16 +481,14 @@ Block **motor_init** (i2c_addr)
 * 1 Modul steuert 2 Motoren 9V, mehrere Module können gleichzeitig angeschlossen werden.
 * 10 I²C-Adressen mit Lötbrücken einstellbar: 0x58..0x61.
 
-Block **motor_set_i2c** (i2c_addr)
-* Ändert die I²C-Adresse für die folgenden Funktionen auf ein bestimmtes Motor-Modul.
-* Wird nur bei mehreren angeschlossenen Qwiic Motor-Modulen benötigt.
-
-Block **motor_enable** (on:Boolean)
+Block **motor_power** (on, i2c_addr)
+* Parameter *i2c_addr* kann weg gelassen werden, default: 0x5D.
 * *on* schaltet Motor Power: True=an; False=aus (für 1 Modul = 2 Motoren).
 * Power für H-Bridge soll bei längerem Stillstand aus geschaltet werden, um Energie zu sparen.
 
-Block **motor_drive_a** (speed:Byte)\
-Block **motor_drive_b** (speed:Byte)
+Block **motor_drive_a** (speed, i2c_addr)\
+Block **motor_drive_b** (speed, i2c_addr)
+* Parameter *i2c_addr* kann weg gelassen werden, default: 0x5D.
 * *speed* 0..128..255 Motor Drehzahl und Richtung.
 * *speed* ist optional, default=128 (Stillstand).
 * 0 max. rückwärts | ← 128 Stop → | 255 max. vorwärts
