@@ -682,7 +682,8 @@ Block **get_distance**
 
 
 #### s_qwiictemp.py
-
+→ Temperatur → [de.wikipedia.org/wiki/Temperatur](https://de.wikipedia.org/wiki/Temperatur)\
+→ Grad Celsius → [de.wikipedia.org/wiki/Grad_Celsius](https://de.wikipedia.org/wiki/Grad_Celsius)
 ###### [SparkFun Micro Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21273) | [SparkFun Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21262)
 
 Block **temp_one_shot**
