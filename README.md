@@ -407,22 +407,22 @@ Block **write_gpio** (byte)
 #### qwiicjoystick.py
 → Joystick: Spielhebel → [de.wikipedia.org/wiki/Joystick](https://de.wikipedia.org/wiki/Joystick)
 ###### [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
-Block **read_joystick** ()
+Block **joystick_read** ()
 * <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
 * Liest alle Joystick Register über den I²C-Bus in Variable JOYSTICK_BUFFER.
 
 > <ins>Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.</ins>
 
-Block **get_joystick_x** () : Byte\
-Block **get_joystick_y** () : Byte
+Block **joystick_get_x** () : Byte\
+Block **joystick_get_y** () : Byte
 * Gibt 1 Byte zurück mit der Stellung des Joystick in X bzw. Y Richtung.
 * Mittelstellung ist 128, geringe Abweichung durch Hardware Toleranz.
 * Endstellung unten bzw. links = 0; oben bzw. rechts = 255.
 
-Block **get_joystick_button_position** () : Boolean
+Block **joystick_get_button_position** () : Boolean
 * Gibt True zurück, wenn der Joystick jetzt gerade gedrückt ist.
 
-Block **get_joystick_button_onoff** () : Boolean
+Block **joystick_get_button_onoff** () : Boolean
 * Wechselt False / True bei jedem Drücken des Joystick.
 
 #### qwiickeypad.py
