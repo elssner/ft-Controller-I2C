@@ -383,7 +383,7 @@ Block **test_eeprom** ()
 > 3,3 Volt Logik; 16 Klemmen: 8 GPIO-Pins, 4 GND, 3 3V3, 1 /INT\
 /INT Pin kann bei Zustandsänderung einen [Hardware Interrupt](#ic-module-mit-hardware-interrupt) auslösen.
 
-Block **set_gpio** (io, inv)
+Block **gpio_init** (io, inv)
 * Muss einmal beim Start aufgerufen werden.
 * Beide Parameter *io*, *inv*: String mit 8 Binärziffern (0 oder 1).
 * Jede Binärziffer (Bit) ist einem von 8 GPIO-Pins zugeordnet.
@@ -391,16 +391,16 @@ Block **set_gpio** (io, inv)
 * *inv* INVERSION Bit: 0=original polarity; 1=inverted
 * INVERSION wirkt nur auf input Pins → Pin an GND → logische 1
 * Beispiel:\
-**set_gpio**('00000011', '00000000'): 6 output und 2 input\
-**set_gpio**('11111111', '11111111'): alle 8 Pins input inverted
+**gpio_init**('00000011', '00000000'): 6 output und 2 input\
+**gpio_init**('11111111', '11111111'): alle 8 Pins input inverted
 * ACHTUNG! GPIO INPUT und OUTPUT hat 3,3 Volt Pegel!
 
-Block **read_gpio** () : Byte
+Block **gpio_read** () : Byte
 * Gibt 1 Byte zurück, 1 Bit pro GPIO Pin.
 * An input Pins max. 3,3 Volt Spannung anschließen!
 * Taster schalten Pin an GND; Pull Up Widerstände (10 kOhm) an 3V3 erforderlich.
 
-Block **write_gpio** (byte)
+Block **gpio_write** (byte)
 * *byte*: Schaltet 8 GPIO Pins, die als 0=output konfiguriert sind.
 * Bit=0: aus (0 Volt); Bit=1: an (3,3 Volt)
 
