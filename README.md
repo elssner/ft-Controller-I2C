@@ -474,22 +474,22 @@ Block **set_qdisplay** (display_on, cursor_on, blink_on)
 #### qwiicmotor.py
 → Gleichstrommotor → [de.wikipedia.org/wiki/Gleichstrommotor](https://de.wikipedia.org/wiki/Gleichstrommaschine)
 ###### [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
-Block **init_motor** (i2c_addr)
+Block **motor_init** (i2c_addr)
 * Für jedes Motor-Modul einmal beim Start aufrufen (mit entsprechender *i2c_addr*).
 * Parameter *i2c_addr* kann weg gelassen werden, default: 0x5D.
 * 1 Modul steuert 2 Motoren 9V, mehrere Module können gleichzeitig angeschlossen werden.
 * 10 I²C-Adressen mit Lötbrücken einstellbar: 0x58..0x61.
 
-Block **set_motor_i2c** (i2c_addr)
+Block **motor_set_i2c** (i2c_addr)
 * Ändert die I²C-Adresse für die folgenden Funktionen auf ein bestimmtes Motor-Modul.
 * Wird nur bei mehreren angeschlossenen Qwiic Motor-Modulen benötigt.
 
-Block **enable_motor** (on:Boolean)
+Block **motor_enable** (on:Boolean)
 * *on* schaltet Motor Power: True=an; False=aus (für 1 Modul = 2 Motoren).
 * Power für H-Bridge soll bei längerem Stillstand aus geschaltet werden, um Energie zu sparen.
 
-Block **drive_motor_a** (speed:Byte)\
-Block **drive_motor_b** (speed:Byte)
+Block **motor_drive_a** (speed:Byte)\
+Block **motor_drive_b** (speed:Byte)
 * *speed* 0..128..255 Motor Drehzahl und Richtung.
 * *speed* ist optional, default=128 (Stillstand).
 * 0 max. rückwärts | ← 128 Stop → | 255 max. vorwärts
