@@ -11,7 +11,7 @@ Alle I²C-Module und Programmierbeispiele auf dieser Seite wurden mit dem TXT 4.
 Mit der [App ROBO Pro Coding](https://www.fischertechnik.de/de-de/apps-und-software#apps) kann das Projekt ohne Anmeldung von fischertechnik GitLab geladen werden. 
 Dazu bleibt das Zugriffstoken leer und auf der nächsten Seite im Suchfeld kann `i2c` eingegeben werden. Der Name ist `i2c / ft_Controller_I2C`. Das Projekt kann dann lokal als .ft-Datei gespeichert werden.
 
-#### Im Projekt enthaltene Quellcodedateien (Blöcke) für I²C Module.
+#### Im Projekt enthaltene Quellcodedateien (Blöcke) für I²C Module importieren.
 
 Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die Quellcodedateien importiert werden.
 Die Datei [i2cCode](#i2ccodepy) muss immer mit importiert werden. Die Datei [advanced](#advancedpy) enthält keinen I²C spezifischen Code, aber Blöcke für nützliche Python Funktionen.\
