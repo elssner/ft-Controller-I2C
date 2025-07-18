@@ -226,7 +226,7 @@ Block **set_display** (display_on, cursor_on, blink_on)
 > OLED Displays zeigen 128x64 oder 128x128 Pixel an. Alle Pixel werden zuerst in Variablen gespeichert. Dieser Speicher wird 'Matrix' genannt.
 > Um die 'Matrix' auf dem OLED Display anzuzeigen, muss immer der Block **displayMatrix** aufgerufen werden.
 
-Block **init_oled** (select_oled:Boolean) → Parameter optional
+Block **oled_init** (select_oled:Boolean) → Parameter optional
 * Muss einmal beim Start aufgerufen werden.
 * *select_oled*: Auswahl Display (I²C-Adresse) None oder False: 0x3C; True: 0x3D.
 * Initialisiert die Matrix: Variablen zum Speichern der Pixel (1024 oder 2048 Byte).
@@ -263,7 +263,7 @@ Block **write_matrix** (row, col, text)
 * *text*: Text, alle Datentypen werden mit str() konvertiert.
 * Parameter optional, default: row=0; col=0.
 
-Block **paint_eeprom** (eeprom_startadresse, from_page, to_page) → alle Parameter optional
+Block **oled_paint_eeprom** (eeprom_startadresse, from_page, to_page) → alle Parameter optional
 * *eeprom_startadresse*: 0x0000..0xFFFF; default 0xF800 (Anfang vom Zeichensatz)
 * *from_page*: 0..7, default: 0; *to_page*: 0..7 bzw. 0..15, default 7 bzw. 15
 * Kopiert aus dem EEPROM pro 'Page' 128 Byte in die Matrix.
