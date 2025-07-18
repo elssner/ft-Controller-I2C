@@ -409,6 +409,8 @@ Block **write_gpio** (byte)
 * Bit=0: aus (0 Volt); Bit=1: an (3,3 Volt)
 
 #### qwiicjoystick.py
+> Joystick: Spielhebel → [de.wikipedia.org/wiki/Joystick](https://de.wikipedia.org/wiki/Joystick)
+
 ###### [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
 Block **read_joystick** ()
 * <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
@@ -641,7 +643,7 @@ Block **read_measurement**
 Block **get_co2**\
 Block **get_temperature**\
 Block **get_relative_hunidity**
-* Gibt CO² (Kohlendioxid), Temperatur °C oder relative Luftfeuchtigkeit zurück.
+* Gibt CO₂ (Kohlenstoffdioxid), Temperatur °C oder relative Luftfeuchtigkeit zurück.
 
 
 
