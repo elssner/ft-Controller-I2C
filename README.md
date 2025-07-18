@@ -611,7 +611,7 @@ Block **get_weekday** () : String 2 Zeichen
 * Liest Wochentag aus RTC_BUFFER: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'].
 
 #### s_co2.py
-> CO2: Kohlenstoffdioxid → [de.wikipedia.org/wiki/CO2](https://de.wikipedia.org/wiki/Kohlenstoffdioxid)
+> CO₂: Kohlenstoffdioxid → [de.wikipedia.org/wiki/CO2](https://de.wikipedia.org/wiki/Kohlenstoffdioxid)
 
 ###### [Calliope mini CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
 > Sensor hat keine Pull Up Widerstände, deshalb immer mit anderen Modulen anschließen, die welche haben.
