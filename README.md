@@ -169,6 +169,7 @@ Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstel
 
 Block **voltmeter** (input_pin, extended_range)
 > TXT 4.0 Controller kann an den Input-Pins I1 bis I8 Spannung messen.
+
 * *input_pin*: 1..8 Input Pin Nummer.
 * *extended_range* Messbereich: False=0..6,3V; True=0..10V.
 * TXT 4.0: gibt Spannung in Volt zurück mit 3 Kommastellen.
