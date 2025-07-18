@@ -428,9 +428,10 @@ Block **get_joystick_button_onoff** () : Boolean
 #### qwiickeypad.py
 → Numeric Keypad: Tastatur, Ziffernblock → [en.wikipedia.org/wiki/Keypad](https://en.wikipedia.org/wiki/Keypad)
 ###### [SparkFun Qwiic Keypad - 12 Tasten](https://www.sparkfun.com/products/15290)
-> Mit /INT kann bei gedrückter Taste ein [Hardware Interrupt](#ic-module-mit-hardware-interrupt) ausgelöst werden.
+> Keypad speichert mehrere gedrückte Tasten, bei langsamer Abfrage geht nichts verloren.\
+> Mit /INT kann bei ein [Hardware Interrupt](#ic-module-mit-hardware-interrupt) ausgelöst werden.
 
-Block **read_keypad** () : Byte
+Block **keypad_read** () : Byte
 * Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 
 Taste|0|1|2|3|4|5|6|7|8|9|*|#
