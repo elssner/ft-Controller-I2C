@@ -697,7 +697,7 @@ Block **temp_read_data**
 * Gibt Temperator in °C zurück, wenn laufende Messung aktiviert ist.
 
 Block **temp_write_limit** (limit, register_h_l)
-* *limit*: -39,68..+122,88 Temperatur Limit, wann Interrupt ausgelöst wird.
+* *limit*: -39,68°C..+122,88°C Temperatur Limit, wann Interrupt ausgelöst wird.
 * None oder Werte außerhalb des Bereichs deaktivieren Interrupt.
 * *register_h_l*: False: speichert *limit* für höchste Temperatur.
 * *register_h_l*: True: speichert *limit* für tiefste Temperatur.
