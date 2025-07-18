@@ -167,6 +167,14 @@ Block **system_time** () : Liste mit 9 Elementen
 Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstellen.
 * RX: Zeitstempel umgerechnet in (0, 0, 0, hour, min, sec, 0, 0, 0)
 
+Block **voltmeter** (input_pin, extended_range)
+> TXT 4.0 Controller kann an den Input-Pins I1 bis I8 Spannung messen.
+* *input_pin*: 1..8 Input Pin Nummer.
+* *extended_range*: False=0..6,3V; True=0..10V.
+* gibt Spannung in Volt zurück mit 3 Kommastellen.
+* RX Controller gibt None zurück.
+
+
 #### dipswitch.py
 → DIP: dual in-line package; Switch: Schalter → [en.wikipedia.org/wiki/DIP_switch](https://en.wikipedia.org/wiki/DIP_switch)
 ###### [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) | [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)
