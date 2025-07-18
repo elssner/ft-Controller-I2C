@@ -441,11 +441,11 @@ Code|48|49|50|51|52|53|54|55|56|57|42|35
 #### qwiiclcd.py
 → LCD: liquid-crystal display → [de.wikipedia.org/wiki/Flüssigkristallanzeige](https://de.wikipedia.org/wiki/Fl%C3%BCssigkristallanzeige)
 ###### [SparkFun Qwiic 20x4 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16398) | [SparkFun Qwiic 16x2 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16396)
-Block **init_qlcd** ()
+Block **qlcd_init** ()
 * Muss einmal beim Start aufgerufen werden.
 * Im Code kann die Größe des Display 16x2 oder 20x4 (COLS x ROWS) konfiguriert werden.
 
-Block **write_qtext** (row, col, end, text, right)
+Block **qlcd_text** (row, col, end, text, right)
 * Schreibt an eine bestimmte Position Text mit fester Länge.
 * *row*: Zeile 0..3; *col*: Spalte 0..19; *end*: Spalte 0..19 (letztes Zeichen)
 * *text*: Text, alle Datentypen werden mit str() konvertiert.
@@ -454,20 +454,20 @@ Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt.
 * Parameter außer *text* können weg gelassen werden (None).\
 default: *row*=0; *col*=0; *end*=COLS-1; right=False
 
-Block **clear_qscreen** ()
+Block **qlcd_clear** ()
 * Löscht das LCD Display.
 
-Block **set_qcursor** (row, col)
+Block **qlcd_cursor** (row, col)
 * Set Cursor für writeQLCD oder wenn Cursor sichtbar ist oder blinkt.
 * *row*: Zeile 0..3; *col*: Spalte 0..19
 * Parameter optional, default: *row*=0; *col*=0
 
-Block **write_qlcd** (text)
+Block **qlcd_write** (text)
 * Schreibt *text* an aktuelle Cursorposition.
 * Alle Datentypen werden mit str() konvertiert.
 * Schreibt auf nächster Zeile weiter, max. Länge 32 Zeichen.
 
-Block **set_qdisplay** (display_on, cursor_on, blink_on)
+Block **qlcd_display** (display_on, cursor_on, blink_on)
 * Alle Parameter Boolean: False oder True.
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
