@@ -699,9 +699,10 @@ Block **temp_read_data**
 Block **temp_write_limit** (limit, register_h_l)
 * *limit*: -39,68..+122,88 Temperatur Limit, wann Interrupt ausgelöst wird.
 * None oder Werte außerhalb des Bereichs deaktivieren Interrupt.
-* *register_h_l*: False: *limit* für höchste Temperatur.
-* *register_h_l*: True: *limit* für tiefste Temperatur.
-* 'limit' wird intern umgerechnet, gibt tatsächlichen Wert zurück.
+* *register_h_l*: False: speichert *limit* für höchste Temperatur.
+* *register_h_l*: True: speichert *limit* für tiefste Temperatur.
+* *limit* wird intern umgerechnet, gibt tatsächlichen Wert zurück.
+* Gibt -40,32 zurück, wenn deaktiviert (*limit* ungültig oder None)
 
 Block **temp_read_status**
 * Gibt 1 Byte zurück mit 3 relevanten Bits:
