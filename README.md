@@ -376,9 +376,11 @@ Block **test_eeprom** ()
 
 #### qwiicgpio.py
 > GPIO: General Purpose Input/Output → [de.wikipedia.org/wiki/GPIO](https://de.wikipedia.org/wiki/GPIO)
+
 ###### [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
+
 > 3,3 Volt Logik; 16 Klemmen: 8 GPIO-Pins, 4 GND, 3 3V3, 1 /INT\
-Mit /INT kann bei Zustandsänderung ein [Hardware Interrupt](#ic-module-mit-hardware-interrupt) ausgelöst werden.
+/INT Pin kann bei Zustandsänderung einen [Hardware Interrupt](#ic-module-mit-hardware-interrupt) auslösen.
 
 Block **set_gpio** (io, inv)
 * Muss einmal beim Start aufgerufen werden.
