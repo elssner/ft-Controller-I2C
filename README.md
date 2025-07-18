@@ -748,7 +748,9 @@ Block **read_ultrasonic_mm**
 
 
 #### wattmeter.py
-→ Leistungsmesser → [de.wikipedia.org/wiki/Leistungsmesser](https://de.wikipedia.org/wiki/Leistungsmesser)
+→ Spannungsmesser, Voltmeter  → [de.wikipedia.org/wiki/Spannungsmessgerät](https://de.wikipedia.org/wiki/Spannungsmessger%C3%A4t)\
+→ Strommesser, Amperemeter → [de.wikipedia.org/wiki/Strommessgerät](https://de.wikipedia.org/wiki/Strommessger%C3%A4t)\
+→ Leistungsmesser, Wattmeter → [de.wikipedia.org/wiki/Leistungsmesser](https://de.wikipedia.org/wiki/Leistungsmesser)
 ###### [DFRobot Gravity: I2C Digital Wattmeter SKU: SEN0291](https://www.dfrobot.com/product-1827.html)
 > Misst max. 26V, 8A. 4 I²C-Adressen, bis 4 Wattmeter gleichzeitig auslesen.
 
