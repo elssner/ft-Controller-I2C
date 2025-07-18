@@ -725,7 +725,7 @@ Block **read_ultrasonic_mm**
 ###### [DFRobot Gravity: I2C Digital Wattmeter SKU: SEN0291](https://www.dfrobot.com/product-1827.html)
 > Misst max. 26V, 8A. 4 I²C-Adressen, bis 4 Wattmeter gleichzeitig auslesen.
 
-Block **init_wattmeter**
+Block **wattmeter_init**
 * Muss einmal beim Start aufgerufen werden.
 * Im Code kann calibration_value für genauere Strom Messung angepasst werden.
 * Spannung kann nicht kalibriert werden.
