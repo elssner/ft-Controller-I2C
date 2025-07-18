@@ -683,11 +683,40 @@ Block **get_distance**
 
 #### s_qwiictemp.py
 
-###### [SparkFun Micro Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21273)
+###### [SparkFun Micro Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21273) | [SparkFun Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21262)
 
 Block **temp_one_shot**
-* Macht eine Messung und gibt Temperator in °C zurück.
+* Macht nur eine Messung und gibt Temperator in °C zurück. Spart Strom.
 * Wartet auf Ergebnis ca. 50ms.
+
+Block **temp_odr_1hz** (on)
+* *on*: schaltet 1 Hz Output Data Rate True:an oder False:aus
+* True: Macht eine Messung pro Sekunde. False: Keine Messungen.
+
+Block **temp_read_data**
+* Gibt Temperator in °C zurück, wenn laufende Messung aktiviert ist.
+
+Block **temp_write_limit** (limit, register_h_l)
+* *limit*: -39,68..+122,88 Temperatur Limit, wann Interrupt ausgelöst wird.
+* None oder Werte außerhalb des Bereichs deaktivieren Interrupt.
+* *register_h_l*: False: *limit* für höchste Temperatur.
+* *register_h_l*: True: *limit* für tiefste Temperatur.
+* 'limit' wird intern umgerechnet, gibt tatsächlichen Wert zurück.
+
+Block **temp_read_status**
+* Gibt 1 Byte zurück mit 3 relevanten Bits:
+* Bit 0: STATUS_BUSY (nur für one-shot mode)
+* Bit 1: STATUS_OVER_THH; Bit 2: STATUS_UNDER_THL
+* Erkennen, ob Temperatur über- oder unterschritten ist und zurücksetzen des /INT-Pin.
+
+
+
+#### s_qwiictmp102.py
+
+###### [SparkFun Digital Temperature Sensor Breakout - TMP102 (Qwiic)](https://www.sparkfun.com/products/16304)
+
+Block **tmp102-read**
+* Gibt Temperatur in °C zurück. Messung erfolgt dauerhaft.
 
 
 
