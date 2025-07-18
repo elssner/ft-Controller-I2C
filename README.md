@@ -18,7 +18,7 @@ Die Datei [i2cCode](#i2ccodepy) muss immer mit importiert werden. Die Datei [adv
 Der Import muss mehrmals erfolgen: 
 1. [i2cCode](#i2ccodepy) und optional [advanced](#advancedpy)
 2. Quellcodedateien mit <code>I²C-Adresse</code>
-3. Erweiterungen
+3. Erweiterungen (für einfache Nutzung des I²C Moduls nicht erforderlich)
 4. Beispiele
 
 
