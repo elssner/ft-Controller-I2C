@@ -491,9 +491,11 @@ Block **motor_drive_b** (speed, i2c_addr)
 * Parameter *i2c_addr* kann weg gelassen werden, default: 0x5D.
 * *speed* 0..128..255 Motor Drehzahl und Richtung.
 * *speed* ist optional, default=128 (Stillstand).
-* 0 max. rückwärts | ← 128 Stop → | 255 max. vorwärts
+* 0 max. rückwärts | ← 128 Stop → | max. vorwärts 255
 
-
+rückwärts|STOP|vorwärts
+---|---|---
+max 0 ← 127|128|129 → 255 max
 
 #### qwiicmux.py
 → MUX: Multiplexer → [de.wikipedia.org/wiki/Multiplexer](https://de.wikipedia.org/wiki/Multiplexer)
