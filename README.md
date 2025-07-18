@@ -733,14 +733,14 @@ Weitere Funktionen können noch programmiert werden z.B. Interrupt.
 
 > Der [fischertechnik Ultraschallsensor](https://www.fischertechnik.de/de-de/produkte/einzelteile/bausteine/133009) hat auch einen Prozessor. → [Datenblatt](https://fiproductmedia.azureedge.net/media/Certification%20Documents/Technical%20Datasheets/fischertechnik/TDB_133009-ULTRASONIC-DISTANCE-SENSOR.pdf)
 
-Block **change_ultrasonic_i2c** (old_i2c, new_i2c)
+Block **ultrasonic_change_i2c** (old_i2c, new_i2c)
 > Default I²C-Adresse ist 0x00. Damit funktioniert der Sensor. 0x00 gilt aber als reserviert und sollte geändert werden.
 
 * Wenn *old_i2c* weg gelassen wird, gilt 0x00. Wenn *new_i2c* weg gelassen wird, gilt 0x09.
 * Gültige Werte für *new_i2c*: 0x02 .. 0x7F. Empfohlen: 0x09 .. 0x77.
 * Änderung bleibt beim Ausschalten erhalten.
 
-Block **read_ultrasonic_mm**
+Block **ultrasonic_read_mm**
 * Gibt Distance in mm zurück (16 Bit int).
 * I²C-Adresse ist 0x09. Kann im Code geändert werden.\
 (Z.B. auf 0x00, um den Sensor mit der Original Adresse zu benutzen.)
