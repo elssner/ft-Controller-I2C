@@ -366,12 +366,12 @@ Block **button_pop_pressed_queue** (i2c_addr)
 #### qwiiceeprom.py
 → EEPROM: electrically erasable programmable read-only memory → [de.wikipedia.org/wiki/EEPROM](https://de.wikipedia.org/wiki/Electrically_Erasable_Programmable_Read-Only_Memory)
 ###### [SparkFun Qwiic EEPROM Breakout - 512Kbit](https://www.sparkfun.com/products/18355)
-Block **read_eeprom** (adr16Bit, read_length) : Liste der Bytes
+Block **eeprom_read** (adr16Bit, read_length) : Liste der Bytes
 * *adr16Bit*: 0x0000..0xFFFF
 * *read_length*: Anzahl zu lesender Bytes (**nicht** auf 32 begrenzt).
 * Die zurück gegebene Liste kann mit `Datenstrukturen`**in der Liste** gelesen werden.
 
-Block **test_eeprom** ()
+Block **eeprom_test** ()
 * Testet, ob der ASCII Zeichensatz im EEPROM programmiert ist.
 * Speicherbereich der 96 ASCII Zeichen F900-FBFF kann im Code geändert werden.
 * Schreibt 6*128 Byte aus Speicherbereich in Konsole: ['0x3e', '0x51', '0x49', '0x45'].
