@@ -656,6 +656,8 @@ Block **get_relative_hunidity**
 
 
 #### s_qwiicinfrared.py
+> Infrarotstrahlung → [de.wikipedia.org/wiki/Infrarot](https://de.wikipedia.org/wiki/Infrarotstrahlung)
+
 ###### [SparkFun Qwiic Proximity Sensor - 20cm, VCNL4040](https://www.sparkfun.com/products/15177)
 > Nähe Sensor misst keinen genauen Abstand, nur ob ein Objekt näher als 20cm kommt (Seifenspender). Kann Interrupt auslösen.
 > [VCNL4040_Datasheet](https://cdn.sparkfun.com/assets/2/3/8/f/c/VCNL4040_Datasheet.pdf#page=9)
@@ -673,6 +675,8 @@ Block **get_proximity**
 
 
 #### s_qwiiclaser.py
+> Laser → [de.wikipedia.org/wiki/Laser](https://de.wikipedia.org/wiki/Laser)
+
 ###### [SparkFun Qwiic Distance Sensor - 4 Meter, VL53L1X](https://www.sparkfun.com/products/14722) | [SparkFun Qwiic Distance Sensor - 1.3 Meter, VL53L4CD](https://www.sparkfun.com/products/18993)
 Block **init_qlaser**
 * Muss einmal beim Start aufgerufen werden.
@@ -693,6 +697,8 @@ Block **get_distance**
 
 
 #### s_qwiicultrasonic.py
+> Ultraschall → [de.wikipedia.org/wiki/Ultraschall](https://de.wikipedia.org/wiki/Ultraschall)
+
 ###### [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777)
 > Der Ultraschallsensor wird auch von Controllern an einem Pin betrieben. Die Genauigkeit hängt vom Prozessor ab, es kommen oft ungültige Werte.
 > Der I²C Sensor hat einen eigenen Prozessor für die Ultraschall Messung, es wird nur der aktuelle Wert in mm ausgelesen.
@@ -713,6 +719,8 @@ Block **read_ultrasonic_mm**
 
 
 #### wattmeter.py
+> Leistungsmesser → [de.wikipedia.org/wiki/Leistungsmesser](https://de.wikipedia.org/wiki/Leistungsmesser)
+
 ###### [DFRobot Gravity: I2C Digital Wattmeter SKU: SEN0291](https://www.dfrobot.com/product-1827.html)
 > Misst max. 26V, 8A. 4 I²C-Adressen, bis 4 Wattmeter gleichzeitig auslesen.
 
