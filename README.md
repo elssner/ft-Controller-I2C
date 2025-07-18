@@ -192,10 +192,10 @@ Block **read_keyboard** () : Byte
 → LCD: liquid-crystal display → [de.wikipedia.org/wiki/Flüssigkristallanzeige](https://de.wikipedia.org/wiki/Fl%C3%BCssigkristallanzeige)
 ###### [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series) | Black on Yellow | Black on Red | White on Blue
 
-Block **init_lcd** ()
+Block **lcd_init** ()
 * Muss einmal beim Start aufgerufen werden.
 
-Block **write_text** (row, col, end, text, right)
+Block **lcd_text** (row, col, end, text, right)
 * Schreibt an eine bestimmte Position Text mit fester Länge.
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15; *end*: Spalte 0..15 (letztes Zeichen)
 * *text*: Text, alle Datentypen werden mit str() konvertiert.
@@ -204,19 +204,19 @@ Text wird mit Leerzeichen auf die Länge (end-col)+1 aufgefüllt.
 * Parameter außer *text* können weg gelassen werden (None).\
 default: *row*=0; *col*=0; *end*=15; right=False
 
-Block **clear_screen** ()
+Block **lcd_clear** ()
 * Löscht das LCD Display.
 
-Block **set_cursor** (row, col)
+Block **lcd_cursor** (row, col)
 * Set Cursor für writeLCD oder wenn Cursor sichtbar ist oder blinkt.
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15
 * Parameter optional, default: *row*=0; *col*=0
 
-Block **write_lcd** (text)
+Block **lcd_write** (text)
 * Schreibt *text* an aktuelle Cursorposition.
 * Alle Datentypen werden mit str() konvertiert.
 
-Block **set_display** (display_on, cursor_on, blink_on)
+Block **lcd_display** (display_on, cursor_on, blink_on)
 * Alle Parameter Boolean: False oder True
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
