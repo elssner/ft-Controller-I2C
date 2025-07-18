@@ -180,8 +180,7 @@ Block **read_keyboard** () : Byte
 * Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
 
 #### lcd16x2.py
-> LCD: liquid-crystal display → [de.wikipedia.org/wiki/Flüssigkristallanzeige](https://de.wikipedia.org/wiki/Fl%C3%BCssigkristallanzeige)
-
+→ LCD: liquid-crystal display → [de.wikipedia.org/wiki/Flüssigkristallanzeige](https://de.wikipedia.org/wiki/Fl%C3%BCssigkristallanzeige)
 ###### [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series) | Black on Yellow | Black on Red | White on Blue
 
 Block **init_lcd** ()
@@ -213,8 +212,7 @@ Block **set_display** (display_on, cursor_on, blink_on)
 * Schaltet das Display, Cursor und blinkenden Cursor an und aus.
 
 #### oled.py
-> OLED: organic light-emitting diode → [de.wikipedia.org/wiki/OLED](https://de.wikipedia.org/wiki/Organische_Leuchtdiode)
-
+→ OLED: organic light-emitting diode → [de.wikipedia.org/wiki/OLED](https://de.wikipedia.org/wiki/Organische_Leuchtdiode)
 ###### [Grove - OLED Display 1.12 (128x128)](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0) | [OLED Yellow&Blue Display 0.96 (128x64)](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0) | [OLED Display 0.96](https://wiki.seeedstudio.com/Grove-OLED_Display_0.96inch)
 > OLED Displays zeigen 128x64 oder 128x128 Pixel an. Alle Pixel werden zuerst in Variablen gespeichert. Dieser Speicher wird 'Matrix' genannt.
 > Um die 'Matrix' auf dem OLED Display anzuzeigen, muss immer der Block **displayMatrix** aufgerufen werden.
@@ -288,8 +286,8 @@ Block **oled_clock** (x, y, radius, hour, minute)
 * Zeichnet eine analoge Uhr. *hour* und *minute* geben die Stellung der Uhrzeiger an.
 
 #### qwiicbutton.py
-> Qwiic Connect System: I²C · 3,3V Logik · ohne Löten → [www.sparkfun.com/qwiic](https://www.sparkfun.com/qwiic)
-
+→ Qwiic Connect System: I²C · 3,3V Logik · ohne Löten → [www.sparkfun.com/qwiic](https://www.sparkfun.com/qwiic)
+→ Button: Taste → [de.wikipedia.org/wiki/Taste](https://de.wikipedia.org/wiki/Taste)
 ###### [SparkFun Qwiic Button - Green LED](https://www.sparkfun.com/products/16842) | [SparkFun Qwiic Button - Red LED](https://www.sparkfun.com/products/15932) | [SparkFun Qwiic Button Breakout](https://www.sparkfun.com/products/15931)
 > Button mit farbiger LED, Bordcomputer, FIFO, /INT-Pin, mehrere gleichzeitig am I²C-Bus.
 > Unterscheidet PRESSED (drücken) und CLICKED (drücken und loslassen).\
@@ -369,8 +367,7 @@ Block **button_pop_pressed_queue** (i2c_addr)
 
 
 #### qwiiceeprom.py
-> EEPROM: electrically erasable programmable read-only memory → [de.wikipedia.org/wiki/EEPROM](https://de.wikipedia.org/wiki/Electrically_Erasable_Programmable_Read-Only_Memory)
-
+→ EEPROM: electrically erasable programmable read-only memory → [de.wikipedia.org/wiki/EEPROM](https://de.wikipedia.org/wiki/Electrically_Erasable_Programmable_Read-Only_Memory)
 ###### [SparkFun Qwiic EEPROM Breakout - 512Kbit](https://www.sparkfun.com/products/18355)
 Block **read_eeprom** (adr16Bit, read_length) : Liste der Bytes
 * *adr16Bit*: 0x0000..0xFFFF
@@ -383,8 +380,7 @@ Block **test_eeprom** ()
 * Schreibt 6*128 Byte aus Speicherbereich in Konsole: ['0x3e', '0x51', '0x49', '0x45'].
 
 #### qwiicgpio.py
-> GPIO: General Purpose Input/Output → [de.wikipedia.org/wiki/GPIO](https://de.wikipedia.org/wiki/GPIO)
-
+→ GPIO: General Purpose Input/Output → [de.wikipedia.org/wiki/GPIO](https://de.wikipedia.org/wiki/GPIO)
 ###### [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 
 > 3,3 Volt Logik; 16 Klemmen: 8 GPIO-Pins, 4 GND, 3 3V3, 1 /INT\
@@ -412,8 +408,7 @@ Block **write_gpio** (byte)
 * Bit=0: aus (0 Volt); Bit=1: an (3,3 Volt)
 
 #### qwiicjoystick.py
-> Joystick: Spielhebel → [de.wikipedia.org/wiki/Joystick](https://de.wikipedia.org/wiki/Joystick)
-
+→ Joystick: Spielhebel → [de.wikipedia.org/wiki/Joystick](https://de.wikipedia.org/wiki/Joystick)
 ###### [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
 Block **read_joystick** ()
 * <ins>Muss am Anfang jeder Schleife aufgerufen werden.</ins>
@@ -434,6 +429,7 @@ Block **get_joystick_button_onoff** () : Boolean
 * Wechselt False / True bei jedem Drücken des Joystick.
 
 #### qwiickeypad.py
+→ Numeric Keypad: Tastatur, Ziffernblock → [en.wikipedia.org/wiki/Keypad](https://en.wikipedia.org/wiki/Keypad)
 ###### [SparkFun Qwiic Keypad - 12 Tasten](https://www.sparkfun.com/products/15290)
 > Mit /INT kann bei gedrückter Taste ein [Hardware Interrupt](#ic-module-mit-hardware-interrupt) ausgelöst werden.
 
@@ -442,6 +438,7 @@ Block **read_keypad** () : Byte
 * Keypad hat 12 Tasten: '0'=48 ... '9'=57 .. '#'=35 .. '*'=42
 
 #### qwiiclcd.py
+→ LCD: liquid-crystal display → [de.wikipedia.org/wiki/Flüssigkristallanzeige](https://de.wikipedia.org/wiki/Fl%C3%BCssigkristallanzeige)
 ###### [SparkFun Qwiic 20x4 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16398) | [SparkFun Qwiic 16x2 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16396)
 Block **init_qlcd** ()
 * Muss einmal beim Start aufgerufen werden.
@@ -500,7 +497,6 @@ Block **drive_motor_b** (speed:Byte)
 
 #### qwiicmux.py
 → MUX: Multiplexer → [de.wikipedia.org/wiki/Multiplexer](https://de.wikipedia.org/wiki/Multiplexer)
-
 ###### [SparkFun Qwiic Mux Breakout - 8 Channel (TCA9548A)](https://www.sparkfun.com/products/16784)
 > I²C Multiplexer: 8 I²C-Busse einzeln oder gemeinsam schaltbar.
 
@@ -525,7 +521,6 @@ Block **qmux_rx1**
 
 #### qwiicopenlog.py
 → Logdatei → [de.wikipedia.org/wiki/Logdatei](https://de.wikipedia.org/wiki/Logdatei)
-
 ###### [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
 > Lesen und Schreiben von Dateien auf microSD card 64MB .. 32GB, FAT16 oder FAT32.
 > <ins>Dateinamen sollen im Format 8.3, nur ASCII Zeichen und Großbuchstaben enthalten.</ins>
@@ -570,7 +565,6 @@ Block **log_sync**
 
 #### qwiicrelay.py
 → Relais: (englisch Relay) → [de.wikipedia.org/wiki/Relais](https://de.wikipedia.org/wiki/Relais)
-
 ###### [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 > Strom für Relais kommt aus dem 3,3 Volt I²C-Bus!
 
@@ -580,7 +574,6 @@ Block **relay** (on:Boolean)
 
 #### rtc.py
 → RTC: real-time clock → [de.wikipedia.org/wiki/Echtzeituhr](https://de.wikipedia.org/wiki/Echtzeituhr)
-
 ###### [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 
 ##### Uhr stellen
@@ -622,7 +615,6 @@ Block **get_weekday** () : String 2 Zeichen
 
 #### s_co2.py
 → CO₂: Kohlenstoffdioxid → [de.wikipedia.org/wiki/CO2](https://de.wikipedia.org/wiki/Kohlenstoffdioxid)
-
 ###### [Calliope mini CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
 > Sensor hat keine Pull Up Widerstände, deshalb immer mit anderen Modulen anschließen, die welche haben.
 > Blockiert oft den I²C-Bus, dann Strom aus und einschalten. [Data Sheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf#page=8)
@@ -658,7 +650,6 @@ Block **get_relative_hunidity**
 
 #### s_qwiicinfrared.py
 → Infrarotstrahlung → [de.wikipedia.org/wiki/Infrarot](https://de.wikipedia.org/wiki/Infrarotstrahlung)
-
 ###### [SparkFun Qwiic Proximity Sensor - 20cm, VCNL4040](https://www.sparkfun.com/products/15177)
 > Nähe Sensor misst keinen genauen Abstand, nur ob ein Objekt näher als 20cm kommt (Seifenspender). Kann Interrupt auslösen.
 > [VCNL4040_Datasheet](https://cdn.sparkfun.com/assets/2/3/8/f/c/VCNL4040_Datasheet.pdf#page=9)
@@ -677,7 +668,6 @@ Block **get_proximity**
 
 #### s_qwiiclaser.py
 → Laser → [de.wikipedia.org/wiki/Laser](https://de.wikipedia.org/wiki/Laser)
-
 ###### [SparkFun Qwiic Distance Sensor - 4 Meter, VL53L1X](https://www.sparkfun.com/products/14722) | [SparkFun Qwiic Distance Sensor - 1.3 Meter, VL53L4CD](https://www.sparkfun.com/products/18993)
 Block **init_qlaser**
 * Muss einmal beim Start aufgerufen werden.
@@ -699,7 +689,6 @@ Block **get_distance**
 
 #### s_qwiicultrasonic.py
 → Ultraschall → [de.wikipedia.org/wiki/Ultraschall](https://de.wikipedia.org/wiki/Ultraschall)
-
 ###### [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777)
 > Der I²C Sensor hat einen eigenen Prozessor für die Ultraschall Messung. Über den I²C-Bus wird nur der aktuelle Wert in mm ausgelesen.
 > Dieses Modul erfasst außerdem einen großen Winkel. So erkennen Modelle auch Hindernisse schräg, oben und unten und fahren nicht dagegen. 
@@ -722,7 +711,6 @@ Block **read_ultrasonic_mm**
 
 #### wattmeter.py
 → Leistungsmesser → [de.wikipedia.org/wiki/Leistungsmesser](https://de.wikipedia.org/wiki/Leistungsmesser)
-
 ###### [DFRobot Gravity: I2C Digital Wattmeter SKU: SEN0291](https://www.dfrobot.com/product-1827.html)
 > Misst max. 26V, 8A. 4 I²C-Adressen, bis 4 Wattmeter gleichzeitig auslesen.
 
