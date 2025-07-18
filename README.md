@@ -681,6 +681,17 @@ Block **get_distance**
 * Gibt Distance in mm zurück (16 Bit int). Ranging muss vorher gestartet werden.
 
 
+#### s_qwiictemp.py
+
+###### [SparkFun Micro Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21273)
+
+Block **temp_one_shot**
+* Macht eine Messung und gibt Temperator in °C zurück.
+* Wartet auf Ergebnis ca. 50ms.
+
+
+
+
 #### s_qwiicultrasonic.py
 → Ultraschall → [de.wikipedia.org/wiki/Ultraschall](https://de.wikipedia.org/wiki/Ultraschall)
 ###### [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777)
