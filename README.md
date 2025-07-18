@@ -498,10 +498,10 @@ Block **drive_motor_b** (speed:Byte)
 
 
 #### qwiicmux.py
-> MUX: Multiplexer → [de.wikipedia.org/wiki/Multiplexer](https://de.wikipedia.org/wiki/Multiplexer)
+→ MUX: Multiplexer → [de.wikipedia.org/wiki/Multiplexer](https://de.wikipedia.org/wiki/Multiplexer)
 
 ###### [SparkFun Qwiic Mux Breakout - 8 Channel (TCA9548A)](https://www.sparkfun.com/products/16784)
-> I²C Multiplexer
+> I²C Multiplexer: 8 I²C-Busse einzeln oder gemeinsam schaltbar.
 
 Block **mux** (channel)
 * *channel*: 0..7 schaltet genau einen Kanal ein. Jeder andere Wert schaltet alle aus.
@@ -523,7 +523,7 @@ Block **qmux_rx1**
 -->
 
 #### qwiicopenlog.py
-> Logdatei → [de.wikipedia.org/wiki/Logdatei](https://de.wikipedia.org/wiki/Logdatei)
+→ Logdatei → [de.wikipedia.org/wiki/Logdatei](https://de.wikipedia.org/wiki/Logdatei)
 
 ###### [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
 > Lesen und Schreiben von Dateien auf microSD card 64MB .. 32GB, FAT16 oder FAT32.
@@ -568,7 +568,7 @@ Block **log_sync**
 
 
 #### qwiicrelay.py
-> Relais: (englisch Relay) → [de.wikipedia.org/wiki/Relais](https://de.wikipedia.org/wiki/Relais)
+→ Relais: (englisch Relay) → [de.wikipedia.org/wiki/Relais](https://de.wikipedia.org/wiki/Relais)
 
 ###### [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 > Strom für Relais kommt aus dem 3,3 Volt I²C-Bus!
@@ -578,7 +578,7 @@ Block **relay** (on:Boolean)
 * I2C_ADDRESS kann im Code geändert werden, default 0x18.
 
 #### rtc.py
-> RTC: real-time clock → [de.wikipedia.org/wiki/Echtzeituhr](https://de.wikipedia.org/wiki/Echtzeituhr)
+→ RTC: real-time clock → [de.wikipedia.org/wiki/Echtzeituhr](https://de.wikipedia.org/wiki/Echtzeituhr)
 
 ###### [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 
@@ -620,7 +620,7 @@ Block **get_weekday** () : String 2 Zeichen
 * Liest Wochentag aus RTC_BUFFER: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'].
 
 #### s_co2.py
-> CO₂: Kohlenstoffdioxid → [de.wikipedia.org/wiki/CO2](https://de.wikipedia.org/wiki/Kohlenstoffdioxid)
+→ CO₂: Kohlenstoffdioxid → [de.wikipedia.org/wiki/CO2](https://de.wikipedia.org/wiki/Kohlenstoffdioxid)
 
 ###### [Calliope mini CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
 > Sensor hat keine Pull Up Widerstände, deshalb immer mit anderen Modulen anschließen, die welche haben.
@@ -656,7 +656,7 @@ Block **get_relative_hunidity**
 
 
 #### s_qwiicinfrared.py
-> Infrarotstrahlung → [de.wikipedia.org/wiki/Infrarot](https://de.wikipedia.org/wiki/Infrarotstrahlung)
+→ Infrarotstrahlung → [de.wikipedia.org/wiki/Infrarot](https://de.wikipedia.org/wiki/Infrarotstrahlung)
 
 ###### [SparkFun Qwiic Proximity Sensor - 20cm, VCNL4040](https://www.sparkfun.com/products/15177)
 > Nähe Sensor misst keinen genauen Abstand, nur ob ein Objekt näher als 20cm kommt (Seifenspender). Kann Interrupt auslösen.
@@ -675,7 +675,7 @@ Block **get_proximity**
 
 
 #### s_qwiiclaser.py
-> Laser → [de.wikipedia.org/wiki/Laser](https://de.wikipedia.org/wiki/Laser)
+→ Laser → [de.wikipedia.org/wiki/Laser](https://de.wikipedia.org/wiki/Laser)
 
 ###### [SparkFun Qwiic Distance Sensor - 4 Meter, VL53L1X](https://www.sparkfun.com/products/14722) | [SparkFun Qwiic Distance Sensor - 1.3 Meter, VL53L4CD](https://www.sparkfun.com/products/18993)
 Block **init_qlaser**
@@ -697,7 +697,7 @@ Block **get_distance**
 
 
 #### s_qwiicultrasonic.py
-> Ultraschall → [de.wikipedia.org/wiki/Ultraschall](https://de.wikipedia.org/wiki/Ultraschall)
+→ Ultraschall → [de.wikipedia.org/wiki/Ultraschall](https://de.wikipedia.org/wiki/Ultraschall)
 
 ###### [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777)
 > Der I²C Sensor hat einen eigenen Prozessor für die Ultraschall Messung. Über den I²C-Bus wird nur der aktuelle Wert in mm ausgelesen.
@@ -720,7 +720,7 @@ Block **read_ultrasonic_mm**
 
 
 #### wattmeter.py
-> Leistungsmesser → [de.wikipedia.org/wiki/Leistungsmesser](https://de.wikipedia.org/wiki/Leistungsmesser)
+→ Leistungsmesser → [de.wikipedia.org/wiki/Leistungsmesser](https://de.wikipedia.org/wiki/Leistungsmesser)
 
 ###### [DFRobot Gravity: I2C Digital Wattmeter SKU: SEN0291](https://www.dfrobot.com/product-1827.html)
 > Misst max. 26V, 8A. 4 I²C-Adressen, bis 4 Wattmeter gleichzeitig auslesen.
