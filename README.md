@@ -179,6 +179,8 @@ Block **read_keyboard** () : Byte
 
 #### lcd16x2.py
 ###### [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series) | Black on Yellow | Black on Red | White on Blue
+> LCD: liquid-crystal display → [de.wikipedia.org/wiki/Flüssigkristallanzeige](https://de.wikipedia.org/wiki/Fl%C3%BCssigkristallanzeige)
+
 Block **init_lcd** ()
 * Muss einmal beim Start aufgerufen werden.
 
