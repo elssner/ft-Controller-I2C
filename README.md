@@ -429,7 +429,7 @@ Block **get_joystick_button_onoff** () : Boolean
 → Numeric Keypad: Tastatur, Ziffernblock → [en.wikipedia.org/wiki/Keypad](https://en.wikipedia.org/wiki/Keypad)
 ###### [SparkFun Qwiic Keypad - 12 Tasten](https://www.sparkfun.com/products/15290)
 > Keypad speichert mehrere gedrückte Tasten, bei langsamer Abfrage geht nichts verloren.\
-> Mit /INT kann bei ein [Hardware Interrupt](#ic-module-mit-hardware-interrupt) ausgelöst werden.
+> Mit /INT kann ein [Hardware Interrupt](#ic-module-mit-hardware-interrupt) ausgelöst werden.
 
 Block **keypad_read** () : Byte
 * Gibt 0 zurück wenn keine Taste gedrückt, sonst ASCII-Code der gedrückten Taste.
