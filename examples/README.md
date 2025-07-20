@@ -99,10 +99,11 @@ Die I²C Module haben 3,3V Logik, die fischertechnik Controller aber 9V Logik. U
 Der Optokoppler hat am Ausgang einen Fototransistor. Die Controller können am Input einen Fototransistor digital hell/dunkel abfragen.
 
 Somit kann der Fototransistor vom Optokoppler an einem beliebeigen Input I1 bis I8 und beim TXT 4.0 Controller auch an C1 bis C4 angeschlossen werden. 
+Mit dem Block `ist Fototransistor hell` wird erkannt, ob ein Hardware /INT von einem I²C Modul aktiv ist, weil ein Button geklickt wurde. 
+Nur dann wird der I²C-Bus abgefragt und nicht ständig wenn nichts passiert.
 
 
-Programmierbeispiel für Interrupt von 2 Buttons über Optokoppler (3,3V -> 9V Logik) und Ereignis `Starte jedes mal ist Fototransistor hell`.
-[Beispiel Projekt](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay) | [Foto](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay/-/blob/master/fotos/DSC00417.JPG)
+
 
 Block **buttons_polling**
 * Beispiel ohne Interrupt kann beim Programmstart aufgerufen werden.
