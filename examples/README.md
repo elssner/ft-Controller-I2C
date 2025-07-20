@@ -7,7 +7,7 @@ examples/README.md
 
 ### I²C Programmierbeispiele (Blöcke) für ROBO Pro Coding und fischertechnik TXT 4.0 und RX Controller.
 
-Programmierbeispiel|kurze Beschreibung
+Quellcodedatei|kurze Beschreibung
 ---|---
 [qwiicbutton_int](#qwiicbutton_intpy)|2 I²C Buttons, /INT Ereignis, Optokoppler
 [qwiicmotor_joystick](#qwiicmotor_joystickpy)|2 oder 4 Motoren mit Joystick steuern
