@@ -119,7 +119,7 @@ Block **buttons_event**
 * Block **buttons_event** muss in das Fototransistor Ereignis eingefügt werden.
 
 ![](fototransistor_button_event.png)
-* Beim RX Controller wird der Block in der dauerhaft Schleife **buttons_polling** abgefragt.
+* Beim RX Controller kann der Block in einer dauerhaft Schleife abgefragt werden.
 
 ![](fototransistor_button_polling.png)
 * Funktion sucht über den I²C-Bus den geklickten Button und setzt dessen /INT zurück.
