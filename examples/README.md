@@ -114,6 +114,7 @@ Block **buttons_interrupt**
 * Buttons werden nur bei aktiver /INT Leitung abgefragt, im folgenden Block.
 
 Block **buttons_event**
+
 ![](fototransistor_button_event.png)
 * Block muss in Ereignis `Starte jedes mal ist Fototransistor hell` eingefügt werden.
 * Sucht den geklickten Button und setzt dessen /INT zurück.
