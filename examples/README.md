@@ -29,9 +29,9 @@ Die Quellcodedateien mit I²C-Adresse in [Tabelle 1](#tabelle-1) sind bestimmten
 
 Programmierbeispiel|kurze Beschreibung
 ---|---
-[qwiicbutton_int](#qwiicbutton_intpy)|Beispiel 2 Buttons /INT Ereignis
-[qwiicbutton_int](#qwiicbutton_intpy)|Beispiel 2 Buttons /INT Ereignis
-
+[qwiicbutton_int](#qwiicbutton_intpy)|2 I²C Buttons, /INT Ereignis, Optokoppler
+[qwiicmotor_joystick](#qwiicmotor_joystickpy)|2 oder 4 Motoren mit Joystick steuern
+[qwiicmux_rx](#qwiicmux_rxpy)|RX mit I²C Multiplexer, 10 I²C Module
 
 Quellcodedatei|I²C-Adresse|I²C Module|Beispiel
 ---|---|---|---
