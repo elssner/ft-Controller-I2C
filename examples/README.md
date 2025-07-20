@@ -98,7 +98,7 @@ Solche I²C Module haben oft einen zusätzlichen (Löt-) Interrupt-Pin /INT, der
 Die I²C Module haben 3,3V Logik, die fischertechnik Controller aber 9V Logik. Um die /INT Leitungen an einen Controller Input anzuschließen, wird ein Optokoppler empfohlen.
 Der Optokoppler hat am Ausgang einen Fototransistor. Die Controller können am Input einen Fototransistor digital hell/dunkel abfragen.
 
-Somit kann beim **TXT 4.0 Controller** ![](../ereignis_fototransistor.png) ausgelöst werden.
+Somit kann beim **TXT 4.0 Controller** ![](fototransistor_button_event.png) ausgelöst werden.
 
 
 Programmierbeispiel für Interrupt von 2 Buttons über Optokoppler (3,3V -> 9V Logik) und Ereignis `Starte jedes mal ist Fototransistor hell`.
