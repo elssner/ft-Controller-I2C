@@ -86,7 +86,7 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 
 #### qwiicbutton_int.py
 
-* Quellcodedatei: **[qwiicbutton](../#qwiicbuttonpy)**
+* Quellcodedateien: **[qwiicbutton](../#qwiicbuttonpy)**, **[dipswitch](../#dipswitchpy)**
 * [I²C Module mit Hardware Interrupt](../#ic-module-mit-hardware-interrupt)
 * Laden von fischertechnik GitLab: [I2C_Buttons_DipSwitch_Relay](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay)
 
@@ -121,7 +121,7 @@ Block **buttons_event**
 * Beim RX Controller wird der Block in der dauerhaft Schleife **buttons_polling** abgefragt.
 * Funktion sucht über den I²C-Bus den geklickten Button und setzt dessen /INT zurück.
 * Die LED wird bei jedem Klick an und aus geschaltet.
-* Der DIP Schalter steuert bei der grünen LED die Helligkeit, bei der roten die Blinkfraquenz.
+* Der DIP Schalter steuert bei der grünen LED die Helligkeit, bei der roten die Blinkfrequenz.
 
 
 #### qwiicbutton_queue.py
