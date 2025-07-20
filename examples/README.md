@@ -133,6 +133,10 @@ Block **buttons_event**
 
 #### qwiicmux_rx.py
 
+* Quellcodedateien: **[qwiicbutton](../#qwiicbuttonpy)**, **[dipswitch](../#dipswitchpy)**
+* Laden von fischertechnik GitLab: [I2C_Multiplexer](https://git.fischertechnik-cloud.com/i2c/I2C_Multiplexer)
+
+
 ![](DSC00409_512.JPG)
 
 
