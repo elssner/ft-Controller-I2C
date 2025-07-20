@@ -100,19 +100,21 @@ Der Optokoppler hat am Ausgang einen Fototransistor. Die Controller können am I
 
 Somit kann der Fototransistor an einem beliebeigen Input I1 bis I8 (beim TXT 4.0 Controller auch C1 bis C4) angeschlossen werden. 
 Mit dem Block `ist Fototransistor hell` wird erkannt, ob ein Hardware /INT von einem I²C Modul aktiv ist, weil ein Button geklickt wurde. 
-Nur dann wird der I²C-Bus abgefragt und nicht ständig wenn nichts passiert.
+Nur dann wird der I²C-Bus abgefragt.
 
 
 
 
 Block **buttons_polling**
 * Beispiel ohne Interrupt kann beim Programmstart aufgerufen werden.
-* Buttons werden in dauerhaft Schleife abgefragt (polling).
+* Buttons werden in dauerhaft Schleife über den I²C-Bus abgefragt (polling).
+* Keine Verdrahtung der /INT Pins erforderlich!
 
 Block **buttons_interrupt**
 * Beispiel mit Interrupt kann beim Programmstart aufgerufen werden.
-* Konfiguriert Interrupt *when_clicked*.
-* Buttons werden nur bei aktiver /INT Leitung abgefragt, im folgenden Block.
+* Konfiguriert Button-Interrupt *when_clicked*.
+* Buttons werden nur bei aktiver /INT Leitung abgefragt, im Block **buttons_event**.
+* Verdrahtung der /INT Pins über Optokoppler erforderlich.
 
 Block **buttons_event**
 
