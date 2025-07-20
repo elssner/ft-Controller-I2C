@@ -137,7 +137,7 @@ Block **buttons_event**
 * Laden von fischertechnik GitLab: [I2C_Multiplexer](https://git.fischertechnik-cloud.com/i2c/I2C_Multiplexer)
 
 
-[aa![](DSC00409_512.JPG)aa](https://git.fischertechnik-cloud.com/i2c/I2C_Multiplexer)
+[![](DSC00409_512.JPG)](DSC00409.JPG)
 
 ![](DSC00415_512.JPG)
 
