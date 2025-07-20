@@ -27,6 +27,12 @@ Die Quellcodedateien mit I²C-Adresse in [Tabelle 1](#tabelle-1) sind bestimmten
 * I²C Module mit Link zur Hersteller Webseite mit Bild und Dokumentation.
 * Nummern der Programmierbeispiele in [Tabelle 3](#tabelle-3), welche diese Module verwenden.
 
+Programmierbeispiel|kurze Beschreibung
+---|---
+[qwiicbutton_int](#qwiicbutton_intpy)|Beispiel 2 Buttons /INT Ereignis
+[qwiicbutton_int](#qwiicbutton_intpy)|Beispiel 2 Buttons /INT Ereignis
+
+
 Quellcodedatei|I²C-Adresse|I²C Module|Beispiel
 ---|---|---|---
 [i2cCode](#i2ccodepy)||Python I²C für [RX](https://github.com/fischertechnik/RX-Controller-I2C) und [TXT 4.0](https://github.com/fischertechnik/TXT40-Controller-I2C)|alle
