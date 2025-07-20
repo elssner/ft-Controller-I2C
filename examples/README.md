@@ -88,6 +88,7 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 
 * Quellcodedatei: **[qwiicbutton](../#qwiicbuttonpy)**
 * [I²C Module mit Hardware Interrupt](../#ic-module-mit-hardware-interrupt)
+* anonym laden von fischertechnik GitLab: [I2C_Buttons_DipSwitch_Relay](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay)
 
 Somit kann beim **TXT 4.0 Controller** ![](../ereignis_fototransistor.png) ausgelöst werden.
 
