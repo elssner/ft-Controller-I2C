@@ -22,6 +22,7 @@ Quellcodedatei|kurze Beschreibung
 [qwiicmux_rx](#qwiicmux_rxpy)|RX mit I²C Multiplexer, 10 I²C Module
 
 
+<!--
 
 #### Hauptprogramm in der App ROBO Pro Coding
 * Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. [Tabelle 2](#tabelle-2) zeigt die Codierung der Eingänge.
@@ -77,7 +78,7 @@ n|Beispiel (Block)|Beschreibung
 14|**joy_2motoren**|2 Motoren (1 Modul) mit Joystick steuern.
 15|**joy_4motoren**|4 Motoren (2 Module) mit Joystick umschalten und steuern.
 
-
+-->
 
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
 Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
