@@ -90,7 +90,7 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 * [I²C Module mit Hardware Interrupt](../#ic-module-mit-hardware-interrupt)
 * Laden von fischertechnik GitLab: [I2C_Buttons_DipSwitch_Relay](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay)
 
-![](DSC00417_512.JPG)
+[![](DSC00417_512.JPG)](DSC00417.JPG)
 
 I²C Module, die eine Eingabe machen wie Buttons, müssen normalerweise in einer dauerhaft Schleife ständig über den I²C-Bus abgefragt werden, ob sich der Zustand geändert hat.\
 Solche I²C Module haben oft einen zusätzlichen (Löt-) Interrupt-Pin /INT, der außerhalb vom I²C-Bus extra verdrahtet werden kann.
@@ -139,7 +139,7 @@ Block **buttons_event**
 
 [![](DSC00409_512.JPG)](DSC00409.JPG)
 
-![](DSC00415_512.JPG)
+[![](DSC00415_512.JPG)](DSC00415.JPG)
 
 
 Beispiel 10 I²C Module gleichzeitig mit Multiplexer. Funktioniert am RX Controller, der nur 2 bis 3 I²C-Adressen gleichzeitig erkennt.
