@@ -86,7 +86,7 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 
 #### qwiicbutton_int.py
 
-* Quellcodedatei [qwiicbutton](../#qwiicbuttonpy)
+* Quellcodedatei: **[qwiicbutton](../#qwiicbuttonpy)**
 * [I²C Module mit Hardware Interrupt](../#ic-module-mit-hardware-interrupt)
 
 Programmierbeispiel für Interrupt von 2 Buttons über Optokoppler (3,3V -> 9V Logik) und Ereignis `Starte jedes mal ist Fototransistor hell`.
