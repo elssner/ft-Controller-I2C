@@ -5,32 +5,7 @@ examples/README.md
 [I²C Hardware, Software](https://elssner.github.io/ft-Controller-I2C/#ic) |
 [I²C Programmierung, Blöcke](https://elssner.github.io/ft-Controller-I2C/#beschreibung-der-quellcodedateien-alphabetisch-geordnet)
 
-[Programmierbeispiele](https://elssner.github.io/ft-Controller-I2C/#beispielepy) |
-
-
 ### I²C Programmierbeispiele (Blöcke) für ROBO Pro Coding und fischertechnik TXT 4.0 und RX Controller.
-
-
-
-Das Beispiel Projekt mit Blöcken für TXT 4.0 Controller ist im [fischertechnik GitLab](https://git.fischertechnik-cloud.com/i2c/ft_Controller_I2C) veröffentlicht. <ins>Es kann für RX Controller konvertiert werden.</ins>
-Alle I²C-Module und Programmierbeispiele auf dieser Seite wurden mit dem TXT 4.0 Controller und auch mit dem RX Controller getestet.
-
-Mit der [App ROBO Pro Coding](https://www.fischertechnik.de/de-de/apps-und-software#apps) kann das Projekt ohne Anmeldung von fischertechnik GitLab geladen werden. 
-Dazu bleibt das Zugriffstoken leer und auf der nächsten Seite im Suchfeld kann `i2c` eingegeben werden. Der Name ist `i2c / ft_Controller_I2C`. Das Projekt kann dann lokal als .ft-Datei gespeichert werden.
-
-#### Im Projekt enthaltene Quellcodedateien (Blöcke) für I²C Module.
-
-Für eigene Projekte können aus der lokal gespeicherten .ft-Datei die Quellcodedateien importiert werden.
-Der Import muss mehrmals erfolgen: zuerst [i2cCode](#i2ccodepy) und optional [advanced](#advancedpy), beim zweiten Import die Dateien für die angeschlossenen I²C Module, beim dritten zusätzliche Blöcke.\
-Die Datei [i2cCode](#i2ccodepy) muss immer mit importiert werden.\
-Die Datei [advanced](#advancedpy) enthält keine I²C spezifischen Blöcke, ist aber zu empfehlen.\
-Aus der Datei [Beispiele](#beispielepy) könnte nur ein einzelner Block übernommen werden.\
-Die Quellcodedateien mit I²C-Adresse in [Tabelle 1](#tabelle-1) sind bestimmten I²C Modulen zugeordnet.
-
-###### Tabelle 1:
-* Quellcodedateien mit Link zur Beschreibung der Blöcke (auf dieser Seite unten).
-* I²C Module mit Link zur Hersteller Webseite mit Bild und Dokumentation.
-* Nummern der Programmierbeispiele in [Tabelle 3](#tabelle-3), welche diese Module verwenden.
 
 Programmierbeispiel|kurze Beschreibung
 ---|---
