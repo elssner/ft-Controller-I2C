@@ -108,7 +108,7 @@ Nur dann wird der I²C-Bus abgefragt.
 Block **buttons_polling**
 * Beispiel ohne Interrupt kann beim Programmstart aufgerufen werden.
 * Buttons werden in dauerhaft Schleife über den I²C-Bus abgefragt (polling).
-* Keine Verdrahtung der /INT Pins erforderlich!
+* Keine Verdrahtung der /INT Pins erforderlich.
 
 Block **buttons_interrupt**
 * Beispiel mit Interrupt kann beim Programmstart aufgerufen werden.
