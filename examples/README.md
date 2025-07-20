@@ -1,4 +1,3 @@
-examples/README.md
 
 > Programmierbeispiele auf dieser Seite nutzen die I²C Blöcke von [ft_Controller_I2C](https://git.fischertechnik-cloud.com/i2c/ft_Controller_I2C)\
 > [I²C Module](https://elssner.github.io/ft-Controller-I2C/#tabelle-1) |
