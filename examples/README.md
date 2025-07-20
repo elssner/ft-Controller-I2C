@@ -116,8 +116,10 @@ Block **buttons_interrupt**
 Block **buttons_event**
 
 ![](fototransistor_button_event.png)
-* Block muss in Ereignis `Starte jedes mal ist Fototransistor hell` eingefügt werden.
-* Sucht den geklickten Button und setzt dessen /INT zurück.
+* Ereignis-Blöcke werden nur vom TXT 4.0 Controller unterstützt.
+* Block muss in das Fototransistor Ereignis eingefügt werden.
+* Beim RX Controller wird der Block in der dauerhaft Schleife abgefragt.
+* Funktion sucht den geklickten Button und setzt dessen /INT zurück.
 
 
 #### qwiicbutton_queue.py
