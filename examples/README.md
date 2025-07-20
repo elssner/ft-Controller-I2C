@@ -85,8 +85,11 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 
 
 #### qwiicbutton_int.py
-> Programmierbeispiel für Interrupt von 2 Buttons über Optokoppler (3,3V -> 9V Logik) und Ereignis `Starte jedes mal ist Fototransistor hell`.
-> [Beispiel Projekt](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay) | [Foto](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay/-/blob/master/fotos/DSC00417.JPG)
+
+[I²C Module mit Hardware Interrupt](#/ic-module-mit-hardware-interrupt)
+
+Programmierbeispiel für Interrupt von 2 Buttons über Optokoppler (3,3V -> 9V Logik) und Ereignis `Starte jedes mal ist Fototransistor hell`.
+[Beispiel Projekt](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay) | [Foto](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay/-/blob/master/fotos/DSC00417.JPG)
 
 Block **buttons_polling**
 * Beispiel ohne Interrupt kann beim Programmstart aufgerufen werden.
