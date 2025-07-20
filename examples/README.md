@@ -7,6 +7,13 @@ examples/README.md
 
 ### I²C Programmierbeispiele (Blöcke) für ROBO Pro Coding und fischertechnik TXT 4.0 und RX Controller.
 
+Alle Beispiele sind plattformunabhängig programmiert und für TXT 4.0 und RX Controller geeignet. In der ROBO Pro Coding Projektkonfiguration kann jedes Projekt einfach für den anderen Controller konvertiert werden.
+Der BT Smart Controller hat keine I²C Anschlüsse und ist nicht verwendbar.
+
+Beim RX Controller ist die Anzahl der I²C-Adressen begrenzt. Zu viele Module gleichzeitig am I²C-Bus werden dann nicht erkannt. Ein [I²C Multiplexer](#qwiicmux_rxpy) kann das Problem lösen.
+Beim TXT 4.0 Controller sind solche Einschränkungen nicht bekannt.
+
+
 ###### Tabelle 1:
 
 Quellcodedatei|kurze Beschreibung
