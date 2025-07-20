@@ -90,6 +90,8 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 * [I²C Module mit Hardware Interrupt](../#ic-module-mit-hardware-interrupt)
 * Laden von fischertechnik GitLab: [I2C_Buttons_DipSwitch_Relay](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay)
 
+![](DSC00417_512.JPG)
+
 Somit kann beim **TXT 4.0 Controller** ![](../ereignis_fototransistor.png) ausgelöst werden.
 
 Programmierbeispiel für Interrupt von 2 Buttons über Optokoppler (3,3V -> 9V Logik) und Ereignis `Starte jedes mal ist Fototransistor hell`.
