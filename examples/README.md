@@ -80,7 +80,7 @@ n|Beispiel (Block)|Beschreibung
 
 -->
 
-### Beschreibung der Quellcodedateien (alphabetisch geordnet)
+### Beschreibung der Beispiele (Quellcodedateien alphabetisch geordnet)
 Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 
 
