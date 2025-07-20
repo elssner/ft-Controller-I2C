@@ -98,7 +98,7 @@ Solche I²C Module haben oft einen zusätzlichen (Löt-) Interrupt-Pin /INT, der
 Die I²C Module haben 3,3V Logik, die fischertechnik Controller aber 9V Logik. Um die /INT Leitungen an einen Controller Input anzuschließen, wird ein Optokoppler empfohlen.
 Der Optokoppler hat am Ausgang einen Fototransistor. Die Controller können am Input einen Fototransistor digital hell/dunkel abfragen.
 
-Somit kann beim **TXT 4.0 Controller** ![](fototransistor_button_event.png) ausgelöst werden.
+Somit kann der Fototransistor vom Optokoppler an einem beliebeigen Input I1 bis I8 und beim TXT 4.0 Controller auch an C1 bis C4 angeschlossen werden. 
 
 
 Programmierbeispiel für Interrupt von 2 Buttons über Optokoppler (3,3V -> 9V Logik) und Ereignis `Starte jedes mal ist Fototransistor hell`.
@@ -118,8 +118,10 @@ Block **buttons_event**
 ![](fototransistor_button_event.png)
 * Ereignis-Blöcke werden nur vom TXT 4.0 Controller unterstützt.
 * Block muss in das Fototransistor Ereignis eingefügt werden.
-* Beim RX Controller wird der Block in der dauerhaft Schleife abgefragt.
-* Funktion sucht den geklickten Button und setzt dessen /INT zurück.
+* Beim RX Controller wird der Block in der dauerhaft Schleife **buttons_polling** abgefragt.
+* Funktion sucht über den I²C-Bus den geklickten Button und setzt dessen /INT zurück.
+* Die LED wird bei jedem Klick an und aus geschaltet.
+* Der DIP Schalter steuert bei der grünen LED die Helligkeit, bei der roten die Blinkfraquenz.
 
 
 #### qwiicbutton_queue.py
