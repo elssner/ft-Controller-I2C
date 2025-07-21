@@ -43,7 +43,8 @@ Der TXT 4.0 Controller unterstützt Ereignis Blöcke. Beim Programmstart wird nu
 
 ![](txt40_button_event.png)
 
-
+Weil der RX Controller keine Ereignisse untersützt, kann der Fototransistor in einer dauerhaft Schleife abgefragt werden. 
+Auch damit kann der Verkehr aus dem I²C-Bus reduziert werden.
 
 ![](rx_button_event.png)
 
