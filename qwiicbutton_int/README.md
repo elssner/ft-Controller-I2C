@@ -58,5 +58,6 @@ Block **buttons_event**
 * Fragt über den I²C-Bus ab, ob ein Button geklickt war.
 * Wenn ja, wird der /INT Pin deaktiviert (Fototransistor dunkel).
 * Die eigene LED wird abwechselnd an/aus geschaltet.
-* Der DIP Switch wird über I²C abgefragt und steuert bei der grünen LED die Helligkeit, bei der roten die Blinkfrequenz.
+* Der DIP Switch wird über den I²C-Bus  abgefragt und steuert\
+bei der grünen LED die Helligkeit, bei der roten die Blinkfrequenz.
 * Wie die grüne LED wird auch das Relais über I²C geschaltet.
