@@ -8,6 +8,8 @@
 
 ### qwiicbutton_int (Beispiel)
 
+Das Beispiel demonstriert den Hardware Interrupt von zwei [SparkFun Qwiic Button](https://www.sparkfun.com/products/16842) Modulen. Die im Button eingebaute LED rot bzw. grün wird beim Klicken an und aus geschaltet. 
+Der DIP Schalter steuert bei der grünen LED die Helligkeit, bei der roten die Blinkfrequenz. Mit der grünen LED kann auch noch ein Relais geschaltet werden.
 
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicbutton](../#qwiicbuttonpy)**, **[dipswitch](../#dipswitchpy)**, **[qwiicrelay](../#qwiicrelaypy)**
 * [I²C Module mit Hardware Interrupt](../#ic-module-mit-hardware-interrupt)
