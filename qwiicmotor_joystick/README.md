@@ -13,7 +13,7 @@ Nichts ist einfacher, als diese Motoren mit dem I²C [SparkFun Qwiic Joystick](h
 Mit Bewegung in X oder Y Richtung wird jeweils einer der zwei Motoren an jedem Motor Modul gesteuert, oder beide gleichzeitig.
 
 
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiicmotor](../#qwiicmotorpy)**
 * Laden von fischertechnik GitLab: [I2C_Motoren_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_Motoren_Joystick)
 
 
