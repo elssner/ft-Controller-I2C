@@ -45,7 +45,7 @@ Block **buttons_polling**
 * Schaltet die Button Interrupts aus.
 * Wird beim Programmstart einmal aufgerufen, wenn /INT Pin nicht verdrahtet ist.
 * Block **buttons_event** muss in dauerhaft Schleife abgefragt werden.
-* Buttons werden ständig über den I²C-Bus abgefragt (polling).
+* Buttons werden in **buttons_event** ständig über den I²C-Bus abgefragt (polling).
 
 Block **buttons_interrupt**
 * Schaltet Interrupt *when_clicked* an und *when_pressed* aus.
