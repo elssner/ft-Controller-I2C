@@ -13,6 +13,7 @@ Der Multiplexer ermöglicht aber auch dem RX Controller mehr als 2 bis 3 I²C Mo
 
 Wenn mit dem Multiplexer immer nur ein Kanal mit 1 oder 2 I²C Modulen (= I²C-Adressen) zugeschaltet wird, kann der RX Controller 10 und mehr Module ansteuern. An der 3,3V Stromversorgung scheitert das nicht.
 
+Im Beispiel werden 10 I²C Module vom RX Controller gesteuert: Der [Multiplexer]() selbst, [LCD-Display](), [OLED 128x128 Display](), [OLED 128x64 Display](), [EEPROM](), [RTC](), [Speicherkarte](), [Keypad](), [GPIO](), [Ultraschallsensor]().
 
 
 
