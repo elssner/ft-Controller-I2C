@@ -38,6 +38,8 @@ Somit kann der Fototransistor an einem beliebeigen Input I1 bis I8 (beim TXT 4.0
 Mit dem Block `ist Fototransistor hell` wird erkannt, ob ein Hardware /INT von einem I²C Modul aktiv ist, weil ein Button geklickt wurde. 
 Nur dann wird der I²C-Bus abgefragt.
 
+Der TXT 4.0 Controller unterstützt Ereignis Blöcke. Beim Programmstart wird nur der Interrupt bei den Buttons aktiviert. Über die Hardware und den Optokoppler wird nur dann Code ausgeführt, wenn ein Button geklickt wurde und Fototransistor hell auslöst.
+
 ![](txt40_button_event.png)
 
 
