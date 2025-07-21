@@ -37,13 +37,13 @@ Der TXT 4.0 Controller unterstützt Ereignis Blöcke. Beim Programmstart wird nu
 ![](txt40_button_event.png)
 
 Weil der RX Controller keine Ereignisse untersützt, kann der Fototransistor in einer dauerhaft Schleife abgefragt werden. 
-Auch damit kann der Verkehr aus dem I²C-Bus reduziert werden.
+Auch damit kann der Verkehr auf dem I²C-Bus reduziert werden.
 
 ![](rx_button_event.png)
 
 Block **buttons_polling**
 * Schaltet die Button Interrupts aus.
-* Wird beim Programmstart aufgerufen, wenn /INT Pin nicht verdrahtet ist.
+* Wird beim Programmstart einmal aufgerufen, wenn /INT Pin nicht verdrahtet ist.
 * Block **buttons_event** muss in dauerhaft Schleife abgefragt werden.
 * Buttons werden ständig über den I²C-Bus abgefragt (polling).
 
