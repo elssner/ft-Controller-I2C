@@ -30,3 +30,5 @@ Block **joy_4motoren**
 * Beim zweiten Modul wurde die I²C-Adresse geändert (Lötbrücke).
 * Drücken auf Joystick schaltet I²C-Adresse und Motor Power zwischen den Motor-Modulen um.
 * Mit dem Joystick werden die aktiven Motoren in dauerhaft Schleife gesteuert.
+
+![](joy_motoren.png)
