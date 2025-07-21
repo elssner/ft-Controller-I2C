@@ -9,3 +9,11 @@
 ### qwiicmotor_joystick (Beispiel)
 
 Das Beispiel demonstriert
+
+
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**
+* Laden von fischertechnik GitLab: [I2C_Motoren_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_Motoren_Joystick)
+
+
+[![](DSC00431_256.JPG)](DSC00431.JPG)\
+Zum Vergrößern auf das Bild klicken.
