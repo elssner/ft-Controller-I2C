@@ -9,7 +9,7 @@
 ### qwiicmotor_joystick (Beispiel)
 
 Mit zwei I²C Modulen [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451) lassen sich vier (zusätzliche) Motoren steuern. Oder wie beim Kran drei Motoren und ein Elektromagnet.
-Nichts ist einfacher, als diese Motoren mit dem I²C [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168) zu steuern. Mit Drücken auf den Joystick wird der Motor Chip umgeschaltet.
+Nichts ist einfacher, als diese Motoren mit dem I²C [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168) zu steuern. Mit Drücken auf den Joystick wird der Motor Chip gewechselt.
 Mit Bewegung in X oder Y Richtung wird jeweils einer der zwei Motoren an jedem Motor Modul gesteuert, oder beide gleichzeitig.
 
 
