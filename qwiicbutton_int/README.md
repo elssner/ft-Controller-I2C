@@ -13,7 +13,7 @@ Der [DIP Schalter](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) ste
 
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicbutton](../#qwiicbuttonpy)**, **[dipswitch](../#dipswitchpy)**, **[qwiicrelay](../#qwiicrelaypy)**
 * [I²C Module mit Hardware Interrupt](../#ic-module-mit-hardware-interrupt)
-* Laden von fischertechnik GitLab: [I2C_Buttons_DipSwitch_Relay](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay)
+* Projekt laden von fischertechnik GitLab: [I2C_Buttons_DipSwitch_Relay](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay)
 
 [![](DSC00417_256.JPG) für großes Bild klicken](DSC00417.JPG)
 
