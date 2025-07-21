@@ -5,7 +5,7 @@ I2C_Buttons_DipSwitch_Relay
 [I²C Hardware, Software](https://elssner.github.io/ft-Controller-I2C/#ic) |
 [I²C Programmierung, Blöcke](https://elssner.github.io/ft-Controller-I2C/#beschreibung-der-quellcodedateien-alphabetisch-geordnet)
 
-> Alle Programmierbeispiele im Überblick [examples](../examples)
+> [Alle Programmierbeispiele im Überblick.](../examples)
 
 <!--
 ### I²C Programmierbeispiele (Blöcke) für ROBO Pro Coding und fischertechnik TXT 4.0 und RX Controller.
@@ -17,6 +17,7 @@ Beim RX Controller ist die Anzahl der I²C-Adressen begrenzt. Zu viele I²C Modu
 Beim TXT 4.0 Controller sind solche Einschränkungen nicht bekannt.
 -->
 
+### Quellcodedatei (Beispiel)
 
 #### qwiicbutton_int.py
 
