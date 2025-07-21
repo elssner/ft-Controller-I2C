@@ -15,7 +15,8 @@ Der [DIP Schalter](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) ste
 * [I²C Module mit Hardware Interrupt](../#ic-module-mit-hardware-interrupt)
 * Projekt laden von fischertechnik GitLab: [I2C_Buttons_DipSwitch_Relay](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay)
 
-[![](DSC00423_256.JPG) für großes Bild klicken](DSC00423.JPG)
+[![](DSC00423_256.JPG)](DSC00423.JPG)\
+Zum Vergrößern auf das Bild klicken.
 
 I²C Module, die eine Eingabe machen wie Buttons, müssen normalerweise in einer dauerhaft Schleife ständig über den I²C-Bus abgefragt werden, ob sich der Zustand geändert hat.\
 (Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.)
