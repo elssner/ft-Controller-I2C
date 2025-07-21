@@ -27,7 +27,8 @@ GPIO liest 8 Tasten von der Modelleisenbahn Tastatur und zeigt diese binär und 
 * Laden von fischertechnik GitLab: [I2C_Multiplexer](https://git.fischertechnik-cloud.com/i2c/I2C_Multiplexer)
 
 
-[![](DSC00409_256.JPG)](DSC00409.JPG) [![](DSC00415_256.JPG)](DSC00415.JPG) Zum Vergrößern\ auf das Bild klicken.
+[![](DSC00409_256.JPG)](DSC00409.JPG) [![](DSC00415_256.JPG)](DSC00415.JPG) Zum Vergrößern\
+auf das Bild klicken.
 
 
 Beispiel 10 I²C Module gleichzeitig mit Multiplexer. Funktioniert am RX Controller, der nur 2 bis 3 I²C-Adressen gleichzeitig erkennt.
