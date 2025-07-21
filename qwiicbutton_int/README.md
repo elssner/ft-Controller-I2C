@@ -51,21 +51,12 @@ Block **buttons_interrupt**
 * Schaltet Interrupt *when_clicked* an und *when_pressed* aus.
 * Wird beim Programmstart einmal aufgerufen, wenn /INT Pin verdrahtet ist.
 * Ereignis `ist Fototransistor hell` ruft Block **buttons_event** auf.
+* RX Controller fragt `ist Fototransistor hell` in dauerhaft Schleife ab.
 * Buttons werden nur *when_clicked* über den I²C-Bus abgefragt.
-* RX Controller fragt `ist Fototransistor hell` in Schleife ab.
 
 Block **buttons_event**
-
-* Ereignis-Blöcke werden nur vom TXT 4.0 Controller unterstützt.
-* Block **buttons_event** muss in das Fototransistor Ereignis eingefügt werden.
-* Ereignis `ist Fototransistor hell`
-
-* Beim RX Controller kann der Block in einer dauerhaft Schleife abgefragt werden.
-
-
-* Funktion sucht über den I²C-Bus den geklickten Button und setzt dessen /INT zurück.
-* Die LED wird bei jedem Klick an und aus geschaltet.
-* Der DIP Schalter steuert bei der grünen LED die Helligkeit, bei der roten die Blinkfrequenz.
-
-
-
+* Fragt über den I²C-Bus ab, ob ein Button geklickt war.
+* Wenn ja, wird der /INT Pin deaktiviert (Fototransistor dunkel).
+* Die eigene LED wird abwechselnd an/aus geschaltet.
+* Der DIP Switch wird über I²C abgefragt und steuert bei der grünen LED die Helligkeit, bei der roten die Blinkfrequenz.
+* Wie die grüne LED wird auch das Relais geschaltet.
