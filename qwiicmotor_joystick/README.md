@@ -33,3 +33,5 @@ Block **joy_4motoren**
 * Mit dem Joystick werden die aktiven Motoren in dauerhaft Schleife gesteuert.
 
 ![](joy_motoren.png)
+
+* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
