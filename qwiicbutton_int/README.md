@@ -58,10 +58,10 @@ Block **buttons_event**
 * Ereignis-Blöcke werden nur vom TXT 4.0 Controller unterstützt.
 * Block **buttons_event** muss in das Fototransistor Ereignis eingefügt werden.
 
-![](fototransistor_button_event.png)
+
 * Beim RX Controller kann der Block in einer dauerhaft Schleife abgefragt werden.
 
-![](fototransistor_button_polling.png)
+
 * Funktion sucht über den I²C-Bus den geklickten Button und setzt dessen /INT zurück.
 * Die LED wird bei jedem Klick an und aus geschaltet.
 * Der DIP Schalter steuert bei der grünen LED die Helligkeit, bei der roten die Blinkfrequenz.
