@@ -38,7 +38,7 @@ Somit kann der Fototransistor an einem beliebeigen Input I1 bis I8 (beim TXT 4.0
 Mit dem Block `ist Fototransistor hell` wird erkannt, ob ein Hardware /INT von einem I²C Modul aktiv ist, weil ein Button geklickt wurde. 
 Nur dann wird der I²C-Bus abgefragt.
 
-
+![](txt40_button_event.png)
 
 
 Block **buttons_polling**
