@@ -36,6 +36,7 @@ Block **qmux_rx1**
 * Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
 * Projekt kann für TXT 4.0 Controller konvertiert werden.
 * **i2c_scan** kann zur Kontrolle aller Kanäle angezeigt (oder weg gelassen) werden.
+* **list_hex** befindet sich in **[advanced](../#advancedpy)**.
 * Programm läuft sonst ohne Verbindung zur App ROBO Pro Coding.
 
 ![](qmux_rx1.png)
