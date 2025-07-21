@@ -44,6 +44,9 @@ Der TXT 4.0 Controller unterstützt Ereignis Blöcke. Beim Programmstart wird nu
 ![](txt40_button_event.png)
 
 
+
+![](rx_button_event.png)
+
 Block **buttons_polling**
 * Beispiel ohne Interrupt kann beim Programmstart aufgerufen werden.
 * Buttons werden in dauerhaft Schleife über den I²C-Bus abgefragt (polling).
