@@ -78,7 +78,7 @@ n|Beispiel (Block)|Beschreibung
 14|**joy_2motoren**|2 Motoren (1 Modul) mit Joystick steuern.
 15|**joy_4motoren**|4 Motoren (2 Module) mit Joystick umschalten und steuern.
 
--->
+
 
 ### Beschreibung der Beispiele (Quellcodedateien alphabetisch geordnet)
 Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
@@ -147,7 +147,7 @@ Block **qmux_rx1**
 * Beispiel kann beim Programmstart aufgerufen werden.
 * 3 Displays, EEPROM, Keypad, GPIO, RTC, Speicherkarte, Ultraschallsensor und Multiplexer.
 
-
+-->
 
 ### Foto
 
