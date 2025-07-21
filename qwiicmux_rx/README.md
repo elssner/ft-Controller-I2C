@@ -8,7 +8,8 @@
 
 ### qwiicmux_rx (Beispiel)
 
-Das Beispiel demonstriert
+Der [I²C Multiplexer](https://www.sparkfun.com/products/16784) kann 8 I²C-Busse einzeln oder gemeinsam an und aus schalten. Gebraucht wird das unter anderem, um mehrere I²C Module mit gleicher I²C-Adresse gleichzeitig zu benutzen.
+
 
 
 #### qwiicmux_rx.py
