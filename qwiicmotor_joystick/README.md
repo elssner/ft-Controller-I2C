@@ -19,3 +19,14 @@ Mit Bewegung in X oder Y Richtung wird jeweils einer der zwei Motoren an jedem M
 
 [![](DSC00431_256.JPG)](DSC00431.JPG)\
 Zum Vergrößern auf das Bild klicken.
+
+Block **joy_2motoren**
+* Verwendet nur ein I²C Motor Modul (für 2 Motoren) und den Joystick.
+* Drücken auf Joystick schaltet Motor Power an und aus.
+* Mit dem Joystick werden beide Motoren in dauerhaft Schleife gesteuert.
+
+Block **joy_4motoren**
+* Verwendet zwei I²C Motor Module (für 4 Motoren) und den Joystick.
+* Beim zweiten Modul wurde die I²C-Adresse geändert (Lötbrücke).
+* Drücken auf Joystick schaltet I²C-Adresse und Motor Power zwischen den Motor-Modulen um.
+* Mit dem Joystick werden die aktiven Motoren in dauerhaft Schleife gesteuert.
