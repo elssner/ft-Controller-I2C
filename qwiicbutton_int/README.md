@@ -52,7 +52,7 @@ Block **buttons_interrupt**
 * Wird beim Programmstart einmal aufgerufen, wenn /INT Pin verdrahtet ist.
 * Ereignis `ist Fototransistor hell` ruft Block **buttons_event** auf.
 * RX Controller fragt `ist Fototransistor hell` in dauerhaft Schleife ab.
-* Buttons werden nur *when_clicked* über den I²C-Bus abgefragt.
+* Buttons werden nur *when_clicked* in **buttons_event** über den I²C-Bus abgefragt.
 
 Block **buttons_event**
 * Fragt über den I²C-Bus ab, ob ein Button geklickt war.
