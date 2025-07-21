@@ -13,7 +13,7 @@ Der Multiplexer ermöglicht aber auch dem RX Controller mehr als 2 bis 3 I²C Mo
 
 Wenn mit dem Multiplexer immer nur ein Kanal mit 1 oder 2 I²C Modulen (= I²C-Adressen) zugeschaltet wird, kann der RX Controller 10 und mehr Module ansteuern. An der 3,3V Stromversorgung scheitert das nicht.
 
-Im Beispiel werden 10 I²C Module vom RX Controller gesteuert: Der [Multiplexer](https://www.sparkfun.com/products/16784) selbst, [LCD-Display](https://www.sparkfun.com/products/16379), 
+Im Beispiel werden 10 I²C Module vom RX Controller gesteuert: Der [Multiplexer](https://www.sparkfun.com/products/16784) selbst, [LCD-Display](https://www.sparkfun.com/products/16397), 
 [OLED 128x128 Display](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0), [OLED 128x64 Display](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0), 
 [EEPROM](https://www.sparkfun.com/products/18355), [RTC](https://wiki.seeedstudio.com/Grove_High_Precision_RTC), [Speicherkarte](https://www.sparkfun.com/products/15164), 
 [Keypad](https://www.sparkfun.com/products/15290), [GPIO](https://www.sparkfun.com/products/17047), [Ultraschallsensor](https://www.sparkfun.com/products/17777).
