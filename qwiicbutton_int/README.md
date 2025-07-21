@@ -1,4 +1,3 @@
-I2C_Buttons_DipSwitch_Relay
 
 > Programmierbeispiele auf dieser Seite nutzen die I²C Blöcke von [ft_Controller_I2C](https://git.fischertechnik-cloud.com/i2c/ft_Controller_I2C)\
 > [I²C Module](https://elssner.github.io/ft-Controller-I2C/#tabelle-1) |
@@ -7,15 +6,6 @@ I2C_Buttons_DipSwitch_Relay
 
 > [Alle Programmierbeispiele im Überblick.](../examples)
 
-<!--
-### I²C Programmierbeispiele (Blöcke) für ROBO Pro Coding und fischertechnik TXT 4.0 und RX Controller.
-
-Alle Beispiele sind plattformunabhängig programmiert und für TXT 4.0 und RX Controller geeignet. In der ROBO Pro Coding Projektkonfiguration kann jedes Projekt einfach für den anderen Controller konvertiert werden.\
-Der BT Smart Controller hat keine I²C Anschlüsse und ist nicht verwendbar.
-
-Beim RX Controller ist die Anzahl der I²C-Adressen begrenzt. Zu viele I²C Module gleichzeitig am I²C-Bus werden dann nicht erkannt. Ein [I²C Multiplexer](#qwiicmux_rxpy) kann das Problem lösen.\
-Beim TXT 4.0 Controller sind solche Einschränkungen nicht bekannt.
--->
 
 ### qwiicbutton_int (Beispiel)
 
