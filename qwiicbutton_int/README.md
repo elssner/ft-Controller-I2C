@@ -24,8 +24,6 @@ I²C Module, die eine Eingabe machen wie Buttons, müssen normalerweise in einer
 
 Solche I²C Module haben oft einen zusätzlichen (Löt-) Interrupt-Pin /INT, der außerhalb vom I²C-Bus extra verdrahtet werden kann.
 
-
-
 Die I²C Module haben 3,3V Logik, die fischertechnik Controller aber 9V Logik. Um die /INT Leitungen an einen Controller Input anzuschließen, wird ein Optokoppler empfohlen.
 Der Optokoppler hat am Ausgang einen Fototransistor. Die Controller können am Input einen Fototransistor digital hell/dunkel abfragen. → [I²C Module mit Hardware Interrupt](../#ic-module-mit-hardware-interrupt)
 
@@ -44,21 +42,23 @@ Auch damit kann der Verkehr aus dem I²C-Bus reduziert werden.
 ![](rx_button_event.png)
 
 Block **buttons_polling**
-* Beispiel ohne Interrupt kann beim Programmstart aufgerufen werden.
-* Buttons werden in dauerhaft Schleife über den I²C-Bus abgefragt (polling).
-* Keine Verdrahtung der /INT Pins erforderlich.
+* Schaltet die Button Interrupts aus.
+* Wird beim Programmstart aufgerufen, wenn /INT Pin nicht verdrahtet ist.
+* Block **buttons_event** muss in dauerhaft Schleife abgefragt werden.
+* Buttons werden ständig über den I²C-Bus abgefragt (polling).
 
 Block **buttons_interrupt**
-* Beispiel mit Interrupt kann beim Programmstart aufgerufen werden.
-* Konfiguriert Button-Interrupt *when_clicked*.
-* Buttons werden nur bei aktiver /INT Leitung abgefragt, im Block **buttons_event**.
-* Verdrahtung der /INT Pins über Optokoppler erforderlich.
+* Schaltet Interrupt *when_clicked* an und *when_pressed* aus.
+* Wird beim Programmstart einmal aufgerufen, wenn /INT Pin verdrahtet ist.
+* Ereignis `ist Fototransistor hell` ruft Block **buttons_event** auf.
+* Buttons werden nur *when_clicked* über den I²C-Bus abgefragt.
+* RX Controller fragt `ist Fototransistor hell` in Schleife ab.
 
 Block **buttons_event**
 
 * Ereignis-Blöcke werden nur vom TXT 4.0 Controller unterstützt.
 * Block **buttons_event** muss in das Fototransistor Ereignis eingefügt werden.
-
+* Ereignis `ist Fototransistor hell`
 
 * Beim RX Controller kann der Block in einer dauerhaft Schleife abgefragt werden.
 
