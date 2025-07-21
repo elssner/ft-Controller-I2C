@@ -17,9 +17,8 @@ Beim RX Controller ist die Anzahl der I²C-Adressen begrenzt. Zu viele I²C Modu
 Beim TXT 4.0 Controller sind solche Einschränkungen nicht bekannt.
 -->
 
-### Quellcodedatei (Beispiel)
+### qwiicbutton_int (Beispiel)
 
-#### qwiicbutton_int.py
 
 * Quellcodedateien: **[qwiicbutton](../#qwiicbuttonpy)**, **[dipswitch](../#dipswitchpy)**
 * [I²C Module mit Hardware Interrupt](../#ic-module-mit-hardware-interrupt)
