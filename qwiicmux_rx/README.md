@@ -33,6 +33,7 @@ Zum Vergrößern auf das Bild klicken.
 
 Block **qmux_rx1**
 * Beispiel kann beim Programmstart aufgerufen werden.
-* 3 Displays, EEPROM, Keypad, GPIO, RTC, Speicherkarte, Ultraschallsensor und Multiplexer.
+* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
+* **i2c_scan** kann zur Kontrolle aller Kanäle angezeigt (oder weg gelassen) werden.
 
 ![](qmux_rx1.png)
