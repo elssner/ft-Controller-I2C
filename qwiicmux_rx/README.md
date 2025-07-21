@@ -35,4 +35,4 @@ Block **qmux_rx1**
 * Beispiel kann beim Programmstart aufgerufen werden.
 * 3 Displays, EEPROM, Keypad, GPIO, RTC, Speicherkarte, Ultraschallsensor und Multiplexer.
 
-
+![](qmux_rx1.png)
