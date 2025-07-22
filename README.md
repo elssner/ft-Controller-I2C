@@ -600,18 +600,24 @@ Block **rtc_read** ()
 
 > <ins>Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.</ins>
 
-Block **get_rtc** (index) : Byte
+Block **rtc_get** (index) : Byte
 * Liest 1 Byte aus Variable RTC_BUFFER[*index*] zu dezimal konvertiert.
 * `0`Seconds, `1`Minutes, `2`Hours, `3`Days, `4`Weekdays, `5`Months, `6`Years
 
-Block **get_time_string** () : String 8 Zeichen
+Block **rtc_time_string** () : String 8 Zeichen
 * Liest Zeit aus Variable RTC_BUFFER: `HH:mm:ss`.
 
-Block **get_date_string** () : String 10 Zeichen
+Block **rtc_date_string** () : String 10 Zeichen
 * Liest Datum aus Variable RTC_BUFFER: `dd.MM.20yy`.
 
-Block **get_weekday** () : String 2 Zeichen
+Block **rtc_weekday** () : String 2 Zeichen
 * Liest Wochentag aus RTC_BUFFER: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'].
+
+Block **rtc_iso_string** () : String 12 Zeichen
+* Liest aus Variable RTC_BUFFER: `yyMMddHHmmss`.
+* Aus genau 12 Ziffern kann der benötigte Teilstring ausgeschnitten werden.
+* Format ist sortierbar z.B. für Dateinamen.
+
 
 #### s_co2.py
 → CO₂: Kohlenstoffdioxid → [de.wikipedia.org/wiki/CO2](https://de.wikipedia.org/wiki/Kohlenstoffdioxid)\
