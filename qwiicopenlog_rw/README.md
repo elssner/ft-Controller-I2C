@@ -22,4 +22,8 @@ Manchmal wird in der Konsole ein Memory Allocation Error angezeigt. Oft hängt e
 [![](DSC00441_256.JPG)](DSC00441.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+Block **log_konsole** (filename1)
+* *filename1* kann Platzhalter wie z.B. \*.\* oder \*.TXT enthalten.
+* 
+
 ![](log_abstand.png)
