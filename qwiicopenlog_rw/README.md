@@ -30,8 +30,7 @@ Block **log_konsole** (filename1)
 * Die Länge 200 kann im Code geändert werden, ist beim RX aber begrenzt.
 * Beim TXT 4.0 Controller sind > 10000 Bytes kein Problem.
 
-> Die folgenden Blöcke können auch ohne Verbindung zur App benutzt werden.\
-Dann wird nur nichts in der Konsole angezeigt.
+> Die folgenden Blöcke können auch ohne Verbindung zur App ROBO Pro Coding benutzt werden. Dann wird nur nichts in der Konsole angezeigt.
 
 Block **log_copy** (filename1, filename2, size)
 * *filename1* ist die Quelldatei, die vorhanden sein muss.
