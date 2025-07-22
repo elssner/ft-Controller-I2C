@@ -44,6 +44,6 @@ Block **log_time** (text, new_line)
 * *new_line*=True: CR (=13) und LF (=10) wird an *text* angehängt.
 * Dateiname wird aus Datum und Zeit gebildet: `yyMMddHH`.LOG.
 * Datum und Zeit wird aus angeschlossenem [RTC-Modul](../#rtcpy) gelesen.
-* So wird jede Stunde automatisch eine neue Datei begonnen mit sortierbarem Dateiname.
+* Jede Stunde beginnt eine neue Datei mit sortierbarem Dateiname.
 
 ![](log_abstand.png)
