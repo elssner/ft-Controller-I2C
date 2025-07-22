@@ -30,18 +30,25 @@ Block **log_konsole** (filename1)
 * Die Länge 200 kann im Code geändert werden, ist beim RX aber begrenzt.
 * Beim TXT 4.0 Controller sind > 10000 Bytes kein Problem.
 
+> Die folgenden Blöcke können auch ohne Verbindung zur App benutzt werden.\
+Dann wird nur nichts in der Konsole angezeigt.
+
 Block **log_copy** (filename1, filename2, size)
 * *filename1* ist die Quelldatei, die vorhanden sein muss.
 * *filename2* Name der Zieldatei, wird angehängt oder neu angelegt.
 * *size* maximale Bytes, die kopiert werden.
 * Die gesamte Datei wird in ein Bytearray gelesen, dann wieder geschrieben.
+* Die neue Größe der Zieldatei wird in der Konsole angezeigt.
 * Beim TXT 4.0 Controller wurde mit > 60KBytes erfolgreich getestet.
 * Beim RX Controller < 1 KByte.
 * In der Datei enthaltenes 0xFF wird als EOF behandelt.
+* Bei wiederholtem Aufruf wird an die Zieldatei angehängt.
+
 
 Block **log_time** (text, new_line)
 * *text* wird an die Datei angehängt (oder neu angelegt).
 * *new_line*=True: CR (=13) und LF (=10) wird an *text* angehängt.
+* Dateiname und neue Größe der Logdatei wird in der Konsole angezeigt.
 * Dateiname wird aus Datum und Zeit gebildet: `yyMMddHH`.LOG.
 * Datum und Zeit wird aus angeschlossenem [RTC-Modul](../#rtcpy) gelesen.
 * Jede Stunde beginnt eine neue Datei mit sortierbarem Dateiname.
