@@ -8,8 +8,11 @@
 
 ### qwiicopenlog_rw (Beispiel)
 
-Mit zwei I²C Module
+In das I²C Modul [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164) wird eine microSD card 64MB .. 32GB, FAT16 oder FAT32 gesteckt.
+In diesem Programmierbeispiel wird die Anwendung der Blöcke in [qwiicopenlog](../#qwiicopenlogpy) mit Ausgabe in die Konsole demonstriert.
+Auch für den eigentlichen Zweck des Moduls, in eine Datei protokollieren, ist eine Funktion vorhanden. Der Dateiname wird mit Hilfe des [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
+automatisch aus Datum und Zeit zusammengesetzt.
 
-
+Vor allem für den RX Controller ist das interessant, weil der weder Speicherkarte noch Uhr integriert hat. 
 
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **[rtc](../#rtcpy)**
