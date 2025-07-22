@@ -24,6 +24,12 @@ Zum Vergrößern auf das Bild klicken.
 
 Block **log_konsole** (filename1)
 * *filename1* kann Platzhalter wie z.B. \*.\* oder \*.TXT enthalten.
-* 
+* Zeigt 8 Dateinamen mit Datei-Größe in Bytes in der Konsole an.
+* Liest dann von der 1. Datei in der Liste 200 Byte.
+* Konvertiert die Bytes und zeigt den Text in der Konsole an.
+* Die Länge 200 kann im Code geändert werden, ist beim RX aber begrenzt.
+* Beim TXT 4.0 Controller sind > 10000 Bytes kein Problem.
+
+
 
 ![](log_abstand.png)
