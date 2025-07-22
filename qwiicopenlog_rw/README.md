@@ -19,7 +19,7 @@ Manchmal wird in der Konsole ein Memory Allocation Error angezeigt. Oft hängt e
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **[rtc](../#rtcpy)**
 * Laden von fischertechnik GitLab: [I2C_Speicherkarte_Uhr](https://git.fischertechnik-cloud.com/i2c/I2C_Speicherkarte_Uhr)
 
-[![](DSC00441_256.JPG)](DSC00441.JPG)\
+[![](DSC00446_256.JPG)](DSC00446.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
 Block **log_konsole** (filename1)
@@ -52,4 +52,4 @@ Block **log_time** (text, new_line)
 * Datum und Zeit wird aus angeschlossenem [RTC-Modul](../#rtcpy) gelesen.
 * Jede Stunde beginnt eine neue Datei mit sortierbarem Dateiname.
 
-![](log_abstand.png)
+![](log_ntc.png)
