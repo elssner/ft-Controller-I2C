@@ -40,7 +40,7 @@ Block **log_copy** (filename1, filename2, size)
 * Die neue Größe der Zieldatei wird in der Konsole angezeigt.
 * Beim TXT 4.0 Controller wurde mit > 60KBytes erfolgreich getestet.
 * Beim RX Controller < 1 KByte.
-* In der Datei enthaltenes 0xFF wird als EOF behandelt.
+* In der Datei enthaltenes 0xFF wird als EOF (Dateiende) behandelt.
 * Bei wiederholtem Aufruf wird an die Zieldatei angehängt.
 
 
