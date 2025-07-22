@@ -23,7 +23,7 @@ Manchmal wird in der Konsole ein Memory Allocation Error angezeigt. Oft hängt e
 Zum Vergrößern auf das Bild klicken.
 
 Block **log_konsole** (filename1)
-* *filename1* kann Platzhalter wie z.B. \*.\* oder \*.TXT enthalten.
+* *filename1* kann Platzhalter wie z.B. \*.\* oder \*.LOG enthalten.
 * Zeigt 8 Dateinamen mit Datei-Größe in Bytes in der Konsole an.
 * Liest dann von der 1. Datei in der Liste maximal 200 Byte.
 * Konvertiert die Bytes und zeigt den Text in der Konsole an.
