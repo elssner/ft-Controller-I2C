@@ -22,6 +22,7 @@ Quellcodedatei|kurze Beschreibung
 [qwiicbutton_int](../qwiicbutton_int)|2 I²C Buttons, /INT Ereignis, Optokoppler
 [qwiicmotor_joystick](../qwiicmotor_joystick)|2 oder 4 Motoren mit Joystick steuern
 [qwiicmux_rx](../qwiicmux_rx)|RX mit I²C Multiplexer, 10 I²C Module
+[qwiicopenlog_rw](../qwiicopenlog_rw)|Speicherkarte DIR, COPY, LOG mit Zeit aus RTC
 
 
 <!--
