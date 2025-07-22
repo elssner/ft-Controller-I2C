@@ -17,3 +17,8 @@ Vor allem für den RX Controller ist das interessant, weil der weder Speicherkar
 Manchmal wird in der Konsole ein Memory Allocation Error angezeigt. Oft hängt er einfach und muss aus und ein geschaltet werden. Für kleine Dateien und zum protokollieren in eine Datei funktioniert das aber gut.
 
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **[rtc](../#rtcpy)**
+
+![](DSC00441_512.JPG)
+
+
+![](log_abstand.png)
