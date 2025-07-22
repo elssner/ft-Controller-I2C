@@ -40,7 +40,7 @@ Block **log_copy** (filename1, filename2, size)
 * In der Datei enthaltenes 0xFF wird als EOF behandelt.
 
 Block **log_time** (text, new_line)
-* *text* wird an die Datei angehängt.
+* *text* wird an die Datei angehängt (oder neu angelegt).
 * *new_line*=True: CR (=13) und LF (=10) wird an *text* angehängt.
 * Dateiname wird aus Datum und Zeit gebildet: `yyMMddHH`.LOG.
 * Datum und Zeit wird aus angeschlossenem [RTC-Modul](../#rtcpy) gelesen.
