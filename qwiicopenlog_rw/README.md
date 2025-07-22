@@ -25,10 +25,19 @@ Zum Vergrößern auf das Bild klicken.
 Block **log_konsole** (filename1)
 * *filename1* kann Platzhalter wie z.B. \*.\* oder \*.TXT enthalten.
 * Zeigt 8 Dateinamen mit Datei-Größe in Bytes in der Konsole an.
-* Liest dann von der 1. Datei in der Liste 200 Byte.
+* Liest dann von der 1. Datei in der Liste maximal 200 Byte.
 * Konvertiert die Bytes und zeigt den Text in der Konsole an.
 * Die Länge 200 kann im Code geändert werden, ist beim RX aber begrenzt.
 * Beim TXT 4.0 Controller sind > 10000 Bytes kein Problem.
+
+Block **log_copy** (filename1, filename2, size)
+* *filename1* ist die Quelldatei, die vorhanden sein muss.
+* *filename2* Name der Zieldatei, wird angehängt oder neu angelegt.
+* *size* maximale Bytes, die kopiert werden.
+* Die gesamte Datei wird in ein Bytearray gelesen, dann wieder geschrieben.
+* Beim TXT 4.0 Controller wurde mit > 60KBytes erfolgreich getestet.
+* Beim RX Controller < 1 KByte.
+* In der Datei enthaltenes 0xFF wird als EOF behandelt.
 
 
 
