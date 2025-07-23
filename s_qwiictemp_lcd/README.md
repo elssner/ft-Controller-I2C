@@ -35,7 +35,7 @@ Block **temp_lcd** (limit)
 * LCD Zeile 1: temp (Micro Sensor), Temperatur, Limit (umgerechnet)
 * Bei Überschreitung wird Limit und Status (3 Bit) abwechselnd angezeigt.
 * LCD Zeile 2: t102 (großer Sensor), Temperatur °C
-* LCD aktualisiert aller 1 Sekunde.
-* Funktion **temp_lcd** hat eigene dauerhaft Schleife, im Hauptprogramm einfach aufrufen:
+* Für große LCD Ansicht oben auf das Foto klicken.
+* Funktion **temp_lcd** hat eigene dauerhaft Schleife (1s), im Hauptprogramm einfach aufrufen:
 
 ![](temp_lcd.png)
