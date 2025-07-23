@@ -19,6 +19,12 @@ Das erste Beispiel zeigt die Temperatur in der Konsole an und braucht kein Displ
 Zum Vergrößern auf das Bild klicken.
 
 Block **temp_konsole**
-*
+* a
+
+![](temp_konsole.png)
+
+Block **temp_lcd**
+* b
+
 
 ![](temp_lcd.png)
