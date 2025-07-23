@@ -19,7 +19,7 @@ Das erste Beispiel zeigt die Temperatur in der Konsole an und braucht kein Displ
 Zum Vergrößern auf das Bild klicken.
 
 Block **temp_konsole**
-* Zeigt Name und Temperator der zwei Sensoren in der Konsole an (2 Zeilen).
+* Zeigt Name und Temperatur der zwei Sensoren in der Konsole an (2 Zeilen).
 * Ohne LCD Display, Anzeige nur bei verbundener App ROBO Pro Coding.
 * Einmalige Anzeige, **temp_konsole** muss in Schleife aufgerufen werden.
 * Das ermöglicht im Hauptprogramm, auch die Temperatur vom NTC-Widerstand anzuzeigen.
