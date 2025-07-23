@@ -34,6 +34,13 @@ Ausgabe in Konsole:
 s_qwiictmp102 (TMP102): 25.625 °C\
 NTC-Widerstand: 27.56303554655375 °C
 
+> s_qwiictemp (STTS22H): 25.51 °C\
+s_qwiictmp102 (TMP102): 25.5625 °C\
+NTC-Widerstand: 27.812301793662897 °C\
+\
+s_qwiictemp (STTS22H): 25.5 °C\
+s_qwiictmp102 (TMP102): 25.5 °C\
+NTC-Widerstand: 27.72294418150659 °C
 
 Block **temp_lcd** (limit)
 * Zeigt die Temperatur der zwei I²C Sensoren im LCD Display an.
