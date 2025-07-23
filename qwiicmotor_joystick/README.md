@@ -6,7 +6,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### qwiicmotor_joystick (Beispiel)
+### qwiicmotor_joystick (Beispiel Motoren, Joystick)
 
 Mit zwei I²C Modulen [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451) lassen sich vier (zusätzliche) Motoren steuern. Oder wie beim Kran drei Motoren und ein Elektromagnet.
 Nichts ist einfacher, als diese Motoren mit dem I²C [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168) zu steuern. Mit Drücken auf den Joystick wird der Motor Chip gewechselt.
