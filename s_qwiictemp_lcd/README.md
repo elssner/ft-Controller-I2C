@@ -19,7 +19,7 @@ Das erste Beispiel zeigt die Temperatur in der Konsole an und braucht kein Displ
 Zum Vergrößern auf das Bild klicken.
 
 Block **temp_konsole**
-* Zeigt Name und Temperatur der zwei Sensoren in der Konsole an (2 Zeilen).
+* Zeigt Name und Temperatur der zwei I²C Sensoren in der Konsole an (2 Zeilen).
 * Ohne LCD Display, Anzeige nur bei verbundener App ROBO Pro Coding.
 * Einmalige Anzeige, **temp_konsole** muss in Schleife aufgerufen werden.
 * Das ermöglicht im Hauptprogramm, auch die Temperatur vom NTC-Widerstand anzuzeigen.
@@ -28,9 +28,10 @@ Block **temp_konsole**
 ![](temp_konsole.png)
 
 Block **temp_lcd** (limit)
-* Zeigt die Temperatur der zwei Sensoren im LCD Display an.
+* Zeigt die Temperatur der zwei I²C Sensoren im LCD Display an.
 * Keine Verbindung zur App ROBO Pro Coding erforderlich.
-* Bei Überschreitung der Temperatur *limit* wird /INT ausgelöst.
+* NTC-Widerstand wird nicht abgefragt.
+* Bei Überschreitung der Temperatur *limit* wird /INT ausgelöst (am Micro Sensor).
 * Zeile 1: temp (Micro Sensor), Temperatur, Limit (umgerechnet)
 * Bei Überschreitung wird Limit und Status (3 Bit) abwechselnd angezeigt.
 * Zeile 2: t102 (großer Sensor), Temperatur °C
