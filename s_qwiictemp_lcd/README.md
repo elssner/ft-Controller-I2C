@@ -6,7 +6,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### qwiictemp_lcd (Beispiel Temperatursensoren)
+### s_qwiictemp_lcd (Beispiel Temperatursensoren)
 
 Hier sind zwei I²C Temperatur Sensoren angeschlossen: [SparkFun Micro Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21273) und [SparkFun Digital Temperature Sensor - TMP102 (Qwiic)](https://www.sparkfun.com/products/16304).
 Beide Temperaturen werden im LDC Display [SparkFun 16x2 SerLCD - RGB Text (Qwiic)](https://www.sparkfun.com/products/16397) angezeigt. Das erste Beispiel zeigt die Temperatur in der Konsole an und braucht kein Display.
