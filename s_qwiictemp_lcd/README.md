@@ -24,6 +24,7 @@ Block **temp_konsole**
 * Einmalige Anzeige, **temp_konsole** muss in Schleife aufgerufen werden.
 * Das ermöglicht im Hauptprogramm, auch die Temperatur vom NTC-Widerstand anzuzeigen.
 * Folgendes Programm gibt 3 Temperaturen und Leerzeile aus, aller 2,5 Sekunden.
+* (Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.)
 
 ![](temp_konsole.png)
 
