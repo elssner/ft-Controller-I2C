@@ -30,9 +30,9 @@ Block **temp_konsole**
 
 Ausgabe in Konsole:
 
-> s_qwiictemp (STTS22H): 24.11 °C\
-s_qwiictmp102 (TMP102): 24.5625 °C\
-NTC-Widerstand: 28.559444782150507 °C
+> s_qwiictemp (STTS22H): 25.26 °C\
+s_qwiictmp102 (TMP102): 25.625 °C\
+NTC-Widerstand: 27.56303554655375 °C
 
 
 Block **temp_lcd** (limit)
