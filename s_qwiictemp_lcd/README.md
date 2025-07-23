@@ -31,8 +31,10 @@ Block **temp_lcd** (limit)
 * Zeigt die Temperatur der zwei I²C Sensoren im LCD Display an.
 * Keine Verbindung zur App ROBO Pro Coding erforderlich. NTC-Widerstand wird nicht abgefragt.
 * Bei Überschreitung der Temperatur *limit* wird /INT ausgelöst (am Micro Sensor).
-* Zeile 1: temp (Micro Sensor), Temperatur, Limit (umgerechnet)
+* LCD Zeile 1: temp (Micro Sensor), Temperatur, Limit (umgerechnet)
 * Bei Überschreitung wird Limit und Status (3 Bit) abwechselnd angezeigt.
-* Zeile 2: t102 (großer Sensor), Temperatur °C
+* LCD Zeile 2: t102 (großer Sensor), Temperatur °C
+* LCD aktualisiert aller 1 Sekunde.
+* Funktion **temp_lcd** hat eigene dauerhaft Schleife, im Hauptprogramm einfach aufrufen:
 
 ![](temp_lcd.png)
