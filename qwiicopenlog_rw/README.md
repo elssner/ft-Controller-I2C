@@ -33,6 +33,7 @@ Block **log_konsole** (filename1)
 > Die folgenden Blöcke können auch ohne Verbindung zur App ROBO Pro Coding benutzt werden. Dann wird nur nichts in der Konsole angezeigt.
 
 Block **log_copy** (filename1, filename2, size)
+* Kopiert (dupliziert) eine Datei im selben Ordner (Speicherkarte root).
 * *filename1* ist die Quelldatei, die vorhanden sein muss.
 * *filename2* Name der Zieldatei, wird angehängt oder neu angelegt.
 * *size* maximale Bytes, die kopiert werden.
