@@ -27,8 +27,12 @@ Block **temp_konsole**
 
 ![](temp_konsole.png)
 
-Block **temp_lcd**
-* b
-
+Block **temp_lcd** (limit)
+* Zeigt die Temperatur der zwei Sensoren im LCD Display an.
+* Keine Verbindung zur App ROBO Pro Coding erforderlich.
+* Bei Überschreitung der Temperatur *limit* wird /INT ausgelöst.
+* Zeile 1: temp (Micro Sensor), Temperatur, Limit (umgerechnet)
+* Bei Überschreitung wird Limit und Status (3 Bit) abwechselnd angezeigt.
+* Zeile 2: t102 (großer Sensor), Temperatur °C
 
 ![](temp_lcd.png)
