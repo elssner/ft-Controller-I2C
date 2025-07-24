@@ -6,7 +6,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### wattmeter_co2_relay (Beispiel Strommessung)
+### wattmeter_co2_relay (Beispiel Strommessung CO₂ Sensor und Relais)
 
 Das [I2C Digital Wattmeter](https://www.dfrobot.com/product-1827.html) genannte Modul misst eigentlich Spannung und Strom am I²C-Bus. Die Spannung sollte 3,3 Volt betragen. Zum Strom messen wurden zwei I²C Module angeschlossen, die einen hohen Stromverbrauch haben.
 Der [Calliope CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor) verbraucht nur während der Messungen - ungefähr aller 5 Sekunden - fast 100 mA Strom. 
@@ -27,4 +27,9 @@ Bei genauer Beobachtung des Displays wird immer wieder kurzzeitig ein höherer S
 [![](DSC00481_256.JPG)](DSC00481.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+Hauptprogramm
 
+Block **Programmstart**
+
+* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
+* 
