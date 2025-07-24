@@ -17,10 +17,17 @@ Der Proximity Sensor erkennt mit Infrarot, ob ein Objekt näher als 20cm ist. Ei
 Am bekanntesten ist der Ultraschallsensor, allerdings nicht mit I²C Anschluss. Dieser hat einen eigenen Prozessor und der Abstand in Millimeter muss nur noch über den I²C-Bus ausgelesen werden.
 Außerdem erkennt dieses Modul ein Hindernis auch schräg, oben und unten. Damit ist dieser Ultraschallsensor hervorragend geeignet, um Roboter selbst fahren zu lassen, ohne dass sie (schräg) anfahren.
 
+Um die 3 gleichzeitig gemessenen Abstände anzuzeigen, wird das große [SparkFun Qwiic 20x4 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16398) eingesetzt. 
+Für das Beispiel mit 2 Sensoren reicht auch eins der kleineren 16x2 Qwiic Displays. Auch hier ist die Software gleich, es muss nur umgesteckt werden.
+
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[s_qwiicinfrared](../#s_qwiicinfraredpy)**, **[s_qwiiclaser](../#s_qwiiclaserpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**, 
 * Laden von fischertechnik GitLab: [I2C_Abstandsensor_LCD20x4](https://git.fischertechnik-cloud.com/i2c/I2C_Abstandsensor_LCD20x4)
 
 [![](DSC00483_512.JPG)](DSC00483.JPG)\
 Zum Vergrößern auf das Bild klicken.
+
+Block **qdistance_qlcd4**
+* a
+
 
 ![](s_qwwic_distance.png)
