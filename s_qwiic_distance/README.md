@@ -9,8 +9,8 @@
 ### s_qwiic_distance (Beispiel 4 Abstands- und Nähe Sensoren)
 
 Es gibt verschiedene Technologien, um 'Distance' zu messen. Hier sind 4 verschoieden I²C Qwiic Sensoren im Einsatz: [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777), 
-[SparkFun Proximity Sensor Breakout - 20cm, VCNL4040 (Qwiic)](https://www.sparkfun.com/products/15177),
-[SparkFun Distance Sensor - 4 Meter, VL53L1X (Qwiic)](https://www.sparkfun.com/products/14722), [SparkFun Distance Sensor - 1.3 Meter, VL53L4CD (Qwiic)](https://www.sparkfun.com/products/18993),
+[SparkFun Qwiic Proximity Sensor - 20cm, VCNL4040](https://www.sparkfun.com/products/15177),
+[SparkFun Qwiic Distance Sensor - 4 Meter, VL53L1X](https://www.sparkfun.com/products/14722), [SparkFun Qwiic Distance Sensor - 1.3 Meter, VL53L4CD](https://www.sparkfun.com/products/18993),
 
 
 
