@@ -39,7 +39,7 @@ Block **qdistance_qlcd4**
 
 Block **qultraschall_infrarot_qlcd**
 * Zeigt nur Ultraschall und Infrarot Sensor in 2 Zeilen an.
-* Dafür kann kleineres 16x2 Qwiic Display eingesetzt werden.
+* Dafür kann kleineres 16x2 Qwiic LCD Display eingesetzt werden.
 
 Block **qlaser_konsole**
 * Kommt ganz ohne Display aus.
