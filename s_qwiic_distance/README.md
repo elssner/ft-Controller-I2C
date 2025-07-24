@@ -15,6 +15,6 @@ Das erste Beispiel zeigt die Temperatur in der Konsole an und braucht kein Displ
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[s_qwiictemp](../#s_qwiictemppy)**, **[s_qwiictmp102](../#s_qwiictmp102py)**
 * Laden von fischertechnik GitLab: [I2C_Temperatursensor_LCD](https://git.fischertechnik-cloud.com/i2c/I2C_Temperatursensor_LCD)
 
-[![](DSC00483_256.JPG)](DSC00483.JPG)\
+[![](DSC00483_512.JPG)](DSC00483.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
