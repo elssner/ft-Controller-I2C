@@ -8,6 +8,9 @@
 
 ### s_qwiic_distance (Beispiel 4 Abstands- und Nähe Sensoren)
 
+Es gibt verschiedene Technologien, um 'Distance' zu messen. Hier sind 4 verschoieden I²C Qwiic Sensoren im Einsatz: [Ultrasonic Sensor HC-SR04](https://www.sparkfun.com/products/17777), [Proximity Sensor VCNL4040](https://www.sparkfun.com/products/15177),
+[VL53L1X](https://www.sparkfun.com/products/14722), [VL53L4CD](https://www.sparkfun.com/products/18993),
+
 Hier sind zwei I²C Temperatur Sensoren angeschlossen: [SparkFun Micro Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21273) und [SparkFun Digital Temperature Sensor - TMP102 (Qwiic)](https://www.sparkfun.com/products/16304).
 Beide Temperaturen werden im LCD Display [SparkFun 16x2 SerLCD - RGB Text (Qwiic)](https://www.sparkfun.com/products/16397) angezeigt.\
 Das erste Beispiel zeigt die Temperatur in der Konsole an und braucht kein Display.
