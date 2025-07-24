@@ -12,7 +12,7 @@ Hier sind zwei I²C Temperatur Sensoren angeschlossen: [SparkFun Micro Temperatu
 Beide Temperaturen werden im LCD Display [SparkFun 16x2 SerLCD - RGB Text (Qwiic)](https://www.sparkfun.com/products/16397) angezeigt.\
 Das erste Beispiel zeigt die Temperatur in der Konsole an und braucht kein Display.
 
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[lcd](../#lcdpy)**, **[qwiicrelay](../#qwiicrelaypy)**, **[s_co2](../#s_co2py)**, **[wattmeter](../#wattmeterpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[qwiicrelay](../#qwiicrelaypy)**, **[s_co2](../#s_co2py)**, **[wattmeter](../#wattmeterpy)**
 * Laden von fischertechnik GitLab: [I2C_Strommessung_CO2_Relais](https://git.fischertechnik-cloud.com/i2c/I2C_Strommessung_CO2_Relais)
 
 [![](DSC00481_256.JPG)](DSC00481.JPG)\
