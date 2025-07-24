@@ -31,7 +31,16 @@ Für das Beispiel mit 2 Sensoren reicht auch eins der kleineren 16x2 Qwiic Displ
 Zum Vergrößern auf das Bild klicken.
 
 Block **qdistance_qlcd4**
-* a
-
+* Zeigt die Messwerte von 3 Sensoren im Display an.
+* Von den Lasersensoren (unten im Bild) kann immer nur einer angesteckt werden.
+* (Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.)
 
 ![](s_qwwic_distance.png)
+
+Block **qultraschall_infrarot_qlcd**
+* Zeigt nur Ultraschall und Infrarot Sensor in 2 Zeilen an.
+* Dafür kann kleineres 16x2 Qwiic Display eingesetzt werden.
+
+Block **qlaser_konsole**
+* Kommt ganz ohne Display aus.
+* Zeigt den Messwert von einem Laser Sensor fortlaufend in der Konsole an.
