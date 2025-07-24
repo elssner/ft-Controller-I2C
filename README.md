@@ -58,6 +58,7 @@ qwiicopenlog_rw|[Beispiel](qwiicopenlog_rw)|Dateien DIR, COPY, LOG mit Zeit aus 
 [qwiicrelay](#qwiicrelaypy)|<code>0x18</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 [rtc](#rtcpy)|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 [s_co2](#s_co2py)|<code>0x62</code>|[Calliope CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
+s_qwiic_distance|[Beispiel](s_qwiic_distance)|4 verschiedene Abstands- und Nähesensoren, LCD 20x4
 [s_qwiicinfrared](#s_qwiicinfraredpy)|<code>0x60</code>|[Proximity Sensor VCNL4040](https://www.sparkfun.com/products/15177)
 [s_qwiiclaser](#s_qwiiclaserpy)|<code>0x29</code>|Laser Sensor [VL53L1X](https://www.sparkfun.com/products/14722), [VL53L4CD](https://www.sparkfun.com/products/18993)
 [s_qwiictemp](#s_qwiictemppy)|<code>0x3C</code>|[Temperature Sensor - STTS22H](https://www.sparkfun.com/products/21273)
