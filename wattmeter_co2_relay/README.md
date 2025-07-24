@@ -19,5 +19,5 @@ Das erste Beispiel zeigt die Temperatur in der Konsole an und braucht kein Displ
 Zum Vergrößern auf das Bild klicken.
 
 
-![](DSC00471_256.JPG) ![](DSC00473_256.JPG)
+![](DSC00471_256.jpg) ![](DSC00473_256.jpg)
 
