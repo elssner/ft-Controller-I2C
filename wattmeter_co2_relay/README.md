@@ -32,4 +32,5 @@ Hauptprogramm
 Block **Programmstart**
 
 * Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
-* 
+
+![](wattmeter_co2_relay.png)
