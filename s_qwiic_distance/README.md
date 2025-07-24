@@ -18,3 +18,4 @@ Das erste Beispiel zeigt die Temperatur in der Konsole an und braucht kein Displ
 [![](DSC00483_512.JPG)](DSC00483.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+![](s_qwwic_distance.png)
