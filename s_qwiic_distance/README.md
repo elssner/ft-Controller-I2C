@@ -6,7 +6,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### s_qwiic_distance (Beispiel 4 Abstands- und Nähesensoren)
+### s_qwiic_distance (Beispiel 4 Abstands- und Nähe Sensoren)
 
 Hier sind zwei I²C Temperatur Sensoren angeschlossen: [SparkFun Micro Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21273) und [SparkFun Digital Temperature Sensor - TMP102 (Qwiic)](https://www.sparkfun.com/products/16304).
 Beide Temperaturen werden im LCD Display [SparkFun 16x2 SerLCD - RGB Text (Qwiic)](https://www.sparkfun.com/products/16397) angezeigt.\
