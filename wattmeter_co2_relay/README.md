@@ -15,7 +15,7 @@ Das [Relais](https://www.sparkfun.com/products/15093) kann mit dem Mini-Taster a
 Angezeigt werden die Werte auf dem [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series). Vom CO₂ Sensor wird in der 1. Zeile nur die Temperatur angezeigt und in der 2. Zeile Spannung und Strom. 
 Die Anschaltung am I²C-Kabel ist auf dem Foto zu erkennen. Strom wird nur vom CO₂ Sensor und Relais gemessen.
 
-Bei genauer Beobachtung des Displays wird immer wieder kurzzeitig ein höherer Strom angezeigt, immer wenn der CO₂ Sensor eine Messung macht. Der Zeitpunkt der Messung kann nicht bestimmt werden, nur insgesamt an und aus geschaltet werden.
+Bei genauer Beobachtung des Displays wird immer wieder kurzzeitig ein höherer Strom angezeigt, immer wenn der CO₂ Sensor eine Messung macht. Der Zeitpunkt der Messung kann nicht bestimmt, nur insgesamt an und aus geschaltet werden.
 
 
 ![](DSC00471_256.jpg) ![](DSC00473_256.jpg)
