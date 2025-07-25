@@ -18,6 +18,10 @@ Zum Vergrößern auf das Bild klicken.
 Zum Vergrößern auf das Bild klicken.
 
 
+[![](DSC00506_384.JPG)](DSC00506.JPG)\
+Zum Vergrößern auf das Bild klicken.
+
+
 
 Block **qlcd_uhr_stellen**
 > Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[s_qwiicinfrared](../#s_qwiicinfraredpy)**, **[s_qwiiclaser](../#s_qwiiclaserpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**, 
