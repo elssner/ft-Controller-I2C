@@ -8,6 +8,8 @@
 
 ### qwiiclcd_keypad_rtc (Beispiel Uhr stellen, GPIO, Joystick)
 
+Komplexere Beispiele mit einem Qwiic LCD Display 16x2 [RGB Backlight](https://www.sparkfun.com/products/16396), [RGB Text](https://www.sparkfun.com/products/16397). Das größere [20x4](https://www.sparkfun.com/products/16398) ist auch verwendbar.
+
 Es gibt verschiedene Technologien, um 'Distance' zu messen. Hier sind 4 verschiedene I²C Sensoren im Einsatz: 
 * [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777)
 * [SparkFun Qwiic Proximity Sensor - 20cm, VCNL4040](https://www.sparkfun.com/products/15177)
