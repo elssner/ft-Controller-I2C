@@ -63,10 +63,10 @@ Zum Vergrößern auf das Bild klicken.
 * Mit 8 Modelleisenbahntasten (von rechts) werden die 8 GPIO Eingänge geschaltet.
 * Die 8 Bit werden in der 2. Zeile binär, dezimal und als ASCII Zeichen angezeigt.
 * Für den Zeichencode werden 7 Bit verwendet.
-* Das 8. Bit (die gedrückte Taste) überträgt das Zeichen in Zeile 1.
+* Das 8. Bit (die gedrückte Taste 2^7) überträgt das Zeichen in Zeile 1.
 * So kann ein Text bis zur Länge 16 ASCII Zeichen geschrieben werden.
-* Code 0 und Taste 8 `1000 0000` löscht das Display.
-* 
+* Taste 8 und Code 0 `1000 0000` löscht das Display.
+* Für Code `0010 0000` (32) bis `0111 1111` (127) gelten die linken 6 Spalten in der Tabelle.
 
 ![](zeichensatz_384.png)
 
