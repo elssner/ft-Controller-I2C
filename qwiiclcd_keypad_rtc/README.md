@@ -27,7 +27,7 @@ Zum Vergrößern auf das Bild klicken.
 3\. und 4. Zeichen: 2 Ziffern dezimal Zahl `00`..`59`\
 5\. Zeichen: `#` speichern
 * Register: `0` Seconds, `1` Minutes, `2` Hours, `3` Days, `4` Weekdays, `5` Months, `6` Years
-* Weekdays: `0` So, `1` Mo, `2` Di, `3` Mi, `4` Do, `5` Fr, `6` Sa
+* Weekdays: `00` So, `01` Mo, `02` Di, `03` Mi, `04` Do, `05` Fr, `06` Sa
 * Die Zeichen werden im Display 2. Zeile angezeigt.
 * `*216#` stellt Stunde auf 16; `*402#` Dienstag; `*000#` Sekunde 0
 
