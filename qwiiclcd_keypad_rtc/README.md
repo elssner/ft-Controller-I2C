@@ -51,7 +51,8 @@ Zum Vergrößern auf das Bild klicken.
 * Der 'onoff' Wert wechselt bei jedem Drücken False/True.
 * In Ruhestellung soll X und Y den Wert 128 haben.
 * Die Werte weichen produktionsbedingt leicht davon ab.
-* Joystick links bzw. unten: 0; rechts bzw. oben: 255  
+* Joystick links bzw. unten: 0; rechts bzw. oben: 255
+* Werte können direkt an den [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451) übergeben werden.
 
 
 ![](zeichensatz_384.png)
