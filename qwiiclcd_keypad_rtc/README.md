@@ -16,7 +16,7 @@ Die anderen I²C Module werden nicht in jedem Beispiel verwendet:
 * [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 
 
-* Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO)
+Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO)
 
 
 Block **qlcd_uhr_stellen**
