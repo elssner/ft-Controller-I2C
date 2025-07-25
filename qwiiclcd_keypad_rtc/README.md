@@ -24,7 +24,7 @@ Zum Vergrößern auf das Bild klicken.
 * Um ein Register zu ändern, müssen 5 Tasten gedrückt werden:\
 1\. Zeichen: `*` startet neue Eingabe\
 2\. Zeichen: Register `0`..`6`\
-3\. und 4. Zeichen: 2 Ziffern dezimal Zahl `00`..`59`\
+3\. und 4. Zeichen: 2 Ziffern dezimal Zahl `00`..`59`, Jahr 2-stellig\
 5\. Zeichen: `#` speichern
 * Register: `0` Seconds, `1` Minutes, `2` Hours, `3` Days, `4` Weekdays, `5` Months, `6` Years
 * Weekdays: `00` So, `01` Mo, `02` Di, `03` Mi, `04` Do, `05` Fr, `06` Sa
