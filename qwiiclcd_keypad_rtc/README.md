@@ -14,9 +14,15 @@ Beispiele mit einem Qwiic LCD Display 16x2 [RGB Backlight](https://www.sparkfun.
 [![](DSC00496_384.JPG)](DSC00496.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+[![](DSC00500_384.JPG)](DSC00500.JPG)\
+Zum Vergrößern auf das Bild klicken.
+
+
+
 Block **qlcd_uhr_stellen**
 > Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[s_qwiicinfrared](../#s_qwiicinfraredpy)**, **[s_qwiiclaser](../#s_qwiiclaserpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**, 
 * a
 
 
 ![](zeichensatz_512.png)
+
