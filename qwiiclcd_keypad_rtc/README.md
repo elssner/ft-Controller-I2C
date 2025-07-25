@@ -29,7 +29,7 @@ Zum Vergrößern auf das Bild klicken.
 * Register: `0` Seconds, `1` Minutes, `2` Hours, `3` Days, `4` Weekdays, `5` Months, `6` Years
 * Weekdays: `0` So, `1` Mo, `2` Di, `3` Mi, `4` Do, `5` Fr, `6` Sa
 * Die Zeichen werden im Display 2. Zeile angezeigt.
-* `*216#` stellt Stunde auf 16
+* `*216#` stellt Stunde auf 16; `*402#` Dienstag; `*000#` Sekunde 0
 
 [![](DSC00496_384.JPG)](DSC00496.JPG)\
 Zum Vergrößern auf das Bild klicken.
