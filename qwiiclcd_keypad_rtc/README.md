@@ -25,6 +25,7 @@ Zum Vergrößern auf das Bild klicken.
 1. Zeichen: *
 2. Zeichen: Register 0..6
 3. und 4.: 2 Ziffern dezimal Zahl 00..59
+4. 
 5. Zeichen: # speichern
 * a
 
