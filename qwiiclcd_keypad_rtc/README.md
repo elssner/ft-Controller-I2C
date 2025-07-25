@@ -60,6 +60,8 @@ Block **qlcd_gpio_ascii**
 Zum Vergrößern auf das Bild klicken.
 
 * Das ist eine Binärschreibmaschine.
+* Mit 8 Modelleisenbahntasten (von rechts) werden die 8 GPIO Eingänge geschaltet.
+* Die 8 Bit werden in der 2. Zeile binär, dezimal und als ASCII Zeichen angezeigt.
 
 ![](zeichensatz_384.png)
 
