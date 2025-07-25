@@ -448,8 +448,10 @@ Code|48|49|50|51|52|53|54|55|56|57|42|35
 → LCD: liquid-crystal display → [de.wikipedia.org/wiki/Flüssigkristallanzeige](https://de.wikipedia.org/wiki/Fl%C3%BCssigkristallanzeige)
 ###### [SparkFun Qwiic 20x4 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16398) | [SparkFun Qwiic 16x2 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16396)
 Block **qlcd_init** ()
-* Muss einmal beim Start aufgerufen werden.
-* Im Code kann die Größe des Display 16x2 oder 20x4 (COLS x ROWS) konfiguriert werden.
+* Muss für Display 16x2 einmal beim Start aufgerufen werden.
+
+Block **qlcd20x4_init** ()
+* Muss für Display 20x4 einmal beim Start aufgerufen werden.
 
 Block **qlcd_text** (row, col, end, text, right)
 * Schreibt an eine bestimmte Position Text mit fester Länge.
