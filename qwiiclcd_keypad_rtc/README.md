@@ -13,14 +13,20 @@ Beispiele mit einem Qwiic LCD Display 16x2 [RGB Backlight](https://www.sparkfun.
 
 
 Block **qlcd_uhr_stellen**
-> Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**
-
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**
 
 [![](DSC00500_384.JPG)](DSC00500.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+* Zeigt Datum und Uhrzeit von RTC Modul auf dem LCD Display an.
+* Aktualisiert jede Sekunde.
+* Mit dem Keypad kann Uhr und Datum gestellt werden.
+* Um ein Register zu ändern, müssen 5 Tasten gedrückt werden:
+  1. Zeichen: *
+  2. Zeichen: Register 0..6
+  3. und 4.: 2 Ziffern dezimal Zahl 00..59
+  5. Zeichen: # speichern
 * a
-
 
 [![](DSC00496_384.JPG)](DSC00496.JPG)\
 Zum Vergrößern auf das Bild klicken.
