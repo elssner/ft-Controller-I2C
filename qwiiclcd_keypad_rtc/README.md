@@ -11,21 +11,24 @@
 Beispiele mit einem Qwiic LCD Display 16x2 [RGB Backlight](https://www.sparkfun.com/products/16396) oder [RGB Text](https://www.sparkfun.com/products/16397). Das größere [20x4](https://www.sparkfun.com/products/16398) ist auch verwendbar.
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO)
 
-[![](DSC00496_384.JPG)](DSC00496.JPG)\
-Zum Vergrößern auf das Bild klicken.
+
+Block **qlcd_uhr_stellen**
+> Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**
+
 
 [![](DSC00500_384.JPG)](DSC00500.JPG)\
+Zum Vergrößern auf das Bild klicken.
+
+* a
+
+
+[![](DSC00496_384.JPG)](DSC00496.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
 
 [![](DSC00506_384.JPG)](DSC00506.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
-
-
-Block **qlcd_uhr_stellen**
-> Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[s_qwiicinfrared](../#s_qwiicinfraredpy)**, **[s_qwiiclaser](../#s_qwiiclaserpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**, 
-* a
 
 
 ![](zeichensatz_384.png)
