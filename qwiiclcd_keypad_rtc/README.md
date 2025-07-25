@@ -22,7 +22,7 @@ Zum Vergrößern auf das Bild klicken.
 * Aktualisiert jede Sekunde.
 * Mit dem Keypad kann Uhr und Datum gestellt werden.
 * Um ein Register zu ändern, müssen 5 Tasten gedrückt werden:\
-1\. Zeichen: `*`\
+1\. Zeichen: `*` startet neue Eingabe\
 2\. Zeichen: Register `0`..`6`\
 3\. und 4. Zeichen: 2 Ziffern dezimal Zahl `00`..`59`\
 5\. Zeichen: `#` speichern
