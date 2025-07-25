@@ -19,4 +19,4 @@ Block **qlcd_uhr_stellen**
 * a
 
 
-![](zeichensatz.png)
+![](zeichensatz_512.png)
