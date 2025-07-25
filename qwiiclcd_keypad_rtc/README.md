@@ -68,7 +68,7 @@ Zum Vergrößern auf das Bild klicken.
 * Taste 8 und Code 0 `1000 0000` löscht das Display.
 * Für Code `0010 0000` (32) bis `0111 1111` (127) gelten die linken 6 Spalten in der Tabelle.
 
-[![](zeichensatz_384.png)](zeichensatz.pdf)\
+[![](zeichensatz_384_450.png)](zeichensatz.pdf)\
 Zur pdf-Datei auf das Bild klicken.
 
 * Für Code `0000 0001` (1) bis `0001 1111` (31) gelten die rechten 2 Spalten in der Tabelle.
