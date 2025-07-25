@@ -22,10 +22,10 @@ Zum Vergrößern auf das Bild klicken.
 * Aktualisiert jede Sekunde.
 * Mit dem Keypad kann Uhr und Datum gestellt werden.
 * Um ein Register zu ändern, müssen 5 Tasten gedrückt werden:
-  1. Zeichen: *
-  2. Zeichen: Register 0..6
-  3. und 4.: 2 Ziffern dezimal Zahl 00..59
-  5. Zeichen: # speichern
+1. Zeichen: *
+2. Zeichen: Register 0..6
+3. und 4.: 2 Ziffern dezimal Zahl 00..59
+5. Zeichen: # speichern
 * a
 
 [![](DSC00496_384.JPG)](DSC00496.JPG)\
