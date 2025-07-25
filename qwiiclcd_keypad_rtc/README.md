@@ -26,8 +26,8 @@ Zum Vergrößern auf das Bild klicken.
 2\. Zeichen: Register `0`..`6`\
 3\. und 4. Zeichen: 2 Ziffern dezimal Zahl `00`..`59`\
 5\. Zeichen: `#` speichern
-* `0` Seconds, `1` Minutes, `2` Hours, `3` Days, `4` Weekdays, `5` Months, `6` Years\
-  Weekdays `0`..`6`: `0` Sonntag
+* Register: `0` Seconds, `1` Minutes, `2` Hours, `3` Days, `4` Weekdays, `5` Months, `6` Years\
+  Weekdays `0`..`6`: `0` Sonntag, `1`Montag .. 
 
 * a
 
