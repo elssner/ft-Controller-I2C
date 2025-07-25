@@ -8,7 +8,14 @@
 
 ### qwiiclcd_keypad_rtc (Qwiic LCD: RTC Uhr stellen, GPIO ASCII Eingabe, Joystick)
 
-Beispiele mit einem Qwiic LCD Display 16x2 [RGB Backlight](https://www.sparkfun.com/products/16396) oder [RGB Text](https://www.sparkfun.com/products/16397). Das größere [20x4](https://www.sparkfun.com/products/16398) ist auch verwendbar.
+Beispiele mit einem Qwiic LCD Display 16x2 [RGB Backlight](https://www.sparkfun.com/products/16396) oder [RGB Text](https://www.sparkfun.com/products/16397). Das größere LCD Display [20x4](https://www.sparkfun.com/products/16398) ist auch verwendbar.
+Die anderen I²C Module werden nicht in jedem Beispiel verwendet:
+* [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
+* [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
+* [SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)
+* [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
+
+
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO)
 
 
