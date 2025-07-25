@@ -62,7 +62,10 @@ Zum Vergrößern auf das Bild klicken.
 * Das ist eine Binärschreibmaschine.
 * Mit 8 Modelleisenbahntasten (von rechts) werden die 8 GPIO Eingänge geschaltet.
 * Die 8 Bit werden in der 2. Zeile binär, dezimal und als ASCII Zeichen angezeigt.
-* Für den Zeichencode werden 7 Bit verwendet, die 8. Taste überträgt das aktuelle Zeichen in Zeile 1.
+* Für den Zeichencode werden 7 Bit verwendet.
+* Das 8. Bit (die gedrückte Taste) überträgt das Zeichen in Zeile 1.
+* So kann ein Text bis zur Länge 16 ASCII Zeichen geschrieben werden.
+* Code 0 und Taste 8 `1000 0000` löscht das Display.
 * 
 
 ![](zeichensatz_384.png)
