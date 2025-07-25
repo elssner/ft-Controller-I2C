@@ -20,7 +20,7 @@ Beim TXT 4.0 Controller sind solche Einschränkungen nicht bekannt.
 Quellcodedatei|kurze Beschreibung
 ---|---
 [qwiicbutton_int](../qwiicbutton_int)|2 I²C Buttons, /INT Ereignis, Optokoppler
-[qwiiclcd_keypad_rtc](../qwiiclcd_keypad_rtc)|Qwiic LCD: Uhr stellen, GPIO ASCII Eingabe, Joystick
+[qwiiclcd_keypad_rtc](../qwiiclcd_keypad_rtc)|Qwiic LCD: RTC Uhr stellen, GPIO ASCII Eingabe, Joystick
 [qwiicmotor_joystick](../qwiicmotor_joystick)|2 oder 4 Motoren mit Joystick steuern
 [qwiicmux_rx](../qwiicmux_rx)|RX Controller mit I²C Multiplexer, 10 I²C Module
 [qwiicopenlog_rtc](../qwiicopenlog_rtc)|Speicherkarte DIR, COPY, LOG mit Zeit aus RTC
