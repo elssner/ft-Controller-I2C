@@ -27,7 +27,7 @@ Zum Vergrößern auf das Bild klicken.
 3\. und 4. Zeichen: 2 Ziffern dezimal Zahl `00`..`59`\
 5\. Zeichen: `#` speichern
 * Register: `0` Seconds, `1` Minutes, `2` Hours, `3` Days, `4` Weekdays, `5` Months, `6` Years
-* Weekdays: `0` So, `1`Mo .. `6` Sa
+* Weekdays: `0` So, `1`Mo, `2` Di, Mi `3`, Do `4`, Fr `5`, Sa `6`
 
 * a
 
