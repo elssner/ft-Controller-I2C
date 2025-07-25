@@ -34,11 +34,9 @@ Zum Vergrößern auf das Bild klicken.
 5\. Zeichen: `#` speichern
 * Register: `0` Seconds, `1` Minutes, `2` Hours, `3` Days, `4` Weekdays, `5` Months, `6` Years
 * Weekdays: `00` So, `01` Mo, `02` Di, `03` Mi, `04` Do, `05` Fr, `06` Sa
-* Die Zeichen werden im Display 2. Zeile angezeigt.
+* Die bereits eingegebenen Zeichen werden im Display 2. Zeile angezeigt.
 * `*216#` stellt Stunde auf 16; `*402#` Dienstag; `*000#` Sekunde 0
 
-[![](DSC00496_384.JPG)](DSC00496.JPG)\
-Zum Vergrößern auf das Bild klicken.
 
 Block **qlcd_joystick**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiiclcd](../#qwiiclcdpy)**
@@ -54,6 +52,14 @@ Zum Vergrößern auf das Bild klicken.
 * Joystick links bzw. unten: 0; rechts bzw. oben: 255
 * Werte können direkt an den [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451) übergeben werden.
 
+
+Block **qlcd_gpio_ascii**
+* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiicgpio](../#qwiicgpiopy)**, **[qwiiclcd](../#qwiiclcdpy)**
+
+[![](DSC00496_384.JPG)](DSC00496.JPG)\
+Zum Vergrößern auf das Bild klicken.
+
+* Das ist eine Binärschreibmaschine.
 
 ![](zeichensatz_384.png)
 
