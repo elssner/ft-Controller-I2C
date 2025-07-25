@@ -19,7 +19,7 @@ Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO](https://git.fischertechnik-c
 
 
 Block **qlcd_uhr_stellen**
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**
+* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**
 
 [![](DSC00500_384.JPG)](DSC00500.JPG)\
 Zum Vergrößern auf das Bild klicken.
@@ -40,10 +40,18 @@ Zum Vergrößern auf das Bild klicken.
 [![](DSC00496_384.JPG)](DSC00496.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+Block **qlcd_joystick**
+* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiiclcd](../#qwiiclcdpy)**
 
 [![](DSC00506_384.JPG)](DSC00506.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+* Zeigt X und Y Wert vom Joystick auf dem LCD Display an.
+* Außerdem ob der Button vom Joystick gedrückt ist oder war.
+* Der 'onoff' Wert wechselt bei jedem Drücken False/True.
+* In Ruhestellung soll X und Y den Wert 128 haben.
+* Die Werte weichen produktionsbedingt leicht davon ab.
+* Joystick links bzw. unten: 0; rechts bzw. oben: 255  
 
 
 ![](zeichensatz_384.png)
