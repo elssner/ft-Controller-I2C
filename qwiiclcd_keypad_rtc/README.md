@@ -70,3 +70,7 @@ Zum Vergrößern auf das Bild klicken.
 
 ![](zeichensatz_384.png)
 
+* Für Code `0000 0001` (1) bis `0001 1111` (31) gelten die rechten 2 Spalten in der Tabelle.
+* Zum eingegebenen Code wird 0xE0 addiert, um die Zeichen des Displays mit Code 0xE1..0xFF zu nutzen.
+* Allerdings funktionieren nicht alle Zeichen wie erwartet.
+* 
