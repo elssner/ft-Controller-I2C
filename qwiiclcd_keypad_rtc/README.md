@@ -20,8 +20,8 @@ Zum Vergrößern auf das Bild klicken.
 
 * Zeigt Datum und Uhrzeit von RTC Modul auf dem LCD Display an.
 * Aktualisiert jede Sekunde.
-* Mit dem Keypad kann Uhr und Datum gestellt werden.
-* Um ein Register zu ändern, müssen 5 Tasten gedrückt werden (7 Register einzeln):\
+* Mit dem Keypad kann Uhr und Datum gestellt werden (7 Register einzeln).
+* Um ein Register zu ändern, müssen 5 Tasten gedrückt werden:\
 1\. Zeichen: `*` startet neue Eingabe\
 2\. Zeichen: Register `0`..`6`\
 3\. und 4. Zeichen: 2 Ziffern dezimal Zahl `00`..`59`\
