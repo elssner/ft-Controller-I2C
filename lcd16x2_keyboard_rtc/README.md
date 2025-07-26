@@ -6,7 +6,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### qwiiclcd_keypad_rtc (RTC Uhr stellen, GPIO, Joystick)
+### lcd16x2_keyboard_rtc (Grove LCD, Tastatur, Uhr)
 
 Beispiele mit einem [SparkFun Qwiic LCD Display 16x2](https://www.sparkfun.com/products/16397). Außerdem werden diese I²C Module verwendet (nicht alle zusammen):
 * [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
@@ -27,3 +27,5 @@ Zum Vergrößern auf das Bild klicken.
 
 [![](DSC00508_512.JPG)](DSC00508.JPG)\
 Zum Vergrößern auf das Bild klicken.
+
+![](lcd16x2_keyboard_rtc.png)
