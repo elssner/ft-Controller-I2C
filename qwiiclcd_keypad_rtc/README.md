@@ -33,7 +33,7 @@ Zum Vergrößern auf das Bild klicken.
 * Register: `0` Seconds, `1` Minutes, `2` Hours, `3` Days, `4` Weekdays, `5` Months, `6` Years
 * Weekdays: `00` So, `01` Mo, `02` Di, `03` Mi, `04` Do, `05` Fr, `06` Sa
 * Die bereits eingegebenen Zeichen werden im Display 2. Zeile angezeigt.
-* `*216#` stellt Stunde auf 16; `*402#` Dienstag; `*000#` Sekunde 0
+* `*216#` stellt Stunde auf 16; `*402#` Dienstag; `*000#` Sekunde 0; `*625#` Jahr 2025
 
 
 Block **qlcd_joystick**
