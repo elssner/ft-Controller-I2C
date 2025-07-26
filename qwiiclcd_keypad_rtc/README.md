@@ -13,7 +13,7 @@ Beispiele mit einem [SparkFun Qwiic LCD Display 16x2](https://www.sparkfun.com/p
 * [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
 * [SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)
 * [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
-* [Modellbahn Tastenpult](https://www.tillig.com/Produkte/produktinfo-08211.html)
+* [Tillig Modellbahn Tastenpult](https://www.tillig.com/Produkte/produktinfo-08211.html)
 
 
 Block **qlcd_uhr_stellen**
