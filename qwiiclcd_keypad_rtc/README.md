@@ -15,11 +15,9 @@ Beispiele mit einem [SparkFun Qwiic LCD Display 16x2](https://www.sparkfun.com/p
 * [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 
 
-Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO)
-
-
 Block **qlcd_uhr_stellen**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**
+* Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
 [![](DSC00500_384.JPG)](DSC00500.JPG)\
 Zum Vergrößern auf das Bild klicken.
@@ -40,6 +38,7 @@ Zum Vergrößern auf das Bild klicken.
 
 Block **qlcd_joystick**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiiclcd](../#qwiiclcdpy)**
+* Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
 [![](DSC00506_384.JPG)](DSC00506.JPG)\
 Zum Vergrößern auf das Bild klicken.
@@ -55,6 +54,7 @@ Zum Vergrößern auf das Bild klicken.
 
 Block **qlcd_gpio_ascii**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiicgpio](../#qwiicgpiopy)**, **[qwiiclcd](../#qwiiclcdpy)**
+* Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
 [![](DSC00496_384.JPG)](DSC00496.JPG)\
 Zum Vergrößern auf das Bild klicken.
