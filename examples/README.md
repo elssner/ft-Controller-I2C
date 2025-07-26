@@ -19,7 +19,7 @@ Beim TXT 4.0 Controller sind solche Einschränkungen nicht bekannt.
 
 Quellcodedatei|kurze Beschreibung
 ---|---
-[lcd16x2_keyboard_rtc](../lcd16x2_keyboard_rtc)|Grove LCD, Tastatur, Uhr
+[lcd16x2_keyboard_rtc](../lcd16x2_keyboard_rtc)|Grove LCD: Tastatur schreiben, Uhr, DIP Schalter
 [qwiicbutton_int](../qwiicbutton_int)|2 I²C Buttons, /INT Ereignis, Optokoppler
 [qwiiclcd_keypad_rtc](../qwiiclcd_keypad_rtc)|Qwiic LCD: RTC Uhr stellen, GPIO ASCII Eingabe, Joystick
 [qwiicmotor_joystick](../qwiicmotor_joystick)|2 oder 4 Motoren mit Joystick steuern
