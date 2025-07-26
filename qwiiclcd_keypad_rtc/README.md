@@ -13,6 +13,7 @@ Beispiele mit einem [SparkFun Qwiic LCD Display 16x2](https://www.sparkfun.com/p
 * [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
 * [SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)
 * [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
+* [Modellbahn Tastenpult](https://www.tillig.com/Produkte/produktinfo-08211.html)
 
 
 Block **qlcd_uhr_stellen**
@@ -60,7 +61,7 @@ Block **qlcd_gpio_ascii**
 Zum Vergrößern auf das Bild klicken.
 
 * Das ist eine Binärschreibmaschine.
-* Mit 8 Modelleisenbahntasten (von rechts) werden die 8 GPIO Eingänge geschaltet.
+* Mit 8 [Modelleisenbahntasten](https://www.tillig.com/Produkte/produktinfo-08211.html) (von rechts) werden die 8 GPIO Eingänge geschaltet.
 * Die 8 Bit werden in der 2. Zeile binär, dezimal und als ASCII Zeichen angezeigt.
 * Für den Zeichencode werden 7 Bit verwendet.
 * Das 8. Bit (die gedrückte Taste 2^7) überträgt das Zeichen in Zeile 1.
