@@ -57,7 +57,7 @@ Block **qlcd_gpio_ascii**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiicgpio](../#qwiicgpiopy)**, **[qwiiclcd](../#qwiiclcdpy)**
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
-[![](DSC00496_384.JPG)](DSC00496.JPG)\
+[![](DSC00534_512.JPG)](DSC00534.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
 * Das ist eine Binärschreibmaschine.
