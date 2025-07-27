@@ -41,7 +41,7 @@ Block **qlcd_joystick**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiiclcd](../#qwiiclcdpy)**
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
-[![](DSC00506_384.JPG)](DSC00506.JPG)\
+[![](DSC00529_512.JPG)](DSC00529.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
 * Zeigt X und Y Wert vom Joystick auf dem LCD Display an.
