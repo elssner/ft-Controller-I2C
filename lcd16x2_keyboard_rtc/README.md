@@ -38,3 +38,5 @@ Zum Vergrößern auf das Bild klicken.
 * Alle anderen Zeichen werden angezeigt, bis die Zeile voll ist (16 Zeichen).
 
 ![](lcd16x2_keyboard_rtc.png)
+
+* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
