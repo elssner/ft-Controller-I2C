@@ -6,7 +6,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### lcd16x2_keyboard_rtc (Text schreiben mit Tastatur, Uhr, DIP Schalter)
+### lcd16x2_keyboard_rtc (Text schreiben mit Tastatur, Uhr, DIP-Schalter)
 
 * [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
 * [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch)
