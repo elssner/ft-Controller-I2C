@@ -20,7 +20,7 @@ Block **qlcd_uhr_stellen**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
-[![](DSC00500_384.JPG)](DSC00500.JPG)\
+[![](DSC00526_512.JPG)](DSC00526.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
 * Zeigt Datum und Uhrzeit von RTC Modul auf dem LCD Display an.
