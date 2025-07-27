@@ -69,7 +69,7 @@ s_qwiictemp_lcd|[Beispiel](s_qwiictemp_lcd)|2 Temperatursensoren, LCD Display
 [s_qwiictmp102](#s_qwiictmp102py)|<code>0x48</code>|[Temperature Sensor - TMP102](https://www.sparkfun.com/products/16304)
 [s_qwiicultrasonic](#s_qwiicultrasonicpy)|<code>0x09</code>|[Ultrasonic Sensor HC-SR04](https://www.sparkfun.com/products/17777)
 [wattmeter](#wattmeterpy)|<code>0x45</code>|[DFRobot Gravity Digital Wattmeter](https://www.dfrobot.com/product-1827.html)
-
+wattmeter_co2_relay|[Beispiel](wattmeter_co2_relay)|Strom messen von CO₂ Sensor und I²C Relais
 
 
 ### I²C
