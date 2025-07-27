@@ -6,9 +6,9 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### lcd16x2_keyboard_rtc (Grove LCD, Tastatur, Uhr)
+### lcd16x2_keyboard_rtc (Text schreiben mit Tastatur, Uhr, DIP Schalter)
 
-Beispiele mit einem [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series). Außerdem werden diese I²C Module verwendet:
+* [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
 * [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch)
 * [M5Stack Card Keyboard](https://docs.m5stack.com/en/unit/cardkb_1.1)
 * [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
