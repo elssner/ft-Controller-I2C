@@ -78,3 +78,5 @@ Zur pdf-Datei auf die Tabelle klicken.
 * `0000 0001` ä, `0000 1111` ö, `0001 0101` ü, `0000 0010` ß, `0000 0011` €
 
 ![](qwiiclcd_keypad_rtc.png)
+
+* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
