@@ -8,24 +8,33 @@
 
 ### lcd16x2_keyboard_rtc (Grove LCD, Tastatur, Uhr)
 
-Beispiele mit einem [SparkFun Qwiic LCD Display 16x2](https://www.sparkfun.com/products/16397). Außerdem werden diese I²C Module verwendet (nicht alle zusammen):
-* [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
-* [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
-* [SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)
+Beispiele mit einem [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series). Außerdem werden diese I²C Module verwendet:
+* [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch)
+* [M5Stack Card Keyboard](https://docs.m5stack.com/en/unit/cardkb_1.1)
 * [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
-* [Tillig Modellbahn Tastenpult](https://www.tillig.com/Produkte/produktinfo-08211.html)
 
 
-Block **qlcd_uhr_stellen**
-* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**
-* Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
+Block **grovelcd_dipswitch_rtc**
+* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[dipswitch](../#dipswitchpy)**, **[rtc](../#rtcpy)**
+* Laden von fischertechnik GitLab: [I2C_LCD_RTC_Keyboard_Dipswitch](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_Keyboard_Dipswitch)
 
 [![](DSC00515_512.JPG)](DSC00515.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+* Zeigt Datum und Uhrzeit von RTC Modul auf dem LCD Display an.
+* Zeigt die Schalterstellung vom DIP Schalter als 6 Nullen oder Einsen an.
+* Aktualisiert jede Sekunde.
 
+Block **grovelcd_keyboard**
+* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[keyboard](../#keyboardpy)**
+* Laden von fischertechnik GitLab: [I2C_LCD_RTC_Keyboard_Dipswitch](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_Keyboard_Dipswitch)
 
 [![](DSC00508_512.JPG)](DSC00508.JPG)\
 Zum Vergrößern auf das Bild klicken.
+
+* Mit der Tastatur kann Text in das LCD Display geschrieben werden.
+* ENTER: neue Zeile.
+* Zurück-Taste: letztes Zeichen löschen.
+* Alle anderen Zeichen werden angezeigt, bis die Zeile voll ist (16 Zeichen).
 
 ![](lcd16x2_keyboard_rtc.png)
