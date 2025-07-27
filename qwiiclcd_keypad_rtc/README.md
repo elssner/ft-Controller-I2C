@@ -8,7 +8,7 @@
 
 ### qwiiclcd_keypad_rtc (RTC Uhr stellen, GPIO, Joystick)
 
-Beispiele mit einem [SparkFun Qwiic LCD Display 16x2](https://www.sparkfun.com/products/16397). Außerdem werden diese I²C Module verwendet (nicht alle zusammen):
+* [SparkFun Qwiic LCD Display 16x2](https://www.sparkfun.com/products/16397)
 * [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 * [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
 * [SparkFun Qwiic Keypad 12 Tasten](https://www.sparkfun.com/products/15290)
