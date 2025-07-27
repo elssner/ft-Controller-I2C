@@ -18,7 +18,7 @@ Block **grovelcd_dipswitch_rtc**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[dipswitch](../#dipswitchpy)**, **[rtc](../#rtcpy)**
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_Keyboard_Dipswitch](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_Keyboard_Dipswitch)
 
-[![](DSC00515_512.JPG)](DSC00515.JPG)\
+[![](DSC00508_512.JPG)](DSC00508.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
 * Zeigt Datum und Uhrzeit von RTC Modul auf dem LCD Display an.
@@ -29,7 +29,7 @@ Block **grovelcd_keyboard**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[keyboard](../#keyboardpy)**
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_Keyboard_Dipswitch](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_Keyboard_Dipswitch)
 
-[![](DSC00508_512.JPG)](DSC00508.JPG)\
+[![](DSC00515_512.JPG)](DSC00515.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
 * Mit der Tastatur kann Text in das LCD Display geschrieben werden.
