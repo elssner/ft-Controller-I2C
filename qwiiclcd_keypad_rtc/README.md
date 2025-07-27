@@ -76,3 +76,5 @@ Zur pdf-Datei auf die Tabelle klicken.
 * Zum Code wird 0xE0 addiert, um die Zeichen 0xE1..0xFF des Displays zu nutzen.
 * Allerdings funktionieren nicht alle Zeichen wie erwartet.
 * `0000 0001` ä, `0000 1111` ö, `0001 0101` ü, `0000 0010` ß, `0000 0011` €
+
+![](qwiiclcd_keypad_rtc.png)
