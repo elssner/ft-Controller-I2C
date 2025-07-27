@@ -42,6 +42,7 @@ Quellcodedatei|I²C-Adresse|I²C Module
 lcd16x2_keyboard_rtc|[Beispiel](lcd16x2_keyboard_rtc)|Grove LCD: Tastatur schreiben, Uhr, DIP Schalter
 [oled](#oledpy)|<code>0x3C 0x3D</code>|OLED Displays [128x128](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0), [128x64](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0)
 [oled_geometrie](#oled_geometriepy)|**Erweiterung**|Blöcke für Linien und Kreise
+oled_text_analoguhr|[Beispiel](oled_text_analoguhr)|OLED Analoguhr, Text Zeichensatz aus EEPROM
 [qwiicbutton](#qwiicbuttonpy)|<code>0x6F 0x6E</code>|[SparkFun Qwiic Button](https://www.sparkfun.com/products/16842)
 qwiicbutton_int|[Beispiel](qwiicbutton_int)|2 I²C Buttons, /INT Ereignis, Optokoppler
 [qwiicbutton_queue](#qwiicbutton_queuepy)|**Erweiterung**|Blöcke für Button Queue
