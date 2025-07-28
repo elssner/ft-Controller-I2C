@@ -45,7 +45,7 @@ Quellcodedatei|kurze Beschreibung
 `I8`|`I7`|`I6`|`I5`|Beispiel (Block)|Funktion
 ---|---|---|---|---|---
 `0`|`0`|`0`|`0`|[i2c_scan](../#i2ccodepy)|I²C-Adressen in Konsole
-`0`|`0`|`0`|`1`|[grovelcd_keyboard](../lcd16x2_keyboard_rtc#block-grovelcd_keyboard)|1
+`0`|`0`|`0`|`1`|[grovelcd_keyboard](../lcd16x2_keyboard_rtc#block-grovelcd_keyboard)|Tastatur in Display schreiben
 
 
 `0`|`0`|`0`|`1`|**grovelcd_rtc**|[lcd16x2](#lcd16x2py), [rtc](#rtcpy)
