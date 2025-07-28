@@ -53,8 +53,13 @@ Unterprogramm Block **oled_analoguhr_128**
 
 Unterprogramm Block **oled_digitaluhr_6_7**
 * Zeigt Zeit mit Sekunde, Wochentag und Datum digital (als Ziffern) in den gelben Zeilen an.
-* Löscht und aktualisiert nur die letzten 2 Zeilen 6-7 vom 128x64 Pixel Display.
-* Gesamte Zeit (7 Elemente) kommt aus dem RTC Modul.
+* Löscht und aktualisiert nur die 2 gelben Zeilen 6-7 vom 128x64 Pixel Display.
+* Die gesamte Zeit (7 Elemente) kommt aus dem RTC Modul.
+
+Unterprogramm Block **oled_zeichnen_0_5**
+* Zeichnet Analoguhr links in den blauen Bereich des 128x64 Displays.
+* Zeichnet rechts daneben zufällige Rechtecke und Linien x=48..127; y=0..47.
+* Löscht und aktualisiert nur die 6 blauen Zeilen 0-5 vom 128x64 Pixel Display.
 
 
 
