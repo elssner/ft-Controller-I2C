@@ -42,3 +42,4 @@ Block **oled2_systemtime**
 * Auf dem kleinen Display wechseln Rechtecke blau / gelb im Sekundentakt.
 * TXT 4.0 Controller: Systemzeit vom Controller, muss synchronisiert sein und richtige Zeitzone.
 * RX Controller: Zeitstempel seit dem Einschalten umgerechnet in Stunden, Minuten.
+* Text Zeichen werden nicht angezeigt, nur Linien und Kreise.
