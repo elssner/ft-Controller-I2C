@@ -29,7 +29,6 @@ Mit dem Block [oled2_systemtime](#block-oled2_systemtime) wird die Uhrzeit vom C
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[oled](../#oledpy)**, **[oled_geometrie](../#oled_geometriepy)**, **[qwiiceeprom](../#qwiiceeprompy)**, **[rtc](../#rtcpy)**, **oled_text_analoguhr**
 * I²C Module: 2 OLED Displays 128x128 Pixel und 128x64 Pixel, EEPROM und RTC-Uhr
 * Laden von fischertechnik GitLab: [I2C_OLED_Text_Analoguhr](https://git.fischertechnik-cloud.com/i2c/I2C_OLED_Text_Analoguhr)
-* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
 
 [![](DSC00536_256.JPG)](DSC00536.JPG) [![](DSC00540_256.JPG)](DSC00540.JPG)\
 Zum Vergrößern auf das Bild klicken.
