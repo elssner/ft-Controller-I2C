@@ -24,6 +24,7 @@ Bei genauer Beobachtung des Displays wird immer wieder kurzzeitig ein höherer S
 ![](DSC00471_256.jpg) ![](DSC00473_256.jpg)
 
 > Der CO₂ Sensor funktionierte nur nach dem Einschalten. Wenn ein neues Programm übertragen und gestartet wurde, hat der CO₂ Sensor den I²C-Bus blockiert. Dann muste er immer vom I²C-Kabel getrennt und wieder angesteckt werden.
+
 <!--
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[qwiicrelay](../#qwiicrelaypy)**, **[s_co2](../#s_co2py)**, **[wattmeter](../#wattmeterpy)**
 * Laden von fischertechnik GitLab: [I2C_Strommessung_CO2_Relais](https://git.fischertechnik-cloud.com/i2c/I2C_Strommessung_CO2_Relais)
