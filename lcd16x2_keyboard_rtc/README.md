@@ -14,7 +14,7 @@
 * [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 
 
-Block **grovelcd_dipswitch_rtc**
+#### Block **grovelcd_dipswitch_rtc**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[dipswitch](../#dipswitchpy)**, **[rtc](../#rtcpy)**
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_Keyboard_Dipswitch](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_Keyboard_Dipswitch)
 
@@ -25,7 +25,7 @@ Zum Vergrößern auf das Bild klicken.
 * Zeigt die Schalterstellung vom DIP Schalter als 6 Nullen oder Einsen an.
 * Aktualisiert jede Sekunde.
 
-Block **grovelcd_keyboard**
+#### Block **grovelcd_keyboard**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[keyboard](../#keyboardpy)**
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_Keyboard_Dipswitch](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_Keyboard_Dipswitch)
 
