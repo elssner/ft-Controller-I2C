@@ -24,18 +24,14 @@ Mit dem Block [oled2_systemtime](#block-oled2_systemtime) wird die Uhrzeit vom C
 * [SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/18355) → 64 KByte = 65536 Byte
 * [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC) → Quarzuhr mit 3V Knopfzelle CR1225
 
-
-#### Block **oled2_demo**
+<a name="oled2_demo"></a>
+Block **oled2_demo**
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[oled](../#oledpy)**, **[oled_geometrie](../#oled_geometriepy)**, **[qwiiceeprom](../#qwiiceeprompy)**, **[rtc](../#rtcpy)**, **oled_text_analoguhr**
 * I²C Module: 2 OLED Displays 128x128 Pixel und 128x64 Pixel, EEPROM und RTC-Uhr
 * Laden von fischertechnik GitLab: [I2C_OLED_Text_Analoguhr](https://git.fischertechnik-cloud.com/i2c/I2C_OLED_Text_Analoguhr)
 
 [![](DSC00536_256.JPG)](DSC00536.JPG) [![](DSC00540_256.JPG)](DSC00540.JPG)\
 Zum Vergrößern auf das Bild klicken.
-
-<!--
-![](oled_text_analoguhr.png)
--->
 
 * Zeichnet analoge Uhr mit aktueller Zeit auf beide Displays in verschiedener Größe.
 * Auf das große Display wird abwechselnd der Zeichnsatz aus dem EEPROM kopiert (2KB).
@@ -71,7 +67,7 @@ Unterprogramm Block **oled_zeichnen_0_5** (select_oled)
 
 
 
-#### Block **oled2_systemtime**
+Block **oled2_systemtime**
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[oled](../#oledpy)**, **[oled_geometrie](../#oled_geometriepy)**, **oled_text_analoguhr**
 * I²C Module: 2 OLED Displays 128x128 Pixel und 128x64 Pixel
 * Laden von fischertechnik GitLab: [I2C_OLED_Text_Analoguhr](https://git.fischertechnik-cloud.com/i2c/I2C_OLED_Text_Analoguhr)
