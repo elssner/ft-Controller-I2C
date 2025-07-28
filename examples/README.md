@@ -51,7 +51,7 @@ Quellcodedatei|kurze Beschreibung
 `0`|`1`|`0`|`0`|[qlcd_uhr_stellen](../qwiiclcd_keypad_rtc#qlcd_uhr_stellen)|4|Uhr anzeigen und stellen mit Keypad
 `0`|`1`|`0`|`1`|[qlcd_gpio_ascii](../qwiiclcd_keypad_rtc#qlcd_gpio_ascii)|5|Binär Schreibmaschine, GPIO→ASCII
 `0`|`1`|`1`|`0`|[joy_4motoren](../qwiicmotor_joystick#joy_4motoren)|6|I²C Motor Module mit Joystick steuern
-`0`|`1`|`1`|`1`|[qmux_rx1](../qwiicmux_rm#qmux_rx1)|7|RX mit I²C Multiplexer, 10 I²C Module
+`0`|`1`|`1`|`1`|[qmux_rx1](../qwiicmux_rx#qmux_rx1)|7|RX mit I²C Multiplexer, 10 I²C Module
 
 
 `0`|`0`|`0`|`1`|**grovelcd_rtc**|[lcd16x2](#lcd16x2py), [rtc](#rtcpy)
