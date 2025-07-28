@@ -8,6 +8,10 @@
 
 ### oled_text_analoguhr (Analoguhr, Text anzeigen, Zeichensatz aus EEPROM)
 
+Zwei (gleiche oder verschiedene) OLED Displays können gleichzeitig an den I²C-Bus angeschlossen werden, wenn bei einem die I²C-Adresse von 0x3C in 0x3D geändert wird.
+Das große Display hat 128*128 Pixel, das sind 16384 Punkte, die einzeln an und aus geschaltet werden müssen. Linien und Kreise müssen per Software in das Pixel-Muster umgerechnet werden.
+Auch Text Zeichen 
+
 * [Grove - OLED Display 1.12 128*128 Pixel](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
 * [Grove - OLED Yellow&Blue Display 0.96 128*64 Pixel](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0)
   * [Grove - OLED Display 0.96 128*64 Pixel](https://wiki.seeedstudio.com/Grove-OLED_Display_0.96inch/)
