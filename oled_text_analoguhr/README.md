@@ -14,7 +14,7 @@ Linien und Kreise müssen per Software in das Pixel-Muster umgerechnet werden.\
 Auch Text Zeichen muss die Software als Pixel an das Display senden. Der Zeichensatz ist im EEPROM gespeichert, es werden einfach pro Zeichen 8 Byte vom EEPROM auf das Display kopiert.\
 Über einen I²C-Bus wird die Uhrzeit vom RTC Modul gelesen, in Text-Zeichen aus dem EEPROM umgewandelt und als verschiedene Bilder an zwei Displays gesendet.
 
-Der Block [**oled2_demo**](#block-oled2_demo) benötigt alle 4 I²C Module.
+Der Block [**oled2_demo**](#block-oled2_demo) benötigt alle 4 I²C Module und ruft die anderen Blöcke als Unterprogramm auf.
 
 Mit dem Block [**oled2_systemtime**](#block-oled2_systemtime) wird die Uhrzeit vom Controller verwendet. Dafür ist die Erweiterung [advanced](../#advancedpy) erforderlich. Auf das EEPROM und RTC Modul wird verzichtet.
 
