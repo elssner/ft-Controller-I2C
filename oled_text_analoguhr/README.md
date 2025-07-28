@@ -34,7 +34,9 @@ Mit dem Block [oled2_systemtime](#block-oled2_systemtime) wird die Uhrzeit vom C
 [![](DSC00536_256.JPG)](DSC00536.JPG) [![](DSC00540_256.JPG)](DSC00540.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+<!--
 ![](oled_text_analoguhr.png)
+-->
 
 * Zeichnet analoge Uhr mit aktueller Zeit auf beide Displays in verschiedener Größe.
 * Auf das große Display wird abwechselnd der Zeichnsatz aus dem EEPROM kopiert (2KB).
