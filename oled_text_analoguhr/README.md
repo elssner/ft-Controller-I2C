@@ -32,8 +32,17 @@ Mit dem Block [oled2_systemtime](#block-oled2_systemtime) wird die Uhrzeit vom C
 
 ![](oled_text_analoguhr.png)
 
+* Zeichnet analoge Uhr mit aktueller Zeit auf beide Displays in verschiedener Größe.
+* Auf das große Display wird abwechselnd der Zeichnsatz aus dem EEPROM kopiert (2KB).
+* Auf dem kleinen Display in den gelben Zeilen wird Datum und Uhrzeit digital angezeigt.
+* Im blauen Bereich neben der Uhr werden zufällige Rechtecke und Linien angezeigt.
+* Gelb aktualisert jede Sekunde, blau jede Minute.
+* Ruft die folgenden Blöcke als Unterprogramm auf.
 
-
+Unterprogramm Block **oled_eeprom_copy**
+* Kopiert 2KByte vom EEPROM auf das Display, das entspricht Zeichencodes 0x00..0xFF.
+* Zeile 0..1 leer; 2..7 ASCII Zeichen; 8..15 einzelne Sonderzeichen.
+* Zeigt dann alle 14 Sonderzeichen `ßäöüÄÖÜ€µ°Ω²απ` in Zeile 0 an.
 
 
 #### Block **oled2_systemtime**
@@ -43,7 +52,7 @@ Mit dem Block [oled2_systemtime](#block-oled2_systemtime) wird die Uhrzeit vom C
 
 ![](oled2_systemtime.png)
 
-* Zeichnet analoge Uhr auf beide Displays in verschiedener Größe.
+* Zeichnet analoge Uhr mit aktueller Zeit auf beide Displays in verschiedener Größe.
 * Auf dem kleinen Display wechseln Rechtecke blau / gelb im Sekundentakt.
 * TXT 4.0 Controller: Systemzeit vom Controller, muss synchronisiert sein und richtige Zeitzone.
 * RX Controller: Zeitstempel seit dem Einschalten umgerechnet in Stunden, Minuten.
