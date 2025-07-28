@@ -12,8 +12,13 @@ Das [I2C Digital Wattmeter](https://www.dfrobot.com/product-1827.html) genannte 
 Der [Calliope CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor) verbraucht nur während der Messungen - ungefähr aller 5 Sekunden - fast 100 mA Strom. 
 Das [Relais](https://www.sparkfun.com/products/15093) kann im Hauptprogramm an geschaltet werden und verbraucht dann zusätzlich 100 mA. Der Strom kommt aus dem 3,3 Volt I²C-Bus.
 
-Angezeigt werden die Werte auf dem [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series). Vom CO₂ Sensor wird in der 1. Zeile nur die Temperatur angezeigt und in der 2. Zeile Spannung und Strom. 
-Die Anschaltung am I²C-Kabel ist auf dem Foto zu erkennen. Strom wird nur vom CO₂ Sensor und Relais gemessen.
+Die Anschaltung des Messgerätes am I²C-Kabel ist auf dem Foto zu erkennen. Strom wird nur vom CO₂ Sensor und Relais gemessen.
+
+* [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
+* [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
+* [Calliope CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
+* [I2C Digital Wattmeter](https://www.dfrobot.com/product-1827.html)
+
 
 Bei genauer Beobachtung des Displays wird immer wieder kurzzeitig ein höherer Strom angezeigt, immer wenn der CO₂ Sensor eine Messung macht. Der Zeitpunkt der Messung kann nicht bestimmt, nur insgesamt an und aus geschaltet werden.
 
@@ -37,7 +42,7 @@ Block **wattmeter_lcd_co2**
 Zum Vergrößern auf das Bild klicken.
 
 * Zeigt in Zeile 1 am LCD-Display nur die Temperatur vom CO₂ Sensor an.
-* Zeile 2 Spannung und Strom am I²C-Bus (3,3 Volt).
+* Zeile 2 Spannung (3,3 Volt) und Strom von CO₂ Sensor und Relais am I²C-Bus.
 * Wiederholung aller 0,5 Sekunden, um die Strom Änderung vom CO₂ Sensor zu messen.
 
 
