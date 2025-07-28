@@ -38,6 +38,7 @@ s_qwiictemp (STTS22H): 25.5 °C\
 s_qwiictmp102 (TMP102): 25.5 °C\
 NTC-Widerstand: 27.72294418150659 °C
 
+<a name="temp_lcd"></a>
 Block **temp_lcd** (limit)
 * Zeigt die Temperatur der zwei I²C Sensoren im LCD Display an.
 * Keine Verbindung zur App ROBO Pro Coding erforderlich. NTC-Widerstand wird nicht abgefragt.
