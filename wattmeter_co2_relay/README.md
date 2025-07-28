@@ -10,7 +10,7 @@
 
 Das [I2C Digital Wattmeter](https://www.dfrobot.com/product-1827.html) genannte Modul misst eigentlich Spannung und Strom am I²C-Bus. Die Spannung sollte 3,3 Volt betragen. Zum Strom messen wurden zwei I²C Module angeschlossen, die einen hohen Stromverbrauch haben.
 Der [Calliope CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor) verbraucht nur während der Messungen - ungefähr aller 5 Sekunden - fast 100 mA Strom. 
-Das [Relais](https://www.sparkfun.com/products/15093) kann mit dem Mini-Taster an I3 an geschaltet werden und verbraucht dann zusätzlich 100 mA. Der Strom kommt aus dem 3,3 Volt I²C-Bus.
+Das [Relais](https://www.sparkfun.com/products/15093) kann im Hauptprogramm an geschaltet werden und verbraucht dann zusätzlich 100 mA. Der Strom kommt aus dem 3,3 Volt I²C-Bus.
 
 Angezeigt werden die Werte auf dem [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series). Vom CO₂ Sensor wird in der 1. Zeile nur die Temperatur angezeigt und in der 2. Zeile Spannung und Strom. 
 Die Anschaltung am I²C-Kabel ist auf dem Foto zu erkennen. Strom wird nur vom CO₂ Sensor und Relais gemessen.
@@ -20,12 +20,29 @@ Bei genauer Beobachtung des Displays wird immer wieder kurzzeitig ein höherer S
 ![](DSC00471_256.jpg) ![](DSC00473_256.jpg)
 
 > Der CO₂ Sensor funktionierte nur nach dem Einschalten. Wenn ein neues Programm übertragen und gestartet wurde, hat der CO₂ Sensor den I²C-Bus blockiert. Dann muste er immer vom I²C-Kabel getrennt und wieder angesteckt werden.
-
+<!--
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[qwiicrelay](../#qwiicrelaypy)**, **[s_co2](../#s_co2py)**, **[wattmeter](../#wattmeterpy)**
 * Laden von fischertechnik GitLab: [I2C_Strommessung_CO2_Relais](https://git.fischertechnik-cloud.com/i2c/I2C_Strommessung_CO2_Relais)
 
 [![](DSC00481_256.JPG)](DSC00481.JPG)\
 Zum Vergrößern auf das Bild klicken.
+-->
+
+Block **wattmeter_lcd_co2**
+* Quellcodedateien:  **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[qwiicrelay](../#qwiicrelaypy)**, **[s_co2](../#s_co2py)**, **[wattmeter](../#wattmeterpy)**
+* I²C Module: Grove LCD Display, (Qwiic Relay im Hauptprogramm), CO₂ Sensor, Wattmeter
+* Laden von fischertechnik GitLab: [I2C_Strommessung_CO2_Relais](https://git.fischertechnik-cloud.com/i2c/I2C_Strommessung_CO2_Relais)
+
+[![](DSC00481_256.JPG)](DSC00481.JPG)\
+Zum Vergrößern auf das Bild klicken.
+
+* Zeigt in Zeile 1 am LCD-Display nur die Temperatur vom CO₂ Sensor an.
+* Zeile 2 Spannung und Strom am I²C-Bus (3,3 Volt).
+* Wiederholung aller 0,5 Sekunden, um die Strom Änderung vom CO₂ Sensor zu messen.
+
+
+
+
 
 #### Hauptprogramm
 
