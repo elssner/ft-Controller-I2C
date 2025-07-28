@@ -22,6 +22,7 @@ Manchmal wird in der Konsole ein Memory Allocation Error angezeigt. Oft hängt e
 [![](DSC00446_256.JPG)](DSC00446.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+<a name="log_konsole"></a>
 Block **log_konsole** (filename1)
 * *filename1* kann Platzhalter wie z.B. \*.\* oder \*.LOG enthalten.
 * Zeigt 8 Dateinamen mit Datei-Größe in Bytes in der Konsole an.
@@ -45,6 +46,7 @@ Block **log_copy** (filename1, filename2, size)
 * Bei wiederholtem Aufruf wird an die Zieldatei angehängt.
 
 
+<a name="log_time"></a>
 Block **log_time** (text, new_line)
 * *text* wird an die Datei angehängt (oder neu angelegt).
 * *new_line*=True: CR (=13) und LF (=10) wird an *text* angehängt.
