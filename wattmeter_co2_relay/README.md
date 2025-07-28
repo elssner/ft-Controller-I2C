@@ -33,6 +33,7 @@ Bei genauer Beobachtung des Displays wird immer wieder kurzzeitig ein höherer S
 Zum Vergrößern auf das Bild klicken.
 -->
 
+<a name="wattmeter_lcd_co2"></a>
 Block **wattmeter_lcd_co2**
 * Quellcodedateien:  **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[qwiicrelay](../#qwiicrelaypy)**, **[s_co2](../#s_co2py)**, **[wattmeter](../#wattmeterpy)**
 * 4 I²C Module: Grove LCD Display, (Qwiic Relay im Hauptprogramm), CO₂ Sensor, Wattmeter
@@ -46,6 +47,14 @@ Zum Vergrößern auf das Bild klicken.
 * Wiederholung aller 0,5 Sekunden, um die Strom Änderung vom CO₂ Sensor zu messen.
 
 
+Block **grovelcd_co2**
+* Quellcodedateien:  **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[s_co2](../#s_co2py)**
+* 2 I²C Module: Grove LCD Display, CO₂ Sensor
+* Laden von fischertechnik GitLab: [I2C_Strommessung_CO2_Relais](https://git.fischertechnik-cloud.com/i2c/I2C_Strommessung_CO2_Relais)
+
+* Zeigt CO₂, Temperatur und relative Luftfeuchtigkeit im LCD Display an.
+* Wiederholung aller 4 Sekunden.
+* Zeigt in der Konsole an ob neue oder alte Daten (Messung theoretisch aller 5 Sekunden).
 
 
 
