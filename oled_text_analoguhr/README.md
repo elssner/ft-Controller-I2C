@@ -23,13 +23,17 @@ Mit dem Block **oled2_systemtime** wird die Uhrzeit vom Controller verwendet. Da
 * [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 
 
-Block **oled2_systemtime**
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[oled](../#oledpy)**, **[oled_geometrie](../#oled_geometriepy)**, **oled_text_analoguhr**
-* I²C Module: 2 OLED Displays 128x128 Pixel und 128*64 Pixel
-* Laden von fischertechnik GitLab: [I2C_OLED_Text_Analoguhr](https://git.fischertechnik-cloud.com/i2c/I2C_OLED_Text_Analoguhr)
-
 
 
 
 
 ![](oled_text_analoguhr.png)
+
+
+
+Block **oled2_systemtime**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[oled](../#oledpy)**, **[oled_geometrie](../#oled_geometriepy)**, **oled_text_analoguhr**
+* I²C Module: 2 OLED Displays 128x128 Pixel und 128*64 Pixel
+* Laden von fischertechnik GitLab: [I2C_OLED_Text_Analoguhr](https://git.fischertechnik-cloud.com/i2c/I2C_OLED_Text_Analoguhr)
+
+![](oled2_systemtime.png)
