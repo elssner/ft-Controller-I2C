@@ -50,6 +50,7 @@ Quellcodedatei|kurze Beschreibung
 `0`|`0`|`1`|`1`|[buttons_polling](../qwiicbutton_int#buttons_polling)|3|2 I²C-Buttons mit LED, DIP-Schalter
 `0`|`1`|`0`|`0`|[qlcd_uhr_stellen](../qwiiclcd_keypad_rtc#qlcd_uhr_stellen)|4|Uhr anzeigen und stellen mit Keypad
 `0`|`1`|`0`|`1`|[qlcd_gpio_ascii](../qwiiclcd_keypad_rtc#qlcd_gpio_ascii)|5|Binär Schreibmaschine, GPIO→ASCII
+`0`|`1`|`1`|`0`|[joy_4motoren](../qwiicmotor_joystick#joy_4motoren)|6|4 I²C Motoren mit Joystick steuern
 
 
 `0`|`0`|`0`|`1`|**grovelcd_rtc**|[lcd16x2](#lcd16x2py), [rtc](#rtcpy)
