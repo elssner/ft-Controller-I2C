@@ -37,7 +37,7 @@ Quellcodedatei|kurze Beschreibung
 * Beispiel 0 **i2c_scan** zeigt die gefundenen I²C-Adressen in der Konsole an.
 * Beispiel 8 **log_konsole** zeigt Dateien von der Speicherkarte in der Konsole an.
 * Alle anderen Beispiele können nach Übertragung des Programms auf dem Controller (ohne Verbindung zur App) gestartet werden. Nur Drahtbrücken umstecken und Programm starten.
-* Ausgabe erfolgt auf Display, LED, Motor, Speicherkarte.
+* Ausgabe erfolgt auf Display, LEDs, Motoren, Speicherkarte.
 
 ###### Tabelle 2:
 * Codierung der Eingänge, um ein Beispiel vom Hauptprogramm zu starten.
