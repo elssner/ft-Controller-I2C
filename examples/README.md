@@ -43,7 +43,7 @@ Quellcodedatei|kurze Beschreibung
 * Name des Beispiel-Blocks und aufgerufende I²C Quellcodedateien aus [Tabelle 1](#tabelle-1).
 
 `I8`|`I7`|`I6`|`I5`|Beispiel (Block)|&nbsp;|Funktion
----|---|---|---|---|---|---
+---|---|---|---|---|#---#|---
 `0`|`0`|`0`|`0`|[i2c_scan](../#i2c_scan)|0|I²C-Adressen in Konsole
 `0`|`0`|`0`|`1`|[grovelcd_keyboard](../lcd16x2_keyboard_rtc#grovelcd_keyboard)|1|mit Tastatur in Display schreiben
 `0`|`0`|`1`|`0`|[oled2_demo](../oled_text_analoguhr#oled2_demo)|2|Analoguhr, Text aus EEPROM
