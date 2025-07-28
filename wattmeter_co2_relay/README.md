@@ -52,6 +52,7 @@ Block **grovelcd_co2**
 * 2 I²C Module: Grove LCD Display, CO₂ Sensor
 * Laden von fischertechnik GitLab: [I2C_Strommessung_CO2_Relais](https://git.fischertechnik-cloud.com/i2c/I2C_Strommessung_CO2_Relais)
 
+
 * Zeigt CO₂, Temperatur und relative Luftfeuchtigkeit im LCD Display an.
 * Wiederholung aller 4 Sekunden.
 * Zeigt in der Konsole an ob neue oder alte Daten (Messung theoretisch aller 5 Sekunden).
