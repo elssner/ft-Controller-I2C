@@ -42,7 +42,7 @@ Quellcodedatei|kurze Beschreibung
 * Codierung der Eingänge, um ein Beispiel vom Hauptprogramm zu starten.
 * Name des Beispiel-Blocks und aufgerufende I²C Quellcodedateien aus [Tabelle 1](#tabelle-1).
 
-`I8`|`I7`|`I6`|`I5`|Beispiel (Block)| |Funktion
+`I8`|`I7`|`I6`|`I5`|Beispiel (Block)|\ |Funktion
 ---|---|---|---|---|---
 `0`|`0`|`0`|`0`|[i2c_scan](../#i2ccodepy)|0|I²C-Adressen in Konsole
 `0`|`0`|`0`|`1`|[grovelcd_keyboard](../lcd16x2_keyboard_rtc#block-grovelcd_keyboard)|1|Tastatur in Display schreiben
