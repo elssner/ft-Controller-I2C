@@ -6,10 +6,11 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### oled_text_analoguhr (Analoguhr, Text anzeigen, Zeichensatz aus EEPROM)
+### oled_text_analoguhr (Analoguhr, Text, Zeichensatz aus EEPROM)
 
 Zwei (gleiche oder verschiedene) OLED Displays können gleichzeitig an den I²C-Bus angeschlossen werden, wenn bei einem die I²C-Adresse von 0x3C in 0x3D geändert wird.
-Das große Display hat 128*128 Pixel, das sind 16384 Punkte, die einzeln an und aus geschaltet werden müssen. Linien und Kreise müssen per Software in das Pixel-Muster umgerechnet werden.
+Das große Display hat 128*128 Pixel, das sind 16384 Punkte, die einzeln an und aus geschaltet werden.\
+Linien und Kreise müssen per Software in das Pixel-Muster umgerechnet werden.
 Auch Text Zeichen muss die Software als Pixel an das Display senden. Der Zeichensatz ist im EEPROM gespeichert, es werden einfach pro Zeichen 8 Byte vom EEPROM auf das Display kopiert. Das läuft alles über einen I²C-Bus.
 
 * [Grove - OLED Display 1.12 128*128 Pixel](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
