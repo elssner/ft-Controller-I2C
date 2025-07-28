@@ -50,12 +50,16 @@ Quellcodedatei|kurze Beschreibung
 `0`|`0`|`1`|`1`|[buttons_polling](../qwiicbutton_int#buttons_polling)|3|2 I²C-Buttons mit LED, DIP-Schalter
 `0`|`1`|`0`|`0`|[qlcd_uhr_stellen](../qwiiclcd_keypad_rtc#qlcd_uhr_stellen)|4|Uhr anzeigen und stellen mit Keypad
 `0`|`1`|`0`|`1`|[qlcd_gpio_ascii](../qwiiclcd_keypad_rtc#qlcd_gpio_ascii)|5|Binär Schreibmaschine, GPIO→ASCII
-`0`|`1`|`1`|`0`|[joy_4motoren](../qwiicmotor_joystick#joy_4motoren)|6|I²C Motor Module mit Joystick steuern
+`0`|`1`|`1`|`0`|[joy_4motoren](../qwiicmotor_joystick#joy_4motoren)|6|I²C Motor Module mit Joystick
 `0`|`1`|`1`|`1`|[qmux_rx1](../qwiicmux_rx#qmux_rx1)|7|RX mit I²C Multiplexer, 10 I²C Module
 `1`|`0`|`0`|`0`|[log_konsole](../qwiicopenlog_rtc#log_konsole)|8|Dateien von Speicherkarte anzeigen
 `1`|`0`|`0`|`1`|[log_tmp102](../qwiicopenlog_rtc#log_tmp102)|9|auf Speicherkarte protokollieren
 `1`|`0`|`1`|`0`|[qdistance_qlcd4](../s_qwiic_distance#qdistance_qlcd4)|10|Abstand Sensoren, LCD 20x4
 `1`|`0`|`1`|`1`|[temp_lcd](../s_qwiictemp_lcd#temp_lcd)|11|Temperatur Sensoren anzeigen, Limit
+`1`|`1`|`0`|`0`|[wattmeter_lcd_co2](../wattmeter_co2_relay#wattmeter_lcd_co2)|12|Strommessung, CO₂ Sensor, Relais
+`1`|`1`|`0`|`1`||13|
+`1`|`1`|`1`|`0`||14|
+`1`|`1`|`1`|`1`||15|
 
 
 `0`|`0`|`0`|`1`|**grovelcd_rtc**|[lcd16x2](#lcd16x2py), [rtc](#rtcpy)
