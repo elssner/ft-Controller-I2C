@@ -10,9 +10,9 @@
 
 Zwei (gleiche oder verschiedene) OLED Displays können gleichzeitig an den I²C-Bus angeschlossen werden, wenn bei einem die I²C-Adresse von 0x3C in 0x3D geändert wird.
 Das große Display hat 128*128 Pixel, das sind 16384 Punkte bzw. 2 Kilobyte, die einzeln an und aus geschaltet werden.\
-Linien und Kreise müssen per Software in das Pixel-Muster umgerechnet werden.
+Linien und Kreise müssen per Software in das Pixel-Muster umgerechnet werden.\
 Auch Text Zeichen muss die Software als Pixel an das Display senden. Der Zeichensatz ist im EEPROM gespeichert, es werden einfach pro Zeichen 8 Byte vom EEPROM auf das Display kopiert.\
-Über einen I²C-Bus werden verschiedene Bilder an zwei Displays gesendet, Text-Zeichen aus dem EEPROM gelesen und die Uhrzeit kommt vom RTC Modul.
+Über einen I²C-Bus wird die Uhrzeit vom RTC Modul gelesen, in Text-Zeichen aus dem EEPROM umgewandelt und als verschiedene Bilder an zwei Displays gesendet.
 
 Mit dem Block **oled2_systemtime** wird die Uhrzeit vom Controller verwendet. Dafür ist die Erweiterung [advanced](../#advancedpy) erforderlich. Auf das EEPROM und RTC Modul wird verzichtet.
 
