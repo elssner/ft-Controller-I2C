@@ -76,7 +76,8 @@ Unterprogramm Block **oled_zeichnen_0_5** (select_oled)
 * I²C Module: 2 OLED Displays 128x128 Pixel und 128x64 Pixel
 * Laden von fischertechnik GitLab: [I2C_OLED_Text_Analoguhr](https://git.fischertechnik-cloud.com/i2c/I2C_OLED_Text_Analoguhr)
 
-![](oled2_systemtime.png)
+[![](DSC00544_512.JPG)](DSC00544.JPG)\
+Zum Vergrößern auf das Bild klicken.
 
 * Zeichnet analoge Uhr mit aktueller Zeit auf beide Displays in verschiedener Größe.
 * Auf dem kleinen Display wechseln Rechtecke blau / gelb im Sekundentakt.
