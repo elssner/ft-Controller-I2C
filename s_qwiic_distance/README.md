@@ -30,6 +30,7 @@ Für das Beispiel mit 2 Sensoren reicht auch eins der kleineren 16x2 Qwiic Displ
 [![](DSC00483_512.JPG)](DSC00483.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+<a name="qdistance_qlcd4"></a>
 Block **qdistance_qlcd4**
 * Zeigt die Messwerte von 3 Sensoren im Display an.
 * Von den Lasersensoren (unten im Bild) kann immer nur einer angesteckt werden.
