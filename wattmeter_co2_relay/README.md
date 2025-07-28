@@ -66,10 +66,7 @@ Block **grovelcd_co2**
 * Zeigt in der Konsole an ob neue oder alte Daten (Messung theoretisch aller 5 Sekunden).
 
 
-#### Hauptprogramm
 
-Block **Programmstart**
+![](wattmeter_co2_relay_2.png)
 
 * Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
-
-![](wattmeter_co2_relay.png)
