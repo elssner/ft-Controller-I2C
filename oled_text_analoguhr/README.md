@@ -43,7 +43,7 @@ Unterprogramm Block **oled_eeprom_copy**
 * Kopiert 2KByte vom EEPROM auf das Display, das entspricht Zeichencodes 0x00..0xFF.
 * Löscht und aktualisiert alle 16 Zeilen vom 128x128 Pixel Display.
 * Zeile 0..1 leer; 2..7 ASCII Zeichen; 8..15 einzelne Sonderzeichen.
-* Zeigt dann alle 14 Sonderzeichen `ßäöüÄÖÜ€µ°Ω²απ` in Zeile 0 an.
+* Zeigt dann alle 14 Sonderzeichen `ß ä ö ü Ä Ö Ü € µ ° Ω ² α π` auch in Zeile 0 an.
 
 Unterprogramm Block **oled_analoguhr_128**
 * Zeigt Analoguhr auf dem großen Display an.
