@@ -35,7 +35,7 @@ Zum Vergrößern auf das Bild klicken.
 
 <a name="wattmeter_lcd_co2"></a>
 Block **wattmeter_lcd_co2**
-* Quellcodedateien:  **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[qwiicrelay](../#qwiicrelaypy)**, **[s_co2](../#s_co2py)**, **[wattmeter](../#wattmeterpy)**
+* Quellcodedateien:  **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[qwiicrelay](../#qwiicrelaypy)**, **[s_co2](../#s_co2py)**, **[wattmeter](../#wattmeterpy)**, **wattmeter_co2_relay**
 * 4 I²C Module: Grove LCD Display, (Qwiic Relay im Hauptprogramm), CO₂ Sensor, Wattmeter
 * Laden von fischertechnik GitLab: [I2C_Strommessung_CO2_Relais](https://git.fischertechnik-cloud.com/i2c/I2C_Strommessung_CO2_Relais)
 
@@ -48,7 +48,7 @@ Zum Vergrößern auf das Bild klicken.
 
 
 Block **wattmeter_konsole**
-* Quellcodedateien:  **[i2cCode](../#i2ccodepy)**, **[wattmeter](../#wattmeterpy)**
+* Quellcodedateien:  **[i2cCode](../#i2ccodepy)**, **[wattmeter](../#wattmeterpy)**, **wattmeter_co2_relay**
 * 1 I²C Modul: Wattmeter
 * Laden von fischertechnik GitLab: [I2C_Strommessung_CO2_Relais](https://git.fischertechnik-cloud.com/i2c/I2C_Strommessung_CO2_Relais)
 * &nbsp;
@@ -57,7 +57,7 @@ Block **wattmeter_konsole**
 
 
 Block **grovelcd_co2**
-* Quellcodedateien:  **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[s_co2](../#s_co2py)**
+* Quellcodedateien:  **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[s_co2](../#s_co2py)**, **wattmeter_co2_relay**
 * 2 I²C Module: Grove LCD Display, CO₂ Sensor
 * Laden von fischertechnik GitLab: [I2C_Strommessung_CO2_Relais](https://git.fischertechnik-cloud.com/i2c/I2C_Strommessung_CO2_Relais)
 * &nbsp;
