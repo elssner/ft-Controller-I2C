@@ -25,6 +25,7 @@ Block **joy_2motoren**
 * Drücken auf Joystick schaltet Motor Power an und aus.
 * Mit dem Joystick werden beide Motoren in dauerhaft Schleife gesteuert.
 
+<a name="joy_4motoren"></a>
 Block **joy_4motoren**
 * Verwendet zwei I²C Motor Module (für 4 Motoren) und den Joystick.
 * Beim zweiten Modul wurde die I²C-Adresse geändert (Lötbrücke).
