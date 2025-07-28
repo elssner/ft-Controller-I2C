@@ -26,7 +26,7 @@ Beim Yellow & Blue Display können die Farben nicht programmiert werden. Es leuc
 
 
 Block **oled2_systemtime**
-* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[oled](../#oledpy)**, **[oled_geometrie](../#oled_geometriepy)**
+* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[oled](../#oledpy)**, **[oled_geometrie](../#oled_geometriepy)**, **oled_text_analoguhr**
 * Laden von fischertechnik GitLab: [I2C_OLED_Text_Analoguhr](https://git.fischertechnik-cloud.com/i2c/I2C_OLED_Text_Analoguhr)
 
 
