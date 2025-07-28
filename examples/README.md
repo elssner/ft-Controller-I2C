@@ -35,7 +35,6 @@ Quellcodedatei|kurze Beschreibung
 #### Hauptprogramm in der App ROBO Pro Coding
 * Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. [Tabelle 2](#tabelle-2) zeigt die Codierung der Eingänge.
 * Beispiel 0 ruft **i2c_scan** auf und zeigt die gefundenen I²C-Adressen in der Konsole an.
-* Beispiel 13 **qlaser_konsole** zeigt Werte vom Distance Sensor in der Konsole an.
 * Alle anderen Beispiele können nach Übertragung des Programms auf dem Controller (ohne Verbindung zur App) gestartet werden. Nur Drahtbrücken umstecken und Programm starten.
 
 ###### Tabelle 2:
