@@ -33,7 +33,7 @@ Block **wattmeter_lcd_co2**
 * 4 I²C Module: Grove LCD Display, (Qwiic Relay im Hauptprogramm), CO₂ Sensor, Wattmeter
 * Laden von fischertechnik GitLab: [I2C_Strommessung_CO2_Relais](https://git.fischertechnik-cloud.com/i2c/I2C_Strommessung_CO2_Relais)
 
-[![](DSC00481_256.JPG)](DSC00481.JPG)\
+[![](DSC00481_512.JPG)](DSC00481.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
 * Zeigt in Zeile 1 am LCD-Display nur die Temperatur vom CO₂ Sensor an.
