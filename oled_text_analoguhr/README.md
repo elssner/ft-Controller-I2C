@@ -37,3 +37,8 @@ Block **oled2_systemtime**
 * Laden von fischertechnik GitLab: [I2C_OLED_Text_Analoguhr](https://git.fischertechnik-cloud.com/i2c/I2C_OLED_Text_Analoguhr)
 
 ![](oled2_systemtime.png)
+
+* Zeichnet analoge Uhr auf beide Displays in verschiedener Größe.
+* Auf dem kleinen Display wechseln Rechtecke blau / gelb im Sekundentakt.
+* TXT 4.0 Controller: Systemzeit vom Controller, muss synchronisiert sein und richtige Zeitzone.
+* RX Controller: Zeitstempel seit dem Einschalten umgerechnet in Stunden, Minuten.
