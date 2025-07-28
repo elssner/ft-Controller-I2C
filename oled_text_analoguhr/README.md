@@ -31,6 +31,9 @@ Mit dem Block [oled2_systemtime](#block-oled2_systemtime) wird die Uhrzeit vom C
 * Laden von fischertechnik GitLab: [I2C_OLED_Text_Analoguhr](https://git.fischertechnik-cloud.com/i2c/I2C_OLED_Text_Analoguhr)
 * Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
 
+[![](DSC00536_256.JPG)](DSC00536.JPG) [![](DSC00540_256.JPG)](DSC00540.JPG)\
+Zum Vergrößern auf das Bild klicken.
+
 ![](oled_text_analoguhr.png)
 
 * Zeichnet analoge Uhr mit aktueller Zeit auf beide Displays in verschiedener Größe.
