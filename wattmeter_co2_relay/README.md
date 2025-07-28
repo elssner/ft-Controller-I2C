@@ -6,7 +6,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### wattmeter_co2_relay (Beispiel Strommessung, CO₂ Sensor und Relais)
+### wattmeter_co2_relay (Strommessung am I²C-Bus, CO₂ Sensor und Relais)
 
 * [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
 * [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
