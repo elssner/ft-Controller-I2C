@@ -60,6 +60,7 @@ Unterprogramm Block **oled_digitaluhr_6_7** (select_oled)
 * Die gesamte Zeit (7 Elemente) kommt aus dem RTC Modul, die Zeichen aus dem EEPROM.
 
 Unterprogramm Block **oled_zeichnen_0_5** (select_oled)
+* Muss nach  **oled_digitaluhr_6_7** aufgerufen werden.
 * Zeichnet Analoguhr links in den blauen Bereich des 128x64 Displays.
 * Zeichnet rechts daneben zufällige Rechtecke und Linien x=48..127; y=0..47.
 * Löscht und aktualisiert nur die 6 blauen Zeilen 0-5 vom 128x64 Pixel Display.
