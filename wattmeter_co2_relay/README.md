@@ -46,6 +46,10 @@ Zum Vergrößern auf das Bild klicken.
 * Zeile 2 Spannung (3,3 Volt) und Strom von CO₂ Sensor und Relais am I²C-Bus.
 * Wiederholung aller 0,5 Sekunden, um die Strom Änderung vom CO₂ Sensor zu messen.
 
+![](wattmeter_co2_relay_2.png)
+
+* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
+
 
 Block **wattmeter_konsole**
 * Quellcodedateien:  **[i2cCode](../#i2ccodepy)**, **[wattmeter](../#wattmeterpy)**, **wattmeter_co2_relay**
@@ -64,9 +68,3 @@ Block **grovelcd_co2**
 * Zeigt CO₂, Temperatur und relative Luftfeuchtigkeit im LCD Display an.
 * Wiederholung aller 4 Sekunden.
 * Zeigt in der Konsole an ob neue oder alte Daten (Messung theoretisch aller 5 Sekunden).
-
-
-
-![](wattmeter_co2_relay_2.png)
-
-* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
