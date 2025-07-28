@@ -53,6 +53,7 @@ Quellcodedatei|kurze Beschreibung
 `0`|`1`|`1`|`0`|[joy_4motoren](../qwiicmotor_joystick#joy_4motoren)|6|I²C Motor Module mit Joystick steuern
 `0`|`1`|`1`|`1`|[qmux_rx1](../qwiicmux_rx#qmux_rx1)|7|RX mit I²C Multiplexer, 10 I²C Module
 `1`|`0`|`0`|`0`|[log_konsole](../qwiicopenlog_rtc#log_konsole)|8|Dateien von Speicherkarte anzeigen
+`1`|`0`|`0`|`1`|[log_tmp102](../qwiicopenlog_rtc#log_tmp102)|9|Temperatur auf Speicherkarte protokollieren
 
 
 
