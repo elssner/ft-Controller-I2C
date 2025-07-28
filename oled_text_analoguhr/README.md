@@ -84,3 +84,6 @@ Unterprogramm Block **oled_zeichnen_0_5** (select_oled)
 * TXT 4.0 Controller: Systemzeit vom Controller, muss synchronisiert sein und richtige Zeitzone.
 * RX Controller: Zeitstempel seit dem Einschalten umgerechnet in Stunden, Minuten.
 * Text Zeichen werden nicht angezeigt, nur Linien und Kreise.
+
+![](oled2_systemtime.png)
+* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
