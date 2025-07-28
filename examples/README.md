@@ -55,7 +55,7 @@ Quellcodedatei|kurze Beschreibung
 `1`|`0`|`0`|`0`|[log_konsole](../qwiicopenlog_rtc#log_konsole)|8|Dateien von Speicherkarte anzeigen
 `1`|`0`|`0`|`1`|[log_tmp102](../qwiicopenlog_rtc#log_tmp102)|9|auf Speicherkarte protokollieren
 `1`|`0`|`1`|`0`|[qdistance_qlcd4](../s_qwiic_distance#qdistance_qlcd4)|10|Abstand Sensoren, LCD 20x4
-`1`|`0`|`1`|`1`|[temp_lcd](../s_qwiictemp_lcd#temp_lcd)|11|Temperatur Sensoren anzeigen, Limit
+`1`|`0`|`1`|`1`|[temp_lcd](../s_qwiictemp_lcd#temp_lcd)|11|Temperatur Sensoren, Limit
 `1`|`1`|`0`|`0`|[wattmeter_lcd_co2](../wattmeter_co2_relay#wattmeter_lcd_co2)|12|Strommessung, CO₂ Sensor, Relais
 `1`|`1`|`0`|`1`||13|
 `1`|`1`|`1`|`0`||14|
