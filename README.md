@@ -136,6 +136,7 @@ Block **i2c_write_read_buffer** (i2c_addr, write_buffer, read_length) : Liste de
 * Sendet und empfängt Bytes, ohne dazwischen den I²C-Bus frei zu geben.
 * Erlaubt I²C Register adressieren und lesen mit nur einer Funktion.
 
+<a name="i2c_scan"></a>
 Block **i2c_scan** () : Liste der 7-Bit I²C-Adressen
 
 * Versucht alle möglichen I²C-Adressen in einer Schleife zu erreichen.
