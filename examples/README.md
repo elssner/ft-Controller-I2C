@@ -46,7 +46,7 @@ Quellcodedatei|kurze Beschreibung
 ---|---|---|---|---|---|---
 `0`|`0`|`0`|`0`|[i2c_scan](../#i2ccodepy)|0|I²C-Adressen in Konsole
 `0`|`0`|`0`|`1`|[grovelcd_keyboard](../lcd16x2_keyboard_rtc#block-grovelcd_keyboard)|1|mit Tastatur in Display schreiben
-
+`0`|`0`|`1`|`0`|[oled2_demo]|[../oled_text_analoguhr#block-ole2_demo]|2|Analoguhr, Text, Zeichensatz aus EEPROM
 
 `0`|`0`|`0`|`1`|**grovelcd_rtc**|[lcd16x2](#lcd16x2py), [rtc](#rtcpy)
 `0`|`0`|`1`|`1`|**grovelcd_dipswitch**|[lcd16x2](#lcd16x2py), [dipswitch](#dipswitchpy)
