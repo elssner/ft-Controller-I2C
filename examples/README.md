@@ -41,7 +41,7 @@ Quellcodedatei|kurze Beschreibung
 
 ###### Tabelle 2:
 * Codierung der Eingänge, um ein Beispiel vom Hauptprogramm zu starten.
-* Name des Beispiel-Blocks und aufgerufende I²C Quellcodedateien aus [Tabelle 1](#tabelle-1).
+* Name des Beispiel-Blocks und Link zur Beschreibung.
 
 `I8`|`I7`|`I6`|`I5`|Beispiel (Block)|&nbsp;|Funktion
 ---|---|---|---|---|:---:|---
