@@ -42,20 +42,20 @@ Auch damit kann der Verkehr auf dem I²C-Bus reduziert werden.
 
 ![](rx_button_event.png)
 
-Block **buttons_polling**
+#### Block **buttons_polling**
 * Schaltet die Button Interrupts aus.
 * Wird beim Programmstart einmal aufgerufen, wenn /INT Pin nicht verdrahtet ist.
 * Block **buttons_event** muss in dauerhaft Schleife abgefragt werden.
 * Buttons werden dauerhaft in **buttons_event** über den I²C-Bus abgefragt (polling).
 
-Block **buttons_interrupt**
+#### Block **buttons_interrupt**
 * Schaltet Interrupt *when_clicked* an und *when_pressed* aus.
 * Wird beim Programmstart einmal aufgerufen, wenn /INT Pin verdrahtet ist.
 * Ereignis `ist Fototransistor hell` ruft Block **buttons_event** auf.
 * RX Controller fragt `ist Fototransistor hell` in dauerhaft Schleife ab.
 * Buttons werden nur *when_clicked* in **buttons_event** über den I²C-Bus abgefragt.
 
-Block **buttons_event**
+#### Block **buttons_event**
 * Fragt über den I²C-Bus ab, ob ein Button geklickt war.
 * Wenn ja, wird der /INT Pin deaktiviert (Fototransistor dunkel).
 * Die eigene LED wird abwechselnd an/aus geschaltet.
