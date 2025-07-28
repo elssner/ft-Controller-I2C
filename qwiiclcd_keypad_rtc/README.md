@@ -16,7 +16,8 @@
 * [Tillig Modellbahn Tastenpult](https://www.tillig.com/Produkte/produktinfo-08211.html)
 
 
-#### Block **qlcd_uhr_stellen**
+<a name="qlcd_uhr_stellen"></a>
+Block **qlcd_uhr_stellen**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
@@ -37,7 +38,7 @@ Zum Vergrößern auf das Bild klicken.
 * `*216#` stellt Stunde auf 16; `*402#` Dienstag; `*000#` Sekunde 0; `*625#` Jahr 2025
 
 
-#### Block **qlcd_joystick**
+Block **qlcd_joystick**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiiclcd](../#qwiiclcdpy)**
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
@@ -52,8 +53,8 @@ Zum Vergrößern auf das Bild klicken.
 * Joystick links bzw. unten: 0; rechts bzw. oben: 255
 * Werte können direkt an den [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451) übergeben werden.
 
-
-#### Block **qlcd_gpio_ascii**
+<a name="qlcd_gpio_ascii"></a>
+Block **qlcd_gpio_ascii**
 * Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiicgpio](../#qwiicgpiopy)**, **[qwiiclcd](../#qwiiclcdpy)**
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
