@@ -672,36 +672,36 @@ Block **co2_get_relative_hunidity**
 > Nähe Sensor misst keinen genauen Abstand, nur ob ein Objekt näher als 20cm kommt (Seifenspender). Kann Interrupt auslösen.
 > [VCNL4040_Datasheet](https://cdn.sparkfun.com/assets/2/3/8/f/c/VCNL4040_Datasheet.pdf#page=9)
 
-Block **init_qinfrared**
+Block **qinfrared_init**
 * Muss einmal beim Start aufgerufen werden.
-* Initialisiert die Konstanten (Register Nummern) und schaltet Sensor an **power_on_proximity**.
+* Initialisiert die Konstanten (Register Nummern) und schaltet Sensor an **qinfrared_power_on**.
 
-Block **power_on_proximity** (on)
+Block **qinfrared_power_on** (on)
 * *on*: True schaltet Sensor an, False schaltet aus.
 * Infrarot LED nimmt Strom vom 3,3V I²C-Bus (50..200mA). Aus schalten wenn nicht benutzt.
 
-Block **get_proximity**
+Block **qinfrared_proximity**
 * Gibt Nähe zurück (16 Bit): 0..1 wenn nichts in der Nähe (20 cm), wird größer je näher.
 
 
 #### s_qwiiclaser.py
 → Laser → [de.wikipedia.org/wiki/Laser](https://de.wikipedia.org/wiki/Laser)
 ###### [SparkFun Qwiic Distance Sensor - 4 Meter, VL53L1X](https://www.sparkfun.com/products/14722) | [SparkFun Qwiic Distance Sensor - 1.3 Meter, VL53L4CD](https://www.sparkfun.com/products/18993)
-Block **init_qlaser**
+Block **qlaser_init**
 * Muss einmal beim Start aufgerufen werden.
 * Initialisiert den Sensor und wartet bis bereit (check_for_data_ready).
 
-Block **read_distance_cm**
+Block **qlaser_distance_cm**
 * Gibt Distance in cm (mit 1 Stelle hinter dem Komma) zurück. Genauigkeit ist mm.
-* Ruft *start_ranging*, *get_distance*, *stop_ranging* nacheinander auf.
+* Ruft *qlaser_start_ranging*, *qlaser_get_distance*, *qlaser_stop_ranging* nacheinander auf.
 
-Block **start_ranging**
+Block **qlaser_start_ranging**
 * Startet die Messungen mit Default Parametern. Kann konfiguriert werden. 
 
-Block **stop_ranging**
+Block **qlaser_stop_ranging**
 * Beendet die Messungen.
 
-Block **get_distance**
+Block **qlaser_get_distance**
 * Gibt Distance in mm zurück (16 Bit int). Ranging muss vorher gestartet werden.
 
 
