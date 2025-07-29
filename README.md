@@ -220,7 +220,7 @@ Block **lcd_clear** ()
 * Löscht das LCD Display.
 
 Block **lcd_cursor** (row, col)
-* Set Cursor für writeLCD oder wenn Cursor sichtbar ist oder blinkt.
+* Set Cursor für lcd_write oder wenn Cursor sichtbar ist oder blinkt.
 * *row*: Zeile 0 oder 1; *col*: Spalte 0..15
 * Parameter optional, default: *row*=0; *col*=0
 
@@ -236,7 +236,7 @@ Block **lcd_display** (display_on, cursor_on, blink_on)
 → OLED: organic light-emitting diode → [de.wikipedia.org/wiki/OLED](https://de.wikipedia.org/wiki/Organische_Leuchtdiode)
 ###### [Grove - OLED Display 1.12 (128x128)](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0) | [OLED Yellow&Blue Display 0.96 (128x64)](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0) | [OLED Display 0.96](https://wiki.seeedstudio.com/Grove-OLED_Display_0.96inch)
 > OLED Displays zeigen 128x64 oder 128x128 Pixel an. Alle Pixel werden zuerst in Variablen gespeichert. Dieser Speicher wird 'Matrix' genannt.
-> Um die 'Matrix' auf dem OLED Display anzuzeigen, muss immer der Block **displayMatrix** aufgerufen werden.
+> Um die 'Matrix' auf dem OLED Display anzuzeigen, muss immer der Block **oled_display_matrix** aufgerufen werden.
 
 Block **oled_init** (select_oled:Boolean) → Parameter optional
 * Muss einmal beim Start aufgerufen werden.
@@ -244,10 +244,10 @@ Block **oled_init** (select_oled:Boolean) → Parameter optional
 * Initialisiert die Matrix: Variablen zum Speichern der Pixel (1024 oder 2048 Byte).
 * Initialisiert das Display mit der angegebenen I²C-Adresse 0x3C oder 0x3D (Lötbrücke).
 
-> Wenn zwei Displays angeschlossen sind, muss der Block **init_oled** zweimal aufgerufen werden, mit False und True.
+> Wenn zwei Displays angeschlossen sind, muss der Block **oled_init** zweimal aufgerufen werden, mit False und True.
 > Es gibt nur eine Matrix, die mit dem folgenden Block auf einem bestimmten Display angezeigt werden kann.
 
-Block **display_matrix** (from_page, to_page, select_oled) → alle Parameter optional
+Block **oled_display_matrix** (from_page, to_page, select_oled) → alle Parameter optional
 * Immer aufrufen, um das in die Matrix gezeichnete Bild auf dem Display anzuzeigen.
 * Ohne Parameter wird das komplette Display über den I²C-Bus neu geschrieben.
 * Mit den optionalen Parametern *from_page*, *to_page* ist es möglich, nur einen Teil des Displays zu aktualisieren. Eine 'Page' ist eine Zeile 8 Pixel hoch und 128 Pixel breit (Breite des Displays).
@@ -256,17 +256,17 @@ Block **display_matrix** (from_page, to_page, select_oled) → alle Parameter op
 
 > <ins>Die folgenden Blöcke ändern nur die Pixel in der Matrix, nicht das Display.</ins>
 
-Block **clear_matrix** (from_page, to_page) → alle Parameter optional
+Block **oled_clear_matrix** (from_page, to_page) → alle Parameter optional
 * Löscht die gesamte Matrix (ohne Parameter) oder einzelne Zeilen.
 * *from_page*: 0..7, default: 0
 * *to_page*: 0..7 bzw. 0..15, default 7 bzw. 15
 
-Block **set_pixel** (x, y, pixel)
+Block **oled_set_pixel** (x, y, pixel)
 * *pixel*: schaltet ein Pixel (in der Matrix) True:EIN oder False:AUS. 
 * Für die Koordinate *x* sind Werte von 0 (links) bis 127 (rechts) möglich.
 * Für die Koordinate *y* sind Werte von 0 (oben) bis 63 bzw. 127 (unten) möglich.
 
-Block **write_matrix** (row, col, text)
+Block **oled_text** (row, col, text)
 ###### erforderlich: [qwiiceeprom](#qwiiceprompy)
 > Um Text mit Pixeln zu zeichnen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein. Pro Zeichen werden 8 Byte vom EEPROM in die Matrix kopiert.
 
