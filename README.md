@@ -55,7 +55,7 @@ qwiicbutton_int|[Beispiel](qwiicbutton_int)|2 I²C Buttons mit LED, /INT Ereigni
 [qwiiclcd](#qwiiclcdpy)|<code>0x72</code>|Qwiic LCD Displays [20x4](https://www.sparkfun.com/products/16398), [16x2](https://www.sparkfun.com/products/16396), [16x2](https://www.sparkfun.com/products/16397)
 qwiiclcd_keypad_rtc|[Beispiel](qwiiclcd_keypad_rtc)|LCD: Uhr stellen mit Keypad, GPIO→ASCII, Joystick
 [qwiicmotor](#qwiicmotorpy)|<code>0x5D 0x5E</code>|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
-qwiicmotor_joystick|[Beispiel](qwiicmotor_joystick)|2 oder 4 Motoren mit Joystick steuern
+qwiicmotor_joystick|[Beispiel](qwiicmotor_joystick)|4 Motoren (I²C Motor Driver) mit Joystick steuern
 [qwiicmux](#qwiicmuxpy)|<code>0x70</code>|[SparkFun Qwiic Mux 8 Channel](https://www.sparkfun.com/products/16784)
 qwiicmux_rx|[Beispiel](qwiicmux_rx)|RX Controller mit I²C Multiplexer, 10 I²C Module
 [qwiicopenlog](#qwiicopenlogpy)|<code>0x2A</code>|[SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164) (Speicherkarte)
