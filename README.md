@@ -57,7 +57,7 @@ qwiiclcd_keypad_rtc|[Beispiel](qwiiclcd_keypad_rtc)|LCD: Uhr stellen mit Keypad,
 [qwiicmotor](#qwiicmotorpy)|<code>0x5D 0x5E</code>|[SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
 qwiicmotor_joystick|[Beispiel](qwiicmotor_joystick)|2 oder 4 Motoren mit Joystick steuern
 [qwiicmux](#qwiicmuxpy)|<code>0x70</code>|[SparkFun Qwiic Mux 8 Channel](https://www.sparkfun.com/products/16784)
-qwiicmux_rx|[Beispiel](qwiicmux_rx)|RX mit I²C Multiplexer, 10 I²C Module
+qwiicmux_rx|[Beispiel](qwiicmux_rx)|RX Controller mit I²C Multiplexer, 10 I²C Module
 [qwiicopenlog](#qwiicopenlogpy)|<code>0x2A</code>|[SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164) (Speicherkarte)
 qwiicopenlog_rtc|[Beispiel](qwiicopenlog_rtc)|Dateien DIR, COPY, LOG mit Zeit aus RTC
 [qwiicrelay](#qwiicrelaypy)|<code>0x18</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
