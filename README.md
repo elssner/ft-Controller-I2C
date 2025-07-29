@@ -27,12 +27,12 @@ Der Import muss mehrmals erfolgen:
 ###### Tabelle 1:
 * Quellcodedatei mit Link zur Beschreibung der Blöcke (auf dieser Seite unten).
 * I²C Module mit Link zur Hersteller Webseite mit Bild und Dokumentation.
-* Quellcodedateien
-  * 1 i2cCode
-  * 22 mit <code>I²C-Adresse</code>: sind einem bestimmten I²C Modul zugeordnet.
-  * 3 **Erweiterung**: zusätzliche Blöcke zum entsprechenden I²C Modul.
-  * 10 [Beispiel](examples): Programmierbeispiel kann mehrere I²C Module betreffen.\
-  Jedes Beispiel hat eine eigene GitHub Seite.
+* (36) Quellcodedateien im Projekt [ft_Controller_I2C](https://git.fischertechnik-cloud.com/i2c/ft_Controller_I2C) 
+  * (1) i2cCode
+  * (22) mit <code>I²C-Adresse</code>: sind einem bestimmten I²C Modul zugeordnet.
+  * (3) **Erweiterung**: zusätzliche Blöcke zum entsprechenden I²C Modul.
+  * (10) [Beispiel](examples): Programmierbeispiel kann mehrere I²C Module betreffen.\
+  Jedes Beispiel hat eine eigene GitHub Seite → [I²C Programmierbeispiele im Überblick](examples#tabelle-1)
 
 Quellcodedatei|I²C-Adresse|I²C Module
 ---|---|---
