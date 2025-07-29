@@ -28,7 +28,8 @@ Der Import muss mehrmals erfolgen:
 * Quellcodedatei mit Link zur Beschreibung der Blöcke (auf dieser Seite unten).
 * I²C Module mit Link zur Hersteller Webseite mit Bild und Dokumentation.
 * Quellcodedateien
-  * 22 mit <code>I²C-Adresse</code> sind bestimmten I²C Modulen zugeordnet.
+  * 1 i2cCode
+  * 22 mit <code>I²C-Adresse</code>: sind einem bestimmten I²C Modul zugeordnet.
   * 3 **Erweiterung**: zusätzliche Blöcke zum entsprechenden I²C Modul.
   * 10 [Beispiel](examples): Programmierbeispiel kann mehrere I²C Module betreffen.\
   Jedes Beispiel hat eine eigene GitHub Seite.
