@@ -287,7 +287,7 @@ Block **oled_paint_eeprom** (eeprom_startadresse, from_page, to_page) → alle P
 ###### Erweiterung zu: [oled](#oledpy)
 Block **oled_line** (x0, y0, x1, y1, pixel)
 * Zeichnet eine Linie mit den angegebenen Koordinaten in die Matrix.
-* Parameter wie oben **setPixel**.
+* Parameter wie oben **oled_set_pixel**.
 
 Block **oled_rectangle** (x0, y0, x1, y1, pixel)
 * Zeichnet ein Rechteck mit den angegebenen Koordinaten in die Matrix.
@@ -299,7 +299,7 @@ Block **oled_minute** (minute, x, y, l0, l1, pixel)
 * zeichnet Uhrzeiger in die Matrix: 60 Positionen (Winkel vom Mittelpunkt)
 * *minute*: 0..59 Winkel der Linie vom Mittelpunkt *x*, *y*
 * *l0*, *l1* Länge des Zeigers (Anfang und Ende vom Mittelpunkt in Pixeln)
-* Parameter *x*, *y*, *pixel* wie oben **setPixel**
+* Parameter *x*, *y*, *pixel* wie oben **oled_set_pixel**
 
 Block **oled_hour** (hour, x, y, l0, l1, pixel)
 * wie **oled_minute** mit *hour*: 0..23
