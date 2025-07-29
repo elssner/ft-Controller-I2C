@@ -19,7 +19,7 @@ Beim TXT 4.0 Controller sind solche Einschränkungen nicht bekannt.
 
 Quellcodedatei|kurze Beschreibung
 ---|---
-[lcd16x2_keyboard_rtc](../lcd16x2_keyboard_rtc)|Grove LCD: Tastatur schreiben, Uhr, DIP Schalter
+[lcd16x2_keyboard_rtc](../lcd16x2_keyboard_rtc)|Grove LCD: Text mit Tastatur schreiben, Datum und Uhrzeit, DIP Schalter
 [oled_text_analoguhr](../oled_text_analoguhr)|OLED Analoguhr, Text Zeichensatz aus EEPROM
 [qwiicbutton_int](../qwiicbutton_int)|2 I²C Buttons mit LED, /INT Ereignis, Optokoppler
 [qwiiclcd_keypad_rtc](../qwiiclcd_keypad_rtc)|Qwiic LCD: Uhr stellen mit Keypad, GPIO→ASCII, Joystick
