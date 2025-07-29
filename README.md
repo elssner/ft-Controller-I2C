@@ -65,7 +65,7 @@ qwiicopenlog_rtc|[Beispiel](qwiicopenlog_rtc)|Dateien DIR, COPY, LOG mit Zeit au
 [s_co2](#s_co2py)|<code>0x62</code>|[Calliope CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
 s_qwiic_distance|[Beispiel](s_qwiic_distance)|4 Abstands- und Nähesensoren, Qwiic LCD 20x4
 [s_qwiicinfrared](#s_qwiicinfraredpy)|<code>0x60</code>|[Proximity Sensor VCNL4040](https://www.sparkfun.com/products/15177)
-[s_qwiiclaser](#s_qwiiclaserpy)|<code>0x29</code>|Laser Abstand Sensoren [VL53L1X](https://www.sparkfun.com/products/14722), [VL53L4CD](https://www.sparkfun.com/products/18993)
+[s_qwiiclaser](#s_qwiiclaserpy)|<code>0x29</code>|Laser Distance Sensoren [VL53L1X](https://www.sparkfun.com/products/14722), [VL53L4CD](https://www.sparkfun.com/products/18993)
 [s_qwiictemp](#s_qwiictemppy)|<code>0x3C</code>|[Temperature Sensor - STTS22H](https://www.sparkfun.com/products/21273)
 s_qwiictemp_lcd|[Beispiel](s_qwiictemp_lcd)|2 Temperatursensoren, Qwiic LCD Display
 [s_qwiictmp102](#s_qwiictmp102py)|<code>0x48</code>|[Temperature Sensor - TMP102](https://www.sparkfun.com/products/16304)
