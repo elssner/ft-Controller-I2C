@@ -47,7 +47,7 @@ Quellcodedatei|kurze Beschreibung
 ---|---|---|---|---|:---:|---
 `0`|`0`|`0`|`0`|[i2c_scan](../#i2c_scan)|0|I²C-Adressen in Konsole anzeigen
 `0`|`0`|`0`|`1`|[grovelcd_keyboard](../lcd16x2_keyboard_rtc#grovelcd_keyboard)|1|mit Tastatur in Display schreiben
-`0`|`0`|`1`|`0`|[oled2_demo](../oled_text_analoguhr#oled2_demo)|2|Analoguhr, Text aus EEPROM
+`0`|`0`|`1`|`0`|[oled2_demo](../oled_text_analoguhr#oled2_demo)|2|Digital-, Analoguhr, Text aus EEPROM
 `0`|`0`|`1`|`1`|[buttons_polling](../qwiicbutton_int#buttons_polling)|3|2 I²C-Buttons mit LED, DIP-Schalter
 `0`|`1`|`0`|`0`|[qlcd_uhr_stellen](../qwiiclcd_keypad_rtc#qlcd_uhr_stellen)|4|Uhr anzeigen und stellen mit Keypad
 `0`|`1`|`0`|`1`|[qlcd_gpio_ascii](../qwiiclcd_keypad_rtc#qlcd_gpio_ascii)|5|Binär Schreibmaschine, GPIO→ASCII
