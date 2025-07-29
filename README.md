@@ -783,7 +783,7 @@ Block **wattmeter_init**
 * Spannung kann nicht kalibriert werden.
 
 Block **wattmeter_volt**
-* Gibt Spannung in V zurück, mit 2 Dezimalstellen.
+* Gibt Spannung in V zurück, mit 2 Dezimalstellen, immer positiv.
 
 Block **wattmeter_milliampere**
 * Gibt Strom in mA zurück, integer kann auch negativ sein.
