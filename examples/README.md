@@ -22,7 +22,7 @@ Quellcodedatei|kurze Beschreibung
 [lcd16x2_keyboard_rtc](../lcd16x2_keyboard_rtc)|Grove LCD: Text mit Tastatur schreiben, Datum, Uhrzeit, DIP Schalter
 [oled_text_analoguhr](../oled_text_analoguhr)|OLED Analoguhr, Text Zeichensatz aus EEPROM
 [qwiicbutton_int](../qwiicbutton_int)|2 I²C Buttons mit LED, /INT Ereignis, Optokoppler
-[qwiiclcd_keypad_rtc](../qwiiclcd_keypad_rtc)|Qwiic LCD: Uhr stellen mit Keypad, GPIO→ASCII, Joystick
+[qwiiclcd_keypad_rtc](../qwiiclcd_keypad_rtc)|Qwiic LCD: Uhr stellen mit Keypad, 8 Tasten→GPIO→ASCII, Joystick
 [qwiicmotor_joystick](../qwiicmotor_joystick)|2 oder 4 Motoren (I²C Motor Driver) mit Joystick steuern
 [qwiicmux_rx](../qwiicmux_rx)|RX Controller mit I²C Multiplexer, 10 I²C Module
 [qwiicopenlog_rtc](../qwiicopenlog_rtc)|Dateien von Speicherkarte DIR, COPY, LOG mit Zeit aus RTC
