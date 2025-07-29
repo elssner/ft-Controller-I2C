@@ -609,7 +609,7 @@ Block **rtc_read** ()
 * Liest 7 Byte in Variable RTC_BUFFER.
 * BCD codiert: 4 Bit pro Ziffer, Bit `7654` Zehner, Bit `3210` Einer, Jahr 2-stellig
 
-> <ins>Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.</ins>
+> <ins>Die folgenden Blöcke lesen nur die Variable, nicht den I²C-Bus.</ins>
 
 Block **rtc_get** (index) : Byte
 * Liest 1 Byte aus Variable RTC_BUFFER[*index*] zu dezimal konvertiert.
@@ -637,30 +637,30 @@ Block **rtc_iso_string** () : String 12 Zeichen
 > Sensor hat keine Pull Up Widerstände, deshalb immer mit anderen Modulen anschließen, die welche haben.
 > Blockiert oft den I²C-Bus, dann Strom aus und einschalten. [Data Sheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf#page=8)
 
-Block **init_co2** (factory_reset)
+Block **co2_init** (factory_reset)
 * Muss einmal beim Start aufgerufen werden.
 * *factory_reset*: True Reset aller Register.
-* Ruft **start_continuous_measurement** auf.
+* Ruft **co2_start_continuous_measurement** auf.
 
-Block **start_continuous_measurement**
+Block **co2_start_continuous_measurement**
 * Startet die Messungen (etwa aller 5 Sekunden).
 
-Block **stop_continuous_measurement**
+Block **co2_stop_continuous_measurement**
 * Beendet die Messungen. Immer abschalten wenn nicht benötigt, um Strom zu sparen.
 
-Block **get_data_ready_status**
+Block **co2_read_data_ready_status**
 * Gibt True zurück, wenn ein neuer Messwert bereit ist. Etwa aller 5 Sekunden.
 
-Block **read_measurement**
-* Testet **get_data_ready_status**, wenn True werden die Messwerte in interne Variablen gelesen.
+Block **co2_read_measurement**
+* Testet **co2_get_data_ready_status**, wenn True werden die Messwerte in interne Variablen gelesen.
 * Sonst bleiben die internen Variablen unverändert.
 * Muss einmal in jeder Schleife (aller 5s) aufgerufen werden, um die Variablen zu aktualisieren.
 
 > Die folgenden Blöcke **get** lesen nur die Variable, nicht den I²C-Bus.
 
-Block **get_co2**\
-Block **get_temperature**\
-Block **get_relative_hunidity**
+Block **co2_get_co2**\
+Block **co2_get_temperature**\
+Block **co2_get_relative_hunidity**
 * Gibt CO₂ (Kohlenstoffdioxid), Temperatur °C oder relative Luftfeuchtigkeit zurück.
 
 
