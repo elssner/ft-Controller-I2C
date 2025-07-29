@@ -46,7 +46,7 @@ lcd16x2_keyboard_rtc|[Beispiel](lcd16x2_keyboard_rtc)|Grove LCD: Tastatur schrei
 [oled_geometrie](#oled_geometriepy)|**Erweiterung**|Blöcke für Linien und Kreise
 oled_text_analoguhr|[Beispiel](oled_text_analoguhr)|OLED Analoguhr, Text Zeichensatz aus EEPROM
 [qwiicbutton](#qwiicbuttonpy)|<code>0x6F 0x6E</code>|[SparkFun Qwiic Button](https://www.sparkfun.com/products/16842)
-qwiicbutton_int|[Beispiel](qwiicbutton_int)|2 I²C Buttons, /INT Ereignis, Optokoppler
+qwiicbutton_int|[Beispiel](qwiicbutton_int)|2 I²C Buttons mit LED, /INT Ereignis, Optokoppler
 [qwiicbutton_queue](#qwiicbutton_queuepy)|**Erweiterung**|Blöcke für Button Queue
 [qwiiceeprom](#qwiiceeprompy)|<code>0x50</code>|[SparkFun Qwiic EEPROM - 512Kbit](https://www.sparkfun.com/products/18355)
 [qwiicgpio](#qwiicgpiopy)|<code>0x27</code>|[SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
