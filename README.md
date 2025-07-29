@@ -27,17 +27,17 @@ Der Import muss mehrmals erfolgen:
 ###### Tabelle 1:
 * Quellcodedatei mit Link zur Beschreibung der Blöcke (auf dieser Seite unten).
 * I²C Module mit Link zur Hersteller Webseite mit Bild und Dokumentation.
-* (36) Quellcodedateien im Projekt [ft_Controller_I2C](https://git.fischertechnik-cloud.com/i2c/ft_Controller_I2C) 
+* (36) Quellcodedateien im GitLab Projekt [ft_Controller_I2C](https://git.fischertechnik-cloud.com/i2c/ft_Controller_I2C) 
   * (1) i2cCode
   * (22) mit <code>I²C-Adresse</code>: sind einem bestimmten I²C Modul zugeordnet.
   * (3) **Erweiterung**: zusätzliche Blöcke zum entsprechenden I²C Modul.
   * (10) [Beispiel](examples): Programmierbeispiel kann mehrere I²C Module betreffen.\
-  Jedes Beispiel hat eine eigene GitHub Seite → [I²C Programmierbeispiele im Überblick](examples#tabelle-1)
+  Jedes Beispiel hat eine eigene GitHub Seite → [I²C Programmierbeispiele im Überblick](examples#tabelle-1).
 
 Quellcodedatei|I²C-Adresse|I²C Module
 ---|---|---
 [i2cCode](#i2ccodepy)||Python I²C für [RX](https://github.com/fischertechnik/RX-Controller-I2C) und [TXT 4.0](https://github.com/fischertechnik/TXT40-Controller-I2C)
-[advanced](#advancedpy)|**Erweiterung**|Blöcke für fehlende Funktionen
+[advanced](#advancedpy)|**Erweiterung**|Blöcke für fehlende / zusätzliche Funktionen
 [dipswitch](#dipswitchpy)|<code>0x03</code>|[6-DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch), [5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch)
 [keyboard](#keyboardpy)|<code>0x5F</code>|[M5Stack Card Keyboard](https://docs.m5stack.com/en/unit/cardkb_1.1)
 [lcd16x2](#lcd16x2py)|<code>0x3E</code>|[Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
