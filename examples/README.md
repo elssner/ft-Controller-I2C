@@ -26,7 +26,7 @@ Quellcodedatei|kurze Beschreibung
 [qwiicmotor_joystick](../qwiicmotor_joystick)|2 oder 4 Motoren (I²C Motor Driver) mit Joystick steuern
 [qwiicmux_rx](../qwiicmux_rx)|RX Controller mit I²C Multiplexer, 10 I²C Module
 [qwiicopenlog_rtc](../qwiicopenlog_rtc)|Dateien von Speicherkarte DIR, COPY, LOG mit Zeit aus RTC
-[s_qwiic_distance](../s_qwiic_distance)|4 verschiedene Abstands- und Nähesensoren, LCD 20x4
+[s_qwiic_distance](../s_qwiic_distance)|4 verschiedene Abstands- und Nähesensoren, Qwiic LCD 20x4
 [s_qwiictemp_lcd](../s_qwiictemp_lcd)|2 Temperatursensoren STTS22H und TMP102 , Qwiic LCD Display
 [wattmeter_co2_relay](../wattmeter_co2_relay)|Strom messen von CO₂ Sensor und I²C Relais, Grove LCD Display
 
