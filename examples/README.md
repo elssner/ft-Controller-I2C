@@ -33,6 +33,7 @@ Quellcodedatei|kurze Beschreibung
 
 
 #### Hauptprogramm in der App ROBO Pro Coding
+* Projekt [ft_Controller_I2C](https://git.fischertechnik-cloud.com/i2c/ft_Controller_I2C) von fischertechnik GitLab laden.
 * Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. [Tabelle 2](#tabelle-2) zeigt die Codierung der Eingänge.
 * Beispiel 0 **i2c_scan** zeigt die gefundenen I²C-Adressen in der Konsole an.
 * Beispiel 8 **log_konsole** zeigt Dateien von der Speicherkarte in der Konsole an.
