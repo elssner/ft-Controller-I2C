@@ -28,7 +28,7 @@ Quellcodedatei|kurze Beschreibung
 [qwiicopenlog_rtc](../qwiicopenlog_rtc)|Dateien von Speicherkarte DIR, COPY, LOG mit Zeit aus RTC
 [s_qwiic_distance](../s_qwiic_distance)|4 verschiedene Abstands- und Nähesensoren, LCD 20x4
 [s_qwiictemp_lcd](../s_qwiictemp_lcd)|2 Temperatursensoren, Qwiic LCD Display
-[wattmeter_co2_relay](../wattmeter_co2_relay)|Strommessung, CO₂ Sensor, Relais, Grove LCD Display
+[wattmeter_co2_relay](../wattmeter_co2_relay)|Strom messen von CO₂ Sensor und I²C Relais, Grove LCD Display
 
 
 
