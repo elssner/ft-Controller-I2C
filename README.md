@@ -789,6 +789,6 @@ Block **wattmeter_milliampere**
 * Gibt Strom in mA zurück, integer kann auch negativ sein.
 
 Block **wattmeter_milliwatt**
-* Gibt Leistumg in mW zurück. Ist ungenau und eigentlich überflüssig, Datenblatt lesen.
+* Gibt Leistung in mW zurück. Ist ungenau und eigentlich überflüssig, Datenblatt lesen.
 
 
