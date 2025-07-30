@@ -40,7 +40,7 @@ GPIO liest 8 Tasten von der Modelleisenbahn Tastatur und zeigt diese binär und 
 Block **qmux_rx1**
 
 
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[oled](../#oledpy)**, **[oled_geometrie](../#oled_geometriepy)**, **[qwiiceeprom](../#qwiiceeprompy)**, **[qwiicgpio](../#qwiicgpiopy)**,\
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[oled](../#oledpy)**, **[oled_geometrie](../#oled_geometriepy)**, **[qwiiceeprom](../#qwiiceeprompy)**, **[qwiicgpio](../#qwiicgpiopy)**,\
 **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[qwiicmux](../#qwiicmuxpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **[rtc](../#rtcpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**
 * I²C Module: 10
 * Laden von fischertechnik GitLab: [I2C_Multiplexer](https://git.fischertechnik-cloud.com/i2c/I2C_Multiplexer)
@@ -53,6 +53,12 @@ Zum Vergrößern auf das Bild klicken.
 * **i2c_scan** kann zur Kontrolle aller Kanäle angezeigt (oder weg gelassen) werden.
 * **list_hex** befindet sich in **[advanced](../#advancedpy)**, **i2c_scan** in **[i2cCode](../#i2ccodepy)**.
 * Programm läuft sonst ohne Verbindung zur App ROBO Pro Coding.
+
+
+
+Block **Programmstart**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[oled](../#oledpy)**, **[oled_geometrie](../#oled_geometriepy)**, **[qwiiceeprom](../#qwiiceeprompy)**, **[qwiicgpio](../#qwiicgpiopy)**,\
+**[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[qwiicmux](../#qwiicmuxpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **[rtc](../#rtcpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**
 
 ![](qmux_rx1.png)
 * Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
