@@ -48,7 +48,6 @@ Block **qultraschall_infrarot_qlcd**
 * Laden von fischertechnik GitLab: [I2C_Abstandsensor_LCD20x4](https://git.fischertechnik-cloud.com/i2c/I2C_Abstandsensor_LCD20x4)
 * &nbsp;
 * Zeigt nur Ultraschall und Infrarot Sensor in 2 Zeilen an.
-* Dafür kann kleineres 16x2 Qwiic LCD Display eingesetzt werden.
 
 Block **qlaser_konsole**
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[s_qwiiclaser](../#s_qwiiclaserpy)**, **s_qwiic_distance**
