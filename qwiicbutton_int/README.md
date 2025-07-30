@@ -20,9 +20,10 @@ Der [DIP Schalter](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) ste
 Zum Vergrößern auf das Bild klicken.
 
 I²C Module, die eine Eingabe machen wie Buttons, müssen normalerweise in einer dauerhaft Schleife ständig über den I²C-Bus abgefragt werden, ob sich der Zustand geändert hat.\
-(Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.)
 
 ![](dauerhaft_button_polling.png)
+
+* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
 
 Solche I²C Module haben oft einen zusätzlichen (Löt-) Interrupt-Pin /INT, der außerhalb vom I²C-Bus extra verdrahtet werden kann.
 
