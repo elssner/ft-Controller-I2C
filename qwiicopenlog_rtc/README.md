@@ -82,7 +82,7 @@ Zum Vergrößern auf das Bild klicken.
 
 * Protokolliert in eine Datei. Parameter *text* wird mit str() konvertiert.
 * *text* wird an die Datei angehängt (oder neu angelegt).
-* Ist *new_line*=True wird noch CR (=13) und LF (=10) angehängt.
+* Ist *new_line*=True, wird noch CR (=13) und LF (=10) angehängt.
 * Dateiname und neue Größe der Logdatei wird in der Konsole angezeigt.
 * Dateiname wird aus Datum und Zeit gebildet: `yyMMddHH`.LOG.
 * Datum und Zeit wird aus angeschlossenem [RTC-Modul](../#rtcpy) gelesen.
