@@ -15,7 +15,8 @@
 
 
 Block **grovelcd_dipswitch_rtc**
-* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[dipswitch](../#dipswitchpy)**, **[rtc](../#rtcpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[dipswitch](../#dipswitchpy)**, **[rtc](../#rtcpy)**
+* I²C Module: Grove LCD Display, DIP Schalter, RTC-Uhr
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_Keyboard_Dipswitch](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_Keyboard_Dipswitch)
 
 [![](DSC00508_512.JPG)](DSC00508.JPG)\
@@ -27,7 +28,8 @@ Zum Vergrößern auf das Bild klicken.
 
 <a name="grovelcd_keyboard"></a>
 Block **grovelcd_keyboard**
-* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[keyboard](../#keyboardpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[keyboard](../#keyboardpy)**
+* I²C Module: Grove LCD Display, Tastatur
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_Keyboard_Dipswitch](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_Keyboard_Dipswitch)
 
 [![](DSC00515_512.JPG)](DSC00515.JPG)\
