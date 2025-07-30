@@ -6,10 +6,10 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### qwiicbutton_int (Beispiel Buttons, Interrupt)
+### qwiicbutton_int (I²C Buttons, Interrupt extern, Optokoppler)
 
-* [SparkFun Qwiic Button](https://www.sparkfun.com/products/16842)
 * [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch)
+* [SparkFun Qwiic Button](https://www.sparkfun.com/products/16842)
 * [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 
 Das Beispiel demonstriert den Hardware Interrupt von zwei I²C Buttons. Die im Button eingebaute LED rot bzw. grün wird beim Klicken an und aus geschaltet. 
