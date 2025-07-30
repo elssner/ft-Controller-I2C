@@ -23,7 +23,7 @@ Block **joy_2motoren**
 * I²C Module: I²C Motor Driver, I²C Joystick
 * Laden von fischertechnik GitLab: [I2C_Motoren_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_Motoren_Joystick)
 
-[![](DSC00431_256.JPG)](DSC00431.JPG)\
+[![](DSC00431_512.JPG)](DSC00431.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
 * Verwendet nur ein I²C Motor Modul (für 2 Motoren) und den Joystick.
