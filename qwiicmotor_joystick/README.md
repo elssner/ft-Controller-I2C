@@ -36,7 +36,10 @@ Block **joy_4motoren**
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiicmotor](../#qwiicmotorpy)**
 * I²C Module: 2 Stück I²C Motor Driver, I²C Joystick
 * Laden von fischertechnik GitLab: [I2C_Motoren_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_Motoren_Joystick)
-* &nbsp;
+
+[![](DSC00547_512.JPG)](DSC00547.JPG)\
+Zum Vergrößern auf das Bild klicken.
+
 * Verwendet zwei I²C Motor Module (für 4 Motoren) und den Joystick.
 * Beim zweiten Modul wurde die I²C-Adresse geändert (Lötbrücke).
 * (Es sind 10 I²C-Adressen möglich, also 20 Motoren an einem I²C-Bus...)
