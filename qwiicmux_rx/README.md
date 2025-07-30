@@ -52,7 +52,7 @@ Zum Vergrößern auf das Bild klicken.
 * Projekt kann für TXT 4.0 Controller konvertiert werden.
 * Programm läuft auch ohne Verbindung zur App ROBO Pro Coding.
 
-![](qmux_rx1.png)
+![](qmux_rx1.png)\
 Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
 
 > Im Hauptprogramm kann zur Kontrolle aller I²C Module in jedem Kanal vom Multiplexer i2c_scan aufgerufen werden.
