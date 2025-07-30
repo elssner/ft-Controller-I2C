@@ -13,7 +13,7 @@
 * [NTC-Widerstand 1,5 kΩ](https://www.fischertechnik.de/de-de/produkte/einzelteile/elektronik/36437-ntc-widerstand-1-5-k-silber)
 
 In das I²C Modul 'SparkFun Qwiic OpenLog' wird eine microSD card 64MB .. 32GB, FAT16 oder FAT32 gesteckt.
-Im Beispiel [log_konsole](#log_konsole) wird die Anwendung der Blöcke in [qwiicopenlog](../#qwiicopenlogpy) mit Ausgabe in die Konsole demonstriert. [log_copy](#log_copy) kopiert eine Datei.\
+Im Beispiel [log_konsole](#log_konsole) wird die Anwendung der Blöcke in [qwiicopenlog](../#qwiicopenlogpy) mit Ausgabe in die Konsole demonstriert. Beispiel [log_copy](#log_copy) kopiert eine Datei.\
 Das Beispiel [log_time](#log_time) zeigt den eigentlichen Zweck des Moduls, in eine Datei zu protokollieren.
 
 Vor allem für den RX Controller ist das interessant, weil der weder Speicherkarte noch Uhr integriert hat. Allerdings wird beim Lesen und Kopieren von Dateien viel Speicher gebraucht, der beim RX Controller nicht immer ausreicht.
