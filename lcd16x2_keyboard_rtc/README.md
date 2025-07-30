@@ -15,7 +15,7 @@
 
 
 Block **grovelcd_dipswitch_rtc**
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[dipswitch](../#dipswitchpy)**, **[rtc](../#rtcpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[dipswitch](../#dipswitchpy)**, **[rtc](../#rtcpy)**, **lcd16x2_keyboard_rtc**
 * I²C Module: Grove LCD Display, I²C DIP Schalter, RTC-Uhr
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_Keyboard_Dipswitch](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_Keyboard_Dipswitch)
 
@@ -28,7 +28,7 @@ Zum Vergrößern auf das Bild klicken.
 
 <a name="grovelcd_keyboard"></a>
 Block **grovelcd_keyboard**
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[keyboard](../#keyboardpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[lcd16x2](../#lcd16x2py)**, **[keyboard](../#keyboardpy)**, **lcd16x2_keyboard_rtc**
 * I²C Module: Grove LCD Display, I²C Tastatur
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_Keyboard_Dipswitch](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_Keyboard_Dipswitch)
 
@@ -40,6 +40,5 @@ Zum Vergrößern auf das Bild klicken.
 * Zurück-Taste: letztes Zeichen löschen.
 * Alle anderen Zeichen werden angezeigt, bis die Zeile voll ist (16 Zeichen).
 
-![](lcd16x2_keyboard_rtc.png)
-
-* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
+![](lcd16x2_keyboard_rtc.png)\
+Beim RX Controller muss I²C beim Programmstart initialisiert werden.
