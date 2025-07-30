@@ -21,7 +21,7 @@ Manchmal wird in der Konsole ein Memory Allocation Error angezeigt. Oft hängt e
 
 <a name="log_konsole"></a>
 Block **log_konsole** (filename1)
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **qwiicopenlog_rtc**
 * I²C Module:  Qwiic OpenLog mit Speicherkarte
 * Laden von fischertechnik GitLab: [I2C_Speicherkarte_Uhr](https://git.fischertechnik-cloud.com/i2c/I2C_Speicherkarte_Uhr)
 
@@ -73,7 +73,7 @@ Block **log_copy** (filename1, filename2, size)
 
 <a name="log_time"></a>
 Block **log_time** (text, new_line)
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **[rtc](../#rtcpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **[rtc](../#rtcpy)**, **qwiicopenlog_rtc**
 * I²C Module: Qwiic OpenLog mit Speicherkarte, RTC-Uhr
 * sonstige Hardware: NTC Widerstand fischertechnik 36437 oder 205652
 * Laden von fischertechnik GitLab: [I2C_Speicherkarte_Uhr](https://git.fischertechnik-cloud.com/i2c/I2C_Speicherkarte_Uhr)
