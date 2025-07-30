@@ -39,7 +39,7 @@ Block **qdistance_qlcd4**
 * Von den Lasersensoren (unten im Bild) kann immer nur einer angesteckt werden.
 
 ![](s_qwwic_distance.png)\
-(Beim RX Controller muss I²C beim Programmstart initialisiert werden.
+Beim RX Controller muss I²C beim Programmstart initialisiert werden.
 
 Block **qultraschall_infrarot_qlcd**
 * Zeigt nur Ultraschall und Infrarot Sensor in 2 Zeilen an.
