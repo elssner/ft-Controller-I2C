@@ -18,7 +18,8 @@
 
 <a name="qlcd_uhr_stellen"></a>
 Block **qlcd_uhr_stellen**
-* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**
+* I²C Module: Qwiic LCD Display, I²C Keypad 12 Tasten, RTC-Uhr
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
 [![](DSC00526_512.JPG)](DSC00526.JPG)\
@@ -39,7 +40,8 @@ Zum Vergrößern auf das Bild klicken.
 
 
 Block **qlcd_joystick**
-* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiiclcd](../#qwiiclcdpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiiclcd](../#qwiiclcdpy)**
+* I²C Module: Qwiic LCD Display, I²C Joystick
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
 [![](DSC00529_512.JPG)](DSC00529.JPG)\
@@ -55,7 +57,8 @@ Zum Vergrößern auf das Bild klicken.
 
 <a name="qlcd_gpio_ascii"></a>
 Block **qlcd_gpio_ascii**
-* Quellcodedateien, I²C Module: **[i2cCode](../#i2ccodepy)**, **[qwiicgpio](../#qwiicgpiopy)**, **[qwiiclcd](../#qwiiclcdpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicgpio](../#qwiicgpiopy)**, **[qwiiclcd](../#qwiiclcdpy)**
+* I²C Module: Qwiic LCD Display, I²C GPIO 8 Bit Input von Modellbahn Tastenpult
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
 [![](DSC00534_512.JPG)](DSC00534.JPG)\
