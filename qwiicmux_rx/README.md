@@ -74,4 +74,3 @@ Start ['0x70']\
 7 ['0x8', '0x3c', '0x70']
 
 ![](qmux_rx1_hp.png)
-* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
