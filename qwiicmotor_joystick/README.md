@@ -20,7 +20,7 @@ Mit Bewegung in X oder Y Richtung wird jeweils einer der zwei Motoren an einem M
 
 Block **joy_2motoren**
 
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiicmotor](../#qwiicmotorpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiicmotor](../#qwiicmotorpy)**, **qwiicmotor_joystick**
 * I²C Module: I²C Motor Driver, I²C Joystick
 * Laden von fischertechnik GitLab: [I2C_Motoren_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_Motoren_Joystick)
 
@@ -34,7 +34,7 @@ Zum Vergrößern auf das Bild klicken.
 <a name="joy_4motoren"></a>
 Block **joy_4motoren**
 
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiicmotor](../#qwiicmotorpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiicmotor](../#qwiicmotorpy)**, **qwiicmotor_joystick**
 * I²C Module: 2 Stück I²C Motor Driver, I²C Joystick
 * Laden von fischertechnik GitLab: [I2C_Motoren_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_Motoren_Joystick)
 
@@ -47,6 +47,5 @@ Zum Vergrößern auf das Bild klicken.
 * Drücken auf Joystick schaltet I²C-Adresse und Motor Power zwischen den Motor-Modulen um.
 * Mit dem Joystick werden die aktiven Motoren in dauerhaft Schleife gesteuert.
 
-![](joy_motoren.png)
-
-* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
+![](joy_motoren.png)\
+Beim RX Controller muss I²C beim Programmstart initialisiert werden.
