@@ -11,9 +11,9 @@
 Im Beispiel werden 10 I²C Module vom RX Controller gesteuert: 
 
 * [SparkFun Qwiic I²C Multiplexer](https://www.sparkfun.com/products/16784)
-* [SparkFun Qwiic 16x2 SerLCD - RGB Text](https://www.sparkfun.com/products/16397)
-* [Grove OLED 128x128 Display](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
-* [Grove OLED 128x64 Display](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0)
+* [SparkFun Qwiic LCD Display 16x2 Zeichen](https://www.sparkfun.com/products/16397)
+* [Grove OLED Display 128x128 Pixel](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
+* [Grove OLED Display 128x64 Pixel](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0)
 * [SparkFun Qwiic EEPROM](https://www.sparkfun.com/products/18355)
 * [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 * [SparkFun Qwiic OpenLog (Speicherkarte)](https://www.sparkfun.com/products/15164)
