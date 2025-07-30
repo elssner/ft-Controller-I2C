@@ -80,12 +80,13 @@ Block **log_time** (text, new_line)
 [![](DSC00446_512.JPG)](DSC00446.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+* Protokolliert in eine Datei. Parameter *text* wird mit str() konvertiert.
 * *text* wird an die Datei angehängt (oder neu angelegt).
-* *new_line*=True: CR (=13) und LF (=10) wird an *text* angehängt.
+* Ist *new_line*=True wird noch CR (=13) und LF (=10) angehängt.
 * Dateiname und neue Größe der Logdatei wird in der Konsole angezeigt.
 * Dateiname wird aus Datum und Zeit gebildet: `yyMMddHH`.LOG.
 * Datum und Zeit wird aus angeschlossenem [RTC-Modul](../#rtcpy) gelesen.
-* Jede Stunde beginnt eine neue Datei mit sortierbarem Dateiname.
+* So beginnt jede Stunde eine neue Datei mit sortierbarem Dateiname.
 
 ![](log_ntc.png)\
 Beim RX Controller muss I²C beim Programmstart initialisiert werden.
