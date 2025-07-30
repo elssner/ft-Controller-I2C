@@ -58,4 +58,5 @@ Block **log_time** (text, new_line)
 * Datum und Zeit wird aus angeschlossenem [RTC-Modul](../#rtcpy) gelesen.
 * Jede Stunde beginnt eine neue Datei mit sortierbarem Dateiname.
 
-![](log_ntc.png)
+![](log_ntc.png)\
+Beim RX Controller muss I²C beim Programmstart initialisiert werden.
