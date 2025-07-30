@@ -46,7 +46,7 @@ ASCII.TXT Länge Text decode_latin: 108\
 @ABCDEFGHIJKLMNO\
 PQRSTUVWXYZ[\\]^_\
 `abcdefghijklmno\
-pqrstuvwxyz{|}~
+pqrstuvwxyz{|}~
 
 
 
