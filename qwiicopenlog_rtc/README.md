@@ -22,7 +22,7 @@ Manchmal wird in der Konsole ein Memory Allocation Error angezeigt. Oft hängt e
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **[rtc](../#rtcpy)**
 * Laden von fischertechnik GitLab: [I2C_Speicherkarte_Uhr](https://git.fischertechnik-cloud.com/i2c/I2C_Speicherkarte_Uhr)
 
-[![](DSC00446_256.JPG)](DSC00446.JPG)\
+[![](DSC00446_512.JPG)](DSC00446.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
 <a name="log_konsole"></a>
