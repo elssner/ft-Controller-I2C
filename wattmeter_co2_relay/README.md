@@ -6,7 +6,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### wattmeter_co2_relay (Strommessung am I²C-Bus, CO₂ Sensor und Relais)
+### wattmeter_co2_relay (Strom messen von CO₂ Sensor und I²C Relais)
 
 * [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
 * [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
@@ -46,9 +46,8 @@ Zum Vergrößern auf das Bild klicken.
 * Zeile 2 Spannung (3,3 Volt) und Strom von CO₂ Sensor und Relais am I²C-Bus.
 * Wiederholung aller 0,5 Sekunden, um die Strom Änderung vom CO₂ Sensor zu messen.
 
-![](wattmeter_co2_relay_2.png)
-
-* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
+![](wattmeter_co2_relay_2.png)\
+Beim RX Controller muss I²C beim Programmstart initialisiert werden.
 
 
 Block **wattmeter_konsole**
