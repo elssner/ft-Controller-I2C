@@ -59,7 +59,7 @@ qwiicmotor_joystick|[Beispiel](qwiicmotor_joystick)|4 Motoren (I²C Motor Driver
 [qwiicmux](#qwiicmuxpy)|<code>0x70</code>|[SparkFun Qwiic Mux 8 Channel](https://www.sparkfun.com/products/16784)
 qwiicmux_rx|[Beispiel](qwiicmux_rx)|RX Controller mit I²C Multiplexer, 10 I²C Module
 [qwiicopenlog](#qwiicopenlogpy)|<code>0x2A</code>|[SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164) (Speicherkarte)
-qwiicopenlog_rtc|[Beispiel](qwiicopenlog_rtc)|Dateien lesen und protokollieren auf Speicherkarte
+qwiicopenlog_rtc|[Beispiel](qwiicopenlog_rtc)|Dateien lesen, protokollieren auf Speicherkarte
 [qwiicrelay](#qwiicrelaypy)|<code>0x18</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 [rtc](#rtcpy)|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 [s_co2](#s_co2py)|<code>0x62</code>|[Calliope CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
