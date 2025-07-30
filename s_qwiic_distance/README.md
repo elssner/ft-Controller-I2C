@@ -27,14 +27,15 @@ Außerdem erkennt dieses Modul ein Hindernis auch schräg, oben und unten. Damit
 Um die 3 gleichzeitig gemessenen Abstände anzuzeigen, wird das große 20x4 LCD Display eingesetzt.
 Für das Beispiel mit 2 Sensoren reicht auch eins der kleineren 16x2 LCD Displays. Auch hier ist die Software gleich, es muss nur umgesteckt werden.
 
+<a name="qdistance_qlcd4"></a>
+Block **qdistance_qlcd4**
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[s_qwiicinfrared](../#s_qwiicinfraredpy)**, **[s_qwiiclaser](../#s_qwiiclaserpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**, **s_qwiic_distance**
+* I²C Module: LCD Display 20x4, Infrarotsensor, Ultraschallsensor und einer der beiden Laser Sensoren
 * Laden von fischertechnik GitLab: [I2C_Abstandsensor_LCD20x4](https://git.fischertechnik-cloud.com/i2c/I2C_Abstandsensor_LCD20x4)
 
 [![](DSC00483_512.JPG)](DSC00483.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
-<a name="qdistance_qlcd4"></a>
-Block **qdistance_qlcd4**
 * Zeigt die Messwerte von 3 Sensoren im Display an.
 * Von den Lasersensoren (unten im Bild) kann immer nur einer angesteckt werden.
 
@@ -42,10 +43,18 @@ Block **qdistance_qlcd4**
 Beim RX Controller muss I²C beim Programmstart initialisiert werden.
 
 Block **qultraschall_infrarot_qlcd**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[s_qwiicinfrared](../#s_qwiicinfraredpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**, **s_qwiic_distance**
+* I²C Module: LCD Display 20x4 oder 16x2, Infrarotsensor, Ultraschallsensor
+* Laden von fischertechnik GitLab: [I2C_Abstandsensor_LCD20x4](https://git.fischertechnik-cloud.com/i2c/I2C_Abstandsensor_LCD20x4)
+* &nbsp;
 * Zeigt nur Ultraschall und Infrarot Sensor in 2 Zeilen an.
 * Dafür kann kleineres 16x2 Qwiic LCD Display eingesetzt werden.
 
 Block **qlaser_konsole**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[s_qwiiclaser](../#s_qwiiclaserpy)**, **s_qwiic_distance**
+* I²C Module: einer der beiden Laser Sensoren
+* Laden von fischertechnik GitLab: [I2C_Abstandsensor_LCD20x4](https://git.fischertechnik-cloud.com/i2c/I2C_Abstandsensor_LCD20x4)
+* &nbsp;
 * Kommt ganz ohne Display aus.
 * Zeigt den Messwert von einem Laser Sensor fortlaufend in der Konsole an.
 * Im Hauptprogramm einfach den unteren Block tauschen.
