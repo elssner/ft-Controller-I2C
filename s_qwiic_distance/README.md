@@ -30,7 +30,7 @@ Für das Beispiel mit 2 Sensoren reicht auch eins der kleineren 16x2 LCD Display
 <a name="qdistance_qlcd4"></a>
 Block **qdistance_qlcd4**
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[s_qwiicinfrared](../#s_qwiicinfraredpy)**, **[s_qwiiclaser](../#s_qwiiclaserpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**, **s_qwiic_distance**
-* I²C Module: LCD Display 20x4, Infrarotsensor, Ultraschallsensor und einer der beiden Laser Sensoren
+* I²C Module: LCD Display 20x4, Infrarotsensor, Ultraschallsensor und ein Laser Sensor
 * Laden von fischertechnik GitLab: [I2C_Abstandsensor_LCD20x4](https://git.fischertechnik-cloud.com/i2c/I2C_Abstandsensor_LCD20x4)
 
 [![](DSC00483_512.JPG)](DSC00483.JPG)\
@@ -52,7 +52,7 @@ Block **qultraschall_infrarot_qlcd**
 
 Block **qlaser_konsole**
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[s_qwiiclaser](../#s_qwiiclaserpy)**, **s_qwiic_distance**
-* I²C Module: einer der beiden Laser Sensoren
+* I²C Module: einer der beiden Laser Sensoren VL53L1X oder VL53L4CD
 * Laden von fischertechnik GitLab: [I2C_Abstandsensor_LCD20x4](https://git.fischertechnik-cloud.com/i2c/I2C_Abstandsensor_LCD20x4)
 * &nbsp;
 * Kommt ganz ohne Display aus.
