@@ -19,7 +19,7 @@ Es gibt verschiedene Technologien, um 'Distance' zu messen. Hier sind 4 verschie
 
 Die beiden letzten sind Laser Sensoren mit unterschiedlicher Entfernung, aber gleicher Software und gleicher I²C-Adresse. Beide können nicht gleichzeitig benutzt werden, dafür aber einfach umgesteckt.
 
-Der Proximity Sensor erkennt mit Infrarot, ob ein Objekt näher als 20cm ist. Ein Beispiel ist der Seifenspender.
+Der Proximity (Nähe) Sensor erkennt mit Infrarot, ob ein Objekt näher als 20cm ist. Ein Beispiel ist der Händetrockner oder Seifenspender.
 
 Am bekanntesten ist der Ultraschallsensor, allerdings nicht mit I²C Anschluss. Dieser hat einen eigenen Prozessor und der Abstand in Millimeter muss nur noch über den I²C-Bus ausgelesen werden.
 Außerdem erkennt dieses Modul ein Hindernis auch schräg, oben und unten. Damit ist dieser Ultraschallsensor hervorragend geeignet, um Roboter selbst fahren zu lassen, ohne dass sie (schräg) anfahren.
