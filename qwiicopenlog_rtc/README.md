@@ -24,7 +24,32 @@ Block **log_konsole** (filename1)
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**
 * I²C Module:  Qwiic OpenLog mit Speicherkarte
 * Laden von fischertechnik GitLab: [I2C_Speicherkarte_Uhr](https://git.fischertechnik-cloud.com/i2c/I2C_Speicherkarte_Uhr)
+
+
+init_i2c_factory\
+SD Card Status: 0b11101\
+['ASCII.TXT', 'REMOVE08.TXT', 'UMLAUTE.TXT', 'UTF8BOM.TXT', 'ASCII2.TXT', 'LOG00002.TXT', 'LOG00003.TXT', 'LOG00004.TXT']\
+ASCII.TXT Länge Datei: 108\
+REMOVE08.TXT Länge Datei: 99\
+UMLAUTE.TXT Länge Datei: 31\
+UTF8BOM.TXT Länge Datei: 19\
+ASCII2.TXT Länge Datei: 108\
+LOG00002.TXT Länge Datei: 0\
+LOG00003.TXT Länge Datei: 0\
+LOG00004.TXT Länge Datei: 0\
 \
+ASCII.TXT Länge Datei: 108\
+ASCII.TXT Länge Bytes: 108\
+ASCII.TXT Länge Text decode_latin: 108\
+ !"#$%&'()*+,-./\
+0123456789:;<=>?\
+@ABCDEFGHIJKLMNO\
+PQRSTUVWXYZ[\]^_\
+`abcdefghijklmno\
+pqrstuvwxyz{|}~\
+
+
+
 * *filename1* kann Platzhalter wie z.B. \*.\* oder \*.LOG enthalten.
 * Zeigt 8 Dateinamen mit Datei-Größe in Bytes in der Konsole an.
 * Liest dann von der 1. Datei in der Liste maximal 200 Byte.
