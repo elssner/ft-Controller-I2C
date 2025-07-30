@@ -15,7 +15,7 @@
 Das Beispiel demonstriert den Hardware Interrupt von zwei I²C Buttons. Die im Button eingebaute LED rot bzw. grün wird beim Klicken an und aus geschaltet. 
 Der I²C DIP Schalter steuert bei der grünen LED die Helligkeit, bei der roten die Blinkfrequenz. Mit der grünen LED kann auch noch ein I²C Relais geschaltet werden.
 
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicbutton](../#qwiicbuttonpy)**, **[dipswitch](../#dipswitchpy)**, **[qwiicrelay](../#qwiicrelaypy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicbutton](../#qwiicbuttonpy)**, **[dipswitch](../#dipswitchpy)**, **[qwiicrelay](../#qwiicrelaypy)**, **qwiicbutton_int**
 * I²C Module: 2 Stück I²C Button mit LED rot und grün, I²C DIP Schalter, optional I²C Relais
 * → [I²C Module mit Hardware Interrupt](../#ic-module-mit-hardware-interrupt)
 * Projekt laden von fischertechnik GitLab: [I2C_Buttons_DipSwitch_Relay](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay)
@@ -43,8 +43,8 @@ Block **buttons_polling**
 * Block **buttons_event** muss in dauerhaft Schleife abgefragt werden.
 * Buttons werden dauerhaft in **buttons_event** über den I²C-Bus abgefragt (polling).
 
-![](dauerhaft_button_polling.png)
-* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
+![](dauerhaft_button_polling.png)\
+Beim RX Controller muss I²C beim Programmstart initialisiert werden.
 
 Block **buttons_interrupt**
 * Schaltet Interrupt *when_clicked* an und *when_pressed* aus.
