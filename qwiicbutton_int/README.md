@@ -6,7 +6,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### qwiicbutton_int (I²C Buttons, Interrupt extern, Optokoppler)
+### qwiicbutton_int (I²C Buttons, Hardware Interrupt, Optokoppler)
 
 * [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch)
 * [SparkFun Qwiic Button](https://www.sparkfun.com/products/16842)
