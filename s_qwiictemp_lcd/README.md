@@ -57,6 +57,6 @@ Zum Vergrößern auf das Bild klicken.
 * Bei Überschreitung wird Limit und Status (3 Bit) abwechselnd angezeigt.
 * LCD Zeile 2: t102 (großer Sensor), Temperatur °C
 * Für große LCD Ansicht oben auf das Foto klicken.
-* Funktion **temp_lcd** hat eigene dauerhaft Schleife (1s), im Hauptprogramm einfach aufrufen:
+* Wiederholung aller 1 Sekunde.
 
 ![](temp_lcd.png)
