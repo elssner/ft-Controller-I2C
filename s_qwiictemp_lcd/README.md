@@ -17,19 +17,16 @@ Beide Temperaturen werden im LCD Display [SparkFun 16x2 SerLCD - RGB Text (Qwiic
 Das erste Beispiel zeigt die Temperatur in der Konsole an und braucht kein Display.
 -->
 
-
 Block **temp_konsole**
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[s_qwiictemp](../#s_qwiictemppy)**, **[s_qwiictmp102](../#s_qwiictmp102py)**, **s_qwiictemp_lcd**
 * I²C Module: Temperatur Sensoren STTS22H und TMP102
 * Laden von fischertechnik GitLab: [I2C_Temperatursensor_LCD](https://git.fischertechnik-cloud.com/i2c/I2C_Temperatursensor_LCD)
-
-
+* &nbsp;
 * Zeigt Name und Temperatur der zwei I²C Sensoren in der Konsole an (2 Zeilen).
 * Ohne LCD Display, Anzeige nur bei verbundener App ROBO Pro Coding.
 * Einmalige Anzeige, **temp_konsole** muss im Hauptprogramm in Schleife aufgerufen werden.
 * Das ermöglicht im Hauptprogramm, auch die Temperatur vom NTC-Widerstand anzuzeigen.
 * Folgendes Programm gibt 3 Temperaturen und Leerzeile aus, aller 2,5 Sekunden.
-* (Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.)
 
 ![](temp_konsole.png)\
 Beim RX Controller muss I²C beim Programmstart initialisiert werden.
