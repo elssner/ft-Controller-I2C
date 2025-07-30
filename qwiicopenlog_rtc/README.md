@@ -27,6 +27,10 @@ Zum Vergrößern auf das Bild klicken.
 
 <a name="log_konsole"></a>
 Block **log_konsole** (filename1)
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**
+* I²C Module:  Qwiic OpenLog mit Speicherkarte
+* Laden von fischertechnik GitLab: [I2C_Speicherkarte_Uhr](https://git.fischertechnik-cloud.com/i2c/I2C_Speicherkarte_Uhr)
+\
 * *filename1* kann Platzhalter wie z.B. \*.\* oder \*.LOG enthalten.
 * Zeigt 8 Dateinamen mit Datei-Größe in Bytes in der Konsole an.
 * Liest dann von der 1. Datei in der Liste maximal 200 Byte.
