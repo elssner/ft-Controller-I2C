@@ -35,23 +35,24 @@ Im Beispiel werden 10 I²C Module vom RX Controller gesteuert: Der [Multiplexer]
 Die Displays zeigen Datum und Uhrzeit an. Das große OLED Display zeigt abwechselnd eine Analoguhr und 16 Dateinamen von der Speicherkarte an. Aus dem EEPROM kommen die Pixel, damit OLED Zeichen anzeigen kann.
 GPIO liest 8 Tasten von der Modelleisenbahn Tastatur und zeigt diese binär und als ASCII Zeichen an. Mit dem Keypad kann die Uhr gestellt werden. Der Abstand vom Ultraschallsensor wird ebenfalls angezeigt.
 
+<a name="qmux_rx1"></a>
+Block **qmux_rx1**
+
 
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[oled](../#oledpy)**, **[oled_geometrie](../#oled_geometriepy)**, **[qwiiceeprom](../#qwiiceeprompy)**, **[qwiicgpio](../#qwiicgpiopy)**,\
 **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[qwiicmux](../#qwiicmuxpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **[rtc](../#rtcpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**
+* I²C Module: 10
 * Laden von fischertechnik GitLab: [I2C_Multiplexer](https://git.fischertechnik-cloud.com/i2c/I2C_Multiplexer)
-
 
 [![](DSC00409_256.JPG)](DSC00409.JPG) [![](DSC00415_256.JPG)](DSC00415.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
-
-<a name="qmux_rx1"></a>
-Block **qmux_rx1**
 * Beispiel **qmux_rx1** kann beim Programmstart aufgerufen werden.
-* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
+
 * Projekt kann für TXT 4.0 Controller konvertiert werden.
 * **i2c_scan** kann zur Kontrolle aller Kanäle angezeigt (oder weg gelassen) werden.
 * **list_hex** befindet sich in **[advanced](../#advancedpy)**, **i2c_scan** in **[i2cCode](../#i2ccodepy)**.
 * Programm läuft sonst ohne Verbindung zur App ROBO Pro Coding.
 
 ![](qmux_rx1.png)
+* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
