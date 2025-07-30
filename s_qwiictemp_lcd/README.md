@@ -18,9 +18,6 @@ Das erste Beispiel zeigt die Temperatur in der Konsole an und braucht kein Displ
 -->
 
 
-[![](DSC00452_256.JPG)](DSC00452.JPG) [![](DSC00454_256.JPG)](DSC00454.JPG)\
-Zum Vergrößern auf das Bild klicken.
-
 Block **temp_konsole**
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[s_qwiictemp](../#s_qwiictemppy)**, **[s_qwiictmp102](../#s_qwiictmp102py)**, **s_qwiictemp_lcd**
 * I²C Module: Temperatur Sensoren STTS22H und TMP102
@@ -53,6 +50,8 @@ Block **temp_lcd** (limit)
 * I²C Module: LCD Display, Temperatur Sensoren STTS22H und TMP102
 * Laden von fischertechnik GitLab: [I2C_Temperatursensor_LCD](https://git.fischertechnik-cloud.com/i2c/I2C_Temperatursensor_LCD)
 
+[![](DSC00452_256.JPG)](DSC00452.JPG) [![](DSC00454_256.JPG)](DSC00454.JPG)\
+Zum Vergrößern auf das Bild klicken.
 
 * Zeigt die Temperatur der zwei I²C Sensoren im LCD Display an.
 * Keine Verbindung zur App ROBO Pro Coding erforderlich. NTC-Widerstand wird nicht abgefragt.
