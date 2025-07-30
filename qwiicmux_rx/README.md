@@ -54,11 +54,12 @@ Zum Vergrößern auf das Bild klicken.
 * **list_hex** befindet sich in **[advanced](../#advancedpy)**, **i2c_scan** in **[i2cCode](../#i2ccodepy)**.
 * Programm läuft sonst ohne Verbindung zur App ROBO Pro Coding.
 
-
+![](qmux_rx1.png)
+* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
 
 Block **Programmstart**
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[oled](../#oledpy)**, **[oled_geometrie](../#oled_geometriepy)**, **[qwiiceeprom](../#qwiiceeprompy)**, **[qwiicgpio](../#qwiicgpiopy)**,\
 **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[qwiicmux](../#qwiicmuxpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **[rtc](../#rtcpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**
 
-![](qmux_rx1.png)
+![](qmux_rx1_hp.png)
 * Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
