@@ -12,7 +12,7 @@ Das Beispiel demonstriert den Hardware Interrupt von zwei [SparkFun Qwiic Button
 Der [DIP Schalter](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch) steuert bei der grünen LED die Helligkeit, bei der roten die Blinkfrequenz. Mit der grünen LED kann auch noch ein [Relais](https://www.sparkfun.com/products/15093) geschaltet werden.
 
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicbutton](../#qwiicbuttonpy)**, **[dipswitch](../#dipswitchpy)**, **[qwiicrelay](../#qwiicrelaypy)**
-* I²C Module: 2 Stück I²C Button mit LED rot und grün, DIP-Schalter, optional I²C Relais
+* I²C Module: 2 Stück I²C Button mit LED rot und grün, I²C DIP Schalter, optional I²C Relais
 * → [I²C Module mit Hardware Interrupt](../#ic-module-mit-hardware-interrupt)
 * Projekt laden von fischertechnik GitLab: [I2C_Buttons_DipSwitch_Relay](https://git.fischertechnik-cloud.com/i2c/I2C_Buttons_DipSwitch_Relay)
 
