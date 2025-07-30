@@ -19,7 +19,7 @@ Uhr stellen mit Keypad, Joystick auslesen und Binär Schreibmaschine, alles mit 
 
 <a name="qlcd_uhr_stellen"></a>
 Block **qlcd_uhr_stellen**
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiickeypad](../#qwiickeypadpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[rtc](../#rtcpy)**, **qwiiclcd_keypad_rtc**
 * I²C Module: Qwiic LCD Display, I²C Keypad 12 Tasten, RTC-Uhr
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
@@ -41,7 +41,7 @@ Zum Vergrößern auf das Bild klicken.
 
 
 Block **qlcd_joystick**
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiiclcd](../#qwiiclcdpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicjoystick](../#qwiicjoystickpy)**, **[qwiiclcd](../#qwiiclcdpy)**, **qwiiclcd_keypad_rtc**
 * I²C Module: Qwiic LCD Display, I²C Joystick
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
@@ -58,7 +58,7 @@ Zum Vergrößern auf das Bild klicken.
 
 <a name="qlcd_gpio_ascii"></a>
 Block **qlcd_gpio_ascii**
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicgpio](../#qwiicgpiopy)**, **[qwiiclcd](../#qwiiclcdpy)**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiicgpio](../#qwiicgpiopy)**, **[qwiiclcd](../#qwiiclcdpy)**, **qwiiclcd_keypad_rtc**
 * I²C Module: Qwiic LCD Display, I²C GPIO 8 Bit Input von Modellbahn Tastenpult
 * Laden von fischertechnik GitLab: [I2C_LCD_RTC_GPIO_Keypad_Joystick](https://git.fischertechnik-cloud.com/i2c/I2C_LCD_RTC_GPIO_Keypad_Joystick)
 
@@ -82,6 +82,5 @@ Zur pdf-Datei auf die Tabelle klicken.
 * Allerdings funktionieren nicht alle 32 Zeichen wie erwartet.
 * `0000 0001` ä, `0000 1111` ö, `0001 0101` ü, `0000 0010` ß, `0000 0011` €
 
-![](qwiiclcd_keypad_rtc.png)
-
-* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
+![](qwiiclcd_keypad_rtc.png)\
+Beim RX Controller muss I²C beim Programmstart initialisiert werden.
