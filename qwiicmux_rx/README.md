@@ -55,14 +55,16 @@ Zum Vergrößern auf das Bild klicken.
 ![](qmux_rx1.png)\
 Beim RX Controller muss I²C beim Programmstart initialisiert werden.
 
+Block **Programmstart**
+
 > Im Hauptprogramm kann zur Kontrolle aller I²C Module in jedem Kanal vom Multiplexer i2c_scan aufgerufen werden.
 
-Block **Programmstart**
 * Quellcodedateien: zusätzlich **[advanced](../#advancedpy)**
 * **i2c_scan** kann zur Kontrolle aller Kanäle angezeigt werden.
 * **list_hex** befindet sich in **[advanced](../#advancedpy)**, **i2c_scan** in **[i2cCode](../#i2ccodepy)**.
 * Zur Ausgabe in Konsole muss der Controller mit der App ROBO Pro Coding gekoppelt sein.
 
+<code>
 Start ['0x70']
 0 ['0x8', '0x2a', '0x70']
 1 ['0x8', '0x4b', '0x70']
@@ -72,6 +74,7 @@ Start ['0x70']
 5 ['0x8', '0x3d', '0x50', '0x70']
 6 ['0x8', '0x51', '0x70']
 7 ['0x8', '0x3c', '0x70']
+</code>
 
 ![](qmux_rx1_hp.png)
 * Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
