@@ -8,14 +8,14 @@
 
 ### s_qwiic_distance (4 Abstands- und Nähe Sensoren, Qwiic LCD 20x4)
 
+Angezeigt werden die Messwerte auf dem größten LCD Dispaly mit 4 Zeilen * 20 Zeichen:
+* [SparkFun Qwiic 20x4 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16398)
+
 Es gibt verschiedene Technologien, um 'Distance' zu messen. Hier sind 4 verschiedene I²C Sensoren im Einsatz: 
 * [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777)
 * [SparkFun Qwiic Proximity Sensor - 20cm, VCNL4040](https://www.sparkfun.com/products/15177)
 * [SparkFun Qwiic Distance Sensor - 4 Meter, VL53L1X](https://www.sparkfun.com/products/14722)
 * [SparkFun Qwiic Distance Sensor - 1.3 Meter, VL53L4CD](https://www.sparkfun.com/products/18993).
-
-Angezeigt werden die Messwerte auf dem größten LCD Dispaly mit 4 Zeilen * 20 Zeichen:
-* [SparkFun Qwiic 20x4 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16398)
 
 Die beiden letzten sind Laser Sensoren mit unterschiedlicher Entfernung, aber gleicher Software und gleicher I²C-Adresse. Beide können nicht gleichzeitig benutzt werden, dafür aber einfach umgesteckt.
 
