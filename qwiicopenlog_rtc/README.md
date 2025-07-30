@@ -82,7 +82,8 @@ Block **log_time** (text, new_line)
 [![](DSC00446_512.JPG)](DSC00446.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
-* Protokolliert in eine Datei. Parameter *text* wird mit str() konvertiert.
+* Protokolliert die Temperatur vom NTC Widerstand in eine Datei.
+* Parameter *text* wird mit str() konvertiert.
 * *text* wird an die Datei angehängt (oder neu angelegt).
 * Ist *new_line*=True, wird noch CR (=13) und LF (=10) angehängt.
 * Dateiname und neue Größe der Logdatei wird in der Konsole angezeigt.
