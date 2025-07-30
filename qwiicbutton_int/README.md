@@ -25,9 +25,6 @@ Zum Vergrößern auf das Bild klicken.
 
 I²C Module, die eine Eingabe machen wie Buttons, müssen normalerweise in einer dauerhaft Schleife ständig über den I²C-Bus abgefragt werden, ob sich der Zustand geändert hat.
 
-![](dauerhaft_button_polling.png)
-
-* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
 
 Solche I²C Module haben oft einen zusätzlichen (Löt-) Interrupt-Pin /INT, der außerhalb vom I²C-Bus extra verdrahtet werden kann.
 
@@ -54,6 +51,9 @@ Block **buttons_polling**
 * Wird beim Programmstart einmal aufgerufen, wenn /INT Pin nicht verdrahtet ist.
 * Block **buttons_event** muss in dauerhaft Schleife abgefragt werden.
 * Buttons werden dauerhaft in **buttons_event** über den I²C-Bus abgefragt (polling).
+
+![](dauerhaft_button_polling.png)
+* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
 
 Block **buttons_interrupt**
 * Schaltet Interrupt *when_clicked* an und *when_pressed* aus.
