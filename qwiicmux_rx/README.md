@@ -64,7 +64,9 @@ Block **Programmstart**
 * Zur Ausgabe in Konsole muss der Controller mit der App ROBO Pro Coding gekoppelt sein.
 * Die Anzeige der I²C Adresse 0x08 ist wahrscheinlich ein Fehler beim RX Controller.
 
-Start ['0x70']\
+Ausgabe in Konsole:
+
+> Start ['0x70']\
 0 ['0x8', '0x2a', '0x70']\
 1 ['0x8', '0x4b', '0x70']\
 2 ['0x8', '0x70', '0x72']\
