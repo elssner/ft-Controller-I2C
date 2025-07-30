@@ -44,7 +44,7 @@ ASCII.TXT Länge Text decode_latin: 108\
  !"#$%&'()*+,-./\
 0123456789:;<=>?\
 @ABCDEFGHIJKLMNO\
-PQRSTUVWXYZ[\]^_\
+PQRSTUVWXYZ[\\]^_\
 `abcdefghijklmno\
 pqrstuvwxyz{|}~
 
