@@ -81,5 +81,5 @@ Zum Vergrößern auf das Bild klicken.
 * RX Controller: Zeitstempel seit dem Einschalten umgerechnet in Stunden, Minuten.
 * Text Zeichen werden nicht angezeigt, nur Linien und Kreise.
 
-![](oled2_systemtime.png)
-* Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.
+![](oled2_systemtime.png)\
+Beim RX Controller muss I²C beim Programmstart initialisiert werden.
