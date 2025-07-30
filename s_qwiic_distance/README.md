@@ -6,13 +6,16 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### s_qwiic_distance (Beispiel 4 Abstands- und Nähe Sensoren)
+### s_qwiic_distance (4 Abstands- und Nähe Sensoren, Qwiic LCD 20x4)
 
 Es gibt verschiedene Technologien, um 'Distance' zu messen. Hier sind 4 verschiedene I²C Sensoren im Einsatz: 
 * [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777)
 * [SparkFun Qwiic Proximity Sensor - 20cm, VCNL4040](https://www.sparkfun.com/products/15177)
 * [SparkFun Qwiic Distance Sensor - 4 Meter, VL53L1X](https://www.sparkfun.com/products/14722)
 * [SparkFun Qwiic Distance Sensor - 1.3 Meter, VL53L4CD](https://www.sparkfun.com/products/18993).
+
+Angezeigt werden die Messwerte auf dem größten LCD Dispaly mit 4 Zeilen * 20 Zeichen:
+* [SparkFun Qwiic 20x4 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16398)
 
 Die beiden letzten sind Laser Sensoren mit unterschiedlicher Entfernung, aber gleicher Software und gleicher I²C-Adresse. Beide können nicht gleichzeitig benutzt werden, dafür aber einfach umgesteckt.
 
@@ -24,7 +27,7 @@ Außerdem erkennt dieses Modul ein Hindernis auch schräg, oben und unten. Damit
 Um die 3 gleichzeitig gemessenen Abstände anzuzeigen, wird das große [SparkFun Qwiic 20x4 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16398) eingesetzt. 
 Für das Beispiel mit 2 Sensoren reicht auch eins der kleineren 16x2 Qwiic Displays. Auch hier ist die Software gleich, es muss nur umgesteckt werden.
 
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[s_qwiicinfrared](../#s_qwiicinfraredpy)**, **[s_qwiiclaser](../#s_qwiiclaserpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**, 
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[qwiiclcd](../#qwiiclcdpy)**, **[s_qwiicinfrared](../#s_qwiicinfraredpy)**, **[s_qwiiclaser](../#s_qwiiclaserpy)**, **[s_qwiicultrasonic](../#s_qwiicultrasonicpy)**, **s_qwiic_distance**
 * Laden von fischertechnik GitLab: [I2C_Abstandsensor_LCD20x4](https://git.fischertechnik-cloud.com/i2c/I2C_Abstandsensor_LCD20x4)
 
 [![](DSC00483_512.JPG)](DSC00483.JPG)\
@@ -34,9 +37,9 @@ Zum Vergrößern auf das Bild klicken.
 Block **qdistance_qlcd4**
 * Zeigt die Messwerte von 3 Sensoren im Display an.
 * Von den Lasersensoren (unten im Bild) kann immer nur einer angesteckt werden.
-* (Beim RX Controller muss I²C beim Programmstart immer initialisiert werden.)
 
-![](s_qwwic_distance.png)
+![](s_qwwic_distance.png)\
+(Beim RX Controller muss I²C beim Programmstart initialisiert werden.
 
 Block **qultraschall_infrarot_qlcd**
 * Zeigt nur Ultraschall und Infrarot Sensor in 2 Zeilen an.
