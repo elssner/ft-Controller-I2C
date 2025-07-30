@@ -21,6 +21,8 @@ Im Beispiel werden 10 I²C Module vom RX Controller gesteuert:
 * [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 * [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777)
 
+![](https://www.sparkfun.com/media/catalog/product/cache/4f365a5b84e37eacc7210a613b94a243/1/6/16784-SparkFun_Qwiic_Mux_Breakout_V2_-_8_Channel__TCA9548A_-01.jpg)
+
 Der I²C Multiplexer kann 8 I²C-Busse einzeln oder gemeinsam an und aus schalten. Gebraucht wird das unter anderem, um mehrere I²C Module mit gleicher I²C-Adresse gleichzeitig zu benutzen.\
 Der Multiplexer ermöglicht aber auch dem RX Controller mehr als 2 bis 3 I²C Module anzusteuern. Der Grund ist nicht bekannt, aber der RX Controller scheitert an zu vielen I²C-Adressen, nicht an zu vielen I²C Modulen.
 
