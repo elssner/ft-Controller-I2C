@@ -6,7 +6,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### qwiiclcd_keypad_rtc (RTC Uhr stellen, GPIO, Joystick)
+### qwiiclcd_keypad_rtc (RTC Uhr stellen, GPIO→ASCII, Joystick)
 
 * [SparkFun Qwiic LCD Display 16x2](https://www.sparkfun.com/products/16397)
 * [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
