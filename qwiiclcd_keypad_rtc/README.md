@@ -15,6 +15,7 @@
 * [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 * [Tillig Modellbahn Tastenpult](https://www.tillig.com/Produkte/produktinfo-08211.html)
 
+Uhr stellen mit Keypad, Joystick auslesen und Binär Schreibmaschine, alles mit LCD Display.
 
 <a name="qlcd_uhr_stellen"></a>
 Block **qlcd_uhr_stellen**
