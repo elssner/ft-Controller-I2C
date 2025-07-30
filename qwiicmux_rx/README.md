@@ -6,18 +6,32 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### qwiicmux_rx (Beispiel I²C Multiplexer)
+### qwiicmux_rx (RX Controller mit I²C Multiplexer, 10 I²C Module)
+
+Im Beispiel werden 10 I²C Module vom RX Controller gesteuert: 
+
+* [I²C Multiplexer](https://www.sparkfun.com/products/16784)
+* [LCD-Display](https://www.sparkfun.com/products/16397)
+* [OLED 128x128 Display](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0)
+* [OLED 128x64 Display](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0)
+* [EEPROM](https://www.sparkfun.com/products/18355)
+* [RTC](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
+* [Speicherkarte](https://www.sparkfun.com/products/15164)
+* [Keypad](https://www.sparkfun.com/products/15290)
+* [GPIO](https://www.sparkfun.com/products/17047)
+* [Ultraschallsensor](https://www.sparkfun.com/products/17777)
+
 
 Der [I²C Multiplexer](https://www.sparkfun.com/products/16784) kann 8 I²C-Busse einzeln oder gemeinsam an und aus schalten. Gebraucht wird das unter anderem, um mehrere I²C Module mit gleicher I²C-Adresse gleichzeitig zu benutzen.\
 Der Multiplexer ermöglicht aber auch dem RX Controller mehr als 2 bis 3 I²C Module anzusteuern. Der Grund ist nicht bekannt, aber der RX Controller scheitert an zu vielen I²C-Adressen, nicht an zu vielen I²C Modulen.
 
 Wenn mit dem Multiplexer immer nur ein Kanal mit 1 oder 2 I²C Modulen (= I²C-Adressen) zugeschaltet wird, kann der RX Controller 10 und mehr Module ansteuern. An der 3,3V Stromversorgung scheitert das nicht.
-
+<!--
 Im Beispiel werden 10 I²C Module vom RX Controller gesteuert: Der [Multiplexer](https://www.sparkfun.com/products/16784) selbst, [LCD-Display](https://www.sparkfun.com/products/16397), 
 [OLED 128x128 Display](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0), [OLED 128x64 Display](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0), 
 [EEPROM](https://www.sparkfun.com/products/18355), [RTC](https://wiki.seeedstudio.com/Grove_High_Precision_RTC), [Speicherkarte](https://www.sparkfun.com/products/15164), 
 [Keypad](https://www.sparkfun.com/products/15290), [GPIO](https://www.sparkfun.com/products/17047), [Ultraschallsensor](https://www.sparkfun.com/products/17777).
-
+-->
 Die Displays zeigen Datum und Uhrzeit an. Das große OLED Display zeigt abwechselnd eine Analoguhr und 16 Dateinamen von der Speicherkarte an. Aus dem EEPROM kommen die Pixel, damit OLED Zeichen anzeigen kann.
 GPIO liest 8 Tasten von der Modelleisenbahn Tastatur und zeigt diese binär und als ASCII Zeichen an. Mit dem Keypad kann die Uhr gestellt werden. Der Abstand vom Ultraschallsensor wird ebenfalls angezeigt.
 
