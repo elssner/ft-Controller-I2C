@@ -23,7 +23,7 @@ Der I²C DIP Schalter steuert bei der grünen LED die Helligkeit, bei der roten 
 [![](DSC00423_512.JPG)](DSC00423.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
-I²C Module, die eine Eingabe machen wie Buttons, müssen normalerweise in einer dauerhaft Schleife ständig über den I²C-Bus abgefragt werden, ob sich der Zustand geändert hat.\
+I²C Module, die eine Eingabe machen wie Buttons, müssen normalerweise in einer dauerhaft Schleife ständig über den I²C-Bus abgefragt werden, ob sich der Zustand geändert hat.
 
 ![](dauerhaft_button_polling.png)
 
