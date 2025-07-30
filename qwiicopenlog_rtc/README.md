@@ -55,6 +55,14 @@ Block **log_copy** (filename1, filename2, size)
 
 <a name="log_time"></a>
 Block **log_time** (text, new_line)
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **[rtc](../#rtcpy)**
+* I²C Module: Qwiic OpenLog mit Speicherkarte, RTC-Uhr
+* sonstige Hardware: RTC Widerstand
+* Laden von fischertechnik GitLab: [I2C_Speicherkarte_Uhr](https://git.fischertechnik-cloud.com/i2c/I2C_Speicherkarte_Uhr)
+
+[![](DSC00446_512.JPG)](DSC00446.JPG)\
+Zum Vergrößern auf das Bild klicken.
+
 * *text* wird an die Datei angehängt (oder neu angelegt).
 * *new_line*=True: CR (=13) und LF (=10) wird an *text* angehängt.
 * Dateiname und neue Größe der Logdatei wird in der Konsole angezeigt.
