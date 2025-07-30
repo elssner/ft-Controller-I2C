@@ -12,9 +12,9 @@
 * [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 * [NTC-Widerstand 1,5 kΩ](https://www.fischertechnik.de/de-de/produkte/einzelteile/elektronik/36437-ntc-widerstand-1-5-k-silber)
 
-In das I²C Modul 'SparkFun Qwiic OpenLog' wird eine microSD card 64MB .. 32GB, FAT16 oder FAT32 gesteckt.\
+In das I²C Modul 'SparkFun Qwiic OpenLog' wird eine microSD card 64MB .. 32GB, FAT16 oder FAT32 gesteckt.
 Im Beispiel [log_konsole](#log_konsole) wird die Anwendung der Blöcke in [qwiicopenlog](../#qwiicopenlogpy) mit Ausgabe in die Konsole demonstriert.\
-Das Beispiel [log_time](#log_time) zeigt den eigentlichen Zweck des Moduls, in eine Datei zu protokollieren. 
+Das Beispiel [log_time](#log_time) zeigt den eigentlichen Zweck des Moduls, in eine Datei zu protokollieren.
 
 Vor allem für den RX Controller ist das interessant, weil der weder Speicherkarte noch Uhr integriert hat. Allerdings wird beim Lesen und Kopieren von Dateien viel Speicher gebraucht, der beim RX Controller nicht immer ausreicht.
 Manchmal wird in der Konsole ein Memory Allocation Error angezeigt. Oft hängt er einfach und muss aus und ein geschaltet werden. Für kleine Dateien und zum protokollieren in eine Datei funktioniert das aber gut.
