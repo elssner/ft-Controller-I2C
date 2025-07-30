@@ -62,7 +62,7 @@ Block **Programmstart**
 * Quellcodedateien: zusätzlich **[advanced](../#advancedpy)**
 * **list_hex** befindet sich in **[advanced](../#advancedpy)**, **i2c_scan** in **[i2cCode](../#i2ccodepy)**.
 * Zur Ausgabe in Konsole muss der Controller mit der App ROBO Pro Coding gekoppelt sein.
-* Die Anzeige der Adresse I²C 0x08 ist wahrscheinlich ein Fehler beim RX Controller. Tritt beim TXT 4.0 nicht auf.
+* Die I²C Adresse 0x08 ist wahrscheinlich ein Fehler beim RX Controller. Tritt beim TXT 4.0 nicht auf.
 
 Start ['0x70']\
 0 ['0x8', '0x2a', '0x70']\
