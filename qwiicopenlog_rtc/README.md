@@ -48,9 +48,7 @@ PQRSTUVWXYZ[\\]^_\
 `abcdefghijklmno\
 pqrstuvwxyz{|}~
 
-
-
-* *filename1* kann Platzhalter wie z.B. \*.\* oder \*.LOG enthalten.
+* Parameter *filename1* kann Platzhalter wie z.B. \*.\* oder \*.TXT enthalten.
 * Zeigt 8 Dateinamen mit Datei-Größe in Bytes in der Konsole an.
 * Liest dann von der 1. Datei in der Liste maximal 200 Byte.
 * Konvertiert die Bytes und zeigt den Text in der Konsole an.
