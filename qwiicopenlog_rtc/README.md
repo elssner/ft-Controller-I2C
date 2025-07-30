@@ -25,6 +25,7 @@ Block **log_konsole** (filename1)
 * I²C Module:  Qwiic OpenLog mit Speicherkarte
 * Laden von fischertechnik GitLab: [I2C_Speicherkarte_Uhr](https://git.fischertechnik-cloud.com/i2c/I2C_Speicherkarte_Uhr)
 
+![](log_konsole.png)
 
 init_i2c_factory\
 SD Card Status: 0b11101\
