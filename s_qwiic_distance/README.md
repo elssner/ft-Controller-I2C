@@ -11,7 +11,8 @@
 Angezeigt werden die Messwerte auf dem größten LCD Dispaly mit 4 Zeilen * 20 Zeichen:
 * [SparkFun Qwiic 20x4 SerLCD - RGB Backlight](https://www.sparkfun.com/products/16398)
 
-Es gibt verschiedene Technologien, um 'Distance' zu messen. Hier sind 4 verschiedene I²C Sensoren im Einsatz: 
+Es gibt verschiedene Technologien, um 'Distance' zu messen.\
+Hier sind 4 verschiedene I²C Sensoren im Einsatz: 
 * [SparkFun Qwiic Ultrasonic Distance Sensor - HC-SR04](https://www.sparkfun.com/products/17777)
 * [SparkFun Qwiic Proximity Sensor - 20cm, VCNL4040](https://www.sparkfun.com/products/15177)
 * [SparkFun Qwiic Distance Sensor - 4 Meter, VL53L1X](https://www.sparkfun.com/products/14722)
