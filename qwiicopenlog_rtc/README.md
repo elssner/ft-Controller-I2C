@@ -6,7 +6,10 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### qwiicopenlog_rtc (Beispiel Speicherkarte, RTC)
+### qwiicopenlog_rtc (Dateien lesen und protokollieren auf Speicherkarte)
+
+* [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
+* [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 
 In das I²C Modul [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164) wird eine microSD card 64MB .. 32GB, FAT16 oder FAT32 gesteckt.
 In diesem Programmierbeispiel wird die Anwendung der Blöcke in [qwiicopenlog](../#qwiicopenlogpy) mit Ausgabe in die Konsole demonstriert.
