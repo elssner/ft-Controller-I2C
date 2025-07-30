@@ -57,4 +57,3 @@ Block **qlaser_konsole**
 * &nbsp;
 * Kommt ganz ohne Display aus.
 * Zeigt den Messwert von einem Laser Sensor fortlaufend in der Konsole an.
-* Im Hauptprogramm einfach den unteren Block tauschen.
