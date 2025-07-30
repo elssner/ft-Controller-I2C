@@ -9,8 +9,8 @@
 ### qwiicbutton_int (Beispiel Buttons, Interrupt)
 
 * [SparkFun Qwiic Button](https://www.sparkfun.com/products/16842)
-* [DIP Schalter](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch)
-* [Relais](https://www.sparkfun.com/products/15093)
+* [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch)
+* [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 
 Das Beispiel demonstriert den Hardware Interrupt von zwei I²C Buttons. Die im Button eingebaute LED rot bzw. grün wird beim Klicken an und aus geschaltet. 
 Der I²C DIP Schalter steuert bei der grünen LED die Helligkeit, bei der roten die Blinkfrequenz. Mit der grünen LED kann auch noch ein I²C Relais geschaltet werden.
