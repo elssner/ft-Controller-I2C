@@ -57,7 +57,7 @@ Beim RX Controller muss I²C beim Programmstart initialisiert werden.
 
 Block **Programmstart**
 
-> Im Hauptprogramm kann zur Kontrolle aller I²C Module in jedem Kanal vom Multiplexer i2c_scan aufgerufen werden.
+> Im Hauptprogramm kann zur Kontrolle aller I²C Module jeder Kanal vom Multiplexer einzeln an geschaltet und i2c_scan aufgerufen werden.
 
 * Quellcodedateien: zusätzlich **[advanced](../#advancedpy)**
 * **i2c_scan** kann zur Kontrolle aller Kanäle angezeigt werden.
