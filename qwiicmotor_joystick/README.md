@@ -6,7 +6,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### qwiicmotor_joystick (I²C Motor Driver mit Joystick steuern)
+### qwiicmotor_joystick (I²C Motor Driver mit I²C Joystick steuern)
 
 *  [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
 *  [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168) 
