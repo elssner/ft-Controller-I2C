@@ -10,6 +10,7 @@
 
 * [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
 * [Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
+* [NTC-Widerstand 1,5 kΩ](https://www.fischertechnik.de/de-de/produkte/einzelteile/elektronik/36437-ntc-widerstand-1-5-k-silber)
 
 In das I²C Modul [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164) wird eine microSD card 64MB .. 32GB, FAT16 oder FAT32 gesteckt.
 In diesem Programmierbeispiel wird die Anwendung der Blöcke in [qwiicopenlog](../#qwiicopenlogpy) mit Ausgabe in die Konsole demonstriert.
@@ -57,7 +58,7 @@ Block **log_copy** (filename1, filename2, size)
 Block **log_time** (text, new_line)
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[advanced](../#advancedpy)**, **[qwiicopenlog](../#qwiicopenlogpy)**, **[rtc](../#rtcpy)**
 * I²C Module: Qwiic OpenLog mit Speicherkarte, RTC-Uhr
-* sonstige Hardware: RTC Widerstand
+* sonstige Hardware: NTC Widerstand fischertechnik 36437 oder 205652
 * Laden von fischertechnik GitLab: [I2C_Speicherkarte_Uhr](https://git.fischertechnik-cloud.com/i2c/I2C_Speicherkarte_Uhr)
 
 [![](DSC00446_512.JPG)](DSC00446.JPG)\
