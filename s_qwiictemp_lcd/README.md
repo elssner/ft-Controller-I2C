@@ -53,10 +53,9 @@ Zum Vergrößern auf das Bild klicken.
 * Parameter *limit* ist eine Höchsttemperatur in °C.
 * Zeigt die gemessene Temperatur der zwei I²C Sensoren im LCD Display an.
 * Bei Überschreitung der Temperatur *limit* wird /INT ausgelöst (nur am Micro STTS22H Sensor).
-* LCD Zeile 1: temp (Micro Sensor), Temperatur, Limit (umgerechnet)
+* LCD Zeile 1: temp (Micro Sensor), Temperatur, Limit (umgerechnet).
 * Bei Überschreitung wird Limit und Status (3 Bit) abwechselnd angezeigt.
-* LCD Zeile 2: t102 (großer Sensor), Temperatur °C
-* Für große LCD Ansicht oben auf das Foto klicken.
-* Wiederholung aller 1 Sekunde.
+* LCD Zeile 2: t102 (großer Sensor), Temperatur °C.
+* Wiederholung dauerhaft aller 1 Sekunde.
 
 ![](temp_lcd.png)
