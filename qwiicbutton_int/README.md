@@ -6,6 +6,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
+<a name="qwiicbutton_int"></a>
 ### qwiicbutton_int (I²C Buttons, Hardware Interrupt, Optokoppler)
 
 * [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch)
@@ -63,6 +64,7 @@ Auch damit kann der Verkehr auf dem I²C-Bus reduziert werden.
 
 ![](rx_button_event.png)
 
+<a name="buttons_event"></a>
 Block **buttons_event**
 * Fragt über den I²C-Bus ab, ob ein Button geklickt war.
 * Wenn ja, wird der /INT Pin deaktiviert (Fototransistor dunkel).
