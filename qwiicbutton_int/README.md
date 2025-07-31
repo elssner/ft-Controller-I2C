@@ -6,7 +6,6 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-<a name="qwiicbutton_int"></a>
 ### qwiicbutton_int (I²C Buttons, Hardware Interrupt, Optokoppler)
 
 * [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch)
@@ -47,6 +46,8 @@ Block **buttons_polling**
 ![](dauerhaft_button_polling.png)\
 Beim RX Controller muss I²C beim Programmstart initialisiert werden.
 
+
+<a name="buttons_interrupt"></a>
 Block **buttons_interrupt**
 * Schaltet Interrupt *when_clicked* an und *when_pressed* aus.
 * Wird beim Programmstart einmal aufgerufen, wenn /INT Pin verdrahtet ist.
