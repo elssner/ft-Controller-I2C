@@ -21,17 +21,6 @@ Block **temp_konsole**
 * Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[s_qwiictemp](../#s_qwiictemppy)**, **[s_qwiictmp102](../#s_qwiictmp102py)**, **s_qwiictemp_lcd**
 * I²C Module: Temperatur Sensoren STTS22H und TMP102
 * Laden von fischertechnik GitLab: [I2C_Temperatursensor_LCD](https://git.fischertechnik-cloud.com/i2c/I2C_Temperatursensor_LCD)
-* &nbsp;
-* Zeigt Name und Temperatur der zwei I²C Sensoren in der Konsole an (2 Zeilen).
-* Ohne LCD Display, Anzeige nur bei verbundener App ROBO Pro Coding.
-* Einmalige Anzeige, **temp_konsole** muss im Hauptprogramm in Schleife aufgerufen werden.
-* Das ermöglicht im Hauptprogramm, auch die Temperatur vom NTC-Widerstand anzuzeigen.
-* Folgendes Programm gibt 3 Temperaturen und Leerzeile aus, aller 2,5 Sekunden.
-
-![](temp_konsole.png)\
-Beim RX Controller muss I²C beim Programmstart initialisiert werden.
-
-Ausgabe in Konsole:
 
 > s_qwiictemp (STTS22H): 25.51 °C\
 s_qwiictmp102 (TMP102): 25.5625 °C\
@@ -40,6 +29,15 @@ NTC-Widerstand: 27.812301793662897 °C\
 s_qwiictemp (STTS22H): 25.5 °C\
 s_qwiictmp102 (TMP102): 25.5 °C\
 NTC-Widerstand: 27.72294418150659 °C
+
+* Zeigt Name und Temperatur der zwei I²C Sensoren in der Konsole an (2 Zeilen).
+* Ohne LCD Display, Anzeige nur bei verbundener App ROBO Pro Coding.
+* Einmalige Anzeige, **temp_konsole** muss im Hauptprogramm in Schleife aufgerufen werden.
+* Das ermöglicht im Hauptprogramm, auch die Temperatur vom NTC-Widerstand anzuzeigen.
+* Folgendes Programm gibt 3 Temperaturen und Leerzeile aus, aller 2,5 Sekunden.
+
+![](temp_konsole.png)\
+Beim RX Controller muss I²C beim Programmstart initialisiert werden.
 
 <a name="temp_lcd"></a>
 Block **temp_lcd** (limit)
