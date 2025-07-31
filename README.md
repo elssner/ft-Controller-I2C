@@ -100,8 +100,8 @@ Sensoren, Buttons, Keypad, GPIO und RTC haben einen zusätzlichen (Löt-) Interr
 Die I²C Module haben 3,3V Logik, die fischertechnik Controller aber 9V Logik. Um die /INT Leitungen an einen Controller Input anzuschließen, wird ein Optokoppler empfohlen.\
 Der Optokoppler hat am Ausgang einen Fototransistor. Die Controller können am Input einen Fototransistor digital hell/dunkel abfragen.
 
-Somit kann beim **TXT 4.0 Controller** ![](ereignis_fototransistor.png) ausgelöst werden. Im Ereignis-Code → [buttons_event](examples#qwiicbutton_intpy) wird über den I²C-Bus das auslösende Modul gesucht und dessen /INT zurück gesetzt. → [buttons_interrupt](examples#qwiicbutton_intpy)\
-Weil der **RX Controller** keine Ereignisse unterstützt, kann der Fototransistor hell/dunkel in einer Schleife abgefragt werden, was den I²C-Bus ebenfalls entlastet. → [buttons_polling](examples#qwiicbutton_intpy)
+Somit kann beim **TXT 4.0 Controller** ![](ereignis_fototransistor.png) ausgelöst werden. Im Ereignis-Code → [buttons_event](qwiicbutton_int#buttons_event) wird über den I²C-Bus das auslösende Modul gesucht und dessen /INT zurück gesetzt. → [buttons_interrupt](qwiicbutton_int#buttons_interrupt)\
+Weil der **RX Controller** keine Ereignisse unterstützt, kann der Fototransistor hell/dunkel in einer Schleife abgefragt werden, was den I²C-Bus ebenfalls entlastet. → [buttons_polling](qwiicbutton_int#buttons_polling)
 
 Die /INT Pins aller I²C Module können miteinander verbunden und als Minus an die LED im Optokoppler angeschlossen werden. Der + vom Optokoppler ist über einen Widerstand 220 Ohm mit +3,3V zu verbinden.
 Ein 3V3 Löt-Pin ist an vielen I²C Modulen neben dem /INT vorhanden.\
