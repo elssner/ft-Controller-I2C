@@ -633,6 +633,22 @@ Block **rtc_iso_string** () : String 12 Zeichen
 * Aus genau 12 Ziffern kann der benötigte Teilstring ausgeschnitten werden.
 * Format ist sortierbar z.B. für Dateinamen.
 
+##### RTC Control Register
+
+Block **rtc_read_control**
+* Gibt Control 4 Register 0..3 zurück. → [Control Registers](https://files.seeedstudio.com/wiki/Grove-High_Precision_RTC/res/PCF85063TP.pdf#page=5)
+
+Block **rtc_read_offset**
+* Gibt offset zurück, umgerechnet in -64..0..+63.
+
+Block **rtc_write_offset** (offset, mode)
+* *offset*: -64..0..+63 Korrekturwert wird umgerechnet in Bit 0..6 gespeichert.
+* *mode*: True setzt Bit 7.
+* True: Korrektur erfolgt aller 2 Stunden; False: aller 4 Minuten.
+* Gibt das geänderte Byte aus Register [2] zurück, 8 Bit nicht konvertiert.
+
+
+
 
 #### s_co2.py
 → CO₂: Kohlenstoffdioxid → [de.wikipedia.org/wiki/CO2](https://de.wikipedia.org/wiki/Kohlenstoffdioxid)\
