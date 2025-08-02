@@ -636,7 +636,7 @@ Block **rtc_iso_string** () : String 12 Zeichen
 ##### RTC Control Register
 
 Block **rtc_read_control**
-* Gibt 4 Control Register 0..3 zurück. → [Control Registers](https://files.seeedstudio.com/wiki/Grove-High_Precision_RTC/res/PCF85063TP.pdf#page=5)
+* Gibt Liste mit 4 Byte aus Control Register 0..3 zurück. → [Control Registers](https://files.seeedstudio.com/wiki/Grove-High_Precision_RTC/res/PCF85063TP.pdf#page=5)
 
 Block **rtc_read_offset**
 * Gibt offset zurück, umgerechnet in -64..0..+63.
