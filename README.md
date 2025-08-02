@@ -266,6 +266,10 @@ Block **oled_set_pixel** (x, y, pixel)
 * Für die Koordinate *x* sind Werte von 0 (links) bis 127 (rechts) möglich.
 * Für die Koordinate *y* sind Werte von 0 (oben) bis 63 bzw. 127 (unten) möglich.
 
+Block **oled_scroll_matrix**
+* Rückt den Inhalt der Matrix 1 Zeile 'page' nach oben.
+* Zeile 0 entfällt, letzte (neue) Zeile 7 bzw. 15 ist leer.
+
 Block **oled_text** (row, col, text)
 ###### erforderlich: [qwiiceeprom](#qwiiceprompy)
 > Um Text mit Pixeln zu zeichnen, muss der EEPROM angeschlossen und der Zeichensatz programmiert sein. Pro Zeichen werden 8 Byte vom EEPROM in die Matrix kopiert.
