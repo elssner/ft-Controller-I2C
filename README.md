@@ -639,7 +639,7 @@ Block **rtc_read_control**
 * Gibt Liste mit 4 Byte aus Control Register 0..3 zurück. → [Control Registers](https://files.seeedstudio.com/wiki/Grove-High_Precision_RTC/res/PCF85063TP.pdf#page=5)
 
 Block **rtc_read_offset**
-* Gibt offset zurück, umgerechnet in -64..0..+63.
+* Gibt 7 Bit offset aus Register [2] zurück, umgerechnet in -64..0..+63.
 
 Block **rtc_write_offset** (offset, mode)
 * *offset*: -64..0..+63 Korrekturwert wird umgerechnet in Bit 0..6 gespeichert.
