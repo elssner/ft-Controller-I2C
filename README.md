@@ -796,8 +796,8 @@ Block **ultrasonic_read_mm**
 ###### [DFRobot Gravity: Offline Language Learning Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html)
 > Am Anfang muss man das Wake-up word: "Hello robot" sagen, dann geht die blaue LED an.\
 > Jetzt erkennt der Sensor die Begriffe in **voice_commands** und gibt die ID zurück.\
-> 17 *LearningFixed Command Words* → [Anleitung](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravity_Voice_Recognition_Module_I2C_UART)\
-> Alle 121 *Fixed Command Words* stehen ganz unten in der Anleitung.
+> 17 *LearningFixed Command Words* → [Anleitung](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravity_Voice_Recognition_Module_I2C_UART#Command%20Words)\
+> Alle 121 *Fixed Command Words* → [Tabelle](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravity_Voice_Recognition_Module_I2C_UART#Command%20Words%2FWake-up%20Words%20%26amp%3B%20ID%20Table)
 
 Block **voice_read_cmdid**
 * Gibt die command_id 1 .. 142 zurück, wenn ein gesprochenes *command* erkannt wurde.
