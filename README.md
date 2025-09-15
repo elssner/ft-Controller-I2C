@@ -794,9 +794,18 @@ Block **ultrasonic_read_mm**
 #### voice.py
 → Spracherkennung
 ###### [DFRobot Gravity: Offline Language Learning Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html)
+> Am Anfang muss man das Wake-up word: "Hello robot" sagen, dann geht die blaue LED an.
+> Jetzt erkennt der Sensor die Begriffe in **voice_commands** und gibt die ID zurück.
+
+Block **voice_read_cmdid**
+* Gibt die command_id 1 .. 142 zurück, wenn ein gesprochenes *command* erkannt wurde.
+* Gibt 0 zurück, wenn nichts erkannt wurde.
+
+Block **voice_waketime** (sekunden)
+
 
 Block **voice_play** (cmdid)
-* Spielt über den Lautsprecher die Antwort auf ein erkanntes 'command' ab.
+* Spielt über den Lautsprecher die Antwort auf ein erkanntes *command* ab.
 
 
 #### wattmeter.py
