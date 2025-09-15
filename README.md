@@ -794,7 +794,7 @@ Block **ultrasonic_read_mm**
 #### voice.py
 → Spracherkennung
 ###### [DFRobot Gravity: Offline Language Learning Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html)
-> Am Anfang muss man das Wake-up word: "Hello robot" sagen, dann geht die blaue LED an.
+> Am Anfang muss man das Wake-up word: "Hello robot" sagen, dann geht die blaue LED an.\
 > Jetzt erkennt der Sensor die Begriffe in **voice_commands** und gibt die ID zurück.
 
 Block **voice_read_cmdid**
@@ -802,10 +802,23 @@ Block **voice_read_cmdid**
 * Gibt 0 zurück, wenn nichts erkannt wurde.
 
 Block **voice_waketime** (sekunden)
+* Stellt die Wachzeit, wie lange der Sensor nach dem letzten *command* weiter hört. Standard 15 Sekunden.
 
+Block **voice_speaker** (on)
+* False schaltet den Lautsprecher aus (MUTE). Standard: Lautsprecher an.
+
+Block **voice_volume** (volume)
+* Lautstärke, im Beispiel 0..7. Das ist zu leise. Standard 0 = laut.
+
+Block **voice_read_register** (i2c_reg)
+* Liest 1 Byte aus dem I²C-Register.
+* CMDID = 2; PLAY_CMDID = 3; SET_MUTE = 4; SET_VOLUME = 5; WAKE_TIME = 6
 
 Block **voice_play** (cmdid)
 * Spielt über den Lautsprecher die Antwort auf ein erkanntes *command* ab.
+
+Block **voice_konsole**
+* Programmierbeispiel: zeigt erkanntes *command* in der Konsole an.
 
 
 #### wattmeter.py
