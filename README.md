@@ -792,7 +792,7 @@ Block **ultrasonic_read_mm**
 
 
 #### voice.py
-→ Spracherkennung
+→ Spracherkennung → [de.wikipedia.org/wiki/Spracherkennung](https://de.wikipedia.org/wiki/Spracherkennung)
 ###### [DFRobot Gravity: Offline Language Learning Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html)
 > Am Anfang muss man das Wake-up word: "Hello robot" sagen, dann geht die blaue LED an.\
 > Jetzt erkennt der Sensor die Begriffe in **voice_commands** und gibt die ID zurück.\
