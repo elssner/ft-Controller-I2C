@@ -791,6 +791,14 @@ Block **ultrasonic_read_mm**
 
 
 
+#### voice.py
+→ Spracherkennung
+###### [DFRobot Gravity: Offline Language Learning Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html)
+
+Block **voice_play** (cmdid)
+* Spielt über den Lautsprecher die Antwort auf ein erkanntes 'command' ab.
+
+
 #### wattmeter.py
 → Spannungsmesser, Voltmeter  → [de.wikipedia.org/wiki/Spannungsmessgerät](https://de.wikipedia.org/wiki/Spannungsmessger%C3%A4t)\
 → Strommesser, Amperemeter → [de.wikipedia.org/wiki/Strommessgerät](https://de.wikipedia.org/wiki/Strommessger%C3%A4t)\
