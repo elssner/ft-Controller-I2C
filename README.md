@@ -804,7 +804,8 @@ Block **voice_read_cmdid**
 * Gibt 0 zurück, wenn nichts erkannt wurde.
 
 Block **voice_waketime** (sekunden)
-* Stellt die Wachzeit, wie lange der Sensor nach dem letzten *command* weiter hört. Standard 15 Sekunden.
+* Stellt die Wachzeit, wie lange der Sensor hört, wenn er wach ist. Standard 15 Sekunden.
+* Beginnt nach jedem *command* neu zu zählen.
 
 Block **voice_speaker** (on)
 * False schaltet den Lautsprecher aus (MUTE). Standard: Lautsprecher an.
