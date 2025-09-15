@@ -806,16 +806,16 @@ Block **voice_read_cmdid**
 
 Block **voice_waketime** (sekunden)
 * Stellt die Wachzeit, wie lange der Sensor hört, wenn er wach ist. Standard 15 Sekunden.
-* Beginnt nach jedem *command* neu zu zählen.
+* Beginnt nach jedem erkannten *command* neu zu zählen.
 
 Block **voice_speaker** (on)
 * False schaltet den Lautsprecher aus (MUTE). Standard: Lautsprecher an.
 
 Block **voice_volume** (volume)
-* Lautstärke, im Beispiel 0..7. Das ist zu leise. Standard 0 = laut.
+* Lautstärke, im Beispiel 1..7. (Das ist zu leise.) Standard 0 = laut.
 
 Block **voice_read_register** (i2c_reg)
-* Liest 1 Byte aus dem I²C-Register.
+* Liest 1 Byte aus dem I²C-Register *i2c_reg* 2 .. 6.
 * CMDID = 2; PLAY_CMDID = 3; SET_MUTE = 4; SET_VOLUME = 5; WAKE_TIME = 6
 
 Block **voice_play** (cmdid)
