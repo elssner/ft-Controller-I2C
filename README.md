@@ -816,6 +816,7 @@ Block **voice_read_register** (i2c_reg)
 
 Block **voice_play** (cmdid)
 * Spielt über den Lautsprecher die Antwort auf ein erkanntes *command* ab.
+* Damit können ohne Spracheingabe alle Antworten abgespielt werden: The door is open.
 
 Block **voice_konsole**
 * Programmierbeispiel: zeigt erkanntes *command* in der Konsole an.
