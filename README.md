@@ -798,7 +798,7 @@ Block **ultrasonic_read_mm**
 > Jetzt erkennt der Sensor die Begriffe in **voice_commands** und gibt die ID zurück.\
 > 121 *Fixed Command Words* → [Tabelle](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravity_Voice_Recognition_Module_I2C_UART#Command%20Words%2FWake-up%20Words%20%26amp%3B%20ID%20Table) und
 > 17 *Learning Command Words* → [Anleitung](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravity_Voice_Recognition_Module_I2C_UART#Command%20Words)\
-> Lernen funktioniert nur mit Sprache, ohne Programm auf dem Controller (nur I²C-Strom nötig).
+> Lernen funktioniert nur mit Sprache, ohne Programm auf dem Controller (nur I²C-Stromversorgung).
 
 Block **voice_read_cmdid**
 * Gibt die command_id 1 .. 142 zurück, wenn ein gesprochenes *command* erkannt wurde.
