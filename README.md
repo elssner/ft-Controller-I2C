@@ -177,8 +177,8 @@ Block **list_hex** (data_bytes) : HEX String *[hex(b) for b in data_bytes]*\
 Block **advanced_sign** (i, exp) : Wandelt uint in int mit Vorzeichen um. *exp*: Anzahl der Bits z.B. 16.\
 
 Block **advanced_map** (value, from_low, from_high to_low, to_high)
-* map Funktion mit Kommazahlen (float)
-* Funktion ft_math.map rechnet nur mit Integer
+* map Funktion mit Kommazahlen (float).
+* Funktion ft_math.map rechnet nur mit Integer.
 
 Block **advanced_system_time** () : Liste mit 9 Elementen
 * TXT 4.0: RTC Systemuhr (year, mon, mday, hour, min, sec, wday, yday, isdst)\
