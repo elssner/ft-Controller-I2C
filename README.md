@@ -447,6 +447,13 @@ Block **joystick_get_button_position** () : Boolean
 Block **joystick_get_button_onoff** () : Boolean
 * Wechselt False / True bei jedem Drücken des Joystick.
 
+Block **joystick_raupensteuerung** (j_fahren, j_lenken) : [ml, mr]
+* Rechnet Joystick Werte 0..255 um in Motor Speed -512..+512.
+* Nicht eine Richtung pro Motor, sondern intelligent nach Logik Raupensteuerung.
+* Fahren und Lenken mit Ketten, 2 Rädern oder Omniwheels.
+* Joystick links bzw. rechts: Drehen auf der Stelle.
+
+
 #### qwiickeypad.py
 → Numeric Keypad: Tastatur, Ziffernblock → [en.wikipedia.org/wiki/Keypad](https://en.wikipedia.org/wiki/Keypad)
 ###### [SparkFun Qwiic Keypad - 12 Tasten](https://www.sparkfun.com/products/15290)
