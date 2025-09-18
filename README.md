@@ -174,13 +174,18 @@ Block **encode_string** (string_data) : Liste der Zeichencodes *string_data.enco
 Block **decode_string** (data_bytes) : String *data_bytes.decode('utf-8', 'replace')*\
 Block **decode_latin** (data_bytes) : String *''.join(chr(b) for b in data_bytes)*\
 Block **list_hex** (data_bytes) : HEX String *[hex(b) for b in data_bytes]*\
-Block **sign** (i, exp) : Wandelt uint in int mit Vorzeichen um. *exp*: Anzahl der Bits z.B. 16.\
-Block **system_time** () : Liste mit 9 Elementen
+Block **advanced_sign** (i, exp) : Wandelt uint in int mit Vorzeichen um. *exp*: Anzahl der Bits z.B. 16.\
+
+Block **advanced_map** (value, from_low, from_high to_low, to_high)
+* map Funktion mit Kommazahlen (float)
+* Funktion ft_math.map rechnet nur mit Integer
+
+Block **advanced_system_time** () : Liste mit 9 Elementen
 * TXT 4.0: RTC Systemuhr (year, mon, mday, hour, min, sec, wday, yday, isdst)\
 Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstellen.
 * RX: Zeitstempel umgerechnet in (0, 0, 0, hour, min, sec, 0, 0, 0) seit dem Einschalten.
 
-Block **voltmeter** (input_pin, extended_range)
+Block **advanced_voltmeter** (input_pin, extended_range)
 > TXT 4.0 Controller kann an den Input-Pins I1 bis I8 Spannung messen.
 
 * *input_pin*: 1..8 Input Pin Nummer.
