@@ -449,6 +449,7 @@ Block **joystick_get_button_onoff** () : Boolean
 
 Block **joystick_raupensteuerung** (j_fahren, j_lenken) : [ml, mr]
 * Rechnet Joystick Werte 0..255 um in Motor Speed -512..+512.
+* Gibt Liste/Array mit 2 Motor Speed links / rechts zurück.
 * Nicht eine Richtung pro Motor, sondern intelligent nach Logik Raupensteuerung.
 * Fahren und Lenken mit Ketten, 2 Rädern oder Omniwheels.
 * Joystick links bzw. rechts: Drehen auf der Stelle.
