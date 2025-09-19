@@ -17,16 +17,16 @@ Fixed Command Words → [Tabelle](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravit
 
 Das Weckwort bezieht sich auf das Wort, das ein Produkt vom Standby-Modus in den Betriebsmodus schaltet. Es dient als erster Interaktionspunkt zwischen Benutzern und sprachgesteuerten Geräten.
 
-### Weckwort lernen:
+### Weckwort lernen (Learning wake-up word):
 
 * Initiieren Sie den Sprachassistenten, indem Sie das Standardweckwort verwenden, und sagen Sie dann **"Learning wake word"**. Folgen Sie den Anweisungen, um das neue Weckwort zu lernen.\
 `Vor jedem Lernbefehl ist es notwendig, das zuvor gelernte Weckwort zu entfernen. Bitte beachten Sie die Anweisungen zum Löschen von Weckwörtern und Befehlsphrasen.`
 * Hinweis: Jetzt lernen, still sein, bitte das Weckwort sagen, das gelernt werden soll!
-* Das vorgesehene Weckwort, das man sich aneignen soll (am Beispiel "Hallo, da"): "Hallo, da"
-* Hinweis: Lernen erfolgreich, bitte noch einmal sagen!
-* Das vorgesehene Weckwort, das man sich aneignen soll: "Hallo, da"
+* Das vorgesehene Weckwort, das man sich aneignen soll (am Beispiel "hello, there"): **"hello, there"**.
+* Antwort: *"Learning successful, please say it again!*"
+* Das vorgesehene Weckwort, das man sich aneignen soll: **"hello, there"**.
 * Eingabeaufforderung: Lernen erfolgreich, bitte noch einmal sagen!
-* Das vorgesehene Weckwort, das man sich aneignen soll: "Hallo, da"
+* Das vorgesehene Weckwort, das man sich aneignen soll: **"hello, there"**.
 * Eingabeaufforderung: Ok, Lernen abgeschlossen!
 
 Sobald der Lernprozess abgeschlossen ist, können Sie den Satz "Hallo, da" verwenden, um den Sprachassistenten zu wecken!
