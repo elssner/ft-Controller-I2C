@@ -21,11 +21,11 @@ Das Weckwort bezieht sich auf das Wort, das ein Produkt vom Standby-Modus in den
 
 ### Weckwort lernen (Learning wake-up word):
 
-* Wecken (Initiate) Sie den Sprachassistenten, indem Sie das Standardweckwort verwenden, und sagen Sie dann **"Learning wake word"**. Folgen Sie den Anweisungen, um das neue Weckwort zu lernen.\
-`Vor jedem Lernbefehl ist es notwendig, das zuvor gelernte Weckwort zu entfernen. Bitte beachten Sie die Anweisungen zum Löschen von Weckwörtern und Befehlsphrasen.`
+* Wecke (Initiate) den Sprachassistenten, indem du das Standardweckwort verwendest, und sage dann **"Learning wake word"**. Folge den Anweisungen, um das neue Weckwort zu lernen.\
+`Vor jedem Lernbefehl ist es notwendig, das zuvor gelernte Weckwort zu entfernen. Bitte beachte die Anweisungen zum Löschen von Weckwörtern und Befehlsphrasen.`
 * Hinweis: Jetzt lernen, still sein, bitte das Weckwort sagen, das gelernt werden soll!
 * Das vorgesehene Weckwort, das gelernt werden soll): **"hello, there"**.\
-("hello, there" ist nur ein Beispiel
+("hello, there" ist nur ein Beispiel)
 * Ansage: *"Learning successful, please say it again!*"\
 (Lernen erfolgreich, bitte sage es noch einmal!)
 * Das vorgesehene Weckwort, das gelernt werden soll: **"hello, there"**.
@@ -33,15 +33,15 @@ Das Weckwort bezieht sich auf das Wort, das ein Produkt vom Standby-Modus in den
 * Das vorgesehene Weckwort, das gelernt werden soll: **"hello, there"**.
 * Ansage: *"Ok, learning completed!"* (Ok, Lernen abgeschlossen!)
 
-Sobald der Lernprozess abgeschlossen ist, können Sie den Satz "Hallo, da" verwenden, um den Sprachassistenten zu wecken!
+Sobald der Lernprozess abgeschlossen ist, kannst du den Satz **"hello, there"** verwenden, um den Sprachassistenten zu wecken!
 
-### Korrigierte Befehlswörter:
+### Feste Befehlswörter (Fixed command words):
 
 Feste Befehlswörter beziehen sich auf das festgelegte Vokabular, das von Benutzern verwendet wird, um spezifische Anweisungen an sprachinteraktive Produkte zu erteilen und eine effektive Kommunikation mit ihnen zu ermöglichen.
 
-### Erlernen von Befehlswörtern:
+### Erlernen von Befehlswörtern (Learning command words):
 
-Verwenden Sie ein Aktivierungswort (Standard oder gelernt), um den Sprachassistenten zu aktivieren, und sagen Sie dann "Befehlswort lernen", um den Prozess des Lernens von Befehlsphrasen zu starten, indem Sie den bereitgestellten Anweisungen folgen. Vor jeder Sitzung des Lernens von Befehlsphrasen ist es notwendig, die zuvor gelernten Befehlsphrasen zu löschen. Bitte beachten Sie die Anweisungen zum Löschen von Weckwörtern und Befehlsphrasen.
+Verwende ein Weckwort (Standard oder gelernt), um den Sprachassistenten zu aktivieren, und sage dann **"Learning command word"**, um den Prozess des Lernens von Befehlswörtern zu starten. Vor jeder Sitzung des Lernens von Befehlsphrasen ist es notwendig, die zuvor gelernten Befehlsphrasen zu löschen. Bitte beachte die Anweisungen zum Löschen von Weckwörtern und Befehlsphrasen.
 
 * Hinweis: Lernen Sie jetzt, seien Sie still, lernen Sie bitte das Befehlswort gemäß der Eingabeaufforderung! Bitte sagen Sie den ersten Befehl, den es zu lernen gilt!
 * Zu lernende Befehlsphrase (am Beispiel "Rotlicht einschalten"): "Rotes Licht einschalten"
