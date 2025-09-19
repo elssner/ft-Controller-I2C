@@ -76,13 +76,13 @@ Rufe den Sprachassistenten mit dem Weckwort (Standard oder gelernt) auf, und sag
 Zum Vergrößern auf das Bild klicken.
 
 
-#### Fixed Wake-up Command: 1; Learning Activation Command: 1
+### Weckwort (Wake-up word) 1
 
 Fixed Command Words|ID|Fixed Command Words|ID
 ---|---|---|---
 Wake-up words for learning|1|Hello robot|2
 
-#### Fixed Command: 121
+### Feste Befehlswörter (Fixed command words): 121
 
 Fixed Command Words|ID|Fixed Command Words|ID
 ---|---|---|---
@@ -148,7 +148,7 @@ Close the window|138|Open curtain|139
 Close curtain|140|Open the door|141
 Close the door|142
 
-
+### Erlernen von Befehlswörtern (Learning command words): 9
 
 Learning-related commands|ID|Learning-related commands|ID
 ---|---|---|---
