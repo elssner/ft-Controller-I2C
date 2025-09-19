@@ -62,14 +62,14 @@ Nach Abschluss des Lernprozesses wird automatisch eine ID generiert. Bitte beach
 
 ### Weckwörter und Befehlswörter löschen (Delete Wake Words and Command Words):
 
-Rufe den Sprachassistenten mit dem Weckwort (Standard oder gelernt) auf, und sage dann **"I want to delete"** ("Ich möchte löschen"). Befolge die Anweisungen, um den angegebenen Befehlssatz wie angewiesen zu entfernen.
+Rufe den Sprachassistenten mit dem Weckwort (Standard oder gelernt) auf, und sage dann **"I want to delete"** ("Ich möchte löschen"). Befolge die Anweisungen, um die angegebenen Kommandos zu entfernen.
 
 * Ansage: `Do you want to delete the learned wake word or command word?`\
-(Möchten Sie das gelernte Weckwort oder Befehlswort löschen?)
-* **Delete command word** (Befehlswort löschen): Entfernen Sie die zuvor erworbenen Befehlsphrasen.
-* **Delete wake word** Weckwort löschen: Löscht die gelernten Weckwörter aus dem System.
+(Möchten Sie das gelernte Weckwort oder Kommando löschen?)
+* **Delete command word** (Befehlswort löschen): Löscht die gelernten Kommandos.
+* **Delete wake word** (Weckwort löschen): Löscht die gelernten Weckwörter.
 * **Delete all** (Alle löschen): Eliminieren Sie die assimilierten Erweckungsäußerungen und Befehlsphrasen aus dem Speicher.
-* **Exit deleting** (Beenden Sie das Löschen).
+* **Exit deleting** (Löschen beenden).
 
 
 [![](DSC00423_512.JPG)](DSC00423.JPG)\
