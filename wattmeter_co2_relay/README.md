@@ -11,7 +11,7 @@
 * [Grove - LCD Display 16x2 Zeichen](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series)
 * [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 * [Calliope CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
-* [I2C Digital Wattmeter](https://www.dfrobot.com/product-1827.html)
+* [DFRobot Gravity: I2C Digital Wattmeter](https://www.dfrobot.com/product-1827.html)
 
 Das 'I2C Digital Wattmeter' genannte Modul misst eigentlich Spannung und Strom am I²C-Bus. Die Spannung sollte 3,3 Volt betragen. Zum Strom messen wurden zwei I²C Module angeschlossen, die einen hohen Stromverbrauch haben.
 Der 'CO₂ Sensor' verbraucht nur während der Messungen - ungefähr aller 5 Sekunden - fast 100 mA Strom. 
