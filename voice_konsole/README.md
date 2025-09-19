@@ -17,6 +17,8 @@ Fixed Command Words → [Tabelle](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravit
 
 Das Weckwort bezieht sich auf das Wort, das ein Produkt vom Standby-Modus in den Betriebsmodus schaltet. Es dient als erster Interaktionspunkt zwischen Benutzern und sprachgesteuerten Geräten.
 
+* Standardweckwort (fixed wake-up word): **"Hello robot"**
+
 ### Weckwort lernen (Learning wake-up word):
 
 * Wecken (Initiate) Sie den Sprachassistenten, indem Sie das Standardweckwort verwenden, und sagen Sie dann **"Learning wake word"**. Folgen Sie den Anweisungen, um das neue Weckwort zu lernen.\
