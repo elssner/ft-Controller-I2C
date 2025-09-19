@@ -64,7 +64,7 @@ Nach Abschluss des Lernprozesses wird automatisch eine ID generiert. Bitte beach
 
 Rufe den Sprachassistenten mit dem Weckwort (Standard oder gelernt) auf, und sage dann **"I want to delete"** ("Ich möchte löschen"). Befolge die Anweisungen, um den angegebenen Befehlssatz wie angewiesen zu entfernen.
 
-* Ansage: *Do you want to delete the learned wake word or command word?*\
+* Ansage: `Do you want to delete the learned wake word or command word?`\
 (Möchten Sie das gelernte Weckwort oder Befehlswort löschen?)
 * **Delete command word** (Befehlswort löschen): Entfernen Sie die zuvor erworbenen Befehlsphrasen.
 * **Delete wake word** Weckwort löschen: Löscht die gelernten Weckwörter aus dem System.
