@@ -75,3 +75,12 @@ Rufe den Sprachassistenten mit dem Weckwort (Standard oder gelernt) auf, und sag
 [![](DSC00423_512.JPG)](DSC00423.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+
+
+
+Fixed Command Words|ID|Fixed Command Words|ID|Fixed Command Words|ID
+---|---|---|---|---|---
+Go forward|22|Retreat|23|Park a car|24
+|||||
+
+
