@@ -19,15 +19,15 @@ Das Weckwort bezieht sich auf das Wort, das ein Produkt vom Standby-Modus in den
 
 ### Weckwort lernen (Learning wake-up word):
 
-* Initiieren Sie den Sprachassistenten, indem Sie das Standardweckwort verwenden, und sagen Sie dann **"Learning wake word"**. Folgen Sie den Anweisungen, um das neue Weckwort zu lernen.\
+* Wecken (Initiate) Sie den Sprachassistenten, indem Sie das Standardweckwort verwenden, und sagen Sie dann **"Learning wake word"**. Folgen Sie den Anweisungen, um das neue Weckwort zu lernen.\
 `Vor jedem Lernbefehl ist es notwendig, das zuvor gelernte Weckwort zu entfernen. Bitte beachten Sie die Anweisungen zum Löschen von Weckwörtern und Befehlsphrasen.`
 * Hinweis: Jetzt lernen, still sein, bitte das Weckwort sagen, das gelernt werden soll!
 * Das vorgesehene Weckwort, das man sich aneignen soll ("hello, there" ist nur ein Beispiel): **"hello, there"**.
-* Ansage: *"Learning successful, please say it again!*"
+* Ansage: *"Learning successful, please say it again!*" (Lernen erfolgreich, bitte sage es noch einmal!)
 * Das vorgesehene Weckwort, das man sich aneignen soll: **"hello, there"**.
 * Ansage: *"Learning successful, please say it again!*"
 * Das vorgesehene Weckwort, das man sich aneignen soll: **"hello, there"**.
-* Ansage: *"Ok, Lernen abgeschlossen!"*
+* Ansage: *"Ok, learning completed!"* (Ok, Lernen abgeschlossen!)
 
 Sobald der Lernprozess abgeschlossen ist, können Sie den Satz "Hallo, da" verwenden, um den Sprachassistenten zu wecken!
 
