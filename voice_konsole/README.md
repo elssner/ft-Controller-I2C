@@ -137,6 +137,15 @@ Disable blowing up & down|134|Enable blowing right & left|135
 Disable blowing right & left|136|Open the window|137
 Close the window|138|Open curtain|139
 Close curtain|140|Open the door|141
+Close the door|142
+
+Learning-related commands|ID|Learning-related commands|ID
+---|---|---|---
+Learning wake word|200|Learning command word|201
+Re-learn|202|Exit learning|203
+I want to delete|204|Delete wake word|205
+Delete command word|206|Exit deleting|207
+Delete all|208
 
 Fixed Command Words|ID|Fixed Command Words|ID|Fixed Command Words|ID
 ---|---|---|---|---|---
