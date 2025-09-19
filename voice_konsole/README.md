@@ -21,8 +21,8 @@ Das Weckwort bezieht sich auf das Wort, das ein Produkt vom Standby-Modus in den
 
 ### Weckwort lernen (Learning wake-up word):
 
-* Wecke (Initiate) den Sprachassistenten, indem du das Standardweckwort verwendest, und sage dann **"Learning wake word"**. Folge den Anweisungen, um das neue Weckwort zu lernen.\
-`Vor jedem Lernbefehl ist es notwendig, das zuvor gelernte Weckwort zu entfernen. Bitte beachte die Anweisungen zum Löschen von Weckwörtern und Befehlsphrasen.`
+* Wecke (Initiate) den Sprachassistenten, indem du das Standardweckwort verwendest, und sage dann **"Learning wake word"**. Folge den Anweisungen, um das neue Weckwort zu lernen.
+(Vor jedem Lernbefehl ist es notwendig, das zuvor gelernte Weckwort zu entfernen. Bitte beachte die Anweisungen zum Löschen von Weckwörtern und Befehlsphrasen.)
 * Hinweis: Jetzt lernen, still sein, bitte das Weckwort sagen, das gelernt werden soll!
 * Das vorgesehene Weckwort, das gelernt werden soll): **"hello, there"**.\
 ("hello, there" ist nur ein Beispiel)
@@ -43,13 +43,16 @@ Feste Befehlswörter beziehen sich auf das festgelegte Vokabular, das von Benutz
 
 Verwende ein Weckwort (Standard oder gelernt), um den Sprachassistenten zu aktivieren, und sage dann **"Learning command word"**, um den Prozess des Lernens von Befehlswörtern zu starten. Vor jeder Sitzung des Lernens von Befehlsphrasen ist es notwendig, die zuvor gelernten Befehlsphrasen zu löschen. Bitte beachte die Anweisungen zum Löschen von Weckwörtern und Befehlsphrasen.
 
-* Hinweis: Lernen Sie jetzt, seien Sie still, lernen Sie bitte das Befehlswort gemäß der Eingabeaufforderung! Bitte sagen Sie den ersten Befehl, den es zu lernen gilt!
-* Zu lernende Befehlsphrase (am Beispiel "Rotlicht einschalten"): "Rotes Licht einschalten"
-* Hinweis: Lernen erfolgreich, bitte noch einmal sagen!
-* Zu lernender Befehlssatz: "Schalten Sie rotes Licht ein"
-* Hinweis: Lernen erfolgreich, bitte noch einmal sagen!
-* Zu lernender Befehlssatz: "Schalten Sie rotes Licht ein"
-* Anzeige: OK, den ersten Befehl erfolgreich gelernt! Bitte sagen Sie den zweiten Befehl, den es zu lernen gilt!
+* Hinweis: Jetzt lernen, still sein, bitte das Befehlswort sagen, das gelernt werden soll!
+* Zu lernendes Befehlswort: **"rotes Licht einschalten"**\
+("rotes Licht einschalten"  ist nur ein Beispiel)
+* Ansage: **"Learning successful, please say it again!"**\
+(Lernen erfolgreich, bitte noch einmal sagen!)
+* Zu lernendes Befehlswort: **"rotes Licht einschalten"**
+* Ansage: **"Learning successful, please say it again!"**
+* Zu lernendes Befehlswort: **"rotes Licht einschalten"**
+* Ansage: **"OK, learned the first command successfully! Please say the second command to be learned!"**\
+OK, den ersten Befehl erfolgreich gelernt! Bitte sagen Sie den zweiten Befehl, den es zu lernen gilt!
 
 ... (Lernen Sie weiter)
 
