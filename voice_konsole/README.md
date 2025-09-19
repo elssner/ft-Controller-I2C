@@ -29,6 +29,7 @@ Das Weckwort bezieht sich auf das Wort, das ein Produkt vom Standby-Modus in den
 
 * Standardweckwort (fixed wake-up word): **"Hello robot"**
 * Nach dem Wecken leuchtet die blaue LED während der Wachzeit (waketime).
+* Standard Wachzeit 15 Sekunden (kann programmiert werden).
 
 ### Weckwort lernen (Learning wake-up word):
 
@@ -37,12 +38,12 @@ Das Weckwort bezieht sich auf das Wort, das ein Produkt vom Standby-Modus in den
 * Hinweis: Jetzt lernen, still sein, bitte das Weckwort sagen, das gelernt werden soll!
 * Das vorgesehene Weckwort, das gelernt werden soll): **"hello, there"**.\
 ("hello, there" ist nur ein Beispiel)
-* Ansage: *"Learning successful, please say it again!*"\
+* Ansage: `Learning successful, please say it again!`\
 (Lernen erfolgreich, bitte sage es noch einmal!)
 * Das vorgesehene Weckwort, das gelernt werden soll: **"hello, there"**.
-* Ansage: *"Learning successful, please say it again!*"
+* Ansage: `Learning successful, please say it again!`
 * Das vorgesehene Weckwort, das gelernt werden soll: **"hello, there"**.
-* Ansage: *"Ok, learning completed!"* (Ok, Lernen abgeschlossen!)
+* Ansage: `Ok, learning completed!` (Ok, Lernen abgeschlossen!)
 
 Sobald der Lernprozess abgeschlossen ist, kannst du den Satz **"hello, there"** verwenden, um den Sprachassistenten zu wecken!
 
