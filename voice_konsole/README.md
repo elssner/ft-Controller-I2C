@@ -13,16 +13,12 @@
 Fixed Command Words → [Tabelle](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravity_Voice_Recognition_Module_I2C_UART#Command%20Words%2FWake-up%20Words%20%26amp%3B%20ID%20Table)
 
 
-## Funktionen
-* Selbstlernfunktion: Steuern Sie das Modul, um Befehlswörter per Stimme zu lernen, und jedes Audio kann als Befehl trainiert werden
-* Unterstützt I2C und UART mit einer Gravity-Schnittstelle
-* Kompatibel mit 3,3 V/5 V
-* Eingebaut mit 121 häufig verwendeten festen Befehlswörtern
-* Das Modul verfügt über einen eingebauten Lautsprecher und eine Schnittstelle für einen externen Lautsprecher, der in Echtzeit Sprachfeedback zu den Erkennungsergebnissen liefern kann
-* Ausgestattet mit Betriebsanzeige (rot) und Erkennungsstatusanzeige (blau)
-* Duale Mikrofone sorgen für eine bessere Rauschfestigkeit und einen längeren Erkennungsabstand
-* Kompatibel mit Arduino-Controllern: Arduino UNO, Arduino Leonardo, Arduino MEGA, Controller der FireBeetle-Serie, Raspberry Pi, ESP32
-
+## Funktionen (Features)
+* Selbstlernfunktion: Steuere das Modul per Stimme, um Befehlswörter zu lernen. Jedes Audio kann als Kommando trainiert werden.
+* Eingebaut sind 121 häufig verwendete feste (englische) Kommandos.
+* Eingebauter Lautsprecher, der in Echtzeit Sprachfeedback zu den Erkennungsergebnissen liefern kann.
+* Zwei LED: Betriebsanzeige (rot) und Erkennungsstatusanzeige (blau).
+* Zwei Mikrofone sorgen für eine bessere Rauschfestigkeit und einen längeren Erkennungsabstand.
 
 
 
@@ -32,6 +28,7 @@ Fixed Command Words → [Tabelle](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravit
 Das Weckwort bezieht sich auf das Wort, das ein Produkt vom Standby-Modus in den Betriebsmodus schaltet. Es dient als erster Interaktionspunkt zwischen Benutzern und sprachgesteuerten Geräten.
 
 * Standardweckwort (fixed wake-up word): **"Hello robot"**
+* Nach dem Wecken leuchtet die blaue LED.
 
 ### Weckwort lernen (Learning wake-up word):
 
