@@ -46,12 +46,12 @@ Verwende ein Weckwort (Standard oder gelernt), um den Sprachassistenten zu aktiv
 * Hinweis: Jetzt lernen, still sein, bitte das Befehlswort sagen, das gelernt werden soll!
 * Zu lernendes Befehlswort: **"rotes Licht einschalten"**\
 ("rotes Licht einschalten"  ist nur ein Beispiel)
-* Ansage: *"Learning successful, please say it again!"*\
+* Ansage: `Learning successful, please say it again!`\
 (Lernen erfolgreich, bitte noch einmal sagen!)
 * Zu lernendes Befehlswort: **"rotes Licht einschalten"**
-* Ansage: *"Learning successful, please say it again!"*
+* Ansage: `Learning successful, please say it again!`
 * Zu lernendes Befehlswort: **"rotes Licht einschalten"**
-* Ansage: *"OK, learned the first command successfully! Please say the second command to be learned!"*\
+* Ansage: `OK, learned the first command successfully! Please say the second command to be learned!`\
 OK, den ersten Befehl erfolgreich gelernt! Bitte sage den zweiten Befehl, der gelernt werden soll!
 
 ... (weiter lernen)
