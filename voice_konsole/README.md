@@ -14,7 +14,7 @@ Fixed Command Words → [Tabelle](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravit
 
 
 ## Funktionen (Features)
-* Selbstlernfunktion: Steuere das Modul per Stimme, um Befehlswörter zu lernen. Jedes Audio kann als Kommando trainiert werden.
+* Selbstlernfunktion: Steuere das Modul per Stimme, um Kommandos zu lernen. Jedes Audio kann als Kommando trainiert werden.
 * Eingebaut sind 121 häufig verwendete feste (englische) Kommandos.
 * Eingebauter Lautsprecher, der in Echtzeit Sprachfeedback zu den Erkennungsergebnissen liefern kann.
 * Zwei LED: Betriebsanzeige (rot) und Erkennungsstatusanzeige (blau).
@@ -34,7 +34,7 @@ Das Weckwort bezieht sich auf das Wort, das ein Produkt vom Standby-Modus in den
 ### Weckwort lernen (Learning wake-up word):
 
 * Wecke (Initiate) den Sprachassistenten, indem du das Standardweckwort verwendest, und sage dann **"Learning wake word"**. Folge den Anweisungen, um das neue Weckwort zu lernen.
-(Vor jedem Lernbefehl ist es notwendig, das zuvor gelernte Weckwort zu entfernen. Bitte beachte die Anweisungen zum Löschen von Weckwörtern und Befehlsphrasen.)
+(Vor jedem Lernkommando ist es notwendig, das zuvor gelernte Weckwort zu entfernen. Bitte beachte die Anweisungen zum Löschen von Weckwörtern und Kommandos.)
 * Hinweis: Jetzt lernen, still sein, bitte das Weckwort sagen, das gelernt werden soll!
 * Das vorgesehene Weckwort, das gelernt werden soll): **"hello, there"**.\
 ("hello, there" ist nur ein Beispiel)
@@ -47,38 +47,38 @@ Das Weckwort bezieht sich auf das Wort, das ein Produkt vom Standby-Modus in den
 
 Sobald der Lernprozess abgeschlossen ist, kannst du den Satz **"hello, there"** verwenden, um den Sprachassistenten zu wecken!
 
-### Feste Befehlswörter (Fixed command words):
+### Feste Kommandos (Fixed command words):
 
-Feste Befehlswörter beziehen sich auf das festgelegte Vokabular, das von Benutzern verwendet wird, um spezifische Anweisungen an sprachinteraktive Produkte zu erteilen und eine effektive Kommunikation mit ihnen zu ermöglichen.
+Feste Kommandos beziehen sich auf das festgelegte Vokabular, das von Benutzern verwendet wird, um spezifische Anweisungen an sprachinteraktive Produkte zu erteilen und eine effektive Kommunikation mit ihnen zu ermöglichen.
 
-### Erlernen von Befehlswörtern (Learning command words):
+### Erlernen von Kommandos (Learning command words):
 
-Verwende ein Weckwort (Standard oder gelernt), um den Sprachassistenten zu aktivieren, und sage dann **"Learning command word"**, um den Prozess des Lernens von Befehlswörtern zu starten. Vor jeder Sitzung des Lernens von Befehlsphrasen ist es notwendig, die zuvor gelernten Befehlsphrasen zu löschen. Bitte beachte die Anweisungen zum Löschen von Weckwörtern und Befehlsphrasen.
+Verwende ein Weckwort (Standard oder gelernt), um den Sprachassistenten zu aktivieren, und sage dann **"Learning command word"**, um den Prozess des Lernens von Kommandos zu starten. Vor jeder Sitzung des Lernens von Kommandos ist es notwendig, die zuvor gelernten Kommandos zu löschen. Bitte beachte die Anweisungen zum Löschen von Weckwörtern und Kommandos.
 
-* Hinweis: Jetzt lernen, still sein, bitte das Befehlswort sagen, das gelernt werden soll!
-* Zu lernendes Befehlswort: **"rotes Licht einschalten"**\
+* Hinweis: Jetzt lernen, still sein, bitte das Kommandos sagen, das gelernt werden soll!
+* Zu lernendes Kommandos: **"rotes Licht einschalten"**\
 ("rotes Licht einschalten"  ist nur ein Beispiel)
 * Ansage: `Learning successful, please say it again!`\
 (Lernen erfolgreich, bitte noch einmal sagen!)
-* Zu lernendes Befehlswort: **"rotes Licht einschalten"**
+* Zu lernendes Kommandos: **"rotes Licht einschalten"**
 * Ansage: `Learning successful, please say it again!`
-* Zu lernendes Befehlswort: **"rotes Licht einschalten"**
+* Zu lernendes Kommandos: **"rotes Licht einschalten"**
 * Ansage: `OK, learned the first command successfully! Please say the second command to be learned!`\
-OK, den ersten Befehl erfolgreich gelernt! Bitte sage den zweiten Befehl, der gelernt werden soll!
+OK, erstes Kommando erfolgreich gelernt! Bitte sage das zweite Kommando, das gelernt werden soll!
 
 ... (weiter lernen)
 
-Befehlsphrase zum Beenden des Lernmodus: **"Exit learning"** ("Lernen beenden")
+Kommando zum Beenden des Lernmodus: **"Exit learning"** ("Lernen beenden")
 
-Nach Abschluss des Lernprozesses wird automatisch eine ID generiert. Bitte beachten die Tabelle: "Command Words/Wake-up Words & ID Table". Durch die Verwendung dieser eindeutigen ID kannst du Programme erstellen, um die Kontrolle entsprechend auszuüben.
+Nach Abschluss des Lernprozesses wird automatisch eine ID generiert. Durch die Verwendung dieser eindeutigen ID kannst du Programme erstellen, um Modelle mit Sprache zu steuern.
 
-### Weckwörter und Befehlswörter löschen (Delete Wake Words and Command Words):
+### Weckwörter und Kommandos löschen (Delete Wake Words and Command Words):
 
 Rufe den Sprachassistenten mit dem Weckwort (Standard oder gelernt) auf, und sage dann **"I want to delete"** ("Ich möchte löschen"). Befolge die Anweisungen, um die angegebenen Kommandos zu entfernen.
 
 * Ansage: `Do you want to delete the learned wake word or command word?`\
 (Möchten Sie das gelernte Weckwort oder Kommando löschen?)
-* **Delete command word** (Befehlswort löschen): Löscht die gelernten Kommandos.
+* **Delete command word** (Kommando löschen): Löscht die gelernten Kommandos.
 * **Delete wake word** (Weckwort löschen): Löscht die gelernten Weckwörter.
 * **Delete all** (Alle löschen): Eliminieren Sie die assimilierten Erweckungsäußerungen und Befehlsphrasen aus dem Speicher.
 * **Exit deleting** (Löschen beenden).
