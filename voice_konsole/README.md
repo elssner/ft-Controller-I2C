@@ -82,7 +82,7 @@ Fixed Command Words|ID|Fixed Command Words|ID
 ---|---|---|---
 Wake-up words for learning|1|Hello robot|2
 
-### feste Kommandos: 121
+### Feste Kommandos: 121
 
 Fixed Command Words|ID|Fixed Command Words|ID
 ---|---|---|---
@@ -148,7 +148,7 @@ Close the window|138|Open curtain|139
 Close curtain|140|Open the door|141
 Close the door|142
 
-### feste Kommandos zum Lernen und Löschen: 9
+### Feste Kommandos zum Lernen und Löschen: 9
 
 Learning-related commands|ID|Learning-related commands|ID
 ---|---|---|---
@@ -158,7 +158,7 @@ I want to delete|204|Delete wake word|205
 Delete command word|206|Exit deleting|207
 Delete all|208
 
-### erlernte Kommandos: 17
+### Erlernte Kommandos: 17
 
 Commands for learning|ID|Commands for learning|ID
 ---|---|---|---
