@@ -75,9 +75,14 @@ Rufe den Sprachassistenten mit dem Weckwort (Standard oder gelernt) auf, und sag
 [![](DSC00423_512.JPG)](DSC00423.JPG)\
 Zum Vergrößern auf das Bild klicken.
 
+
+#### Fixed Wake-up Command: 1; Learning Activation Command: 1
+
 Fixed Command Words|ID|Fixed Command Words|ID
 ---|---|---|---
 Wake-up words for learning|1|Hello robot|2
+
+#### Fixed Command: 121
 
 Fixed Command Words|ID|Fixed Command Words|ID
 ---|---|---|---
@@ -143,6 +148,8 @@ Close the window|138|Open curtain|139
 Close curtain|140|Open the door|141
 Close the door|142
 
+
+
 Learning-related commands|ID|Learning-related commands|ID
 ---|---|---|---
 Learning wake word|200|Learning command word|201
@@ -151,6 +158,7 @@ I want to delete|204|Delete wake word|205
 Delete command word|206|Exit deleting|207
 Delete all|208
 
+#### Custom Command: 17
 
 Commands for learning|ID|Commands for learning|ID
 ---|---|---|---
