@@ -77,6 +77,10 @@ Zum Vergrößern auf das Bild klicken.
 
 Fixed Command Words|ID|Fixed Command Words|ID
 ---|---|---|---
+Wake-up words for learning|1|Hello robot|2
+
+Fixed Command Words|ID|Fixed Command Words|ID
+---|---|---|---
 Go forward|22|Retreat|23
 Park a car|24|Turn left ninety degrees|25
 Turn left forty-five degrees|26|Turn left thirty degrees|27
@@ -146,6 +150,20 @@ Re-learn|202|Exit learning|203
 I want to delete|204|Delete wake word|205
 Delete command word|206|Exit deleting|207
 Delete all|208
+
+
+Commands for learning|ID|Commands for learning|ID
+---|---|---|---
+The first custom command|5|The second custom command|6
+The third custom command|7|The fourth custom command|8
+The fifth custom command|9|The sixth custom command|10
+The seventh custom command|11|The eighth custom command|12
+The ninth custom command|13|The tenth custom command|14
+The eleventh custom command|15|The twelfth custom command|16
+The thirteenth custom command|17|The fourteenth custom command|18
+The fifteenth custom command|19|The sixteenth custom command|20
+The seventeenth custom command|21|Go forward|22
+
 
 Fixed Command Words|ID|Fixed Command Words|ID|Fixed Command Words|ID
 ---|---|---|---|---|---
