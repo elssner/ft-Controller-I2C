@@ -5,7 +5,7 @@
 [I²C Programmierbeispiele im Überblick](../examples)
 
 
-### voice_konsole (I²C Spracherkennung, Ausgabe erkannte Kommandos in Konsole)
+### voice_konsole (Spracherkennung, Ausgabe in Konsole)
 
 * [DFRobot Gravity: Offline Language Learning Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html)
 
