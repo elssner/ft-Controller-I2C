@@ -76,9 +76,9 @@ Rufe den Sprachassistenten mit dem Weckwort (Standard oder gelernt) auf, und sag
 Zum Vergrößern auf das Bild klicken.
 
 
-### Weckwort (Wake-up word) 1
+### Weckwort: 1
 
-Fixed Command Words|ID|Fixed Command Words|ID
+Wake-up words|ID|Wake-up words|ID
 ---|---|---|---
 Wake-up words for learning|1|Hello robot|2
 
