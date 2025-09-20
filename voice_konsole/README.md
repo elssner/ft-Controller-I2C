@@ -30,8 +30,7 @@ Block **voice_konsole**
 * I²C Module: I²C Spracherkennung Sensor
 * Laden von fischertechnik GitLab: [I2C_Spracherkennung](https://git.fischertechnik-cloud.com/i2c/I2C_Spracherkennung)
 
-[![](DSC00423_512.JPG)](DSC00423.JPG)\
-Zum Vergrößern auf das Bild klicken.
+![](voice_konsole.png)
 
 * Zeigt Lautsprecher (an/aus/Lautstärke) und die Wachzeit in der Konsole an.
 * Spielt Antwort auf Kommando 141 ab: "The door is open."
