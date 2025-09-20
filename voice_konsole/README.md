@@ -18,7 +18,7 @@ Der Spracherkennung Sensor hat zwei Mikrofone und einen Lautsprecher. Wenn er mi
 Solange die blaue LED leuchtet, hört er auf die anderen Kommandos. Wurde ein Kommando erkannt, kann die ID über den I²C-Bus aus dem Register gelesen werden. Programmiert werden kann sonst nur der Laustprecher
 (an/aus/Lautstärke) und die Wachzeit (wie lange die blaue LED leuchtet).
 
-Das Lernen und Löschen der Kommandos (1 Weckwort und 17 erlernte Kommandos) erfolgt nur über englische Sprache. Dazu muss also kein Controller angeschlossen sein. Um das Lernen oder Löschen zu starten gibt es 9 feste Kommandos
+Das Lernen und Löschen der Kommandos (1 Weckwort und 17 erlernte Kommandos) erfolgt nur über englische Sprache. Dazu muss also kein Controller angeschlossen sein. Um das Lernen oder Löschen zu starten gibt es [9 feste Kommandos](#feste-kommandos-zum-lernen-und-l%C3%B6schen-9)
 z.B. **"Learning command word"**, **"Exit learning"** oder **"I want to delete"**.
 
 ## Funktionen (Features)
