@@ -26,7 +26,7 @@ z.B. **"Learning command word"**, **"Exit learning"** oder **"I want to delete"*
 
 Block **voice_konsole**
 
-* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[voice](../#voicepy)**, **voice_konsole**
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[voice](../#voicepy)**
 * I²C Module: I²C Spracherkennung Sensor
 * Laden von fischertechnik GitLab: [I2C_Voice_Recognition](https://git.fischertechnik-cloud.com/i2c/I2C_Voice_Recognition)
 
