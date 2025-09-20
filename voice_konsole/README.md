@@ -15,7 +15,11 @@ Fixed Command Words ↓ [Tabelle](#weckwort-1) → [wiki.dfrobot.com](https://wi
 ![](zto94jwi.png)
 
 Der Spracherkennung Sensor hat zwei Mikrofone und einen Lautsprecher. Wenn er mit Strom versorgt wird (3,3V), funktioniert der Sensor selbstständig. Er hört auf das Weckwort und schaltet die blaue LED an.
-Solange die blaue LED leuchtet, hört er auf die anderen Kommandos. Wurde ein Kommando erkannt, kann die ID über den I²C-Bus aus dem Register gelesen werden. 
+Solange die blaue LED leuchtet, hört er auf die anderen Kommandos. Wurde ein Kommando erkannt, kann die ID über den I²C-Bus aus dem Register gelesen werden. Programmiert werden kann sonst nur der Laustprecher
+(an/aus/Lautstärke) und die Wachzeit (wie lange die blaue LED leuchtet).
+
+Das Lernen und Löschen der Kommandos (1 Weckwort und 17 erlernte Kommandos) erfolgt nur über englische Sprache. Dazu muss also kein Controller angeschlossen sein. Um das Lernen oder Löschen zu starten gibt es 9 feste Kommandos
+z.B. **"Learning command word"**, **"Exit learning"** oder **"I want to delete"**.
 
 ## Funktionen (Features)
 * Selbstlernfunktion: Steuere das Modul per Stimme, um Kommandos zu lernen. Jedes Audio kann als Kommando trainiert werden.
