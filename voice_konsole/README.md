@@ -12,7 +12,7 @@
 >Learning Command Words ↓ [Anleitung](#kommandos-command-words) → [wiki.dfrobot.com](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravity_Voice_Recognition_Module_I2C_UART#Command%20Words)\
 Fixed Command Words ↓ [Tabelle](#weckwort-1) → [wiki.dfrobot.com](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravity_Voice_Recognition_Module_I2C_UART#Command%20Words%2FWake-up%20Words%20%26amp%3B%20ID%20Table)
 
-![](zto94jwi.png)
+![](zto94jwi.png) ![](sensor.png)
 
 Der Spracherkennung Sensor hat zwei Mikrofone und einen Lautsprecher. Wenn er mit Strom versorgt wird (3,3V), funktioniert der Sensor selbstständig. Er hört auf das Weckwort und schaltet die blaue LED an.
 Solange die blaue LED leuchtet, hört er auf die anderen Kommandos. Wurde ein Kommando erkannt, ertönt aus dem Laustsprecher eine Bestätigung. 121 englische Kommandos sind fest vorgegeben und 17 Kommandos können zusätzlich erlernt werden. 
