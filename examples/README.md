@@ -63,7 +63,7 @@ Quellcodedatei|kurze Beschreibung
 `1`|`1`|`0`|`0`|[wattmeter_lcd_co2](../wattmeter_co2_relay#wattmeter_lcd_co2)|12|Strommessung, CO₂ Sensor, Relais
 `1`|`1`|`0`|`1`||13|
 `1`|`1`|`1`|`0`||14|
-`1`|`1`|`1`|`1`|[voice_konsole](../voice_konsole)|15|Spracherkennung, Ausgabe erkannter Kommandos in Konsole
+`1`|`1`|`1`|`1`|[voice_konsole](../voice_konsole)|15|Spracherkennung, Ausgabe in Konsole
 
 
 
