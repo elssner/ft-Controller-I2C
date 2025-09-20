@@ -30,6 +30,14 @@ Block **voice_konsole**
 * I²C Module: I²C Spracherkennung Sensor
 * Laden von fischertechnik GitLab: [I2C_Spracherkennung](https://git.fischertechnik-cloud.com/i2c/I2C_Spracherkennung)
 
+[![](DSC00423_512.JPG)](DSC00423.JPG)\
+Zum Vergrößern auf das Bild klicken.
+
+* Zeigt Lautsprecher (an/aus/Lautstärke) und die Wachzeit in der Konsole an.
+* Spielt Antwort auf Kommando 141 ab: "The door is open."
+* Wartet in Endlosschleife auf Kommando ID ungleich 0.
+* Wurde ein Kommando erkannt, wird der Text aus der Liste in der Konsole angezeigt.
+
 <!--
 ## Funktionen (Features)
 * Selbstlernfunktion: Steuere das Modul per Stimme, um Kommandos zu lernen. Jedes Audio kann als Kommando trainiert werden.
@@ -100,10 +108,6 @@ Rufe den Sprachassistenten mit dem Weckwort (Standard oder gelernt) auf, und sag
 * **Delete wake word** (Weckwort löschen): Löscht die gelernten Weckwörter.
 * **Delete all** (Alle löschen): Eliminieren Sie die assimilierten Erweckungsäußerungen und Befehlsphrasen aus dem Speicher.
 * **Exit deleting** (Löschen beenden).
-
-
-[![](DSC00423_512.JPG)](DSC00423.JPG)\
-Zum Vergrößern auf das Bild klicken.
 
 
 ### Weckwort: 1
