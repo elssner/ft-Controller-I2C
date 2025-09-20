@@ -24,9 +24,9 @@ z.B. **"Learning command word"**, **"Exit learning"** oder **"I want to delete"*
 ## Funktionen (Features)
 * Selbstlernfunktion: Steuere das Modul per Stimme, um Kommandos zu lernen. Jedes Audio kann als Kommando trainiert werden.
 * Eingebaut sind 121 häufig verwendete feste (englische) Kommandos.
+* Zwei Mikrofone sorgen für eine bessere Rauschfestigkeit und einen längeren Erkennungsabstand.
 * Eingebauter Lautsprecher, der in Echtzeit Sprachfeedback zu den Erkennungsergebnissen liefern kann.
 * Zwei LED: Betriebsanzeige (rot) und Erkennungsstatusanzeige (blau).
-* Zwei Mikrofone sorgen für eine bessere Rauschfestigkeit und einen längeren Erkennungsabstand.
 
 
 
