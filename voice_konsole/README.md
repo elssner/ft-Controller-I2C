@@ -24,13 +24,20 @@ Auch Löschen ist nur über Sprache und nicht über Software möglich.
 Das Lernen und Löschen der Kommandos (1 Weckwort und 17 erlernte Kommandos) erfolgt nur über englische Sprache. Dazu muss also kein Controller angeschlossen sein. Um das Lernen oder Löschen zu starten gibt es [9 feste Kommandos](#feste-kommandos-zum-lernen-und-l%C3%B6schen-9)
 z.B. **"Learning command word"**, **"Exit learning"** oder **"I want to delete"**.
 
+Block **voice_konsole**
+
+* Quellcodedateien: **[i2cCode](../#i2ccodepy)**, **[voice](../#voicepy)**, **voice_konsole**
+* I²C Module: I²C Spracherkennung Sensor
+* Laden von fischertechnik GitLab: [I2C_Spracherkennung](https://git.fischertechnik-cloud.com/i2c/I2C_Spracherkennung)
+
+<!--
 ## Funktionen (Features)
 * Selbstlernfunktion: Steuere das Modul per Stimme, um Kommandos zu lernen. Jedes Audio kann als Kommando trainiert werden.
 * Eingebaut sind 121 häufig verwendete feste (englische) Kommandos.
 * Zwei Mikrofone sorgen für eine bessere Rauschfestigkeit und einen längeren Erkennungsabstand.
 * Eingebauter Lautsprecher, der in Echtzeit Sprachfeedback zu den Erkennungsergebnissen liefern kann.
 * Zwei LED: Betriebsanzeige (rot) und Erkennungsstatusanzeige (blau).
-
+-->
 
 
 ## Kommandos (Command Words)
