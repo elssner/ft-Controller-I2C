@@ -28,7 +28,7 @@ Quellcodedatei|kurze Beschreibung
 [qwiicopenlog_rtc](../qwiicopenlog_rtc)|Dateien lesen und protokollieren auf Speicherkarte, Zeit aus RTC
 [s_qwiic_distance](../s_qwiic_distance)|4 verschiedene Abstands- und Nähesensoren, Qwiic LCD 20x4
 [s_qwiictemp_lcd](../s_qwiictemp_lcd)|2 Temperatursensoren STTS22H und TMP102 , Qwiic LCD Display
-[voice_konsole](../voice_konsole)|Spracherkennung, Ausgabe in Konsole
+[voice_konsole](../voice_konsole)|Spracherkennung, Ausgabe erkannter Kommandos in Konsole
 [wattmeter_co2_relay](../wattmeter_co2_relay)|Strom messen von CO₂ Sensor und I²C Relais, Grove LCD Display
 
 
@@ -38,6 +38,7 @@ Quellcodedatei|kurze Beschreibung
 * Mit Drahtbrücken an den Eingängen `I8 I7 I6 I5` kann der Start eines bestimmten Programmierbeispiels codiert werden. [Tabelle 2](#tabelle-2) zeigt die Codierung der Eingänge.
 * Beispiel 0 **i2c_scan** zeigt die gefundenen I²C-Adressen in der Konsole an.
 * Beispiel 8 **log_konsole** zeigt Dateien von der Speicherkarte in der Konsole an.
+* Beispiel 15 **voice_konsole** zeigt von Spracherkennung erkannte Kommandos in der Konsole an.
 * Alle anderen Beispiele können nach Übertragung des Programms auf dem Controller (ohne Verbindung zur App) gestartet werden. Nur Drahtbrücken umstecken und Programm starten.
 * Ausgabe erfolgt auf Display, LEDs, Motoren, Speicherkarte.
 
@@ -62,7 +63,7 @@ Quellcodedatei|kurze Beschreibung
 `1`|`1`|`0`|`0`|[wattmeter_lcd_co2](../wattmeter_co2_relay#wattmeter_lcd_co2)|12|Strommessung, CO₂ Sensor, Relais
 `1`|`1`|`0`|`1`||13|
 `1`|`1`|`1`|`0`||14|
-`1`|`1`|`1`|`1`||15|
+`1`|`1`|`1`|`1`|[voice_konsole](../voice_konsole)|15|Spracherkennung, Ausgabe erkannter Kommandos in Konsole
 
 
 
