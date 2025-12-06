@@ -196,13 +196,12 @@ Delete all|208
 
 Commands for learning|ID|Commands for learning|ID
 ---|---|---|---
-stop|5|vorwärts|6
-rückwärts|7|nach links|8
-nach rechts|9|links vor|10
-links zurück|11|rechts vor|12
-rechts zurück|13|links drehen|14
-rechts drehen|15|The twelfth custom command|16
-The thirteenth custom command|17|The fourteenth custom command|18
-The fifteenth custom command|19|The sixteenth custom command|20
-The seventeenth custom command|21
-
+stop|5|
+vorwärts|6|rückwärts|7
+nach links|8|nach rechts|9
+links vor|10|links zurück|11
+rechts vor|12|rechts zurück|13
+links drehen|14|rechts drehen|15
+The twelfth custom command|16|The thirteenth custom command|17
+The fourteenth custom command|18|The fifteenth custom command|19
+The sixteenth custom command|20|The seventeenth custom command|21
