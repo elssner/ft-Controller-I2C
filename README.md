@@ -827,10 +827,12 @@ Block **rotary_read_a_m**
 * Gibt ein Tupel zurück mit AGC und MAGNITUDE
 * AGC Automatic Gain Control (Mess-Verstärkung) 0 .. 128 bei 3,3V
 * MAGNITUDE Magnetstärke 12 Bit 0 .. 4095
-* Beide Werte sollten in der Mitte ihres Bereichs liegen.
+* Wenn beide Werte in der Mitte ihres Bereichs liegen, ist der Magnet geeignet.
 
-
-
+Block **rotary_time** (stunde, minute, log)
+* Berechnet aus Stunde 0 .. 23 und Minute 0 .. 59 den Winkel (4096 Schritte in 12 Stunden)
+* 1 Minute = 4096 / 720 = 5,688
+* log = True: Anzeige in Konsole {}:{} Stunde {} Minute {} Winkel {}° rotary {:.1f}
 
 
 #### s_voice.py
