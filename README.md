@@ -805,7 +805,7 @@ Block **ultrasonic_read_mm**
 
 
 #### s_rotary.py
-→ Hall Sensor [de.wikipedia.org/wiki/Hall-Sensor](https://de.wikipedia.org/wiki/Hall-Sensor)
+→ Hall Sensor → [de.wikipedia.org/wiki/Hall-Sensor](https://de.wikipedia.org/wiki/Hall-Sensor)
 ###### [Grove - 12-bit Magnetic Rotary Position Sensor / Encoder (AS5600)](https://wiki.seeedstudio.com/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600)
 
 
