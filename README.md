@@ -893,6 +893,7 @@ Block **voice_konsole**
 ###### UART → MQTT: [Cytron: Grove WiFi 8266 - IoT for micro:bit and beyond](https://www.cytron.io/p-grove-wifi-8266-iot-for-microbit-and-beyond)
 > Das Cytron Modul unterstützt MQTT über [AT Commands](https://docs.espressif.com/projects/esp-at/en/release-v2.2.0.0_esp8266/AT_Command_Set/index.html).
 > Es hat aber eine serielle Schnittstelle UART (RX/TX). Um es an I²C anzuschließen, wird ein I²C → UART Konverter zusätzlich benötigt.
+> Beide sind mit 4 Drähten (GND, VCC, RX, TX) zu verbinden. RX und TX sind zu kreuzen.
 > Damit können über ein I²C Register AT Kommandos bis 64 Zeichen gesendet und Response bis 64 Zeichen empfangen werden. Für MQTT ist das ausreichend.
 > Mit dieser Kombination kann der RX Controller über I²C ins WLAN und mit einem MQTT Broker kommunizieren.
 > Bisher sind nur Blöcke für MQTT Publisher vorhanden. MQTT Subscriber wäre aber auch möglich.
@@ -901,6 +902,23 @@ Block **serial_init**
 * Muss einmal beim Start aufgerufen werden.
 * Stellt 115200 8N1 ein und sendet AT+RST (Reset Cytron Modul)
 
+Block **serial_write_string** (string_data)
+* Löscht beide TX und RX FIFO (64 Byte first in first out Register).
+* Sendet *string_data* und hängt CR LF an.
+
+Block **serial_read_string** 
+* Gibt die aktuell im RX FIFO enthaltenen Zeichen zurück (einschließlich CR LF).
+* Kann ein leerer String sein oder Teil einer Response.
+
+Block **serial_wait_response** (timeout_s)
+* Ruft **serial_read_string** wiederholt in einer Schleife auf.
+* Endet mit True, wenn "OK" gefunden wurde.
+* Endet mit False, wenn "ERROR" gefunden wurde oder nach *timeout_s*.
+
+Block **serial_at_command** (at, sleep_s, timeout_s)
+* Sendet *at* über **serial_write_string**, wartet, wenn *sleep_s* angegeben wurde.
+* Ruft **serial_wait_response** mit Parameter *timeout_s* auf oder 2s wenn nicht angegeben.
+* Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
 
 
