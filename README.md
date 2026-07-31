@@ -817,9 +817,11 @@ Block **rotary_raw_angle**
 
 Block **rotary_status**
 * Gibt das Status Byte zurück:
+
 7|6|5|4|3|2|1|0
 ---|---|---|---|---|---|---|---
 0|1|MD|ML|MH|1|1|1
+
 * MD Magnet was detected / ML magnet too weak / MH magnet too strong
 
 
