@@ -808,7 +808,10 @@ Block **ultrasonic_read_mm**
 → Hall Sensor → [de.wikipedia.org/wiki/Hall-Sensor](https://de.wikipedia.org/wiki/Hall-Sensor)
 ###### [Grove - 12-bit Magnetic Rotary Position Sensor / Encoder (AS5600)](https://wiki.seeedstudio.com/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600)
 
-
+Block **rotary_raw_angle**
+* Gibt den Winkel 0..4095 zurück (12 Bit)
+* The RAW ANGLE register contains the unscaled and unmodified angle.
+> Note(s): The ANGLE register has a 10-LSB hysteresis at the limit of the 360 degree range to avoid discontinuity points or toggling of the output within one rotation.
 
 
 #### s_voice.py
