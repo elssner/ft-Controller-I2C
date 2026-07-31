@@ -900,7 +900,7 @@ Block **voice_konsole**
 
 Block **serial_init**
 * Muss einmal beim Start aufgerufen werden.
-* Stellt 115200 8N1 ein und sendet AT+RST (Reset Cytron Modul)
+* Stellt 115200 8N1 ein und sendet `AT+RST` (Reset Cytron Modul)
 
 Block **serial_write_string** (string_data)
 * Löscht beide TX und RX FIFO (64 Byte first in first out Register).
@@ -923,25 +923,25 @@ Block **serial_at_command** (at, sleep_s, timeout_s=2)
 > Nach den allgemeinen Blöcken zum seriellen Senden und Empfangen von Strings folgen spezielle AT Kommandos für WLAN und MQTT.
 
 Block **serial_wifi_connect** (ssid, password, timeout_s=10)
-* Sendet ´AT+CWMODE=1´ (aktiviert WLAN Client, AccessPoint).
-* Sendet AT+CWJAP="{}","{}" mit *ssid* und *password*.
+* Sendet `AT+CWMODE=1` (aktiviert WLAN Client, AccessPoint).
+* Sendet `AT+CWJAP="{}","{}"` mit *ssid* und *password*.
 * Wenn *timeout_s* nicht angegeben: 10s warten auf Verbindungsaufbau.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
 Block **serial_mqtt_client** (client_id, username, password)
-* Konfiguriert den MQTT Client(0) ´AT+MQTTUSERCFG=0,1,"{}","{}","{}",0,0,""´
+* Konfiguriert den MQTT Client(0) `AT+MQTTUSERCFG=0,1,"{}","{}","{}",0,0,""`
 * *client_id* ist erforderlich, *username*, *password* kann weg gelassen werden.
 * Ruft **serial_at_command** auf mit *sleep_s*=1 und *timeout_s*=5
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
 Block **serial_mqtt_connect** (host, port)
-* Sendet ´AT+MQTTCONN=0,"{}",{},0´ mit *host* und *port*.
+* Sendet `AT+MQTTCONN=0,"{}",{},0` mit *host* und *port*.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
 > Nach dem Verbindungsaufbau können in einer Schleift mit Publish String-Daten gesendet werden.
 
 Block **serial_mqtt_publish** (topic, payload, timeout_s)
-* Sendet ´AT+MQTTPUB=0,"{}","{}",1,0´ mit *topic* und *payload*.
+* Sendet `AT+MQTTPUB=0,"{}","{}",1,0` mit *topic* und *payload*.
 * *topic* ist der "Name am Briefkasten", den der Subscriber abonniert haben muss.
 * *payload* sind die String-Daten (max. 64 Zeichen). Bei csv darf kein Komma enthalten sein.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
@@ -949,7 +949,7 @@ Block **serial_mqtt_publish** (topic, payload, timeout_s)
 > Das I²C → UART Modul hat auch 8 GPIO Pins. An GP0 (blau), GP1 (grün), GP2 (rot) kann eine RGB-LED angeschlossen werden für Statusmeldungen.
 
 Block **serial_led** (rgb)
-* *rgb*=1 blau; *rgb*=2 grün; *rgb*=4 rot; *rgb*=6 grün+rot; ...
+* *rgb*=0 aus; *rgb*=1 blau; *rgb*=2 grün; *rgb*=4 rot; *rgb*=6 grün+rot; ...
 
 
 
