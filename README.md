@@ -829,10 +829,24 @@ Block **rotary_read_a_m**
 * MAGNITUDE Magnetstärke 12 Bit 0 .. 4095
 * Wenn beide Werte in der Mitte ihres Bereichs liegen, ist der Magnet geeignet.
 
+> Folgende Blöcke dienen zur Steuerung eines Uhrwerks (fischertechnik). Der Magnet ist 1:1 mit dem Minutenzeiger gekoppelt. Eine Minute entspricht 0,5° = 5,688 Impulse am Magnetsensor.
+
 Block **rotary_time** (stunde, minute, log)
 * Berechnet aus *stunde* 0 .. 23 und *minute* 0 .. 59 den Winkel (4096 Schritte in 12 Stunden)
 * 1 Minute = 4096 / 720 = 5,688
 * *log* = True: Anzeige in Konsole {}:{} Stunde {} Minute {} Winkel {}° rotary {:.1f}
+
+Block **rotary_berechnung**
+* Ruft **rotary_time** für jede Minute in 24 Stunden auf.
+* Schreibt 1440 Zeilen in Konsole, mit dem Winkel-Wert 0 .. 4095 für jede Minute.
+
+Block **rotary_min** (x1, x2)
+* *x1*, *x2*: 0 .. 4095 (12 bit)
+* Berechnet den kürzesten Weg zwischen zwei Winkeln über den 4096 Sprung hinweg.
+* 4095-4094=1 / 0-4094=1 / 4095-3=-4 / 0-3=-3
+* Vergleicht Zeit *x1* mit Stellung der Zeiger *x2*. Vorzeichen: Drehrichtung.
+* Wenn <5 haben die Zeiger die Uhrzeit erreicht.
+
 
 
 #### s_voice.py
