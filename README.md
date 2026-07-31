@@ -830,9 +830,9 @@ Block **rotary_read_a_m**
 * Wenn beide Werte in der Mitte ihres Bereichs liegen, ist der Magnet geeignet.
 
 Block **rotary_time** (stunde, minute, log)
-* Berechnet aus Stunde 0 .. 23 und Minute 0 .. 59 den Winkel (4096 Schritte in 12 Stunden)
+* Berechnet aus *stunde* 0 .. 23 und *minute* 0 .. 59 den Winkel (4096 Schritte in 12 Stunden)
 * 1 Minute = 4096 / 720 = 5,688
-* log = True: Anzeige in Konsole {}:{} Stunde {} Minute {} Winkel {}° rotary {:.1f}
+* *log* = True: Anzeige in Konsole {}:{} Stunde {} Minute {} Winkel {}° rotary {:.1f}
 
 
 #### s_voice.py
