@@ -830,6 +830,7 @@ Block **rotary_read_a_m**
 * Wenn beide Werte in der Mitte ihres Bereichs liegen, ist der Magnet geeignet.
 
 > Folgende Blöcke dienen zur Steuerung eines Uhrwerks (fischertechnik). Der Magnet ist 1:1 mit dem Minutenzeiger gekoppelt. Eine Minute entspricht 0,5° = 5,688 Impulse am Magnetsensor.
+> Damit kann die Stellung der Zeiger erkannt, beim Einschalten mit der Uhrzeit verglichen und auf dem kürzesten Weg vor/zurück gestellt werden. So bleibt die Zeit immer aktuell.
 
 Block **rotary_time** (stunde, minute, log)
 * Berechnet aus *stunde* 0 .. 23 und *minute* 0 .. 59 den Winkel (4096 Schritte in 12 Stunden)
