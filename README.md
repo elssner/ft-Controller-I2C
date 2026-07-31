@@ -27,9 +27,9 @@ Der Import muss mehrmals erfolgen, weil die Dateien voneinander abhängig sind. 
 ###### Tabelle 1:
 * Quellcodedatei mit Link zur Beschreibung der Blöcke (auf dieser Seite unten).
 * I²C Module mit Link zur Hersteller Webseite mit Bild und Dokumentation.
-* (36) Quellcodedateien im GitLab Projekt [ft_Controller_I2C](https://git.fischertechnik-cloud.com/i2c/ft_Controller_I2C) 
+* (39) Quellcodedateien im GitLab Projekt [ft_Controller_I2C](https://git.fischertechnik-cloud.com/i2c/ft_Controller_I2C) 
   * (1) i2cCode
-  * (22) mit <code>I²C-Adresse</code>: sind einem bestimmten I²C Modul zugeordnet.
+  * (25) mit <code>I²C-Adresse</code>: sind einem bestimmten I²C Modul zugeordnet.
   * (3) **Erweiterung**: zusätzliche Blöcke zum entsprechenden I²C Modul.
   * (10) [Beispiel](examples): Programmierbeispiel kann mehrere I²C Module betreffen.\
   Jedes Beispiel hat eine eigene GitHub Seite → [I²C Programmierbeispiele im Überblick](examples#tabelle-1).
