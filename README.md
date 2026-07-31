@@ -896,7 +896,7 @@ Block **voice_konsole**
 > Beide sind mit 4 Drähten (GND, VCC, RX, TX) zu verbinden. RX und TX sind zu kreuzen.
 > Damit können über ein I²C Register AT Kommandos bis 64 Zeichen gesendet und Response bis 64 Zeichen empfangen werden. Für MQTT ist das ausreichend.
 > Mit dieser Kombination kann der RX Controller über I²C ins WLAN und mit einem MQTT Broker kommunizieren.\
-> Bisher sind nur Blöcke für MQTT Publisher vorhanden. MQTT Subscriber wäre aber auch möglich.
+> Bisher sind nur Blöcke für MQTT Publisher vorhanden. MQTT Subscriber wäre auch möglich.
 
 Block **serial_init**
 * Muss einmal beim Start aufgerufen werden.
@@ -915,10 +915,41 @@ Block **serial_wait_response** (timeout_s)
 * Endet mit True, wenn "OK" gefunden wurde.
 * Endet mit False, wenn "ERROR" gefunden wurde oder nach *timeout_s*.
 
-Block **serial_at_command** (at, sleep_s, timeout_s)
+Block **serial_at_command** (at, sleep_s, timeout_s=2)
 * Sendet *at* über **serial_write_string**, wartet wenn *sleep_s* angegeben wurde.
 * Ruft **serial_wait_response** mit Parameter *timeout_s* auf oder 2s wenn nicht angegeben.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
+
+> Nach den allgemeinen Blöcken zum seriellen Senden und Empfangen von Strings folgen spezielle AT Kommandos für WLAN und MQTT.
+
+Block **serial_wifi_connect** (ssid, password, timeout_s=10)
+* Sendet AT+CWMODE=1 (aktiviert WLAN Client, AccessPoint).
+* Sendet AT+CWJAP="{}","{}" mit *ssid* und *password*.
+* Wenn *timeout_s* nicht angegeben: 10s warten auf Verbindungsaufbau.
+* Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
+
+Block **serial_mqtt_client** (client_id, username, password)
+* Konfiguriert den MQTT Client(0): AT+MQTTUSERCFG=0,1,"{}","{}","{}",0,0,""
+* *client_id* ist erforderlich, *username*, *password* kann weg gelassen werden.
+* Ruft **serial_at_command** auf mit *sleep_s*=1 und *timeout_s*=5
+* Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
+
+Block **serial_mqtt_connect** (host, port)
+* Sendet AT+MQTTCONN=0,"{}",{},0 mit *host* und *port*.
+* Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
+
+> Nach dem Verbindungsaufbau können in einer Schleift mit Publish String-Daten gesendet werden.
+
+Block **serial_mqtt_publish** (topic, payload, timeout_s)
+* Sendet `AT+MQTTPUB=0,"{}","{}",1,0` mit *topic* und *payload*.
+* *topic* ist der "Name am Briefkasten", den der Subscriber abonniert haben muss.
+* *payload* sind die String-Daten (max. 64 Zeichen). Bei csv darf kein Komma enthalten sein.
+* Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
+
+> Das I²C → UART Modul hat auch 8 GPIO Pins. Da kann eine RGB-LED angeschlossen werden für Statusmeldungen.
+
+Block **serial_led** (rgb)
+* *rgb*=1 GP0 blau; *rgb*=2 GP1 grün; *rgb*=4 GP2 rot; *rgb*=6 grün+rot; ...
 
 
 
