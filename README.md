@@ -938,7 +938,7 @@ Block **serial_mqtt_connect** (host, port)
 * Sendet `AT+MQTTCONN=0,"{}",{},0` mit *host* und *port*.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
-> Nach dem Verbindungsaufbau können in einer Schleift mit Publish String-Daten gesendet werden.
+> Nach dem Verbindungsaufbau können in einer Schleife String-Daten gesendet werden.
 
 Block **serial_mqtt_publish** (topic, payload, timeout_s)
 * Sendet `AT+MQTTPUB=0,"{}","{}",1,0` mit *topic* und *payload*.
