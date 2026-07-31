@@ -895,7 +895,7 @@ Block **voice_konsole**
 > Es hat aber eine serielle Schnittstelle UART (RX/TX). Um es an I²C anzuschließen, wird ein I²C → UART Konverter zusätzlich benötigt.
 > Beide sind mit 4 Drähten (GND, VCC, RX, TX) zu verbinden. RX und TX sind zu kreuzen.
 > Damit können über ein I²C Register AT Kommandos bis 64 Zeichen gesendet und Response bis 64 Zeichen empfangen werden. Für MQTT ist das ausreichend.
-> Mit dieser Kombination kann der RX Controller über I²C ins WLAN und mit einem MQTT Broker kommunizieren.
+> Mit dieser Kombination kann der RX Controller über I²C ins WLAN und mit einem MQTT Broker kommunizieren.\
 > Bisher sind nur Blöcke für MQTT Publisher vorhanden. MQTT Subscriber wäre aber auch möglich.
 
 Block **serial_init**
@@ -916,7 +916,7 @@ Block **serial_wait_response** (timeout_s)
 * Endet mit False, wenn "ERROR" gefunden wurde oder nach *timeout_s*.
 
 Block **serial_at_command** (at, sleep_s, timeout_s)
-* Sendet *at* über **serial_write_string**, wartet, wenn *sleep_s* angegeben wurde.
+* Sendet *at* über **serial_write_string**, wartet wenn *sleep_s* angegeben wurde.
 * Ruft **serial_wait_response** mit Parameter *timeout_s* auf oder 2s wenn nicht angegeben.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
