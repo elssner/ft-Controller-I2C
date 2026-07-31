@@ -889,9 +889,10 @@ Block **voice_konsole**
 #### serial.py
 → UART → [Universal Asynchronous Receiver Transmitter](https://de.wikipedia.org/wiki/Universal_Asynchronous_Receiver_Transmitter)\
 → MQTT → [Message Queueing Telemetry Transport](https://de.wikipedia.org/wiki/MQTT)
-###### UART: [Dual Channel UART Modul I2C/SPI, 2.5V/3.3V, 5 Mbit/s, SC16IS752 IC](https://www.amazon.de/dp/B0DBZRPSZ4)\
-MQTT: [Cytron: Grove WiFi 8266 - IoT for micro:bit and beyond](https://www.cytron.io/p-grove-wifi-8266-iot-for-microbit-and-beyond)
-
+###### I²C → UART: [Dual Channel UART Modul I2C/SPI, 2.5V/3.3V, 5 Mbit/s, SC16IS752 IC](https://www.amazon.de/dp/B0DBZRPSZ4)\
+###### UART → MQTT: [Cytron: Grove WiFi 8266 - IoT for micro:bit and beyond](https://www.cytron.io/p-grove-wifi-8266-iot-for-microbit-and-beyond)
+> Das Cytron Modul unterstützt MQTT über [AT Commands](https://docs.espressif.com/projects/esp-at/en/release-v2.2.0.0_esp8266/AT_Command_Set/index.html).
+> Es hat aber eine serielle Schnittstelle UART (RX/TX). Um es am I²C anzuschließen, wird ein I²C → UART Konverter zusätzlich benötigt.
 
 
 
