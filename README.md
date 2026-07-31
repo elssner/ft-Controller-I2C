@@ -885,6 +885,15 @@ Block **voice_konsole**
 * Programmierbeispiel: zeigt erkanntes *command* in der Konsole an.
 
 
+#### serial.py
+→ UART → [Universal Asynchronous Receiver Transmitter](https://de.wikipedia.org/wiki/Universal_Asynchronous_Receiver_Transmitter)
+→ MQTT → [Message Queueing Telemetry Transport](https://de.wikipedia.org/wiki/MQTT)
+###### UART: [Dual Channel UART Modul I2C/SPI, 2.5V/3.3V, 5 Mbit/s, SC16IS752 IC](https://www.amazon.de/dp/B0DBZRPSZ4)
+###### MQTT: [Cytron: Grove WiFi 8266 - IoT for micro:bit and beyond](https://www.cytron.io/p-grove-wifi-8266-iot-for-microbit-and-beyond)
+
+
+
+
 #### wattmeter.py
 → Spannungsmesser, Voltmeter  → [de.wikipedia.org/wiki/Spannungsmessgerät](https://de.wikipedia.org/wiki/Spannungsmessger%C3%A4t)\
 → Strommesser, Amperemeter → [de.wikipedia.org/wiki/Strommessgerät](https://de.wikipedia.org/wiki/Strommessger%C3%A4t)\
