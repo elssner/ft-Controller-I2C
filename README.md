@@ -72,7 +72,7 @@ s_qwiictemp_lcd|[Beispiel](s_qwiictemp_lcd)|2 Temperatursensoren, Qwiic LCD Disp
 [s_qwiicultrasonic](#s_qwiicultrasonicpy)|<code>0x09</code>|[Ultrasonic Distance Sensor HC-SR04](https://www.sparkfun.com/products/17777)
 [s_rotary](#s_rotarypy)|<code>0x36</code>|[Grove - Magnetic Rotary Position Sensor (AS5600)](https://wiki.seeedstudio.com/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600)
 [s_voice](#s_voicepy)|<code>0x64</code>|[DFRobot Gravity Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html)
-[serial](#serialpy)|<code>0x4D</code>|[UART Modul I2C/SPI, SC16IS752 IC](https://www.amazon.de/dp/B0DBZRPSZ4)
+[serial](#serialpy)|<code>0x4D</code>|2 Module [I2C→UART SC16IS752](https://www.amazon.de/dp/B0DBZRPSZ4), [UART→WLAN→MQTT: Grove WiFi 8266](https://www.cytron.io/p-grove-wifi-8266-iot-for-microbit-and-beyond)
 [wattmeter](#wattmeterpy)|<code>0x45</code>|[DFRobot Gravity Digital Wattmeter](https://www.dfrobot.com/product-1827.html)
 wattmeter_co2_relay|[Beispiel](wattmeter_co2_relay)|Strom messen von CO₂ Sensor und I²C Relais
 
