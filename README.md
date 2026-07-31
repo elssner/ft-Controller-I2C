@@ -816,15 +816,18 @@ Block **rotary_raw_angle**
 > Note(s): The ANGLE register has a 10-LSB hysteresis at the limit of the 360 degree range to avoid discontinuity points or toggling of the output within one rotation.
 
 Block **rotary_status**
-* Gibt das Status Byte zurück:
+* Gibt das Status Byte zurück. 0x67 ist gut.
+* MD Magnet was detected / ML magnet too weak / MH magnet too strong
 
 7|6|5|4|3|2|1|0
 ---|---|---|---|---|---|---|---
 0|1|MD|ML|MH|1|1|1
 
-* MD Magnet was detected / ML magnet too weak / MH magnet too strong
-
-
+Block **rotary_read_a_m**
+* Gibt ein Tupel zurück mit AGC und MAGNITUDE
+* AGC Automatic Gain Control (Mess-Verstärkung) 0 .. 128 bei 3,3V
+* MAGNITUDE Magnetstärke 12 Bit 0 .. 4095
+* Beide Werte sollten in der Mitte ihres Bereichs liegen.
 
 
 
