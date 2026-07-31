@@ -807,14 +807,24 @@ Block **ultrasonic_read_mm**
 #### s_rotary.py
 → Hall Sensor → [de.wikipedia.org/wiki/Hall-Sensor](https://de.wikipedia.org/wiki/Hall-Sensor)
 ###### [Grove - 12-bit Magnetic Rotary Position Sensor / Encoder (AS5600)](https://wiki.seeedstudio.com/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600)
-> [Scheibenmagnet 6x2.5 mm Neodym diametral magnetisiert] (https://www.mtsmagnete.de/neodym-scheiben-magnete/scheiben-1mm-9mm/6x2-5-mm-vernickelt-bis-150-c-diametral-magnetisiert/a-4471)
-
+###### [Scheibenmagnet 6x2.5 mm Neodym diametral magnetisiert](https://www.mtsmagnete.de/neodym-scheiben-magnete/scheiben-1mm-9mm/6x2-5-mm-vernickelt-bis-150-c-diametral-magnetisiert/a-4471)
 
 Block **rotary_raw_angle**
 * Gibt den Winkel 0 .. 4095 zurück (12 Bit)
 * RAW ANGLE hat keine Lücke "hysteresis" beim 4096 Sprung.
 * "The RAW ANGLE register contains the unscaled and unmodified angle."
 > Note(s): The ANGLE register has a 10-LSB hysteresis at the limit of the 360 degree range to avoid discontinuity points or toggling of the output within one rotation.
+
+Block **rotary_status**
+* Gibt das Status Byte zurück:
+7|6|5|4|3|2|1|0
+---|---|---|---|---|---|---|---
+0|1|MD|ML|MH|1|1|1
+* MD Magnet was detected / ML magnet too weak / MH magnet too strong
+
+
+
+
 
 
 
