@@ -946,10 +946,10 @@ Block **serial_mqtt_publish** (topic, payload, timeout_s)
 * *payload* sind die String-Daten (max. 64 Zeichen). Bei csv darf kein Komma enthalten sein.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
-> Das I²C → UART Modul hat auch 8 GPIO Pins. Da kann eine RGB-LED angeschlossen werden für Statusmeldungen.
+> Das I²C → UART Modul hat auch 8 GPIO Pins. An GP0 (blau), GP1 (grün), GP2 (rot) kann eine RGB-LED angeschlossen werden für Statusmeldungen.
 
 Block **serial_led** (rgb)
-* *rgb*=1 GP0 blau; *rgb*=2 GP1 grün; *rgb*=4 GP2 rot; *rgb*=6 grün+rot; ...
+* *rgb*=1 blau; *rgb*=2 grün; *rgb*=4 rot; *rgb*=6 grün+rot; ...
 
 
 
