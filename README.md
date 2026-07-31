@@ -70,7 +70,7 @@ s_qwiic_distance|[Beispiel](s_qwiic_distance)|4 Abstands- und Nähesensoren, Qwi
 s_qwiictemp_lcd|[Beispiel](s_qwiictemp_lcd)|2 Temperatursensoren, Qwiic LCD Display
 [s_qwiictmp102](#s_qwiictmp102py)|<code>0x48</code>|[Temperature Sensor - TMP102](https://www.sparkfun.com/products/16304)
 [s_qwiicultrasonic](#s_qwiicultrasonicpy)|<code>0x09</code>|[Ultrasonic Distance Sensor HC-SR04](https://www.sparkfun.com/products/17777)
-[s_rotary](#s_rotarypy)|<code>0x36</code>|[]()
+[s_rotary](#s_rotarypy)|<code>0x36</code>|[Grove - 12-bit Magnetic Rotary Position Sensor / Encoder (AS5600)](https://wiki.seeedstudio.com/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600)
 [s_voice](#s_voicepy)|<code>0x64</code>|[DFRobot Gravity Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html)
 [wattmeter](#wattmeterpy)|<code>0x45</code>|[DFRobot Gravity Digital Wattmeter](https://www.dfrobot.com/product-1827.html)
 wattmeter_co2_relay|[Beispiel](wattmeter_co2_relay)|Strom messen von CO₂ Sensor und I²C Relais
@@ -804,8 +804,14 @@ Block **ultrasonic_read_mm**
 (Z.B. auf 0x00, um den Sensor mit der Original Adresse zu benutzen.)
 
 
+#### s_rotary.py
+→ Hall Effekt
+###### [Grove - 12-bit Magnetic Rotary Position Sensor / Encoder (AS5600)](https://wiki.seeedstudio.com/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600)
 
-#### voice.py
+
+
+
+#### s_voice.py
 → Spracherkennung → [de.wikipedia.org/wiki/Spracherkennung](https://de.wikipedia.org/wiki/Spracherkennung)
 ###### [DFRobot Gravity: Offline Language Learning Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html)
 > Am Anfang muss man das Wake-up word: "Hello robot" sagen, dann geht die blaue LED an.\
