@@ -629,7 +629,7 @@ Block **rtc_set** (key_code) : keyString
 * Muss 5 mal mit ASCII Code aufgerufen werden, gibt den zusammengesetzten String zurück.\
   *1. Zeichen:* `*` neu, *2. Zeichen:* Register `0..6`,\
   *3. und 4. Zeichen:* 2 Ziffern dezimal `00..59`, *5. Zeichen:* `#` speichern
-* Wenn 5 Zeichen gültig sind, wird mit **write_rtc** das Register geändert.
+* Wenn 5 Zeichen gültig sind, wird mit **rtc_write** das Register geändert.
 * Beispiel: `*120#`setzt Minute auf 20; `*401#` Montag; `*000#` Sekunde 0.
 
 ##### Uhr lesen
