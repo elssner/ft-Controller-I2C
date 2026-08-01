@@ -187,7 +187,7 @@ Block **Int** (x) : Integer *int(x)*\
 Block **Ord** (char) : Integer Zeichencode *ord(char)*\
 Block **Chr** (asc) : String 1 Zeichen *chr(asc)*\
 Block **print_bin** (zahl, length) : BIN String z.B. '00001010'; Binärzahl mit fester Länge\
-Block **list_string** (string_data) : Liste der Zeichencodes *[ord(c) for c in string_data]*\
+Block **list_string** (string_data) : Liste der Zeichencodes Unicode *[ord(c) for c in string_data]*\
 Block **encode_string** (string_data) : Liste der Zeichencodes *string_data.encode('utf-8')*\
 Block **decode_string** (data_bytes) : String *data_bytes.decode('utf-8', 'replace')*\
 Block **decode_latin** (data_bytes) : String *''.join(chr(b) for b in data_bytes)*\
@@ -203,13 +203,7 @@ Block **advanced_system_time** () : Liste mit 9 Elementen
 Uhr wird bei Internetverbindung gestellt, Zeitzone Germany am Controller einstellen.
 * RX: Zeitstempel umgerechnet in (0, 0, 0, hour, min, sec, 0, 0, 0) seit dem Einschalten.
 
-Block **advanced_voltmeter** (input_pin, extended_range)
-> TXT 4.0 Controller kann an den Input-Pins I1 bis I8 Spannung messen.
 
-* *input_pin*: 1..8 Input Pin Nummer.
-* *extended_range* Messbereich: False=0..6,3V; True=0..10V.
-* TXT 4.0: gibt Spannung in Volt zurück mit 3 Kommastellen.
-* RX: gibt None zurück.
 
 
 #### dipswitch.py
