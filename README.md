@@ -882,7 +882,7 @@ Block **rotary_time** (stunde, minute, log)
 * *log* = True: Anzeige in Konsole {}:{} Stunde {} Minute {} Winkel {}° rotary {:.1f}.
 
 Block **rotary_berechnung**
-* Ruft **rotary_time** für jede Minute in 24 Stunden auf.
+* Ruft **rotary_time** in geschachtelten Schleifen für jede Minute in 24 Stunden auf.
 * Schreibt 1440 Zeilen in Konsole, mit dem Winkel-Wert 0 .. 4095 für jede Minute.
 
 Block **rotary_min** (x1, x2)
