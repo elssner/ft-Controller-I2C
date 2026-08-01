@@ -909,6 +909,7 @@ Block **serial_write_string** (string_data)
 Block **serial_read_string** 
 * Gibt die aktuell im RX FIFO enthaltenen Zeichen zurück (einschließlich CR LF).
 * Kann ein leerer String sein oder Teil einer Response.
+* Evtl. mehrmals aufrufen bis zur vollständigen Response (normalerweise "OK").
 
 Block **serial_wait_response** (timeout_s)
 * Ruft **serial_read_string** wiederholt in einer Schleife auf.
@@ -923,7 +924,7 @@ Block **serial_at_command** (at, sleep_s, timeout_s=2)
 > Nach den allgemeinen Blöcken zum seriellen Senden und Empfangen von Strings folgen spezielle AT Kommandos für WLAN und MQTT.
 
 Block **serial_wifi_connect** (ssid, password, timeout_s=10)
-* Sendet `AT+CWMODE=1` (aktiviert WLAN Client, AccessPoint).
+* Sendet `AT+CWMODE=1` (aktiviert WLAN Client, nicht den AccessPoint).
 * Sendet `AT+CWJAP="{}","{}"` mit *ssid* und *password*.
 * Wenn *timeout_s* nicht angegeben: 10s warten auf Verbindungsaufbau.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
