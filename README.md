@@ -945,7 +945,8 @@ Block **serial_mqtt_connect** (host, port)
 Block **serial_mqtt_publish** (topic, payload, timeout_s)
 * Sendet `AT+MQTTPUB=0,"{}","{}",1,0` mit *topic* und *payload*.
 * *topic* ist der "Name am Briefkasten", den der Subscriber abonniert haben muss.
-* *payload* sind die String-Daten (max. 64 Zeichen). Bei csv darf kein Komma enthalten sein.
+* *payload* sind die String-Daten. Es darf kein Komma enthalten sein, für csv Semikolon verwenden.
+* Das gesamte AT Kommando darf max. 64 Zeichen lang sein.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
 > Das I²C → UART Modul hat auch 8 GPIO Pins. An GP0 (blau), GP1 (grün), GP2 (rot) kann eine RGB-LED angeschlossen werden für Statusmeldungen.
