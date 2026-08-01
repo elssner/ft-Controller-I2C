@@ -34,6 +34,8 @@ Der Import muss mehrmals erfolgen, weil die Dateien voneinander abhängig sind. 
   * (10) [Beispiel](examples): Programmierbeispiel kann mehrere I²C Module betreffen.\
   Jedes Beispiel hat eine eigene GitHub Seite → [I²C Programmierbeispiele im Überblick](examples#tabelle-1).
 
+Nach i2cCode und advanced entspricht die Reihenfolge der Anzeige in der App ROBO Pro Coding.
+
 Quellcodedatei|I²C-Adresse|I²C Module
 ---|---|---
 [i2cCode](#i2ccodepy)||Python I²C für [RX](https://github.com/fischertechnik/RX-Controller-I2C) und [TXT 4.0](https://github.com/fischertechnik/TXT40-Controller-I2C)
