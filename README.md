@@ -933,11 +933,13 @@ Block **serial_mqtt_client** (client_id, username, password)
 * Konfiguriert den MQTT Client(0) `AT+MQTTUSERCFG=0,1,"{}","{}","{}",0,0,""`.
 * *client_id* ist erforderlich, irgend ein String z.B. "RX".
 * *username*, *password* kann weg gelassen werden.
+* Das gesamte AT Kommando darf max. 62 Zeichen lang sein.
 * Ruft **serial_at_command** auf mit *sleep_s*=1 und *timeout_s*=5.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
 Block **serial_mqtt_connect** (host, port)
 * Sendet `AT+MQTTCONN=0,"{}",{},0` mit *host* und *port*.
+* Das gesamte AT Kommando darf max. 62 Zeichen lang sein.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
 > Nach dem Verbindungsaufbau können in einer Schleife String-Daten gesendet werden.
@@ -945,8 +947,8 @@ Block **serial_mqtt_connect** (host, port)
 Block **serial_mqtt_publish** (topic, payload, timeout_s)
 * Sendet `AT+MQTTPUB=0,"{}","{}",1,0` mit *topic* und *payload*.
 * *topic* ist der "Name am Briefkasten", den der Subscriber abonniert haben muss.
-* *payload* sind die String-Daten. Es darf kein Komma enthalten sein, für csv Semikolon verwenden.
-* Das gesamte AT Kommando darf max. 64 Zeichen lang sein.
+* *payload* sind die String-Daten. Komma nicht erlaubt, für csv Semikolon verwenden.
+* Das gesamte AT Kommando darf max. 62 Zeichen lang sein.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
 > Das I²C → UART Modul hat auch 8 GPIO Pins. An GP0 (blau), GP1 (grün), GP2 (rot) kann eine RGB-LED angeschlossen werden für Statusmeldungen.
