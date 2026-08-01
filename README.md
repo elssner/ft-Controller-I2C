@@ -168,6 +168,10 @@ Block **i2c_error** () : Boolean
 * Gibt True zurück, wenn beim letzten Aufruf von **i2c_write_buffer**, **i2c_read_buffer**, **i2c_write_read_buffer** eine Exception aufgetreten ist.
 * Die Exception wurde unmittelbar mit der Funktion **i2c_print** in der Konsole angezeigt.
 
+Block **i2c_print** (text) 
+* Zeigt *text* in der Konsole an.
+* Dieser Block ist vorbereitet für die Protokollierung auf dem TXT 4.0 Display.
+
 
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
 Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
