@@ -172,6 +172,7 @@ Block **i2c_print** (text)
 * Zeigt *text* in der Konsole an.
 * Dieser Block ist vorbereitet für die Protokollierung auf dem TXT 4.0 Display.
 * Durch Aufruf von außen können auch andere Ereignisse auf dem Display protokolliert werden.
+* Hier könnte auch in eine Datei protokolliert werden u.s.w.
 
 
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
