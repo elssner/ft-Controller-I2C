@@ -931,7 +931,8 @@ Block **serial_wifi_connect** (ssid, password, timeout_s=10)
 
 Block **serial_mqtt_client** (client_id, username, password)
 * Konfiguriert den MQTT Client(0) `AT+MQTTUSERCFG=0,1,"{}","{}","{}",0,0,""`.
-* *client_id* ist erforderlich, *username*, *password* kann weg gelassen werden.
+* *client_id* ist erforderlich, irgend ein String z.B. "RX".
+* *username*, *password* kann weg gelassen werden.
 * Ruft **serial_at_command** auf mit *sleep_s*=1 und *timeout_s*=5.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
