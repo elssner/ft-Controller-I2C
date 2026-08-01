@@ -900,7 +900,7 @@ Block **voice_konsole**
 
 Block **serial_init**
 * Muss einmal beim Start aufgerufen werden.
-* Stellt 115200 8N1 ein und sendet `AT+RST` (Reset Cytron Modul)
+* Stellt 115200 8N1 ein und sendet `AT+RST` (Reset Cytron Modul).
 
 Block **serial_write_string** (string_data)
 * Löscht beide TX und RX FIFO (64 Byte first in first out Register).
@@ -930,9 +930,9 @@ Block **serial_wifi_connect** (ssid, password, timeout_s=10)
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
 Block **serial_mqtt_client** (client_id, username, password)
-* Konfiguriert den MQTT Client(0) `AT+MQTTUSERCFG=0,1,"{}","{}","{}",0,0,""`
+* Konfiguriert den MQTT Client(0) `AT+MQTTUSERCFG=0,1,"{}","{}","{}",0,0,""`.
 * *client_id* ist erforderlich, *username*, *password* kann weg gelassen werden.
-* Ruft **serial_at_command** auf mit *sleep_s*=1 und *timeout_s*=5
+* Ruft **serial_at_command** auf mit *sleep_s*=1 und *timeout_s*=5.
 * Gibt True zurück, wenn "OK" in Response enthalten ist, sonst False.
 
 Block **serial_mqtt_connect** (host, port)
