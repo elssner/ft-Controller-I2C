@@ -711,7 +711,7 @@ Block **co2_get_relative_hunidity**
 > Erst dann wird die Geste erkannt und mit der farbigen LED angezeigt.
 
 Block **gesture_read_register** (reg)
-* Gibt Inhalt aus Register *reg* (6..15) zurück.
+* Gibt Inhalt aus Register *reg* (0..15) zurück.
 * Zur Demonstration **gesture_demo** aufrufen.
 
 Block **gesture_type**
