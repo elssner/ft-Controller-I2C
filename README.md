@@ -127,7 +127,7 @@ Ein 3V3 Löt-Pin ist an vielen I²C Modulen neben dem /INT vorhanden.\
 
 #### i2cCode.py
 
-> In der aktuellen Version von i2cCode.py werden Exceptions beim Zugriff auf den I²C-Bus abgefangen. Damit kann auf ein fehlendes I²C-Device reagiert werden, weil der Code nicht abstürzt.
+> In der aktuellen Version von i2cCode.py werden Exceptions beim Zugriff auf den I²C-Bus abgefangen. Damit kann auf ein fehlendes I²C Modul reagiert werden, weil der Code nicht abstürzt.
 > Die Exception wird unmittelbar mit der Funktion **i2c_print** in der Konsole angezeigt. **i2c_error** gibt True zurück, wenn beim letzten I²C Block eine Exception aufgetreten ist.
 
 Block **i2c_write_buffer** (i2c_addr, write_buffer)
@@ -163,6 +163,10 @@ Block **is_rx** () : Boolean
 * Davon abhängig werden für I²C verschiedene Importe gemacht:
 * True: circuitpython `from adafruit_bus_device.i2c_device import I2CDevice`
 * False: Python3 `from smbus2 import SMBus, i2c_msg`
+
+Block **i2c_error** () : Boolean
+* Gibt True zurück, wenn beim letzten Aufruf von **i2c_write_buffer**, **i2c_read_buffer**, **i2c_write_read_buffer** eine Exception aufgetreten ist.
+* Die Exception wurde unmittelbar mit der Funktion **i2c_print** in der Konsole angezeigt.
 
 
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
