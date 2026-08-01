@@ -715,7 +715,7 @@ Block **gesture_read_register** (reg)
 * Zur Demonstration **gesture_demo** aufrufen.
 
 Block **gesture_type**
-* Gibt aktuell erkannte Geste zurück und zeigt die Farbe an:
+* Gibt aktuell erkannte Geste (0..5) zurück und zeigt die Farbe an:
   * 0: no gesture is detected
   * 1: LIKE (👍) - Blue
   * 2: OK (👌) - Green
