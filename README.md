@@ -707,7 +707,8 @@ Block **co2_get_relative_hunidity**
 
 #### s_gesture.py
 ###### [DFRobot Gravity Gesture & Face Detection Sensor](https://www.dfrobot.com/product-2914.html)
-> Der Sensor erkennt 5 Gesten, die ein Mensch mit der Hand macht. Der Mensch wird an Kopf und Schulter erkannt.
+> Der Sensor erkennt 5 Gesten, die ein Mensch mit der Hand macht. Wenn der Mensch an Kopf und Schulter erkannt wird, leuchtet die weiße LED.
+> Erst dann wird die Geste erkannt und mit der farbigen LED angezeigt.
 
 Block **gesture_read_register** (reg)
 * *reg* Gibt Inhalt aus Register 6 .. 15 zurück.
@@ -715,12 +716,12 @@ Block **gesture_read_register** (reg)
 
 Block **gesture_type**
 * Gibt aktuell erkannte Geste zurück und zeigt die Farbe an:
-  * - 0: no gesture is detected
-  * - 1: LIKE (👍) - Blue
-  * - 2: OK (👌) - Green
-  * - 3: STOP (🤚) - Red
-  * - 4: YES (✌️) - Yellow
-  * - 5: SIX (🤙) - Purple
+  * 0: no gesture is detected
+  * 1: LIKE (👍) - Blue
+  * 2: OK (👌) - Green
+  * 3: STOP (🤚) - Red
+  * 4: YES (✌️) - Yellow
+  * 5: SIX (🤙) - Purple
 
 
 
