@@ -909,7 +909,7 @@ Block **serial_write_string** (string_data)
 Block **serial_read_string** 
 * Gibt die aktuell im RX FIFO enthaltenen Zeichen zurück (einschließlich CR LF).
 * Kann ein leerer String sein oder Teil einer Response.
-* Evtl. mehrmals aufrufen bis zur vollständigen Response (normalerweise "OK").
+* Evtl. mehrmals aufrufen bis zur vollständigen Response (endet normalerweise mit "OK").
 
 Block **serial_wait_response** (timeout_s)
 * Ruft **serial_read_string** wiederholt in einer Schleife auf.
