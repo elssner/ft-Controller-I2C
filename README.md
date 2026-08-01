@@ -184,8 +184,8 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 
 Block **comment** (text) : Kommentar Block ohne Funktion.\
 Block **Int** (x) : Integer `int(x)`\
-Block **Ord** (char) : Integer (Unicode) Zeichencode `ord(char)`\
-Block **Chr** (asc) : String 1 Zeichen `chr(asc)`\
+Block **Ord** (char) : Integer (Unicode) aus 1-Zeichen-String `ord(char)`\
+Block **Chr** (asc) : 1-Zeichen-String aus Unicode `chr(asc)`\
 Block **print_bin** (zahl, length) : BIN String z.B. '00001010'; Binärzahl mit fester Länge\
 Block **encode_string** (string_data) : bytes-Objekt aus String (utf-8)\
 Block **decode_string** (data_bytes) : String aus bytes-Objekt (utf-8)\
