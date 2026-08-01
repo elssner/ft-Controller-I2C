@@ -854,7 +854,7 @@ Block **ultrasonic_read_mm**
 > Am Stundenzeiger einer Uhr kann aus dem Winkel jederzeit die Uhrzeit ermittelt werden.
 
 Block **rotary_raw_angle**
-* Gibt den Winkel 0 .. 4095 zurück (12 Bit)
+* Gibt den Winkel 0..4095 zurück (12 Bit).
 * RAW ANGLE hat keine Lücke "hysteresis" beim 4096 Sprung.
 * "The RAW ANGLE register contains the unscaled and unmodified angle."
 > Note(s): The ANGLE register has a 10-LSB hysteresis at the limit of the 360 degree range to avoid discontinuity points or toggling of the output within one rotation.
@@ -877,9 +877,9 @@ Block **rotary_read_a_m**
 > Damit kann die Stellung der Zeiger erkannt, beim Einschalten mit der Uhrzeit verglichen und auf dem kürzesten Weg vor/zurück gestellt werden. So bleibt die Zeit immer aktuell.
 
 Block **rotary_time** (stunde, minute, log)
-* Berechnet aus *stunde* 0 .. 23 und *minute* 0 .. 59 den Winkel (4096 Schritte in 12 Stunden)
-* 1 Minute = 4096 / 720 = 5,688
-* *log* = True: Anzeige in Konsole {}:{} Stunde {} Minute {} Winkel {}° rotary {:.1f}
+* Berechnet aus *stunde* 0 .. 23 und *minute* 0 .. 59 den Winkel (4096 Schritte in 12 Stunden).
+* 1 Minute = 4096 / 720 = 5,688.
+* *log* = True: Anzeige in Konsole {}:{} Stunde {} Minute {} Winkel {}° rotary {:.1f}.
 
 Block **rotary_berechnung**
 * Ruft **rotary_time** für jede Minute in 24 Stunden auf.
