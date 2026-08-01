@@ -63,7 +63,7 @@ qwiicopenlog_rtc|[Beispiel](qwiicopenlog_rtc)|Dateien lesen, protokollieren auf 
 [qwiicrelay](#qwiicrelaypy)|<code>0x18</code>|[SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
 [rtc](#rtcpy)|<code>0x51</code>|[Grove - RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC)
 [s_co2](#s_co2py)|<code>0x62</code>|[Calliope CO2 Sensor - SCD40](https://calliope.cc/calliope-mini/erweiterungen/calliope-co2-sensor)
-[s_gesture](#s_gesturepy)|<code>0x72</code>|[Gravity: AI Gesture & Face Detection Sensor](https://www.dfrobot.com/product-2914.html)
+[s_gesture](#s_gesturepy)|<code>0x72</code>|[DFRobot Gravity Gesture & Face Detection Sensor](https://www.dfrobot.com/product-2914.html)
 s_qwiic_distance|[Beispiel](s_qwiic_distance)|4 Abstands- und Nähesensoren, Qwiic LCD 20x4
 [s_qwiicinfrared](#s_qwiicinfraredpy)|<code>0x60</code>|[Proximity Sensor VCNL4040](https://www.sparkfun.com/products/15177)
 [s_qwiiclaser](#s_qwiiclaserpy)|<code>0x29</code>|Laser Distance Sensoren [VL53L1X](https://www.sparkfun.com/products/14722), [VL53L4CD](https://www.sparkfun.com/products/18993)
