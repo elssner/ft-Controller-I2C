@@ -848,7 +848,7 @@ Block **rotary_berechnung**
 Block **rotary_min** (x1, x2)
 * *x1*, *x2*: 0 .. 4095 (12 bit)
 * Berechnet den kürzesten Weg zwischen zwei Winkeln über den 4096 Sprung hinweg.
-* 4095-4094=1 / 0-4094=1 / 4095-3=-4 / 0-3=-3
+* 4095-4094=1 / 0-4094=2 / 4095-3=-4 / 0-3=-3
 * Vergleicht Zeit *x1* mit Stellung der Zeiger *x2*. Vorzeichen: Drehrichtung.
 * Wenn <5 haben die Zeiger die Uhrzeit erreicht.
 
