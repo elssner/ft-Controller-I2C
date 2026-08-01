@@ -725,8 +725,9 @@ Block **gesture_type**
 
 Block **gesture_demo**
 * Liest die Konfiguration aus Registern und zeigt diese in der Konsole an.
-* In Endlosschleife (1s) wird angezeigt: Number of detected faces, Face X coordinate, Face Y coordinate, Face score.
-* und wenn eine Geste erkannt wurde Gesture type und Gesture score.
+* Danach wird in Endlosschleife (1s) angezeigt: Number of detected faces, \
+  Face X coordinate, Face Y coordinate, Face score\
+  und wenn eine Geste erkannt wurde: Gesture type und Gesture score.
 
 
 
