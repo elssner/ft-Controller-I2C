@@ -171,6 +171,7 @@ Block **i2c_error** () : Boolean
 Block **i2c_print** (text) 
 * Zeigt *text* in der Konsole an.
 * Dieser Block ist vorbereitet für die Protokollierung auf dem TXT 4.0 Display.
+* Durch Aufruf von außen können auch andere Ereignisse auf dem Display protokolliert werden.
 
 
 ### Beschreibung der Quellcodedateien (alphabetisch geordnet)
