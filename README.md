@@ -184,15 +184,15 @@ Inhaltsverzeichnis: [Tabelle 1](#tabelle-1)
 
 Block **comment** (text) : Kommentar Block ohne Funktion.\
 Block **Int** (x) : Integer `int(x)`\
-Block **Ord** (char) : Integer Zeichencode `ord(char)`\
+Block **Ord** (char) : Integer (Unicode) Zeichencode `ord(char)`\
 Block **Chr** (asc) : String 1 Zeichen `chr(asc)`\
 Block **print_bin** (zahl, length) : BIN String z.B. '00001010'; Binärzahl mit fester Länge\
-Block **encode_string** (string_data) : bytes-Objekt aus String `string_data.encode('utf-8')`\
-Block **decode_string** (data_bytes) : String aus bytes-Objekt `data_bytes.decode('utf-8', 'replace')`\
-Block **list_string** (string_data) : Liste (Unicode-Codepoints) aus String `[ord(c) for c in string_data]`\
-Block **decode_latin** (data_bytes) : String aus Unicode-Liste `''.join(chr(b) for b in data_bytes)`\
+Block **encode_string** (string_data) : bytes-Objekt aus String (utf-8)\
+Block **decode_string** (data_bytes) : String aus bytes-Objekt (utf-8)\
+Block **list_string** (string_data) : Unicode-Liste aus String (ord)\
+Block **decode_latin** (data_bytes) : String aus Unicode-Liste (chr)\
 Block **list_hex** (data_bytes) : HEX String `[hex(b) for b in data_bytes]`\
-Block **advanced_sign** (i, exp) : Wandelt uint in int mit Vorzeichen um. *exp*: Anzahl der Bits z.B. 16.\
+Block **advanced_sign** (i, exp) : Wandelt uint in int mit Vorzeichen um. *exp*: Anzahl der Bits z.B. 16.
 
 Block **advanced_map** (value, from_low, from_high to_low, to_high)
 * map Funktion mit Kommazahlen (float).
