@@ -820,7 +820,7 @@ Block **rotary_raw_angle**
 > Note(s): The ANGLE register has a 10-LSB hysteresis at the limit of the 360 degree range to avoid discontinuity points or toggling of the output within one rotation.
 
 Block **rotary_status**
-* Gibt das Status Byte zurück. 0x67 ist gut.
+* Gibt das Status Byte zurück. 0x67 ist gut (MD=1, ML=0, MH=0).
 * MD Magnet was detected / ML magnet too weak / MH magnet too strong
 
 7|6|5|4|3|2|1|0
