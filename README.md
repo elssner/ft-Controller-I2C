@@ -868,9 +868,9 @@ Block **rotary_status**
 0|1|MD|ML|MH|1|1|1
 
 Block **rotary_read_a_m**
-* Gibt ein Tupel zurück (AGC, MAGNITUDE)
-* AGC Automatic Gain Control (Mess-Verstärkung) 0 .. 128 bei 3,3V
-* MAGNITUDE Magnetstärke 12 Bit 0 .. 4095
+* Gibt ein Tupel zurück (AGC, MAGNITUDE).
+* AGC Automatic Gain Control (Mess-Verstärkung) 0..128 bei 3,3V.
+* MAGNITUDE Magnetstärke 12 Bit 0..4095.
 * Wenn beide Werte in der Mitte ihres Bereichs liegen, ist der Magnet geeignet.
 
 > Folgende Blöcke dienen zur Steuerung eines Uhrwerks (fischertechnik). Der Magnet ist 1:1 mit dem Stundenzeiger gekoppelt. Eine Minute entspricht 0,5° = 5,688 Impulse am Magnetsensor.
