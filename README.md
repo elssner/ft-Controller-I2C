@@ -811,7 +811,8 @@ Block **ultrasonic_read_mm**
 ###### [Scheibenmagnet 6x2.5 mm Neodym diametral magnetisiert](https://www.mtsmagnete.de/neodym-scheiben-magnete/scheiben-1mm-9mm/6x2-5-mm-vernickelt-bis-150-c-diametral-magnetisiert/a-4471)
 
 > Der Magnetic Rotary Position Sensor erkennt das Magnetfeld eines darüber (0,5-3mm) positionierten Magneten. Bei einer Drehung um 360° wird die Position (0..4095) erkannt.
-> Das funktioniert beim Hall Sensor auch bei Stillstand. Der Magnet muss ungefähr die Größe des Chips haben und diametral magnetisiert sein. Das heißt, die Scheibe hat den Nord- und Südpol am Durchmesser und nicht in Mittelpunkt.
+> Das funktioniert beim Hall Sensor auch bei Stillstand. Der Magnet muss ungefähr die Größe des Chips haben und diametral magnetisiert sein. Das heißt, die Scheibe hat den Nord- und Südpol am Durchmesser und nicht im Mittelpunkt.
+> Am Stundenzeiger einer Uhr kann aus dem Winkel jederzeit die Uhrzeit ermittelt werden.
 
 Block **rotary_raw_angle**
 * Gibt den Winkel 0 .. 4095 zurück (12 Bit)
