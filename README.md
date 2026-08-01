@@ -127,6 +127,9 @@ Ein 3V3 Löt-Pin ist an vielen I²C Modulen neben dem /INT vorhanden.\
 
 #### i2cCode.py
 
+> In der aktuellen Version von i2cCode.py werden Exceptions beim Zugriff auf den I²C-Bus abgefangen. Damit kann auf ein fehlendes I²C-Device reagiert werden, weil der Code nicht abstürzt.
+> Die Exception wird unmittelbar mit der Funktion **i2c_print** in der Konsole angezeigt. **i2c_error** gibt True zurück, wenn beim letzten I²C Block eine Exception aufgetreten ist.
+
 Block **i2c_write_buffer** (i2c_addr, write_buffer)
 
 * Sendet alle Bytes aus der Liste *write_buffer* an die *i2c_addr*.
