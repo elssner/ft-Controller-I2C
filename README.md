@@ -711,7 +711,7 @@ Block **co2_get_relative_hunidity**
 > Erst dann wird die Geste erkannt und mit der farbigen LED angezeigt.
 
 Block **gesture_read_register** (reg)
-* *reg* Gibt Inhalt aus Register 6 .. 15 zurück.
+* Gibt Inhalt aus Register *reg* (6..15) zurück.
 * Zur Demonstration **gesture_demo** aufrufen.
 
 Block **gesture_type**
@@ -723,7 +723,10 @@ Block **gesture_type**
   * 4: YES (✌️) - Yellow
   * 5: SIX (🤙) - Purple
 
-
+Block **gesture_demo**
+* Liest die Konfiguration aus Registern und zeigt diese in der Konsole an.
+* In Endlosschleife (1s) wird angezeigt: Number of detected faces, Face X coordinate, Face Y coordinate, Face score.
+* und wenn eine Geste erkannt wurde Gesture type und Gesture score.
 
 
 
