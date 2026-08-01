@@ -705,6 +705,30 @@ Block **co2_get_relative_hunidity**
 
 
 
+#### s_gesture.py
+###### [DFRobot Gravity Gesture & Face Detection Sensor](https://www.dfrobot.com/product-2914.html)
+> Der Sensor erkennt 5 Gesten, die ein Mensch mit der Hand macht. Der Mensch wird an Kopf und Schulter erkannt.
+
+Block **gesture_read_register** (reg)
+* *reg* Gibt Inhalt aus Register 6 .. 15 zurück.
+* Zur Demonstration **gesture_demo** aufrufen.
+
+Block **gesture_type**
+* Gibt aktuell erkannte Geste zurück und zeigt die Farbe an:
+  * - 0: no gesture is detected
+  * - 1: LIKE (👍) - Blue
+  * - 2: OK (👌) - Green
+  * - 3: STOP (🤚) - Red
+  * - 4: YES (✌️) - Yellow
+  * - 5: SIX (🤙) - Purple
+
+
+
+
+
+
+
+
 #### s_qwiicinfrared.py
 → Infrarotstrahlung → [de.wikipedia.org/wiki/Infrarot](https://de.wikipedia.org/wiki/Infrarotstrahlung)
 ###### [SparkFun Qwiic Proximity Sensor - 20cm, VCNL4040](https://www.sparkfun.com/products/15177)
